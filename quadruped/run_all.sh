@@ -3,6 +3,7 @@
 #   bash run_all.sh [render]
 # build -> check -> export -> verify GLB -> trot loop + stills (Cycles, GPU queue) -> sit/stand clip (Eevee) -> mp4/gif
 set -e
+FFMPEG_X264=$(uv run --python 3.13 --with imageio-ffmpeg python -I -c "import imageio_ffmpeg;print(imageio_ffmpeg.get_ffmpeg_exe())" | tr -d '\r')  # pipeline ffmpeg lacks libx264
 source /c/Users/apek-anna/Developer/anyscene/pipeline/env.sh
 Q=C:/Users/apek-anna/Developer/anymachine/quadruped; S=$Q/scripts; O=$Q/out
 G=C:/Users/apek-anna/Developer/anyscene/builder/blender_gpu.py; GPU=/c/Users/apek-anna/Developer/anyscene/pipeline/gpu_run.sh
@@ -27,10 +28,10 @@ done
 B --python $S/render.py -- --blend $O/quadruped.blend --out $O/anim_sit --cam persp --action sit --anim --engine EEVEE --resx 960 --resy 540 --name sit
 B --python $S/render.py -- --blend $O/quadruped.blend --out $O/anim_sit --cam persp --action stand --anim --engine EEVEE --resx 960 --resy 540 --name stand
 cd $O
-FF() { "$FFMPEG" -y -loglevel error "$@"; }
-FF -framerate 30 -i anim/trot_%04d.png -c:v mpeg4 -q:v 2 -pix_fmt yuv420p quadruped_trot.mp4
+FF() { "$FFMPEG_X264" -y -loglevel error "$@"; }
+FF -framerate 30 -i anim/trot_%04d.png -c:v libx264 -preset slow -crf 18 -movflags +faststart -pix_fmt yuv420p quadruped_trot.mp4
 FF -framerate 30 -i anim/trot_%04d.png -vf "scale=720:-1:flags=lanczos,split[a][b];[a]palettegen=max_colors=128[p];[b][p]paletteuse=dither=bayer" -loop 0 quadruped_trot.gif
 # sit -> hold -> stand
-FF -framerate 30 -i anim_sit/sit_%04d.png -framerate 30 -i anim_sit/stand_%04d.png -filter_complex "[0][1]concat=n=2:v=1[v]" -map "[v]" -c:v mpeg4 -q:v 2 -pix_fmt yuv420p quadruped_sit_stand.mp4
+FF -framerate 30 -i anim_sit/sit_%04d.png -framerate 30 -i anim_sit/stand_%04d.png -filter_complex "[0][1]concat=n=2:v=1[v]" -map "[v]" -c:v libx264 -preset slow -crf 18 -movflags +faststart -pix_fmt yuv420p quadruped_sit_stand.mp4
 FF -i quadruped_sit_stand.mp4 -vf "fps=20,scale=640:-1:flags=lanczos,split[a][b];[a]palettegen=max_colors=128[p];[b][p]paletteuse=dither=bayer" -loop 0 quadruped_sit_stand.gif
 echo DONE
