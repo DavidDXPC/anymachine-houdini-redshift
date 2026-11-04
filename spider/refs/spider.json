@@ -1,0 +1,20 @@
+{
+  "endpoint": "openai/gpt-image-2.5/sunburst/text-to-image",
+  "request_id": "01a1a440-4094-72e1-9bac-49fd8bd5a6f9",
+  "seconds": 25.4280548,
+  "input": {
+    "prompt": "Studio product shot of a robot spider, a hexapod-style mechanical walker with exactly 8 legs, standing pose with legs well spread out symmetrically, four legs on each side, each leg clearly made of three rigid segments: short coxa, long femur angled up, tibia angled down to a small round foot touching the ground, visible cylindrical joint actuators at the hip and knee, compact oval armored body about 40 cm across with panel lines, matte white and dark grey plastic with brushed metal joints, three-quarter front view from slightly above, every leg and joint visible and not overlapping, no logos, no text, plain seamless light grey studio floor, soft even lighting, whole robot in frame with margin",
+    "image_size": "landscape_16_9",
+    "quality": "high",
+    "num_images": 1,
+    "output_format": "png"
+  },
+  "files": [
+    {
+      "file": "C:\\Users\\apek-anna\\Developer\\anymachine\\spider\\refs\\spider_0.png",
+      "url": "https://v3b.fal.media/files/b/0ab10e57/W7pZhndiaNYb-oR4NioQK_USDKxGug.png",
+      "width": null,
+      "height": null
+    }
+  ]
+}

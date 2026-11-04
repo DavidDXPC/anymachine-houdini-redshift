@@ -1,0 +1,165 @@
+{
+ "glb": "C:\\Users\\apek-anna\\Developer\\anymachine\\backpacks\\out\\rucksack\\rucksack.glb",
+ "size_kb": 4330,
+ "objects": [
+  [
+   "Icosphere",
+   "MESH"
+  ],
+  [
+   "adjuster.L",
+   "MESH"
+  ],
+  [
+   "adjuster.R",
+   "MESH"
+  ],
+  [
+   "body",
+   "EMPTY"
+  ],
+  [
+   "body.001",
+   "MESH"
+  ],
+  [
+   "buckle_f.L",
+   "MESH"
+  ],
+  [
+   "buckle_f.R",
+   "MESH"
+  ],
+  [
+   "buckle_m.L",
+   "MESH"
+  ],
+  [
+   "buckle_m.R",
+   "MESH"
+  ],
+  [
+   "lidstrap.L",
+   "MESH"
+  ],
+  [
+   "lidstrap.R",
+   "MESH"
+  ],
+  [
+   "rucksack_rig",
+   "ARMATURE"
+  ],
+  [
+   "strap.L",
+   "MESH"
+  ],
+  [
+   "strap.R",
+   "MESH"
+  ],
+  [
+   "tail.L",
+   "MESH"
+  ],
+  [
+   "tail.R",
+   "MESH"
+  ],
+  [
+   "webbing.L",
+   "MESH"
+  ],
+  [
+   "webbing.R",
+   "MESH"
+  ]
+ ],
+ "actions": [
+  "demo",
+  "fill_param",
+  "lid_open_param",
+  "strap_length_param"
+ ],
+ "morph_targets": {
+  "body.001": [
+   "Basis",
+   "slack"
+  ]
+ },
+ "extras_keys": [
+  "fill",
+  "lid_open",
+  "strap_length",
+  "anymachine"
+ ],
+ "tracks": {
+  "body": [
+   "fill_param",
+   "demo"
+  ],
+  "rucksack_rig": [
+   "strap_length_param",
+   "lid_open_param",
+   "fill_param",
+   "demo"
+  ]
+ },
+ "pose_match": {
+  "fill_param@1": {
+   "median_mm": 0.0,
+   "p99_mm": 105.896,
+   "max_mm": 1000.013
+  },
+  "fill_param@13": {
+   "median_mm": 0.0,
+   "p99_mm": 105.644,
+   "max_mm": 1000.013
+  },
+  "fill_param@25": {
+   "median_mm": 0.0,
+   "p99_mm": 105.895,
+   "max_mm": 1000.013
+  },
+  "lid_open_param@1": {
+   "median_mm": 3.981,
+   "p99_mm": 51.047,
+   "max_mm": 1000.013
+  },
+  "lid_open_param@13": {
+   "median_mm": 4.007,
+   "p99_mm": 51.047,
+   "max_mm": 1000.013
+  },
+  "lid_open_param@25": {
+   "median_mm": 4.003,
+   "p99_mm": 51.047,
+   "max_mm": 1000.013
+  },
+  "strap_length_param@1": {
+   "median_mm": 4.524,
+   "p99_mm": 97.178,
+   "max_mm": 956.963
+  },
+  "strap_length_param@13": {
+   "median_mm": 4.523,
+   "p99_mm": 97.178,
+   "max_mm": 973.217
+  },
+  "strap_length_param@25": {
+   "median_mm": 4.514,
+   "p99_mm": 97.178,
+   "max_mm": 1000.013
+  },
+  "demo@60": {
+   "median_mm": 0.0,
+   "p99_mm": 0.0,
+   "max_mm": 1009.094
+  }
+ },
+ "param_action_max_motion_mm": {
+  "fill": 108.3,
+  "lid_open": 285.0,
+  "strap_length": 242.0
+ }
+}

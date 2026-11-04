@@ -1,0 +1,20 @@
+{
+  "endpoint": "openai/gpt-image-2.5/sunburst/text-to-image",
+  "request_id": "01a1a442-b552-7270-8232-ae66a934ace3",
+  "seconds": 25.033157,
+  "input": {
+    "prompt": "Studio product shot of a single unbranded zip daypack standing upright on the floor, three-quarter front view from slightly above. Rounded teardrop shape in burnt orange polyester with charcoal grey trim. The large curved main zip runs over the top and down both sides; it is partly unzipped from the right side over the top so the front panel peels forward slightly showing a dark grey lining inside. A smaller zipped front pocket in charcoal on the lower front panel. Zip pullers with short cord loops. Padded charcoal shoulder straps visible at the back. plain seamless light grey studio background and floor, soft even lighting, soft contact shadow, whole backpack in frame with margin, no logos, no text, no brand marks, product photography",
+    "image_size": "landscape_16_9",
+    "quality": "high",
+    "num_images": 1,
+    "output_format": "png"
+  },
+  "files": [
+    {
+      "file": "C:\\Users\\apek-anna\\Developer\\anymachine\\backpacks\\refs\\daypack_0.png",
+      "url": "https://v3b.fal.media/files/b/0ab10e67/QTGP4E06Jcorgl3xNWMqF_LXVr7TKj.png",
+      "width": null,
+      "height": null
+    }
+  ]
+}

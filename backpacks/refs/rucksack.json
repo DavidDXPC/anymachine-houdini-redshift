@@ -1,0 +1,20 @@
+{
+  "endpoint": "openai/gpt-image-2.5/sunburst/text-to-image",
+  "request_id": "01a1a442-b55a-7da1-a886-82e5a249ccb0",
+  "seconds": 20.9771378,
+  "input": {
+    "prompt": "Studio product shot of a single unbranded top-loading hiking rucksack standing upright on the floor, three-quarter front view from slightly above. Forest green ripstop nylon body with tan base panel. The top lid flap is lifted and folded back about halfway open, revealing a cinched drawstring extension collar with a cord lock at the top opening. Two vertical webbing straps hang from the lid front edge ending in black plastic side-release buckles, unclipped. Black side compression straps with ladder buckles on each side of the body. Padded black shoulder straps visible at the back. plain seamless light grey studio background and floor, soft even lighting, soft contact shadow, whole backpack in frame with margin, no logos, no text, no brand marks, product photography",
+    "image_size": "landscape_16_9",
+    "quality": "high",
+    "num_images": 1,
+    "output_format": "png"
+  },
+  "files": [
+    {
+      "file": "C:\\Users\\apek-anna\\Developer\\anymachine\\backpacks\\refs\\rucksack_0.png",
+      "url": "https://v3b.fal.media/files/b/0ab10e67/8sKdo8FIJQe_vH9NQ4FPK_KUlw0nJL.png",
+      "width": null,
+      "height": null
+    }
+  ]
+}

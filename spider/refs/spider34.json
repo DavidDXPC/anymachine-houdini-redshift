@@ -1,0 +1,26 @@
+{
+  "endpoint": "openai/gpt-image-2.5/sunburst/text-to-image",
+  "request_id": "01a1a440-cbef-7b02-8ab1-b24929946930",
+  "seconds": 25.062684,
+  "input": {
+    "prompt": "Studio product shot of a robot spider with exactly eight legs, four on the left side and four on the right side, seen in three-quarter view from the front-left and well above (about 40 degrees elevation) so all eight legs are visible and none hide behind the body. Standing pose, legs spread wide radially like a real spider: two front legs reach forward, two middle pairs to the sides, two rear legs reach backward. Each leg is three rigid segments: short coxa from the body, long femur rising up to a high knee, tibia going down to a small round rubber foot on the ground. Visible cylindrical joint actuators with silver end caps at every hip and knee. Compact oval armored body about 40 cm long with panel lines and a small sensor head at the front. Matte white and dark grey plastic, brushed metal joints. No logos, no text, plain seamless light grey studio floor, soft even lighting, whole robot in frame with margin",
+    "image_size": "landscape_16_9",
+    "quality": "high",
+    "num_images": 2,
+    "output_format": "png"
+  },
+  "files": [
+    {
+      "file": "C:\\Users\\apek-anna\\Developer\\anymachine\\spider\\refs\\spider34_0.png",
+      "url": "https://v3b.fal.media/files/b/0ab10e5b/A1hfAIe5UCIki18H9pGWe_9mfsNi01.png",
+      "width": null,
+      "height": null
+    },
+    {
+      "file": "C:\\Users\\apek-anna\\Developer\\anymachine\\spider\\refs\\spider34_1.png",
+      "url": "https://v3b.fal.media/files/b/0ab10e5b/jrQKCUg2g7D-YUsnFgEln_SuVbp3SS.png",
+      "width": null,
+      "height": null
+    }
+  ]
+}

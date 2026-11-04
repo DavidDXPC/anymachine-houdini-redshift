@@ -1,0 +1,130 @@
+{
+ "objects": 43,
+ "meshes": [
+  "FL_foot",
+  "FL_haa_disc",
+  "FL_haa_flange",
+  "FL_hfe_motor",
+  "FL_hfe_ring",
+  "FL_knee_cap",
+  "FL_knee_mark",
+  "FL_shin",
+  "FL_shin_stripe",
+  "FL_thigh",
+  "FR_foot",
+  "FR_haa_disc",
+  "FR_haa_flange",
+  "FR_hfe_motor",
+  "FR_hfe_ring",
+  "FR_knee_cap",
+  "FR_knee_mark",
+  "FR_shin",
+  "FR_shin_stripe",
+  "FR_thigh",
+  "HL_foot",
+  "HL_haa_disc",
+  "HL_haa_flange",
+  "HL_hfe_motor",
+  "HL_hfe_ring",
+  "HL_knee_cap",
+  "HL_knee_mark",
+  "HL_shin",
+  "HL_shin_stripe",
+  "HL_thigh",
+  "HR_foot",
+  "HR_haa_disc",
+  "HR_haa_flange",
+  "HR_hfe_motor",
+  "HR_hfe_ring",
+  "HR_knee_cap",
+  "HR_knee_mark",
+  "HR_shin",
+  "HR_shin_stripe",
+  "HR_thigh",
+  "Icosphere",
+  "body_shell"
+ ],
+ "bones": [
+  "root",
+  "body",
+  "FL_haa",
+  "FL_hfe",
+  "FL_kfe",
+  "FR_haa",
+  "FR_hfe",
+  "FR_kfe",
+  "HL_haa",
+  "HL_hfe",
+  "HL_kfe",
+  "HR_haa",
+  "HR_hfe",
+  "HR_kfe"
+ ],
+ "extras": [
+  "anymachine",
+  "bob",
+  "body_height",
+  "duty",
+  "forward_cycles",
+  "fps",
+  "ik",
+  "pitch_deg",
+  "roll_deg",
+  "sit_dy",
+  "sit_hind_foot_dy",
+  "sit_pitch_deg",
+  "sit_z",
+  "speed",
+  "step_height",
+  "step_length"
+ ],
+ "actions": {
+  "idle": [
+   1.0,
+   121.0
+  ],
+  "sit": [
+   1.0,
+   49.0
+  ],
+  "stand": [
+   1.0,
+   49.0
+  ],
+  "trot": [
+   1.0,
+   19.0
+  ],
+  "trot_forward": [
+   1.0,
+   73.0
+  ]
+ },
+ "per_action": {
+  "trot": {
+   "gltf_action": "trot",
+   "frames": 19,
+   "max_foot_err_mm": 0.0
+  },
+  "trot_forward": {
+   "gltf_action": "trot_forward",
+   "frames": 73,
+   "max_foot_err_mm": 0.001
+  },
+  "idle": {
+   "gltf_action": "idle",
+   "frames": 121,
+   "max_foot_err_mm": 0.0
+  },
+  "sit": {
+   "gltf_action": "sit",
+   "frames": 49,
+   "max_foot_err_mm": 0.0
+  },
+  "stand": {
+   "gltf_action": "stand",
+   "frames": 49,
+   "max_foot_err_mm": 0.0
+  }
+ }
+}

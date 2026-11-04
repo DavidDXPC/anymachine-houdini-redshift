@@ -1,0 +1,20 @@
+{
+  "endpoint": "openai/gpt-image-2.5/sunburst/text-to-image",
+  "request_id": "01a1a409-5b32-7073-8fee-b089fcf21a74",
+  "seconds": 25.036398600000002,
+  "input": {
+    "prompt": "Flat full-screen desktop UI screenshot of an invented fictional operating system, 16:9, no bezel, no device, no real brands or logos: deep indigo-to-teal gradient wallpaper, a translucent dock at the bottom with abstract geometric app icons, one open window showing a simple line chart and a few placeholder text bars, a top status bar with a clock reading 9:41 and abstract icons, clean minimal vector style",
+    "image_size": "landscape_16_9",
+    "quality": "high",
+    "num_images": 1,
+    "output_format": "png"
+  },
+  "files": [
+    {
+      "file": "C:\\Users\\apek-anna\\Developer\\anymachine\\refs\\screen_ui_0.png",
+      "url": "https://v3b.fal.media/files/b/0ab10cf0/wks8dvyLDofSoQGnx2Zb8_98Y2q0yH.png",
+      "width": null,
+      "height": null
+    }
+  ]
+}

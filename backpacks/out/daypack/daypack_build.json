@@ -1,0 +1,22 @@
+{
+ "bag": "daypack",
+ "glb": "C:\\Users\\apek-anna\\Developer\\anymachine\\backpacks\\gen\\daypack_meshy\\model.glb",
+ "panel": {
+  "rows": 53,
+  "cols": 37,
+  "mirrored_samples": 541,
+  "top_z": 0.376
+ },
+ "skin": {
+  "verts_in": 155111,
+  "verts_kept": 22455
+ },
+ "zip_path_m": 0.94,
+ "bones": 34,
+ "controls": [
+  "zip",
+  "pocket_fill",
+  "fill",
+  "strap_length"
+ ]
+}

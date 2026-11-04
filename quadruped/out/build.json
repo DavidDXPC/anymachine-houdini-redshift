@@ -1,0 +1,213 @@
+{
+ "glb": "C:/Users/apek-anna/Developer/anymachine/quadruped/gen/meshy/model.glb",
+ "length_m": 0.7,
+ "gen_dims_m": [
+  0.4124,
+  0.7,
+  0.421
+ ],
+ "gen_tris": 150277,
+ "body_bottom": 0.2733,
+ "body_top": 0.421,
+ "body_hw": 0.1054,
+ "measured_legs": {
+  "FL": {
+   "hip": [
+    -0.2367,
+    0.3312
+   ],
+   "hip_r": 0.0538,
+   "knee": [
+    -0.127,
+    0.1825
+   ],
+   "knee_r": 0.0316,
+   "knee_points": "back",
+   "foot": [
+    -0.1794,
+    -0.2465,
+    0.026
+   ],
+   "foot_r": 0.026,
+   "thigh_len": 0.1848,
+   "shin_len": 0.1969
+  },
+  "HL": {
+   "hip": [
+    0.1953,
+    0.3315
+   ],
+   "hip_r": 0.0535,
+   "knee": [
+    0.3214,
+    0.1825
+   ],
+   "knee_r": 0.0274,
+   "knee_points": "back",
+   "foot": [
+    -0.1388,
+    0.2264,
+    0.0247
+   ],
+   "foot_r": 0.0247,
+   "thigh_len": 0.1952,
+   "shin_len": 0.1841
+  },
+  "FR": {
+   "hip": [
+    -0.2325,
+    0.3302
+   ],
+   "hip_r": 0.0548,
+   "knee": [
+    -0.1274,
+    0.18
+   ],
+   "knee_r": 0.0318,
+   "knee_points": "back",
+   "foot": [
+    0.1798,
+    -0.2462,
+    0.0266
+   ],
+   "foot_r": 0.0265,
+   "thigh_len": 0.1833,
+   "shin_len": 0.1941
+  },
+  "HR": {
+   "hip": [
+    0.2022,
+    0.331
+   ],
+   "hip_r": 0.054,
+   "knee": [
+    0.3216,
+    0.1825
+   ],
+   "knee_r": 0.0275,
+   "knee_points": "back",
+   "foot": [
+    0.1389,
+    0.2261,
+    0.025
+   ],
+   "foot_r": 0.025,
+   "thigh_len": 0.1905,
+   "shin_len": 0.1842
+  }
+ },
+ "design": {
+  "L1": 0.1883,
+  "L2": 0.1895,
+  "knee_rest_interior_deg": 107.9,
+  "thigh_rest_from_vertical_deg": 37.66,
+  "z_hip": 0.331,
+  "y_hip": {
+   "F": -0.2346,
+   "H": 0.1987
+  },
+  "foot_r": 0.0255,
+  "limits_deg": {
+   "haa": [
+    -18.0,
+    18.0
+   ],
+   "hfe": [
+    -60.0,
+    60.0
+   ],
+   "kfe": [
+    -77.9,
+    62.1
+   ]
+  },
+  "leg_plane_x": 0.1544,
+  "haa_pivot_x": 0.0754
+ },
+ "body_islands_removed": 632,
+ "body_tris": 54432,
+ "shell_material_inputs": {
+  "Base Color": [
+   "TEX_IMAGE"
+  ],
+  "Metallic": [
+   "SEPARATE_COLOR"
+  ],
+  "Roughness": [
+   "SEPARATE_COLOR"
+  ],
+  "Normal": [
+   "NORMAL_MAP"
+  ]
+ },
+ "leg_grey_linear": [
+  0.4452,
+  0.4452,
+  0.4452
+ ],
+ "rest_foot_centre_z": 0.0256,
+ "ik_reach": {
+  "trot": true,
+  "trot_forward": true,
+  "idle": true,
+  "sit": true,
+  "stand": true
+ },
+ "clamped_keys": {
+  "trot": 0,
+  "trot_forward": 0,
+  "idle": 0,
+  "sit": 0,
+  "stand": 0
+ },
+ "actions": {
+  "trot": 19,
+  "trot_forward": 73,
+  "idle": 121,
+  "sit": 49,
+  "stand": 49
+ },
+ "parts": {
+  "body_shell": "body",
+  "FL_haa_disc": "body",
+  "FL_haa_flange": "FL_haa",
+  "FL_hfe_motor": "FL_haa",
+  "FL_hfe_ring": "FL_haa",
+  "FL_thigh": "FL_thigh",
+  "FL_shin": "FL_shin",
+  "FL_shin_stripe": "FL_shin",
+  "FL_knee_cap": "FL_shin",
+  "FL_knee_mark": "FL_shin",
+  "FL_foot": "FL_shin",
+  "FR_haa_disc": "body",
+  "FR_haa_flange": "FR_haa",
+  "FR_hfe_motor": "FR_haa",
+  "FR_hfe_ring": "FR_haa",
+  "FR_thigh": "FR_thigh",
+  "FR_shin": "FR_shin",
+  "FR_shin_stripe": "FR_shin",
+  "FR_knee_cap": "FR_shin",
+  "FR_knee_mark": "FR_shin",
+  "FR_foot": "FR_shin",
+  "HL_haa_disc": "body",
+  "HL_haa_flange": "HL_haa",
+  "HL_hfe_motor": "HL_haa",
+  "HL_hfe_ring": "HL_haa",
+  "HL_thigh": "HL_thigh",
+  "HL_shin": "HL_shin",
+  "HL_shin_stripe": "HL_shin",
+  "HL_knee_cap": "HL_shin",
+  "HL_knee_mark": "HL_shin",
+  "HL_foot": "HL_shin",
+  "HR_haa_disc": "body",
+  "HR_haa_flange": "HR_haa",
+  "HR_hfe_motor": "HR_haa",
+  "HR_hfe_ring": "HR_haa",
+  "HR_thigh": "HR_thigh",
+  "HR_shin": "HR_shin",
+  "HR_shin_stripe": "HR_shin",
+  "HR_knee_cap": "HR_shin",
+  "HR_knee_mark": "HR_shin",
+  "HR_foot": "HR_shin"
+ }
+}

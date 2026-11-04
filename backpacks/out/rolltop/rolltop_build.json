@@ -1,0 +1,30 @@
+{
+ "bag": "rolltop",
+ "glb": "C:\\Users\\apek-anna\\Developer\\anymachine\\backpacks\\gen\\rolltop_tripo\\model.glb",
+ "skin": {
+  "verts_in": 54451,
+  "verts_kept": 13314,
+  "tint_srgb": [
+   0.929,
+   0.698,
+   0.004
+  ]
+ },
+ "rim": {
+  "half_width": 0.175,
+  "half_depth": 0.098,
+  "yc": 0.0105
+ },
+ "roll": {
+  "rolled_length_m_at_3_turns": 0.326,
+  "collar_m": 0.4,
+  "segments": 67
+ },
+ "bones": 104,
+ "controls": [
+  "roll",
+  "clip",
+  "fill",
+  "strap_length"
+ ]
+}

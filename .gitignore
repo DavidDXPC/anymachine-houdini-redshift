@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.env*
+*.log
+
+# heavy and regenerable: generator downloads, .blend scenes, GLBs, render frames, videos
+*/gen/
+*/inspect/
+
+*.blend
+*.blend1
+*.glb
+*.mp4
+*/out/anim*/
+*/out/*/anim*/

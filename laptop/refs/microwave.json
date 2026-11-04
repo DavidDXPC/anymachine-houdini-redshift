@@ -1,0 +1,20 @@
+{
+  "endpoint": "openai/gpt-image-2.5/sunburst/text-to-image",
+  "request_id": "01a1a41b-48ae-7542-91e7-ead51c39b978",
+  "seconds": 25.077235899999998,
+  "input": {
+    "prompt": "Studio product shot of a generic unbranded countertop microwave oven, three-quarter front view, door open at about 90 degrees showing the interior cavity and the round glass turntable plate, brushed steel body, black glass door with side hinge on the left, control panel on the right, no logos, no text, plain seamless light grey background, soft even lighting, whole object in frame",
+    "image_size": "landscape_16_9",
+    "quality": "high",
+    "num_images": 1,
+    "output_format": "png"
+  },
+  "files": [
+    {
+      "file": "C:\\Users\\apek-anna\\Developer\\anymachine\\refs\\microwave_0.png",
+      "url": "https://v3b.fal.media/files/b/0ab10d65/WKDQ9NLHd3NR5z4X-nDS4_o539C4gK.png",
+      "width": null,
+      "height": null
+    }
+  ]
+}

@@ -1,0 +1,200 @@
+{
+ "glb": "C:\\Users\\apek-anna\\Developer\\anymachine\\backpacks\\out\\rolltop\\rolltop.glb",
+ "size_kb": 4043,
+ "objects": [
+  [
+   "Icosphere",
+   "MESH"
+  ],
+  [
+   "adjuster.L",
+   "MESH"
+  ],
+  [
+   "adjuster.R",
+   "MESH"
+  ],
+  [
+   "back_panel",
+   "MESH"
+  ],
+  [
+   "body",
+   "EMPTY"
+  ],
+  [
+   "body.001",
+   "MESH"
+  ],
+  [
+   "buckle_f.L",
+   "MESH"
+  ],
+  [
+   "buckle_f.R",
+   "MESH"
+  ],
+  [
+   "buckle_m.L",
+   "MESH"
+  ],
+  [
+   "buckle_m.R",
+   "MESH"
+  ],
+  [
+   "collar",
+   "MESH"
+  ],
+  [
+   "rolltop_rig",
+   "ARMATURE"
+  ],
+  [
+   "sidestrap.L",
+   "MESH"
+  ],
+  [
+   "sidestrap.R",
+   "MESH"
+  ],
+  [
+   "strap.L",
+   "MESH"
+  ],
+  [
+   "strap.R",
+   "MESH"
+  ],
+  [
+   "tab.L",
+   "MESH"
+  ],
+  [
+   "tab.R",
+   "MESH"
+  ],
+  [
+   "tail.L",
+   "MESH"
+  ],
+  [
+   "tail.R",
+   "MESH"
+  ],
+  [
+   "webbing.L",
+   "MESH"
+  ],
+  [
+   "webbing.R",
+   "MESH"
+  ]
+ ],
+ "actions": [
+  "clip_param",
+  "demo",
+  "fill_param",
+  "roll_param",
+  "strap_length_param"
+ ],
+ "morph_targets": {
+  "body.001": [
+   "Basis",
+   "slack"
+  ]
+ },
+ "extras_keys": [
+  "roll",
+  "clip",
+  "fill",
+  "strap_length",
+  "anymachine"
+ ],
+ "tracks": {
+  "body": [
+   "fill_param",
+   "demo"
+  ],
+  "rolltop_rig": [
+   "strap_length_param",
+   "fill_param",
+   "clip_param",
+   "roll_param",
+   "demo"
+  ]
+ },
+ "pose_match": {
+  "roll_param@1": {
+   "median_mm": 4.118,
+   "p99_mm": 75.014,
+   "max_mm": 1000.057
+  },
+  "roll_param@13": {
+   "median_mm": 4.406,
+   "p99_mm": 75.014,
+   "max_mm": 1000.057
+  },
+  "roll_param@25": {
+   "median_mm": 4.474,
+   "p99_mm": 75.014,
+   "max_mm": 1000.057
+  },
+  "clip_param@1": {
+   "median_mm": 5.877,
+   "p99_mm": 289.634,
+   "max_mm": 1000.057
+  },
+  "clip_param@13": {
+   "median_mm": 6.061,
+   "p99_mm": 289.634,
+   "max_mm": 1000.057
+  },
+  "clip_param@25": {
+   "median_mm": 5.986,
+   "p99_mm": 289.634,
+   "max_mm": 1000.057
+  },
+  "fill_param@1": {
+   "median_mm": 0.0,
+   "p99_mm": 275.772,
+   "max_mm": 1000.057
+  },
+  "fill_param@13": {
+   "median_mm": 0.0,
+   "p99_mm": 297.607,
+   "max_mm": 1000.057
+  },
+  "fill_param@25": {
+   "median_mm": 0.0,
+   "p99_mm": 297.607,
+   "max_mm": 1000.057
+  },
+  "strap_length_param@1": {
+   "median_mm": 4.743,
+   "p99_mm": 289.634,
+   "max_mm": 943.801
+  },
+  "strap_length_param@13": {
+   "median_mm": 4.72,
+   "p99_mm": 289.634,
+   "max_mm": 966.525
+  },
+  "strap_length_param@25": {
+   "median_mm": 4.711,
+   "p99_mm": 289.634,
+   "max_mm": 1000.057
+  },
+  "demo@60": {
+   "median_mm": 0.0,
+   "p99_mm": 0.0,
+   "max_mm": 966.547
+  }
+ },
+ "param_action_max_motion_mm": {
+  "roll": 336.3,
+  "clip": 351.9,
+  "fill": 83.6,
+  "strap_length": 239.9
+ }
+}

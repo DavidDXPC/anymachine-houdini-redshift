@@ -1,0 +1,26 @@
+{
+  "endpoint": "openai/gpt-image-2.5/sunburst/text-to-image",
+  "request_id": "01a1a440-3edc-79d1-a999-954b65eeda58",
+  "seconds": 25.0484094,
+  "input": {
+    "prompt": "Product studio photograph of an original four-legged walking robot (invented design, no logos, no brand), three-quarter front view from slightly above, full body visible with margin, standing on plain light grey studio ground with soft shadow. Compact rectangular torso about 70 cm long with rounded matte light-grey shell panels and dark grey accents, a sensor head module at the front with a dark glass visor. Four mechanical legs, each leg: a hip actuator housing at the torso corner, a thick upper leg (thigh) angled down and back, a clearly visible round knee joint bent forward, a slim lower leg (shin) angled down, ending in a round black rubber ball foot touching the ground. All four knees visibly bent, legs clearly separated from the body and from each other, gaps visible between legs. Clean industrial design, plain seamless background, sharp focus, even lighting.",
+    "image_size": "landscape_16_9",
+    "quality": "high",
+    "num_images": 2,
+    "output_format": "png"
+  },
+  "files": [
+    {
+      "file": "C:\\Users\\apek-anna\\Developer\\anymachine\\quadruped\\refs\\quad_0.png",
+      "url": "https://v3b.fal.media/files/b/0ab10e57/rTA8Lw2yCLxH3gIdyjHeC_HG8y6tH9.png",
+      "width": null,
+      "height": null
+    },
+    {
+      "file": "C:\\Users\\apek-anna\\Developer\\anymachine\\quadruped\\refs\\quad_1.png",
+      "url": "https://v3b.fal.media/files/b/0ab10e57/QYXqRBY8SV0geEPS8XaV7_g1AKEn3S.png",
+      "width": null,
+      "height": null
+    }
+  ]
+}

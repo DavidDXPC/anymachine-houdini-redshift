@@ -1,0 +1,7450 @@
+{
+ "bag": "rolltop",
+ "tol_mm": 4.0,
+ "states": 159,
+ "pass": true,
+ "clamp_max_dev_mm": {
+  "roll=-0.3": 0.0,
+  "roll=1.4": 0.0,
+  "clip=-0.3": 0.0,
+  "clip=1.4": 0.0,
+  "fill=-0.3": 0.0,
+  "fill=1.4": 0.0,
+  "strap_length=-0.3": 0.0,
+  "strap_length=1.4": 0.0
+ },
+ "worst_by_part": {
+  "collar": {
+   "max_pen_mm": 0,
+   "at": null,
+   "max_tri_overlaps": 73
+  },
+  "buckle_m.L": {
+   "max_pen_mm": 0,
+   "at": null,
+   "max_tri_overlaps": 0
+  },
+  "buckle_m.R": {
+   "max_pen_mm": 0,
+   "at": null,
+   "max_tri_overlaps": 0
+  },
+  "buckle_f.L": {
+   "max_pen_mm": 0,
+   "at": null,
+   "max_tri_overlaps": 0
+  },
+  "buckle_f.R": {
+   "max_pen_mm": 0,
+   "at": null,
+   "max_tri_overlaps": 0
+  },
+  "strap.L": {
+   "max_pen_mm": 0,
+   "at": null,
+   "max_tri_overlaps": 0
+  },
+  "strap.R": {
+   "max_pen_mm": 0,
+   "at": null,
+   "max_tri_overlaps": 0
+  },
+  "self:collar": {
+   "max_pen_mm": 0,
+   "at": null,
+   "max_tri_overlaps": 0
+  }
+ },
+ "fails": [],
+ "rows": [
+  {
+   "tag": "sweep:roll",
+   "vals": {
+    "roll": 0.0
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "sweep:roll",
+   "vals": {
+    "roll": 0.05
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "sweep:roll",
+   "vals": {
+    "roll": 0.1
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "sweep:roll",
+   "vals": {
+    "roll": 0.15
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "sweep:roll",
+   "vals": {
+    "roll": 0.2
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "sweep:roll",
+   "vals": {
+    "roll": 0.25
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "sweep:roll",
+   "vals": {
+    "roll": 0.3
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "sweep:roll",
+   "vals": {
+    "roll": 0.35
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "sweep:roll",
+   "vals": {
+    "roll": 0.4
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "sweep:roll",
+   "vals": {
+    "roll": 0.45
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "sweep:roll",
+   "vals": {
+    "roll": 0.5
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "sweep:roll",
+   "vals": {
+    "roll": 0.55
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "sweep:roll",
+   "vals": {
+    "roll": 0.6
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "sweep:roll",
+   "vals": {
+    "roll": 0.65
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "sweep:roll",
+   "vals": {
+    "roll": 0.7
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "sweep:roll",
+   "vals": {
+    "roll": 0.75
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "sweep:roll",
+   "vals": {
+    "roll": 0.8
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "sweep:roll",
+   "vals": {
+    "roll": 0.85
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "sweep:roll",
+   "vals": {
+    "roll": 0.9
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "sweep:roll",
+   "vals": {
+    "roll": 0.95
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "sweep:roll",
+   "vals": {
+    "roll": 1.0
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "sweep:clip",
+   "vals": {
+    "clip": 0.0
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "sweep:clip",
+   "vals": {
+    "clip": 0.05
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "sweep:clip",
+   "vals": {
+    "clip": 0.1
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "sweep:clip",
+   "vals": {
+    "clip": 0.15
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "sweep:clip",
+   "vals": {
+    "clip": 0.2
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "sweep:clip",
+   "vals": {
+    "clip": 0.25
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "sweep:clip",
+   "vals": {
+    "clip": 0.3
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "sweep:clip",
+   "vals": {
+    "clip": 0.35
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "sweep:clip",
+   "vals": {
+    "clip": 0.4
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "sweep:clip",
+   "vals": {
+    "clip": 0.45
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "sweep:clip",
+   "vals": {
+    "clip": 0.5
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "sweep:clip",
+   "vals": {
+    "clip": 0.55
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "sweep:clip",
+   "vals": {
+    "clip": 0.6
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "sweep:clip",
+   "vals": {
+    "clip": 0.65
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "sweep:clip",
+   "vals": {
+    "clip": 0.7
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "sweep:clip",
+   "vals": {
+    "clip": 0.75
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "sweep:clip",
+   "vals": {
+    "clip": 0.8
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "sweep:clip",
+   "vals": {
+    "clip": 0.85
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "sweep:clip",
+   "vals": {
+    "clip": 0.9
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "sweep:clip",
+   "vals": {
+    "clip": 0.95
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "sweep:clip",
+   "vals": {
+    "clip": 1.0
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "sweep:fill",
+   "vals": {
+    "fill": 0.0
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 73
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "sweep:fill",
+   "vals": {
+    "fill": 0.05
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 73
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "sweep:fill",
+   "vals": {
+    "fill": 0.1
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 72
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "sweep:fill",
+   "vals": {
+    "fill": 0.15
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 72
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "sweep:fill",
+   "vals": {
+    "fill": 0.2
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 72
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "sweep:fill",
+   "vals": {
+    "fill": 0.25
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 72
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "sweep:fill",
+   "vals": {
+    "fill": 0.3
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 72
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "sweep:fill",
+   "vals": {
+    "fill": 0.35
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 72
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "sweep:fill",
+   "vals": {
+    "fill": 0.4
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 72
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "sweep:fill",
+   "vals": {
+    "fill": 0.45
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 71
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "sweep:fill",
+   "vals": {
+    "fill": 0.5
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 71
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "sweep:fill",
+   "vals": {
+    "fill": 0.55
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "sweep:fill",
+   "vals": {
+    "fill": 0.6
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "sweep:fill",
+   "vals": {
+    "fill": 0.65
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "sweep:fill",
+   "vals": {
+    "fill": 0.7
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "sweep:fill",
+   "vals": {
+    "fill": 0.75
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "sweep:fill",
+   "vals": {
+    "fill": 0.8
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "sweep:fill",
+   "vals": {
+    "fill": 0.85
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "sweep:fill",
+   "vals": {
+    "fill": 0.9
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "sweep:fill",
+   "vals": {
+    "fill": 0.95
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "sweep:fill",
+   "vals": {
+    "fill": 1.0
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "sweep:strap_length",
+   "vals": {
+    "strap_length": 0.0
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "sweep:strap_length",
+   "vals": {
+    "strap_length": 0.05
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "sweep:strap_length",
+   "vals": {
+    "strap_length": 0.1
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "sweep:strap_length",
+   "vals": {
+    "strap_length": 0.15
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "sweep:strap_length",
+   "vals": {
+    "strap_length": 0.2
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "sweep:strap_length",
+   "vals": {
+    "strap_length": 0.25
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "sweep:strap_length",
+   "vals": {
+    "strap_length": 0.3
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "sweep:strap_length",
+   "vals": {
+    "strap_length": 0.35
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "sweep:strap_length",
+   "vals": {
+    "strap_length": 0.4
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "sweep:strap_length",
+   "vals": {
+    "strap_length": 0.45
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "sweep:strap_length",
+   "vals": {
+    "strap_length": 0.5
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "sweep:strap_length",
+   "vals": {
+    "strap_length": 0.55
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "sweep:strap_length",
+   "vals": {
+    "strap_length": 0.6
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "sweep:strap_length",
+   "vals": {
+    "strap_length": 0.65
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "sweep:strap_length",
+   "vals": {
+    "strap_length": 0.7
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "sweep:strap_length",
+   "vals": {
+    "strap_length": 0.75
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "sweep:strap_length",
+   "vals": {
+    "strap_length": 0.8
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "sweep:strap_length",
+   "vals": {
+    "strap_length": 0.85
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "sweep:strap_length",
+   "vals": {
+    "strap_length": 0.9
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "sweep:strap_length",
+   "vals": {
+    "strap_length": 0.95
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "sweep:strap_length",
+   "vals": {
+    "strap_length": 1.0
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "pair:rollxfill",
+   "vals": {
+    "roll": 0.0,
+    "fill": 0.0
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 73
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "pair:rollxfill",
+   "vals": {
+    "roll": 0.0,
+    "fill": 0.25
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 72
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "pair:rollxfill",
+   "vals": {
+    "roll": 0.0,
+    "fill": 0.5
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 71
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "pair:rollxfill",
+   "vals": {
+    "roll": 0.0,
+    "fill": 0.75
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "pair:rollxfill",
+   "vals": {
+    "roll": 0.0,
+    "fill": 1.0
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "pair:rollxfill",
+   "vals": {
+    "roll": 0.25,
+    "fill": 0.0
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 73
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "pair:rollxfill",
+   "vals": {
+    "roll": 0.25,
+    "fill": 0.25
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 72
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "pair:rollxfill",
+   "vals": {
+    "roll": 0.25,
+    "fill": 0.5
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 71
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "pair:rollxfill",
+   "vals": {
+    "roll": 0.25,
+    "fill": 0.75
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "pair:rollxfill",
+   "vals": {
+    "roll": 0.25,
+    "fill": 1.0
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "pair:rollxfill",
+   "vals": {
+    "roll": 0.5,
+    "fill": 0.0
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 73
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "pair:rollxfill",
+   "vals": {
+    "roll": 0.5,
+    "fill": 0.25
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 72
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "pair:rollxfill",
+   "vals": {
+    "roll": 0.5,
+    "fill": 0.5
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 71
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "pair:rollxfill",
+   "vals": {
+    "roll": 0.5,
+    "fill": 0.75
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "pair:rollxfill",
+   "vals": {
+    "roll": 0.5,
+    "fill": 1.0
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "pair:rollxfill",
+   "vals": {
+    "roll": 0.75,
+    "fill": 0.0
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 73
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "pair:rollxfill",
+   "vals": {
+    "roll": 0.75,
+    "fill": 0.25
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 72
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "pair:rollxfill",
+   "vals": {
+    "roll": 0.75,
+    "fill": 0.5
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 71
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "pair:rollxfill",
+   "vals": {
+    "roll": 0.75,
+    "fill": 0.75
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "pair:rollxfill",
+   "vals": {
+    "roll": 0.75,
+    "fill": 1.0
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "pair:rollxfill",
+   "vals": {
+    "roll": 1.0,
+    "fill": 0.0
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 73
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "pair:rollxfill",
+   "vals": {
+    "roll": 1.0,
+    "fill": 0.25
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 72
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "pair:rollxfill",
+   "vals": {
+    "roll": 1.0,
+    "fill": 0.5
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 71
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "pair:rollxfill",
+   "vals": {
+    "roll": 1.0,
+    "fill": 0.75
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "pair:rollxfill",
+   "vals": {
+    "roll": 1.0,
+    "fill": 1.0
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "pair:rollxclip",
+   "vals": {
+    "roll": 0.0,
+    "clip": 0.0
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "pair:rollxclip",
+   "vals": {
+    "roll": 0.0,
+    "clip": 0.25
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "pair:rollxclip",
+   "vals": {
+    "roll": 0.0,
+    "clip": 0.5
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "pair:rollxclip",
+   "vals": {
+    "roll": 0.0,
+    "clip": 0.75
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "pair:rollxclip",
+   "vals": {
+    "roll": 0.0,
+    "clip": 1.0
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "pair:rollxclip",
+   "vals": {
+    "roll": 0.25,
+    "clip": 0.0
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "pair:rollxclip",
+   "vals": {
+    "roll": 0.25,
+    "clip": 0.25
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "pair:rollxclip",
+   "vals": {
+    "roll": 0.25,
+    "clip": 0.5
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "pair:rollxclip",
+   "vals": {
+    "roll": 0.25,
+    "clip": 0.75
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "pair:rollxclip",
+   "vals": {
+    "roll": 0.25,
+    "clip": 1.0
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "pair:rollxclip",
+   "vals": {
+    "roll": 0.5,
+    "clip": 0.0
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "pair:rollxclip",
+   "vals": {
+    "roll": 0.5,
+    "clip": 0.25
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "pair:rollxclip",
+   "vals": {
+    "roll": 0.5,
+    "clip": 0.5
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "pair:rollxclip",
+   "vals": {
+    "roll": 0.5,
+    "clip": 0.75
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "pair:rollxclip",
+   "vals": {
+    "roll": 0.5,
+    "clip": 1.0
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "pair:rollxclip",
+   "vals": {
+    "roll": 0.75,
+    "clip": 0.0
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "pair:rollxclip",
+   "vals": {
+    "roll": 0.75,
+    "clip": 0.25
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "pair:rollxclip",
+   "vals": {
+    "roll": 0.75,
+    "clip": 0.5
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "pair:rollxclip",
+   "vals": {
+    "roll": 0.75,
+    "clip": 0.75
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "pair:rollxclip",
+   "vals": {
+    "roll": 0.75,
+    "clip": 1.0
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "pair:rollxclip",
+   "vals": {
+    "roll": 1.0,
+    "clip": 0.0
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "pair:rollxclip",
+   "vals": {
+    "roll": 1.0,
+    "clip": 0.25
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "pair:rollxclip",
+   "vals": {
+    "roll": 1.0,
+    "clip": 0.5
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "pair:rollxclip",
+   "vals": {
+    "roll": 1.0,
+    "clip": 0.75
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "pair:rollxclip",
+   "vals": {
+    "roll": 1.0,
+    "clip": 1.0
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "pair:fillxstrap_length",
+   "vals": {
+    "fill": 0.0,
+    "strap_length": 0.0
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 73
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "pair:fillxstrap_length",
+   "vals": {
+    "fill": 0.0,
+    "strap_length": 0.25
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 73
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "pair:fillxstrap_length",
+   "vals": {
+    "fill": 0.0,
+    "strap_length": 0.5
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 73
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "pair:fillxstrap_length",
+   "vals": {
+    "fill": 0.0,
+    "strap_length": 0.75
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 73
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "pair:fillxstrap_length",
+   "vals": {
+    "fill": 0.0,
+    "strap_length": 1.0
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 73
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "pair:fillxstrap_length",
+   "vals": {
+    "fill": 0.25,
+    "strap_length": 0.0
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 72
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "pair:fillxstrap_length",
+   "vals": {
+    "fill": 0.25,
+    "strap_length": 0.25
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 72
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "pair:fillxstrap_length",
+   "vals": {
+    "fill": 0.25,
+    "strap_length": 0.5
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 72
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "pair:fillxstrap_length",
+   "vals": {
+    "fill": 0.25,
+    "strap_length": 0.75
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 72
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "pair:fillxstrap_length",
+   "vals": {
+    "fill": 0.25,
+    "strap_length": 1.0
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 72
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "pair:fillxstrap_length",
+   "vals": {
+    "fill": 0.5,
+    "strap_length": 0.0
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 71
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "pair:fillxstrap_length",
+   "vals": {
+    "fill": 0.5,
+    "strap_length": 0.25
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 71
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "pair:fillxstrap_length",
+   "vals": {
+    "fill": 0.5,
+    "strap_length": 0.5
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 71
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "pair:fillxstrap_length",
+   "vals": {
+    "fill": 0.5,
+    "strap_length": 0.75
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 71
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "pair:fillxstrap_length",
+   "vals": {
+    "fill": 0.5,
+    "strap_length": 1.0
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 71
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "pair:fillxstrap_length",
+   "vals": {
+    "fill": 0.75,
+    "strap_length": 0.0
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "pair:fillxstrap_length",
+   "vals": {
+    "fill": 0.75,
+    "strap_length": 0.25
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "pair:fillxstrap_length",
+   "vals": {
+    "fill": 0.75,
+    "strap_length": 0.5
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "pair:fillxstrap_length",
+   "vals": {
+    "fill": 0.75,
+    "strap_length": 0.75
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "pair:fillxstrap_length",
+   "vals": {
+    "fill": 0.75,
+    "strap_length": 1.0
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "pair:fillxstrap_length",
+   "vals": {
+    "fill": 1.0,
+    "strap_length": 0.0
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "pair:fillxstrap_length",
+   "vals": {
+    "fill": 1.0,
+    "strap_length": 0.25
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "pair:fillxstrap_length",
+   "vals": {
+    "fill": 1.0,
+    "strap_length": 0.5
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "pair:fillxstrap_length",
+   "vals": {
+    "fill": 1.0,
+    "strap_length": 0.75
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  },
+  {
+   "tag": "pair:fillxstrap_length",
+   "vals": {
+    "fill": 1.0,
+    "strap_length": 1.0
+   },
+   "parts": {
+    "collar": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 70
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_f.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "_self": {
+     "collar": 0
+    }
+   }
+  }
+ ]
+}

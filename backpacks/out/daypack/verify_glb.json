@@ -1,0 +1,212 @@
+{
+ "glb": "C:\\Users\\apek-anna\\Developer\\anymachine\\backpacks\\out\\daypack\\daypack.glb",
+ "size_kb": 11052,
+ "objects": [
+  [
+   "Icosphere",
+   "MESH"
+  ],
+  [
+   "adjuster.L",
+   "MESH"
+  ],
+  [
+   "adjuster.R",
+   "MESH"
+  ],
+  [
+   "back_panel",
+   "MESH"
+  ],
+  [
+   "body",
+   "EMPTY"
+  ],
+  [
+   "body.001",
+   "MESH"
+  ],
+  [
+   "daypack_rig",
+   "ARMATURE"
+  ],
+  [
+   "liner",
+   "MESH"
+  ],
+  [
+   "panel",
+   "EMPTY"
+  ],
+  [
+   "panel.001",
+   "MESH"
+  ],
+  [
+   "strap.L",
+   "MESH"
+  ],
+  [
+   "strap.R",
+   "MESH"
+  ],
+  [
+   "tail.L",
+   "MESH"
+  ],
+  [
+   "tail.R",
+   "MESH"
+  ],
+  [
+   "webbing.L",
+   "MESH"
+  ],
+  [
+   "webbing.R",
+   "MESH"
+  ],
+  [
+   "zip_cord",
+   "MESH"
+  ],
+  [
+   "zip_pull",
+   "MESH"
+  ],
+  [
+   "zip_slider",
+   "MESH"
+  ],
+  [
+   "zip_track",
+   "MESH"
+  ]
+ ],
+ "actions": [
+  "demo",
+  "fill_param",
+  "pocket_fill_param",
+  "strap_length_param",
+  "zip_param"
+ ],
+ "morph_targets": {
+  "body.001": [
+   "Basis",
+   "slack"
+  ],
+  "panel.001": [
+   "Basis",
+   "zip_01",
+   "zip_02",
+   "zip_03",
+   "zip_04",
+   "zip_05",
+   "zip_06",
+   "zip_07",
+   "zip_08",
+   "zip_09",
+   "zip_10",
+   "zip_11",
+   "zip_12",
+   "pocket"
+  ]
+ },
+ "extras_keys": [
+  "fill",
+  "zip",
+  "strap_length",
+  "pocket_fill",
+  "anymachine"
+ ],
+ "tracks": {
+  "body": [
+   "fill_param",
+   "demo"
+  ],
+  "daypack_rig": [
+   "strap_length_param",
+   "fill_param",
+   "zip_param",
+   "demo"
+  ],
+  "panel": [
+   "pocket_fill_param",
+   "zip_param",
+   "demo"
+  ]
+ },
+ "pose_match": {
+  "zip_param@1": {
+   "median_mm": 2.091,
+   "p99_mm": 37.043,
+   "max_mm": 990.978
+  },
+  "zip_param@13": {
+   "median_mm": 2.091,
+   "p99_mm": 31.021,
+   "max_mm": 998.947
+  },
+  "zip_param@25": {
+   "median_mm": 2.078,
+   "p99_mm": 30.325,
+   "max_mm": 997.168
+  },
+  "pocket_fill_param@1": {
+   "median_mm": 2.092,
+   "p99_mm": 91.535,
+   "max_mm": 997.168
+  },
+  "pocket_fill_param@13": {
+   "median_mm": 2.092,
+   "p99_mm": 91.703,
+   "max_mm": 997.168
+  },
+  "pocket_fill_param@25": {
+   "median_mm": 2.092,
+   "p99_mm": 91.732,
+   "max_mm": 997.168
+  },
+  "fill_param@1": {
+   "median_mm": 0.0,
+   "p99_mm": 77.498,
+   "max_mm": 996.557
+  },
+  "fill_param@13": {
+   "median_mm": 0.0,
+   "p99_mm": 87.861,
+   "max_mm": 997.168
+  },
+  "fill_param@25": {
+   "median_mm": 0.0,
+   "p99_mm": 98.106,
+   "max_mm": 997.168
+  },
+  "strap_length_param@1": {
+   "median_mm": 2.034,
+   "p99_mm": 84.492,
+   "max_mm": 885.725
+  },
+  "strap_length_param@13": {
+   "median_mm": 2.033,
+   "p99_mm": 84.492,
+   "max_mm": 961.018
+  },
+  "strap_length_param@25": {
+   "median_mm": 2.032,
+   "p99_mm": 84.492,
+   "max_mm": 997.168
+  },
+  "demo@60": {
+   "median_mm": 0.0,
+   "p99_mm": 0.0,
+   "max_mm": 950.201
+  }
+ },
+ "param_action_max_motion_mm": {
+  "zip": 472.5,
+  "pocket_fill": 22.1,
+  "fill": 55.9,
+  "strap_length": 224.3
+ }
+}

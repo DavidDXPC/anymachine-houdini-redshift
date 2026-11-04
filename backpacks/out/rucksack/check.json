@@ -1,0 +1,4983 @@
+{
+ "bag": "rucksack",
+ "tol_mm": 4.0,
+ "states": 113,
+ "pass": false,
+ "clamp_max_dev_mm": {
+  "fill=-0.3": 0.0,
+  "fill=1.4": 0.0,
+  "lid_open=-0.3": 0.0,
+  "lid_open=1.4": 0.0,
+  "strap_length=-0.3": 0.0,
+  "strap_length=1.4": 0.0
+ },
+ "worst_by_part": {
+  "lid": {
+   "max_pen_mm": 11.61,
+   "at": {
+    "tag": "sweep:fill",
+    "fill": 0.0
+   },
+   "max_tri_overlaps": 179
+  },
+  "strap.L": {
+   "max_pen_mm": 0,
+   "at": null,
+   "max_tri_overlaps": 0
+  },
+  "strap.R": {
+   "max_pen_mm": 0,
+   "at": null,
+   "max_tri_overlaps": 0
+  },
+  "lidstrap.L": {
+   "max_pen_mm": 3.57,
+   "at": {
+    "tag": "sweep:fill",
+    "fill": 1.0
+   },
+   "max_tri_overlaps": 42
+  },
+  "lidstrap.R": {
+   "max_pen_mm": 5.27,
+   "at": {
+    "tag": "sweep:fill",
+    "fill": 1.0
+   },
+   "max_tri_overlaps": 46
+  },
+  "buckle_m.L": {
+   "max_pen_mm": 13.69,
+   "at": {
+    "tag": "sweep:fill",
+    "fill": 1.0
+   },
+   "max_tri_overlaps": 84
+  },
+  "buckle_m.R": {
+   "max_pen_mm": 15.3,
+   "at": {
+    "tag": "sweep:fill",
+    "fill": 1.0
+   },
+   "max_tri_overlaps": 96
+  }
+ },
+ "fails": [
+  "lid",
+  "lidstrap.R",
+  "buckle_m.L",
+  "buckle_m.R"
+ ],
+ "rows": [
+  {
+   "tag": "sweep:fill",
+   "vals": {
+    "fill": 0.0
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 11.61,
+     "verts_over_tol": 12,
+     "tri_overlaps": 30
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    }
+   }
+  },
+  {
+   "tag": "sweep:fill",
+   "vals": {
+    "fill": 0.05
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 8.62,
+     "verts_over_tol": 11,
+     "tri_overlaps": 32
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    }
+   }
+  },
+  {
+   "tag": "sweep:fill",
+   "vals": {
+    "fill": 0.1
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 9.66,
+     "verts_over_tol": 11,
+     "tri_overlaps": 41
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    }
+   }
+  },
+  {
+   "tag": "sweep:fill",
+   "vals": {
+    "fill": 0.15
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 9.74,
+     "verts_over_tol": 12,
+     "tri_overlaps": 44
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    }
+   }
+  },
+  {
+   "tag": "sweep:fill",
+   "vals": {
+    "fill": 0.2
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 9.72,
+     "verts_over_tol": 12,
+     "tri_overlaps": 51
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    }
+   }
+  },
+  {
+   "tag": "sweep:fill",
+   "vals": {
+    "fill": 0.25
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 9.6,
+     "verts_over_tol": 13,
+     "tri_overlaps": 47
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    }
+   }
+  },
+  {
+   "tag": "sweep:fill",
+   "vals": {
+    "fill": 0.3
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 9.39,
+     "verts_over_tol": 11,
+     "tri_overlaps": 39
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    }
+   }
+  },
+  {
+   "tag": "sweep:fill",
+   "vals": {
+    "fill": 0.35
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 8.36,
+     "verts_over_tol": 8,
+     "tri_overlaps": 31
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    }
+   }
+  },
+  {
+   "tag": "sweep:fill",
+   "vals": {
+    "fill": 0.4
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 8.34,
+     "verts_over_tol": 7,
+     "tri_overlaps": 27
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    }
+   }
+  },
+  {
+   "tag": "sweep:fill",
+   "vals": {
+    "fill": 0.45
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 6.82,
+     "verts_over_tol": 8,
+     "tri_overlaps": 32
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    }
+   }
+  },
+  {
+   "tag": "sweep:fill",
+   "vals": {
+    "fill": 0.5
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 6.46,
+     "verts_over_tol": 7,
+     "tri_overlaps": 23
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    }
+   }
+  },
+  {
+   "tag": "sweep:fill",
+   "vals": {
+    "fill": 0.55
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 5.56,
+     "verts_over_tol": 7,
+     "tri_overlaps": 26
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 1.73,
+     "verts_over_tol": 0,
+     "tri_overlaps": 38
+    }
+   }
+  },
+  {
+   "tag": "sweep:fill",
+   "vals": {
+    "fill": 0.6
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 5.77,
+     "verts_over_tol": 9,
+     "tri_overlaps": 26
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 1.76,
+     "verts_over_tol": 0,
+     "tri_overlaps": 27
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 3.78,
+     "verts_over_tol": 0,
+     "tri_overlaps": 46
+    }
+   }
+  },
+  {
+   "tag": "sweep:fill",
+   "vals": {
+    "fill": 0.65
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 5.82,
+     "verts_over_tol": 9,
+     "tri_overlaps": 28
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 3.48,
+     "verts_over_tol": 0,
+     "tri_overlaps": 43
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 5.41,
+     "verts_over_tol": 6,
+     "tri_overlaps": 46
+    }
+   }
+  },
+  {
+   "tag": "sweep:fill",
+   "vals": {
+    "fill": 0.7
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 6.81,
+     "verts_over_tol": 9,
+     "tri_overlaps": 32
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 4.98,
+     "verts_over_tol": 3,
+     "tri_overlaps": 44
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 6.86,
+     "verts_over_tol": 6,
+     "tri_overlaps": 58
+    }
+   }
+  },
+  {
+   "tag": "sweep:fill",
+   "vals": {
+    "fill": 0.75
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 6.83,
+     "verts_over_tol": 9,
+     "tri_overlaps": 33
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 6.48,
+     "verts_over_tol": 6,
+     "tri_overlaps": 52
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 8.36,
+     "verts_over_tol": 12,
+     "tri_overlaps": 61
+    }
+   }
+  },
+  {
+   "tag": "sweep:fill",
+   "vals": {
+    "fill": 0.8
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 6.86,
+     "verts_over_tol": 9,
+     "tri_overlaps": 31
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 0.69,
+     "verts_over_tol": 0,
+     "tri_overlaps": 14
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 7.88,
+     "verts_over_tol": 11,
+     "tri_overlaps": 61
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 9.75,
+     "verts_over_tol": 19,
+     "tri_overlaps": 63
+    }
+   }
+  },
+  {
+   "tag": "sweep:fill",
+   "vals": {
+    "fill": 0.85
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 6.89,
+     "verts_over_tol": 9,
+     "tri_overlaps": 27
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 0.24,
+     "verts_over_tol": 0,
+     "tri_overlaps": 8
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 1.87,
+     "verts_over_tol": 0,
+     "tri_overlaps": 26
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 9.21,
+     "verts_over_tol": 18,
+     "tri_overlaps": 61
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 11.14,
+     "verts_over_tol": 23,
+     "tri_overlaps": 58
+    }
+   }
+  },
+  {
+   "tag": "sweep:fill",
+   "vals": {
+    "fill": 0.9
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 6.91,
+     "verts_over_tol": 9,
+     "tri_overlaps": 28
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 1.38,
+     "verts_over_tol": 0,
+     "tri_overlaps": 20
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 3.03,
+     "verts_over_tol": 0,
+     "tri_overlaps": 46
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 10.52,
+     "verts_over_tol": 21,
+     "tri_overlaps": 58
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 12.55,
+     "verts_over_tol": 27,
+     "tri_overlaps": 78
+    }
+   }
+  },
+  {
+   "tag": "sweep:fill",
+   "vals": {
+    "fill": 0.95
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 6.94,
+     "verts_over_tol": 8,
+     "tri_overlaps": 29
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 2.48,
+     "verts_over_tol": 0,
+     "tri_overlaps": 24
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 4.16,
+     "verts_over_tol": 2,
+     "tri_overlaps": 44
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 12.08,
+     "verts_over_tol": 24,
+     "tri_overlaps": 60
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 13.93,
+     "verts_over_tol": 33,
+     "tri_overlaps": 89
+    }
+   }
+  },
+  {
+   "tag": "sweep:fill",
+   "vals": {
+    "fill": 1.0
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 5.67,
+     "verts_over_tol": 7,
+     "tri_overlaps": 31
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 3.57,
+     "verts_over_tol": 0,
+     "tri_overlaps": 42
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 5.27,
+     "verts_over_tol": 4,
+     "tri_overlaps": 44
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 13.69,
+     "verts_over_tol": 32,
+     "tri_overlaps": 60
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 15.3,
+     "verts_over_tol": 33,
+     "tri_overlaps": 96
+    }
+   }
+  },
+  {
+   "tag": "sweep:lid_open",
+   "vals": {
+    "lid_open": 0.0
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 5.77,
+     "verts_over_tol": 9,
+     "tri_overlaps": 26
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 1.76,
+     "verts_over_tol": 0,
+     "tri_overlaps": 27
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 3.78,
+     "verts_over_tol": 0,
+     "tri_overlaps": 46
+    }
+   }
+  },
+  {
+   "tag": "sweep:lid_open",
+   "vals": {
+    "lid_open": 0.05
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 5.45,
+     "verts_over_tol": 8,
+     "tri_overlaps": 26
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 1.58,
+     "verts_over_tol": 0,
+     "tri_overlaps": 40
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 2.15,
+     "verts_over_tol": 0,
+     "tri_overlaps": 34
+    }
+   }
+  },
+  {
+   "tag": "sweep:lid_open",
+   "vals": {
+    "lid_open": 0.1
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 5.12,
+     "verts_over_tol": 5,
+     "tri_overlaps": 26
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.98,
+     "verts_over_tol": 0,
+     "tri_overlaps": 28
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 1.15,
+     "verts_over_tol": 0,
+     "tri_overlaps": 32
+    }
+   }
+  },
+  {
+   "tag": "sweep:lid_open",
+   "vals": {
+    "lid_open": 0.15
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 4.77,
+     "verts_over_tol": 5,
+     "tri_overlaps": 26
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.6,
+     "verts_over_tol": 0,
+     "tri_overlaps": 36
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 1.11,
+     "verts_over_tol": 0,
+     "tri_overlaps": 48
+    }
+   }
+  },
+  {
+   "tag": "sweep:lid_open",
+   "vals": {
+    "lid_open": 0.2
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 4.63,
+     "verts_over_tol": 3,
+     "tri_overlaps": 24
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 1.22,
+     "verts_over_tol": 0,
+     "tri_overlaps": 47
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 1.56,
+     "verts_over_tol": 0,
+     "tri_overlaps": 40
+    }
+   }
+  },
+  {
+   "tag": "sweep:lid_open",
+   "vals": {
+    "lid_open": 0.25
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 5.8,
+     "verts_over_tol": 3,
+     "tri_overlaps": 24
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 1.32,
+     "verts_over_tol": 0,
+     "tri_overlaps": 40
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 1.18,
+     "verts_over_tol": 0,
+     "tri_overlaps": 34
+    }
+   }
+  },
+  {
+   "tag": "sweep:lid_open",
+   "vals": {
+    "lid_open": 0.3
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 5.63,
+     "verts_over_tol": 2,
+     "tri_overlaps": 24
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 1.53,
+     "verts_over_tol": 0,
+     "tri_overlaps": 41
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.77,
+     "verts_over_tol": 0,
+     "tri_overlaps": 40
+    }
+   }
+  },
+  {
+   "tag": "sweep:lid_open",
+   "vals": {
+    "lid_open": 0.35
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 5.44,
+     "verts_over_tol": 2,
+     "tri_overlaps": 24
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 1.89,
+     "verts_over_tol": 0,
+     "tri_overlaps": 43
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 1.46,
+     "verts_over_tol": 0,
+     "tri_overlaps": 34
+    }
+   }
+  },
+  {
+   "tag": "sweep:lid_open",
+   "vals": {
+    "lid_open": 0.4
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 5.24,
+     "verts_over_tol": 2,
+     "tri_overlaps": 24
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 2.42,
+     "verts_over_tol": 0,
+     "tri_overlaps": 48
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 2.17,
+     "verts_over_tol": 0,
+     "tri_overlaps": 37
+    }
+   }
+  },
+  {
+   "tag": "sweep:lid_open",
+   "vals": {
+    "lid_open": 0.45
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 5.03,
+     "verts_over_tol": 2,
+     "tri_overlaps": 24
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 3.35,
+     "verts_over_tol": 0,
+     "tri_overlaps": 56
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 2.31,
+     "verts_over_tol": 0,
+     "tri_overlaps": 42
+    }
+   }
+  },
+  {
+   "tag": "sweep:lid_open",
+   "vals": {
+    "lid_open": 0.5
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 4.8,
+     "verts_over_tol": 2,
+     "tri_overlaps": 25
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 0.08,
+     "verts_over_tol": 0,
+     "tri_overlaps": 4
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 8.03,
+     "verts_over_tol": 5,
+     "tri_overlaps": 83
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 4.04,
+     "verts_over_tol": 1,
+     "tri_overlaps": 45
+    }
+   }
+  },
+  {
+   "tag": "sweep:lid_open",
+   "vals": {
+    "lid_open": 0.55
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 4.57,
+     "verts_over_tol": 1,
+     "tri_overlaps": 25
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 0.63,
+     "verts_over_tol": 0,
+     "tri_overlaps": 18
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 8.53,
+     "verts_over_tol": 10,
+     "tri_overlaps": 62
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 11.34,
+     "verts_over_tol": 7,
+     "tri_overlaps": 64
+    }
+   }
+  },
+  {
+   "tag": "sweep:lid_open",
+   "vals": {
+    "lid_open": 0.6
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 4.32,
+     "verts_over_tol": 1,
+     "tri_overlaps": 26
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 1.07,
+     "verts_over_tol": 0,
+     "tri_overlaps": 30
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 0.44,
+     "verts_over_tol": 0,
+     "tri_overlaps": 16
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 9.15,
+     "verts_over_tol": 10,
+     "tri_overlaps": 60
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 8.17,
+     "verts_over_tol": 10,
+     "tri_overlaps": 55
+    }
+   }
+  },
+  {
+   "tag": "sweep:lid_open",
+   "vals": {
+    "lid_open": 0.65
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 3.89,
+     "verts_over_tol": 0,
+     "tri_overlaps": 27
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 0.96,
+     "verts_over_tol": 0,
+     "tri_overlaps": 16
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 10.74,
+     "verts_over_tol": 20,
+     "tri_overlaps": 62
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 10.12,
+     "verts_over_tol": 15,
+     "tri_overlaps": 59
+    }
+   }
+  },
+  {
+   "tag": "sweep:lid_open",
+   "vals": {
+    "lid_open": 0.7
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 4.52,
+     "verts_over_tol": 1,
+     "tri_overlaps": 27
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 6.86,
+     "verts_over_tol": 7,
+     "tri_overlaps": 75
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 5.36,
+     "verts_over_tol": 3,
+     "tri_overlaps": 36
+    }
+   }
+  },
+  {
+   "tag": "sweep:lid_open",
+   "vals": {
+    "lid_open": 0.75
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 1.09,
+     "verts_over_tol": 0,
+     "tri_overlaps": 44
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 2.35,
+     "verts_over_tol": 0,
+     "tri_overlaps": 31
+    }
+   }
+  },
+  {
+   "tag": "sweep:lid_open",
+   "vals": {
+    "lid_open": 0.8
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 1.27,
+     "verts_over_tol": 0,
+     "tri_overlaps": 59
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 3.06,
+     "verts_over_tol": 0,
+     "tri_overlaps": 46
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    }
+   }
+  },
+  {
+   "tag": "sweep:lid_open",
+   "vals": {
+    "lid_open": 0.85
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 1.46,
+     "verts_over_tol": 0,
+     "tri_overlaps": 61
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    }
+   }
+  },
+  {
+   "tag": "sweep:lid_open",
+   "vals": {
+    "lid_open": 0.9
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 1.63,
+     "verts_over_tol": 0,
+     "tri_overlaps": 130
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    }
+   }
+  },
+  {
+   "tag": "sweep:lid_open",
+   "vals": {
+    "lid_open": 0.95
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 1.84,
+     "verts_over_tol": 0,
+     "tri_overlaps": 139
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    }
+   }
+  },
+  {
+   "tag": "sweep:lid_open",
+   "vals": {
+    "lid_open": 1.0
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 2.09,
+     "verts_over_tol": 0,
+     "tri_overlaps": 165
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    }
+   }
+  },
+  {
+   "tag": "sweep:strap_length",
+   "vals": {
+    "strap_length": 0.0
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 5.77,
+     "verts_over_tol": 9,
+     "tri_overlaps": 26
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 1.76,
+     "verts_over_tol": 0,
+     "tri_overlaps": 27
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 3.78,
+     "verts_over_tol": 0,
+     "tri_overlaps": 46
+    }
+   }
+  },
+  {
+   "tag": "sweep:strap_length",
+   "vals": {
+    "strap_length": 0.05
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 5.77,
+     "verts_over_tol": 9,
+     "tri_overlaps": 26
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 1.76,
+     "verts_over_tol": 0,
+     "tri_overlaps": 27
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 3.78,
+     "verts_over_tol": 0,
+     "tri_overlaps": 46
+    }
+   }
+  },
+  {
+   "tag": "sweep:strap_length",
+   "vals": {
+    "strap_length": 0.1
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 5.77,
+     "verts_over_tol": 9,
+     "tri_overlaps": 26
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 1.76,
+     "verts_over_tol": 0,
+     "tri_overlaps": 27
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 3.78,
+     "verts_over_tol": 0,
+     "tri_overlaps": 46
+    }
+   }
+  },
+  {
+   "tag": "sweep:strap_length",
+   "vals": {
+    "strap_length": 0.15
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 5.77,
+     "verts_over_tol": 9,
+     "tri_overlaps": 26
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 1.76,
+     "verts_over_tol": 0,
+     "tri_overlaps": 27
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 3.78,
+     "verts_over_tol": 0,
+     "tri_overlaps": 46
+    }
+   }
+  },
+  {
+   "tag": "sweep:strap_length",
+   "vals": {
+    "strap_length": 0.2
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 5.77,
+     "verts_over_tol": 9,
+     "tri_overlaps": 26
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 1.76,
+     "verts_over_tol": 0,
+     "tri_overlaps": 27
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 3.78,
+     "verts_over_tol": 0,
+     "tri_overlaps": 46
+    }
+   }
+  },
+  {
+   "tag": "sweep:strap_length",
+   "vals": {
+    "strap_length": 0.25
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 5.77,
+     "verts_over_tol": 9,
+     "tri_overlaps": 26
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 1.76,
+     "verts_over_tol": 0,
+     "tri_overlaps": 27
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 3.78,
+     "verts_over_tol": 0,
+     "tri_overlaps": 46
+    }
+   }
+  },
+  {
+   "tag": "sweep:strap_length",
+   "vals": {
+    "strap_length": 0.3
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 5.77,
+     "verts_over_tol": 9,
+     "tri_overlaps": 26
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 1.76,
+     "verts_over_tol": 0,
+     "tri_overlaps": 27
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 3.78,
+     "verts_over_tol": 0,
+     "tri_overlaps": 46
+    }
+   }
+  },
+  {
+   "tag": "sweep:strap_length",
+   "vals": {
+    "strap_length": 0.35
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 5.77,
+     "verts_over_tol": 9,
+     "tri_overlaps": 26
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 1.76,
+     "verts_over_tol": 0,
+     "tri_overlaps": 27
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 3.78,
+     "verts_over_tol": 0,
+     "tri_overlaps": 46
+    }
+   }
+  },
+  {
+   "tag": "sweep:strap_length",
+   "vals": {
+    "strap_length": 0.4
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 5.77,
+     "verts_over_tol": 9,
+     "tri_overlaps": 26
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 1.76,
+     "verts_over_tol": 0,
+     "tri_overlaps": 27
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 3.78,
+     "verts_over_tol": 0,
+     "tri_overlaps": 46
+    }
+   }
+  },
+  {
+   "tag": "sweep:strap_length",
+   "vals": {
+    "strap_length": 0.45
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 5.77,
+     "verts_over_tol": 9,
+     "tri_overlaps": 26
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 1.76,
+     "verts_over_tol": 0,
+     "tri_overlaps": 27
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 3.78,
+     "verts_over_tol": 0,
+     "tri_overlaps": 46
+    }
+   }
+  },
+  {
+   "tag": "sweep:strap_length",
+   "vals": {
+    "strap_length": 0.5
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 5.77,
+     "verts_over_tol": 9,
+     "tri_overlaps": 26
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 1.76,
+     "verts_over_tol": 0,
+     "tri_overlaps": 27
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 3.78,
+     "verts_over_tol": 0,
+     "tri_overlaps": 46
+    }
+   }
+  },
+  {
+   "tag": "sweep:strap_length",
+   "vals": {
+    "strap_length": 0.55
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 5.77,
+     "verts_over_tol": 9,
+     "tri_overlaps": 26
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 1.76,
+     "verts_over_tol": 0,
+     "tri_overlaps": 27
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 3.78,
+     "verts_over_tol": 0,
+     "tri_overlaps": 46
+    }
+   }
+  },
+  {
+   "tag": "sweep:strap_length",
+   "vals": {
+    "strap_length": 0.6
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 5.77,
+     "verts_over_tol": 9,
+     "tri_overlaps": 26
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 1.76,
+     "verts_over_tol": 0,
+     "tri_overlaps": 27
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 3.78,
+     "verts_over_tol": 0,
+     "tri_overlaps": 46
+    }
+   }
+  },
+  {
+   "tag": "sweep:strap_length",
+   "vals": {
+    "strap_length": 0.65
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 5.77,
+     "verts_over_tol": 9,
+     "tri_overlaps": 26
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 1.76,
+     "verts_over_tol": 0,
+     "tri_overlaps": 27
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 3.78,
+     "verts_over_tol": 0,
+     "tri_overlaps": 46
+    }
+   }
+  },
+  {
+   "tag": "sweep:strap_length",
+   "vals": {
+    "strap_length": 0.7
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 5.77,
+     "verts_over_tol": 9,
+     "tri_overlaps": 26
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 1.76,
+     "verts_over_tol": 0,
+     "tri_overlaps": 27
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 3.78,
+     "verts_over_tol": 0,
+     "tri_overlaps": 46
+    }
+   }
+  },
+  {
+   "tag": "sweep:strap_length",
+   "vals": {
+    "strap_length": 0.75
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 5.77,
+     "verts_over_tol": 9,
+     "tri_overlaps": 26
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 1.76,
+     "verts_over_tol": 0,
+     "tri_overlaps": 27
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 3.78,
+     "verts_over_tol": 0,
+     "tri_overlaps": 46
+    }
+   }
+  },
+  {
+   "tag": "sweep:strap_length",
+   "vals": {
+    "strap_length": 0.8
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 5.77,
+     "verts_over_tol": 9,
+     "tri_overlaps": 26
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 1.76,
+     "verts_over_tol": 0,
+     "tri_overlaps": 27
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 3.78,
+     "verts_over_tol": 0,
+     "tri_overlaps": 46
+    }
+   }
+  },
+  {
+   "tag": "sweep:strap_length",
+   "vals": {
+    "strap_length": 0.85
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 5.77,
+     "verts_over_tol": 9,
+     "tri_overlaps": 26
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 1.76,
+     "verts_over_tol": 0,
+     "tri_overlaps": 27
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 3.78,
+     "verts_over_tol": 0,
+     "tri_overlaps": 46
+    }
+   }
+  },
+  {
+   "tag": "sweep:strap_length",
+   "vals": {
+    "strap_length": 0.9
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 5.77,
+     "verts_over_tol": 9,
+     "tri_overlaps": 26
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 1.76,
+     "verts_over_tol": 0,
+     "tri_overlaps": 27
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 3.78,
+     "verts_over_tol": 0,
+     "tri_overlaps": 46
+    }
+   }
+  },
+  {
+   "tag": "sweep:strap_length",
+   "vals": {
+    "strap_length": 0.95
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 5.77,
+     "verts_over_tol": 9,
+     "tri_overlaps": 26
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 1.76,
+     "verts_over_tol": 0,
+     "tri_overlaps": 27
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 3.78,
+     "verts_over_tol": 0,
+     "tri_overlaps": 46
+    }
+   }
+  },
+  {
+   "tag": "sweep:strap_length",
+   "vals": {
+    "strap_length": 1.0
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 5.77,
+     "verts_over_tol": 9,
+     "tri_overlaps": 26
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 1.76,
+     "verts_over_tol": 0,
+     "tri_overlaps": 27
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 3.78,
+     "verts_over_tol": 0,
+     "tri_overlaps": 46
+    }
+   }
+  },
+  {
+   "tag": "pair:fillxlid_open",
+   "vals": {
+    "fill": 0.0,
+    "lid_open": 0.0
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 11.61,
+     "verts_over_tol": 12,
+     "tri_overlaps": 30
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    }
+   }
+  },
+  {
+   "tag": "pair:fillxlid_open",
+   "vals": {
+    "fill": 0.0,
+    "lid_open": 0.25
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 5.26,
+     "verts_over_tol": 1,
+     "tri_overlaps": 18
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    }
+   }
+  },
+  {
+   "tag": "pair:fillxlid_open",
+   "vals": {
+    "fill": 0.0,
+    "lid_open": 0.5
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 4.0,
+     "verts_over_tol": 1,
+     "tri_overlaps": 14
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    }
+   }
+  },
+  {
+   "tag": "pair:fillxlid_open",
+   "vals": {
+    "fill": 0.0,
+    "lid_open": 0.75
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 19
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    }
+   }
+  },
+  {
+   "tag": "pair:fillxlid_open",
+   "vals": {
+    "fill": 0.0,
+    "lid_open": 1.0
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 2.81,
+     "verts_over_tol": 0,
+     "tri_overlaps": 147
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    }
+   }
+  },
+  {
+   "tag": "pair:fillxlid_open",
+   "vals": {
+    "fill": 0.25,
+    "lid_open": 0.0
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 9.6,
+     "verts_over_tol": 13,
+     "tri_overlaps": 47
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    }
+   }
+  },
+  {
+   "tag": "pair:fillxlid_open",
+   "vals": {
+    "fill": 0.25,
+    "lid_open": 0.25
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 5.6,
+     "verts_over_tol": 1,
+     "tri_overlaps": 46
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    }
+   }
+  },
+  {
+   "tag": "pair:fillxlid_open",
+   "vals": {
+    "fill": 0.25,
+    "lid_open": 0.5
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 4.84,
+     "verts_over_tol": 1,
+     "tri_overlaps": 37
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 6
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    }
+   }
+  },
+  {
+   "tag": "pair:fillxlid_open",
+   "vals": {
+    "fill": 0.25,
+    "lid_open": 0.75
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 0.62,
+     "verts_over_tol": 0,
+     "tri_overlaps": 35
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.07,
+     "verts_over_tol": 0,
+     "tri_overlaps": 20
+    }
+   }
+  },
+  {
+   "tag": "pair:fillxlid_open",
+   "vals": {
+    "fill": 0.25,
+    "lid_open": 1.0
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 1.31,
+     "verts_over_tol": 0,
+     "tri_overlaps": 146
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    }
+   }
+  },
+  {
+   "tag": "pair:fillxlid_open",
+   "vals": {
+    "fill": 0.5,
+    "lid_open": 0.0
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 6.46,
+     "verts_over_tol": 7,
+     "tri_overlaps": 23
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    }
+   }
+  },
+  {
+   "tag": "pair:fillxlid_open",
+   "vals": {
+    "fill": 0.5,
+    "lid_open": 0.25
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 4.92,
+     "verts_over_tol": 2,
+     "tri_overlaps": 24
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    }
+   }
+  },
+  {
+   "tag": "pair:fillxlid_open",
+   "vals": {
+    "fill": 0.5,
+    "lid_open": 0.5
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 4.46,
+     "verts_over_tol": 1,
+     "tri_overlaps": 26
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 5.31,
+     "verts_over_tol": 3,
+     "tri_overlaps": 72
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 1.71,
+     "verts_over_tol": 0,
+     "tri_overlaps": 39
+    }
+   }
+  },
+  {
+   "tag": "pair:fillxlid_open",
+   "vals": {
+    "fill": 0.5,
+    "lid_open": 0.75
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 1.2,
+     "verts_over_tol": 0,
+     "tri_overlaps": 50
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 1.63,
+     "verts_over_tol": 0,
+     "tri_overlaps": 31
+    }
+   }
+  },
+  {
+   "tag": "pair:fillxlid_open",
+   "vals": {
+    "fill": 0.5,
+    "lid_open": 1.0
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 2.09,
+     "verts_over_tol": 0,
+     "tri_overlaps": 160
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    }
+   }
+  },
+  {
+   "tag": "pair:fillxlid_open",
+   "vals": {
+    "fill": 0.75,
+    "lid_open": 0.0
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 6.83,
+     "verts_over_tol": 9,
+     "tri_overlaps": 33
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 6.48,
+     "verts_over_tol": 6,
+     "tri_overlaps": 52
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 8.36,
+     "verts_over_tol": 12,
+     "tri_overlaps": 61
+    }
+   }
+  },
+  {
+   "tag": "pair:fillxlid_open",
+   "vals": {
+    "fill": 0.75,
+    "lid_open": 0.25
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 4.58,
+     "verts_over_tol": 3,
+     "tri_overlaps": 32
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 4.96,
+     "verts_over_tol": 3,
+     "tri_overlaps": 56
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 4.43,
+     "verts_over_tol": 3,
+     "tri_overlaps": 54
+    }
+   }
+  },
+  {
+   "tag": "pair:fillxlid_open",
+   "vals": {
+    "fill": 0.75,
+    "lid_open": 0.5
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 4.88,
+     "verts_over_tol": 2,
+     "tri_overlaps": 34
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 1.18,
+     "verts_over_tol": 0,
+     "tri_overlaps": 14
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 10.41,
+     "verts_over_tol": 14,
+     "tri_overlaps": 84
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 6.29,
+     "verts_over_tol": 5,
+     "tri_overlaps": 64
+    }
+   }
+  },
+  {
+   "tag": "pair:fillxlid_open",
+   "vals": {
+    "fill": 0.75,
+    "lid_open": 0.75
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 0.67,
+     "verts_over_tol": 0,
+     "tri_overlaps": 37
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 2.74,
+     "verts_over_tol": 0,
+     "tri_overlaps": 33
+    }
+   }
+  },
+  {
+   "tag": "pair:fillxlid_open",
+   "vals": {
+    "fill": 0.75,
+    "lid_open": 1.0
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 2.36,
+     "verts_over_tol": 0,
+     "tri_overlaps": 171
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    }
+   }
+  },
+  {
+   "tag": "pair:fillxlid_open",
+   "vals": {
+    "fill": 1.0,
+    "lid_open": 0.0
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 5.67,
+     "verts_over_tol": 7,
+     "tri_overlaps": 31
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 3.57,
+     "verts_over_tol": 0,
+     "tri_overlaps": 42
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 5.27,
+     "verts_over_tol": 4,
+     "tri_overlaps": 44
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 13.69,
+     "verts_over_tol": 32,
+     "tri_overlaps": 60
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 15.3,
+     "verts_over_tol": 33,
+     "tri_overlaps": 96
+    }
+   }
+  },
+  {
+   "tag": "pair:fillxlid_open",
+   "vals": {
+    "fill": 1.0,
+    "lid_open": 0.25
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 4.9,
+     "verts_over_tol": 5,
+     "tri_overlaps": 31
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 7.39,
+     "verts_over_tol": 12,
+     "tri_overlaps": 65
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 9.54,
+     "verts_over_tol": 14,
+     "tri_overlaps": 82
+    }
+   }
+  },
+  {
+   "tag": "pair:fillxlid_open",
+   "vals": {
+    "fill": 1.0,
+    "lid_open": 0.5
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 5.0,
+     "verts_over_tol": 2,
+     "tri_overlaps": 29
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 2.67,
+     "verts_over_tol": 0,
+     "tri_overlaps": 24
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 13.46,
+     "verts_over_tol": 22,
+     "tri_overlaps": 73
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 11.89,
+     "verts_over_tol": 16,
+     "tri_overlaps": 72
+    }
+   }
+  },
+  {
+   "tag": "pair:fillxlid_open",
+   "vals": {
+    "fill": 1.0,
+    "lid_open": 0.75
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 0.6,
+     "verts_over_tol": 0,
+     "tri_overlaps": 38
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 3.06,
+     "verts_over_tol": 0,
+     "tri_overlaps": 36
+    }
+   }
+  },
+  {
+   "tag": "pair:fillxlid_open",
+   "vals": {
+    "fill": 1.0,
+    "lid_open": 1.0
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 2.47,
+     "verts_over_tol": 0,
+     "tri_overlaps": 179
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    }
+   }
+  },
+  {
+   "tag": "pair:fillxstrap_length",
+   "vals": {
+    "fill": 0.0,
+    "strap_length": 0.0
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 11.61,
+     "verts_over_tol": 12,
+     "tri_overlaps": 30
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    }
+   }
+  },
+  {
+   "tag": "pair:fillxstrap_length",
+   "vals": {
+    "fill": 0.0,
+    "strap_length": 0.25
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 11.61,
+     "verts_over_tol": 12,
+     "tri_overlaps": 30
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    }
+   }
+  },
+  {
+   "tag": "pair:fillxstrap_length",
+   "vals": {
+    "fill": 0.0,
+    "strap_length": 0.5
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 11.61,
+     "verts_over_tol": 12,
+     "tri_overlaps": 30
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    }
+   }
+  },
+  {
+   "tag": "pair:fillxstrap_length",
+   "vals": {
+    "fill": 0.0,
+    "strap_length": 0.75
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 11.61,
+     "verts_over_tol": 12,
+     "tri_overlaps": 30
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    }
+   }
+  },
+  {
+   "tag": "pair:fillxstrap_length",
+   "vals": {
+    "fill": 0.0,
+    "strap_length": 1.0
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 11.61,
+     "verts_over_tol": 12,
+     "tri_overlaps": 30
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    }
+   }
+  },
+  {
+   "tag": "pair:fillxstrap_length",
+   "vals": {
+    "fill": 0.25,
+    "strap_length": 0.0
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 9.6,
+     "verts_over_tol": 13,
+     "tri_overlaps": 47
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    }
+   }
+  },
+  {
+   "tag": "pair:fillxstrap_length",
+   "vals": {
+    "fill": 0.25,
+    "strap_length": 0.25
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 9.6,
+     "verts_over_tol": 13,
+     "tri_overlaps": 47
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    }
+   }
+  },
+  {
+   "tag": "pair:fillxstrap_length",
+   "vals": {
+    "fill": 0.25,
+    "strap_length": 0.5
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 9.6,
+     "verts_over_tol": 13,
+     "tri_overlaps": 47
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    }
+   }
+  },
+  {
+   "tag": "pair:fillxstrap_length",
+   "vals": {
+    "fill": 0.25,
+    "strap_length": 0.75
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 9.6,
+     "verts_over_tol": 13,
+     "tri_overlaps": 47
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    }
+   }
+  },
+  {
+   "tag": "pair:fillxstrap_length",
+   "vals": {
+    "fill": 0.25,
+    "strap_length": 1.0
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 9.6,
+     "verts_over_tol": 13,
+     "tri_overlaps": 47
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    }
+   }
+  },
+  {
+   "tag": "pair:fillxstrap_length",
+   "vals": {
+    "fill": 0.5,
+    "strap_length": 0.0
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 6.46,
+     "verts_over_tol": 7,
+     "tri_overlaps": 23
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    }
+   }
+  },
+  {
+   "tag": "pair:fillxstrap_length",
+   "vals": {
+    "fill": 0.5,
+    "strap_length": 0.25
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 6.46,
+     "verts_over_tol": 7,
+     "tri_overlaps": 23
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    }
+   }
+  },
+  {
+   "tag": "pair:fillxstrap_length",
+   "vals": {
+    "fill": 0.5,
+    "strap_length": 0.5
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 6.46,
+     "verts_over_tol": 7,
+     "tri_overlaps": 23
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    }
+   }
+  },
+  {
+   "tag": "pair:fillxstrap_length",
+   "vals": {
+    "fill": 0.5,
+    "strap_length": 0.75
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 6.46,
+     "verts_over_tol": 7,
+     "tri_overlaps": 23
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    }
+   }
+  },
+  {
+   "tag": "pair:fillxstrap_length",
+   "vals": {
+    "fill": 0.5,
+    "strap_length": 1.0
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 6.46,
+     "verts_over_tol": 7,
+     "tri_overlaps": 23
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    }
+   }
+  },
+  {
+   "tag": "pair:fillxstrap_length",
+   "vals": {
+    "fill": 0.75,
+    "strap_length": 0.0
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 6.83,
+     "verts_over_tol": 9,
+     "tri_overlaps": 33
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 6.48,
+     "verts_over_tol": 6,
+     "tri_overlaps": 52
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 8.36,
+     "verts_over_tol": 12,
+     "tri_overlaps": 61
+    }
+   }
+  },
+  {
+   "tag": "pair:fillxstrap_length",
+   "vals": {
+    "fill": 0.75,
+    "strap_length": 0.25
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 6.83,
+     "verts_over_tol": 9,
+     "tri_overlaps": 33
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 6.48,
+     "verts_over_tol": 6,
+     "tri_overlaps": 52
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 8.36,
+     "verts_over_tol": 12,
+     "tri_overlaps": 61
+    }
+   }
+  },
+  {
+   "tag": "pair:fillxstrap_length",
+   "vals": {
+    "fill": 0.75,
+    "strap_length": 0.5
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 6.83,
+     "verts_over_tol": 9,
+     "tri_overlaps": 33
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 6.48,
+     "verts_over_tol": 6,
+     "tri_overlaps": 52
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 8.36,
+     "verts_over_tol": 12,
+     "tri_overlaps": 61
+    }
+   }
+  },
+  {
+   "tag": "pair:fillxstrap_length",
+   "vals": {
+    "fill": 0.75,
+    "strap_length": 0.75
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 6.83,
+     "verts_over_tol": 9,
+     "tri_overlaps": 33
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 6.48,
+     "verts_over_tol": 6,
+     "tri_overlaps": 52
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 8.36,
+     "verts_over_tol": 12,
+     "tri_overlaps": 61
+    }
+   }
+  },
+  {
+   "tag": "pair:fillxstrap_length",
+   "vals": {
+    "fill": 0.75,
+    "strap_length": 1.0
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 6.83,
+     "verts_over_tol": 9,
+     "tri_overlaps": 33
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 6.48,
+     "verts_over_tol": 6,
+     "tri_overlaps": 52
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 8.36,
+     "verts_over_tol": 12,
+     "tri_overlaps": 61
+    }
+   }
+  },
+  {
+   "tag": "pair:fillxstrap_length",
+   "vals": {
+    "fill": 1.0,
+    "strap_length": 0.0
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 5.67,
+     "verts_over_tol": 7,
+     "tri_overlaps": 31
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 3.57,
+     "verts_over_tol": 0,
+     "tri_overlaps": 42
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 5.27,
+     "verts_over_tol": 4,
+     "tri_overlaps": 44
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 13.69,
+     "verts_over_tol": 32,
+     "tri_overlaps": 60
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 15.3,
+     "verts_over_tol": 33,
+     "tri_overlaps": 96
+    }
+   }
+  },
+  {
+   "tag": "pair:fillxstrap_length",
+   "vals": {
+    "fill": 1.0,
+    "strap_length": 0.25
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 5.67,
+     "verts_over_tol": 7,
+     "tri_overlaps": 31
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 3.57,
+     "verts_over_tol": 0,
+     "tri_overlaps": 42
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 5.27,
+     "verts_over_tol": 4,
+     "tri_overlaps": 44
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 13.69,
+     "verts_over_tol": 32,
+     "tri_overlaps": 60
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 15.3,
+     "verts_over_tol": 33,
+     "tri_overlaps": 96
+    }
+   }
+  },
+  {
+   "tag": "pair:fillxstrap_length",
+   "vals": {
+    "fill": 1.0,
+    "strap_length": 0.5
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 5.67,
+     "verts_over_tol": 7,
+     "tri_overlaps": 31
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 3.57,
+     "verts_over_tol": 0,
+     "tri_overlaps": 42
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 5.27,
+     "verts_over_tol": 4,
+     "tri_overlaps": 44
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 13.69,
+     "verts_over_tol": 32,
+     "tri_overlaps": 60
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 15.3,
+     "verts_over_tol": 33,
+     "tri_overlaps": 96
+    }
+   }
+  },
+  {
+   "tag": "pair:fillxstrap_length",
+   "vals": {
+    "fill": 1.0,
+    "strap_length": 0.75
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 5.67,
+     "verts_over_tol": 7,
+     "tri_overlaps": 31
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 3.57,
+     "verts_over_tol": 0,
+     "tri_overlaps": 42
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 5.27,
+     "verts_over_tol": 4,
+     "tri_overlaps": 44
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 13.69,
+     "verts_over_tol": 32,
+     "tri_overlaps": 60
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 15.3,
+     "verts_over_tol": 33,
+     "tri_overlaps": 96
+    }
+   }
+  },
+  {
+   "tag": "pair:fillxstrap_length",
+   "vals": {
+    "fill": 1.0,
+    "strap_length": 1.0
+   },
+   "parts": {
+    "lid": {
+     "max_pen_mm": 5.67,
+     "verts_over_tol": 7,
+     "tri_overlaps": 31
+    },
+    "strap.L": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "strap.R": {
+     "max_pen_mm": 0.0,
+     "verts_over_tol": 0,
+     "tri_overlaps": 0
+    },
+    "lidstrap.L": {
+     "max_pen_mm": 3.57,
+     "verts_over_tol": 0,
+     "tri_overlaps": 42
+    },
+    "lidstrap.R": {
+     "max_pen_mm": 5.27,
+     "verts_over_tol": 4,
+     "tri_overlaps": 44
+    },
+    "buckle_m.L": {
+     "max_pen_mm": 13.69,
+     "verts_over_tol": 32,
+     "tri_overlaps": 60
+    },
+    "buckle_m.R": {
+     "max_pen_mm": 15.3,
+     "verts_over_tol": 33,
+     "tri_overlaps": 96
+    }
+   }
+  }
+ ]
+}

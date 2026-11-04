@@ -1,0 +1,833 @@
+{
+ "steps": 136,
+ "any_overlap": false,
+ "overlap_degs": [],
+ "min_clearance_mm": 0.319,
+ "worst": {
+  "deg_cmd": 56.0,
+  "deg_actual": 56.0,
+  "tri_overlaps": 0,
+  "min_clearance_mm": 0.319
+ },
+ "clamp_open_1.4_deg": 135.0,
+ "clamp_open_-0.3_deg": -0.0,
+ "max_tracking_error_deg": 0.0,
+ "rows": [
+  {
+   "deg_cmd": 0.0,
+   "deg_actual": -0.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.333
+  },
+  {
+   "deg_cmd": 1.0,
+   "deg_actual": 1.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.329
+  },
+  {
+   "deg_cmd": 2.0,
+   "deg_actual": 2.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.325
+  },
+  {
+   "deg_cmd": 3.0,
+   "deg_actual": 3.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.322
+  },
+  {
+   "deg_cmd": 4.0,
+   "deg_actual": 4.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.321
+  },
+  {
+   "deg_cmd": 5.0,
+   "deg_actual": 5.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.319
+  },
+  {
+   "deg_cmd": 6.0,
+   "deg_actual": 6.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.319
+  },
+  {
+   "deg_cmd": 7.0,
+   "deg_actual": 7.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.319
+  },
+  {
+   "deg_cmd": 8.0,
+   "deg_actual": 8.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.32
+  },
+  {
+   "deg_cmd": 9.0,
+   "deg_actual": 9.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.321
+  },
+  {
+   "deg_cmd": 10.0,
+   "deg_actual": 10.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.32
+  },
+  {
+   "deg_cmd": 11.0,
+   "deg_actual": 11.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.319
+  },
+  {
+   "deg_cmd": 12.0,
+   "deg_actual": 12.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.319
+  },
+  {
+   "deg_cmd": 13.0,
+   "deg_actual": 13.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.32
+  },
+  {
+   "deg_cmd": 14.0,
+   "deg_actual": 14.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.322
+  },
+  {
+   "deg_cmd": 15.0,
+   "deg_actual": 15.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.325
+  },
+  {
+   "deg_cmd": 16.0,
+   "deg_actual": 16.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.328
+  },
+  {
+   "deg_cmd": 17.0,
+   "deg_actual": 17.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.325
+  },
+  {
+   "deg_cmd": 18.0,
+   "deg_actual": 18.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.322
+  },
+  {
+   "deg_cmd": 19.0,
+   "deg_actual": 19.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.321
+  },
+  {
+   "deg_cmd": 20.0,
+   "deg_actual": 20.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.319
+  },
+  {
+   "deg_cmd": 21.0,
+   "deg_actual": 21.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.319
+  },
+  {
+   "deg_cmd": 22.0,
+   "deg_actual": 22.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.319
+  },
+  {
+   "deg_cmd": 23.0,
+   "deg_actual": 23.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.32
+  },
+  {
+   "deg_cmd": 24.0,
+   "deg_actual": 24.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.321
+  },
+  {
+   "deg_cmd": 25.0,
+   "deg_actual": 25.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.32
+  },
+  {
+   "deg_cmd": 26.0,
+   "deg_actual": 26.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.319
+  },
+  {
+   "deg_cmd": 27.0,
+   "deg_actual": 27.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.319
+  },
+  {
+   "deg_cmd": 28.0,
+   "deg_actual": 28.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.32
+  },
+  {
+   "deg_cmd": 29.0,
+   "deg_actual": 29.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.322
+  },
+  {
+   "deg_cmd": 30.0,
+   "deg_actual": 30.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.325
+  },
+  {
+   "deg_cmd": 31.0,
+   "deg_actual": 31.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.328
+  },
+  {
+   "deg_cmd": 32.0,
+   "deg_actual": 32.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.325
+  },
+  {
+   "deg_cmd": 33.0,
+   "deg_actual": 33.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.322
+  },
+  {
+   "deg_cmd": 34.0,
+   "deg_actual": 34.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.321
+  },
+  {
+   "deg_cmd": 35.0,
+   "deg_actual": 35.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.319
+  },
+  {
+   "deg_cmd": 36.0,
+   "deg_actual": 36.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.319
+  },
+  {
+   "deg_cmd": 37.0,
+   "deg_actual": 37.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.319
+  },
+  {
+   "deg_cmd": 38.0,
+   "deg_actual": 38.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.32
+  },
+  {
+   "deg_cmd": 39.0,
+   "deg_actual": 39.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.321
+  },
+  {
+   "deg_cmd": 40.0,
+   "deg_actual": 40.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.32
+  },
+  {
+   "deg_cmd": 41.0,
+   "deg_actual": 41.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.319
+  },
+  {
+   "deg_cmd": 42.0,
+   "deg_actual": 42.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.319
+  },
+  {
+   "deg_cmd": 43.0,
+   "deg_actual": 43.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.32
+  },
+  {
+   "deg_cmd": 44.0,
+   "deg_actual": 44.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.322
+  },
+  {
+   "deg_cmd": 45.0,
+   "deg_actual": 45.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.325
+  },
+  {
+   "deg_cmd": 46.0,
+   "deg_actual": 46.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.328
+  },
+  {
+   "deg_cmd": 47.0,
+   "deg_actual": 47.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.325
+  },
+  {
+   "deg_cmd": 48.0,
+   "deg_actual": 48.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.322
+  },
+  {
+   "deg_cmd": 49.0,
+   "deg_actual": 49.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.321
+  },
+  {
+   "deg_cmd": 50.0,
+   "deg_actual": 50.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.319
+  },
+  {
+   "deg_cmd": 51.0,
+   "deg_actual": 51.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.319
+  },
+  {
+   "deg_cmd": 52.0,
+   "deg_actual": 52.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.319
+  },
+  {
+   "deg_cmd": 53.0,
+   "deg_actual": 53.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.32
+  },
+  {
+   "deg_cmd": 54.0,
+   "deg_actual": 54.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.321
+  },
+  {
+   "deg_cmd": 55.0,
+   "deg_actual": 55.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.32
+  },
+  {
+   "deg_cmd": 56.0,
+   "deg_actual": 56.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.319
+  },
+  {
+   "deg_cmd": 57.0,
+   "deg_actual": 57.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.319
+  },
+  {
+   "deg_cmd": 58.0,
+   "deg_actual": 58.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.32
+  },
+  {
+   "deg_cmd": 59.0,
+   "deg_actual": 59.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.322
+  },
+  {
+   "deg_cmd": 60.0,
+   "deg_actual": 60.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.325
+  },
+  {
+   "deg_cmd": 61.0,
+   "deg_actual": 61.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.328
+  },
+  {
+   "deg_cmd": 62.0,
+   "deg_actual": 62.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.325
+  },
+  {
+   "deg_cmd": 63.0,
+   "deg_actual": 63.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.322
+  },
+  {
+   "deg_cmd": 64.0,
+   "deg_actual": 64.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.321
+  },
+  {
+   "deg_cmd": 65.0,
+   "deg_actual": 65.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.319
+  },
+  {
+   "deg_cmd": 66.0,
+   "deg_actual": 66.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.319
+  },
+  {
+   "deg_cmd": 67.0,
+   "deg_actual": 67.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.319
+  },
+  {
+   "deg_cmd": 68.0,
+   "deg_actual": 68.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.32
+  },
+  {
+   "deg_cmd": 69.0,
+   "deg_actual": 69.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.321
+  },
+  {
+   "deg_cmd": 70.0,
+   "deg_actual": 70.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.32
+  },
+  {
+   "deg_cmd": 71.0,
+   "deg_actual": 71.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.319
+  },
+  {
+   "deg_cmd": 72.0,
+   "deg_actual": 72.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.319
+  },
+  {
+   "deg_cmd": 73.0,
+   "deg_actual": 73.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.32
+  },
+  {
+   "deg_cmd": 74.0,
+   "deg_actual": 74.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.322
+  },
+  {
+   "deg_cmd": 75.0,
+   "deg_actual": 75.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.325
+  },
+  {
+   "deg_cmd": 76.0,
+   "deg_actual": 76.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.328
+  },
+  {
+   "deg_cmd": 77.0,
+   "deg_actual": 77.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.325
+  },
+  {
+   "deg_cmd": 78.0,
+   "deg_actual": 78.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.322
+  },
+  {
+   "deg_cmd": 79.0,
+   "deg_actual": 79.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.321
+  },
+  {
+   "deg_cmd": 80.0,
+   "deg_actual": 80.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.319
+  },
+  {
+   "deg_cmd": 81.0,
+   "deg_actual": 81.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.319
+  },
+  {
+   "deg_cmd": 82.0,
+   "deg_actual": 82.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.319
+  },
+  {
+   "deg_cmd": 83.0,
+   "deg_actual": 83.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.32
+  },
+  {
+   "deg_cmd": 84.0,
+   "deg_actual": 84.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.321
+  },
+  {
+   "deg_cmd": 85.0,
+   "deg_actual": 85.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.32
+  },
+  {
+   "deg_cmd": 86.0,
+   "deg_actual": 86.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.319
+  },
+  {
+   "deg_cmd": 87.0,
+   "deg_actual": 87.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.319
+  },
+  {
+   "deg_cmd": 88.0,
+   "deg_actual": 88.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.32
+  },
+  {
+   "deg_cmd": 89.0,
+   "deg_actual": 89.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.322
+  },
+  {
+   "deg_cmd": 90.0,
+   "deg_actual": 90.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.325
+  },
+  {
+   "deg_cmd": 91.0,
+   "deg_actual": 91.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.328
+  },
+  {
+   "deg_cmd": 92.0,
+   "deg_actual": 92.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.325
+  },
+  {
+   "deg_cmd": 93.0,
+   "deg_actual": 93.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.322
+  },
+  {
+   "deg_cmd": 94.0,
+   "deg_actual": 94.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.321
+  },
+  {
+   "deg_cmd": 95.0,
+   "deg_actual": 95.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.319
+  },
+  {
+   "deg_cmd": 96.0,
+   "deg_actual": 96.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.319
+  },
+  {
+   "deg_cmd": 97.0,
+   "deg_actual": 97.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.319
+  },
+  {
+   "deg_cmd": 98.0,
+   "deg_actual": 98.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.32
+  },
+  {
+   "deg_cmd": 99.0,
+   "deg_actual": 99.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.321
+  },
+  {
+   "deg_cmd": 100.0,
+   "deg_actual": 100.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.32
+  },
+  {
+   "deg_cmd": 101.0,
+   "deg_actual": 101.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.319
+  },
+  {
+   "deg_cmd": 102.0,
+   "deg_actual": 102.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.319
+  },
+  {
+   "deg_cmd": 103.0,
+   "deg_actual": 103.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.32
+  },
+  {
+   "deg_cmd": 104.0,
+   "deg_actual": 104.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.322
+  },
+  {
+   "deg_cmd": 105.0,
+   "deg_actual": 105.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.325
+  },
+  {
+   "deg_cmd": 106.0,
+   "deg_actual": 106.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.328
+  },
+  {
+   "deg_cmd": 107.0,
+   "deg_actual": 107.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.325
+  },
+  {
+   "deg_cmd": 108.0,
+   "deg_actual": 108.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.322
+  },
+  {
+   "deg_cmd": 109.0,
+   "deg_actual": 109.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.321
+  },
+  {
+   "deg_cmd": 110.0,
+   "deg_actual": 110.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.319
+  },
+  {
+   "deg_cmd": 111.0,
+   "deg_actual": 111.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.319
+  },
+  {
+   "deg_cmd": 112.0,
+   "deg_actual": 112.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.319
+  },
+  {
+   "deg_cmd": 113.0,
+   "deg_actual": 113.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.32
+  },
+  {
+   "deg_cmd": 114.0,
+   "deg_actual": 114.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.321
+  },
+  {
+   "deg_cmd": 115.0,
+   "deg_actual": 115.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.32
+  },
+  {
+   "deg_cmd": 116.0,
+   "deg_actual": 116.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.319
+  },
+  {
+   "deg_cmd": 117.0,
+   "deg_actual": 117.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.319
+  },
+  {
+   "deg_cmd": 118.0,
+   "deg_actual": 118.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.32
+  },
+  {
+   "deg_cmd": 119.0,
+   "deg_actual": 119.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.322
+  },
+  {
+   "deg_cmd": 120.0,
+   "deg_actual": 120.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.325
+  },
+  {
+   "deg_cmd": 121.0,
+   "deg_actual": 121.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.328
+  },
+  {
+   "deg_cmd": 122.0,
+   "deg_actual": 122.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.325
+  },
+  {
+   "deg_cmd": 123.0,
+   "deg_actual": 123.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.322
+  },
+  {
+   "deg_cmd": 124.0,
+   "deg_actual": 124.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.321
+  },
+  {
+   "deg_cmd": 125.0,
+   "deg_actual": 125.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.319
+  },
+  {
+   "deg_cmd": 126.0,
+   "deg_actual": 126.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.319
+  },
+  {
+   "deg_cmd": 127.0,
+   "deg_actual": 127.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.319
+  },
+  {
+   "deg_cmd": 128.0,
+   "deg_actual": 128.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.32
+  },
+  {
+   "deg_cmd": 129.0,
+   "deg_actual": 129.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.321
+  },
+  {
+   "deg_cmd": 130.0,
+   "deg_actual": 130.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.32
+  },
+  {
+   "deg_cmd": 131.0,
+   "deg_actual": 131.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.319
+  },
+  {
+   "deg_cmd": 132.0,
+   "deg_actual": 132.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.319
+  },
+  {
+   "deg_cmd": 133.0,
+   "deg_actual": 133.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.32
+  },
+  {
+   "deg_cmd": 134.0,
+   "deg_actual": 134.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.322
+  },
+  {
+   "deg_cmd": 135.0,
+   "deg_actual": 135.0,
+   "tri_overlaps": 0,
+   "min_clearance_mm": 0.325
+  }
+ ]
+}

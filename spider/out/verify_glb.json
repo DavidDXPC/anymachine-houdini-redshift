@@ -1,0 +1,98 @@
+{
+ "objects": 28,
+ "meshes": [
+  "Icosphere",
+  "chassis",
+  "coxa_L1",
+  "coxa_L2",
+  "coxa_L3",
+  "coxa_L4",
+  "coxa_R1",
+  "coxa_R2",
+  "coxa_R3",
+  "coxa_R4",
+  "femur_L1",
+  "femur_L2",
+  "femur_L3",
+  "femur_L4",
+  "femur_R1",
+  "femur_R2",
+  "femur_R3",
+  "femur_R4",
+  "shell",
+  "tibia_L1",
+  "tibia_L2",
+  "tibia_L3",
+  "tibia_L4",
+  "tibia_R1",
+  "tibia_R2",
+  "tibia_R3",
+  "tibia_R4"
+ ],
+ "bones": 34,
+ "actions": {
+  "crouch": [
+   1.0,
+   25.0
+  ],
+  "idle": [
+   1.0,
+   73.0
+  ],
+  "walk": [
+   1.0,
+   25.0
+  ]
+ },
+ "extras_keys": [
+  "anymachine",
+  "anymachine_chassis_hw",
+  "anymachine_params",
+  "body_height",
+  "crouch",
+  "duty",
+  "ik_blend",
+  "speed",
+  "step_height",
+  "step_length"
+ ],
+ "spec_chains": 8,
+ "foot_ball_verts": {
+  "L1": 266,
+  "L2": 266,
+  "L3": 266,
+  "L4": 266,
+  "R1": 266,
+  "R2": 266,
+  "R3": 266,
+  "R4": 266
+ },
+ "rest_foot_err_mm": 0.0483,
+ "walk": {
+  "frames": [
+   1.0,
+   25.0
+  ],
+  "sample_step": 0.5,
+  "max_foot_target_err_mm": 1.087,
+  "max_foot_slip_mm": 0.021
+ },
+ "idle": {
+  "frames": [
+   1.0,
+   73.0
+  ],
+  "sample_step": 1.0,
+  "max_foot_target_err_mm": 0.048,
+  "max_foot_slip_mm": 0.0
+ },
+ "crouch": {
+  "frames": [
+   1.0,
+   25.0
+  ],
+  "sample_step": 1.0,
+  "max_foot_target_err_mm": 0.048,
+  "max_foot_slip_mm": 0.001
+ }
+}

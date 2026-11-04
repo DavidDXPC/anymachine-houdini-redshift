@@ -1,0 +1,20 @@
+{
+  "endpoint": "openai/gpt-image-2.5/sunburst/text-to-image",
+  "request_id": "01a1a442-b552-7ea0-8966-bb4c1a10caf5",
+  "seconds": 25.026021299999996,
+  "input": {
+    "prompt": "Studio product shot of a single unbranded roll-top waterproof backpack standing upright on the floor, three-quarter front view from slightly above. Matte mustard yellow coated fabric body, black base, clean welded seams. The top opening is flattened and rolled down twice into a neat horizontal roll across the top, with a black plastic side-release buckle at each end of the roll clipped to a short black webbing strap on each side of the bag. Padded black shoulder straps visible at the back. plain seamless light grey studio background and floor, soft even lighting, soft contact shadow, whole backpack in frame with margin, no logos, no text, no brand marks, product photography",
+    "image_size": "landscape_16_9",
+    "quality": "high",
+    "num_images": 1,
+    "output_format": "png"
+  },
+  "files": [
+    {
+      "file": "C:\\Users\\apek-anna\\Developer\\anymachine\\backpacks\\refs\\rolltop_0.png",
+      "url": "https://v3b.fal.media/files/b/0ab10e67/C7K5mbwLtP4MZizP08tQ6_fja9EMip.png",
+      "width": null,
+      "height": null
+    }
+  ]
+}

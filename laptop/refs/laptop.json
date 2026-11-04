@@ -1,0 +1,20 @@
+{
+  "endpoint": "openai/gpt-image-2.5/sunburst/text-to-image",
+  "request_id": "01a1a409-5b33-7ef2-ab78-fd0cddaa59b9",
+  "seconds": 20.982083000000003,
+  "input": {
+    "prompt": "Studio product shot of a generic modern unbranded laptop, open at about 110 degrees, three-quarter front view from slightly above, matte space-grey aluminium unibody, thin bezels, black screen turned off, full keyboard and trackpad visible, clearly visible hinge between base and lid, no logos, no text, plain seamless light grey background, soft even lighting, whole laptop in frame with margin",
+    "image_size": "landscape_16_9",
+    "quality": "high",
+    "num_images": 1,
+    "output_format": "png"
+  },
+  "files": [
+    {
+      "file": "C:\\Users\\apek-anna\\Developer\\anymachine\\refs\\laptop_0.png",
+      "url": "https://v3b.fal.media/files/b/0ab10cf0/A64tIMbmnZDOQlgCjsHUa_tHx0i2no.png",
+      "width": null,
+      "height": null
+    }
+  ]
+}

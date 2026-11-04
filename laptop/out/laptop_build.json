@@ -1,0 +1,70 @@
+{
+ "gen": "tripo",
+ "glb": "C:/Users/apek-anna/Developer/anymachine/gen/tripo/model.glb",
+ "gen_dims_m": [
+  0.32,
+  0.2831,
+  0.1971
+ ],
+ "deck_slope_deg": 1.05,
+ "gen_lid_open_deg": 112.2,
+ "hinge_y": 0.0621,
+ "hinge_deck_z": 0.009,
+ "gen_lid_len": 0.2031,
+ "gen_lid_width": 0.3155,
+ "gen_lid_thickness_approx": 0.0069,
+ "deck_top_front": 0.0086,
+ "y_back_bottom_shell": 0.0854,
+ "gen_boundary_edges": 47776,
+ "shell_m": [
+  0.3194,
+  0.2267,
+  0.0048,
+  0.009
+ ],
+ "alu_sampled_from": "Color_03487e7d-f3a3-474c-8fe6-a7b492fb5433",
+ "alu_rgb": [
+  0.087,
+  0.09,
+  0.093
+ ],
+ "skin_faces_kept": 41307,
+ "skin_max_above_deck_mm": 0.96,
+ "closed_gap_mm": 1.46,
+ "pedestal_h_mm": 1.16,
+ "base_dims_m": [
+  0.3194,
+  0.227,
+  0.0105
+ ],
+ "joint": {
+  "name": "lid_hinge",
+  "type": "hinge",
+  "parent": "base",
+  "child": [
+   "lid",
+   "screen"
+  ],
+  "axis_origin_m": [
+   0.0,
+   0.08293,
+   0.01331
+  ],
+  "axis_dir": [
+   1,
+   0,
+   0
+  ],
+  "limits_deg": [
+   0,
+   135.0
+  ],
+  "param": "open",
+  "param_map": "angle_deg = open * 135.0"
+ },
+ "lid_built": {
+  "W": 0.3155,
+  "L": 0.2237,
+  "t": 0.005
+ }
+}
