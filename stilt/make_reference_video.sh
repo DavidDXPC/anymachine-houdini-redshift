@@ -12,14 +12,18 @@ fades() { echo "fade=t=in:st=0:d=0.25,fade=t=out:st=$(awk "BEGIN{print $1-0.25}"
 FIT="scale=1280:720:force_original_aspect_ratio=decrease,pad=1280:720:(ow-iw)/2:(oh-ih)/2:color=black"
 FILL="scale=1280:720:force_original_aspect_ratio=increase,crop=1280:720"
 # the showcase has grey side bars for its first 14 s (the assembly); paint them black
-BARS="drawbox=x=0:y=0:w=352:h=ih:color=black:t=fill:enable='lt(t,13.99)',drawbox=x=928:y=0:w=352:h=ih:color=black:t=fill:enable='lt(t,13.99)'"
+BARS="drawbox=x=0:y=0:w=352:h=ih:color=black:t=fill,drawbox=x=928:y=0:w=352:h=ih:color=black:t=fill"
 
-clip()  { seg; ffmpeg -v error -y -i "$1" -vf "$BARS,fps=30,$FIT,$(fades $2)" -t $2 $ENC "$o"; }
+clip()  { seg; ffmpeg -v error -y -ss $2 -t $3 -i "$1" -vf "${4:+$4,}fps=30,$FIT,$(fades $3)" -t $3 $ENC "$o"; }
 still() { seg; ffmpeg -v error -y -loop 1 -i "$1" -vf "$2,$(fades $3)" -t $3 $ENC "$o"; }
 
-# 1. the Blender video itself
-D=$(ffprobe -v error -show_entries format=duration -of csv=p=0 renders/stilt_showcase.mp4)
-clip renders/stilt_showcase.mp4 $D
+# 1. the Blender video: walk first, then the build, then reach and head turn
+# (stilt_showcase.mp4 is build 0-14 s, walk 14-30.5, reach 30.5-43.5, head 43.5-53.5)
+V=renders/stilt_showcase.mp4
+clip $V 14 16.5
+clip $V 0 14 "$BARS"
+clip $V 30.5 13
+clip $V 43.5 10
 
 # 2. the references that were made
 still refs/concept_sheet.png "$FILL" 4
