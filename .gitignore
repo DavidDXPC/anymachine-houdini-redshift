@@ -13,3 +13,13 @@ __pycache__/
 *.mp4
 */out/anim*/
 */out/*/anim*/
+
+# stilt ships its result and four videos
+!stilt/stilt.blend
+!stilt/stilt.glb
+!stilt/renders/*.mp4
+
+stilt/renders/_tmp/
+stilt/renders/frames*/
+stilt/textures/
+*.fbx

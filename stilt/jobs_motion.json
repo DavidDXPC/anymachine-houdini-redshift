@@ -1,0 +1,21 @@
+{
+  "prefix": "A colossal 30-metre-tall four-legged walking machine, the 'Stilt-walker': four extremely long thin stilt legs, a small high body under pale ceramic shells, two long thin manipulator arms with three-fingered hands, a long neck and a small flat head with blue sensor lights. A tiny orange human figure on the ground shows the scale. It is immensely heavy and enormous, so everything moves SLOWLY with great inertia, like a giraffe or a heron filmed in slow motion: no fast or jerky movement, no bouncing. Rigid hard-surface mechanical parts that do not bend, stretch or morph; the joints (hip, knee, ankle, shoulder, elbow, wrist) hinge like real machinery. Fixed locked-off camera, no camera movement, no zoom, no cuts. Plain grey studio background and floor, soft even light. The design, proportions and number of limbs stay exactly as in the first frame.",
+  "jobs": [
+    {
+      "out": "refs/motion/walk_side.mp4", "image": "refs/motion/walk_side_start.png", "duration": 10,
+      "prompt": "Side view. The machine walks slowly and carefully to the left across the frame with a heron-like gait: it lifts ONE foot at a time high off the ground, the leg folds at knee and ankle, swings forward in a slow arc, and the foot is placed down gently and precisely before the next leg moves. The other three feet stay planted and do not slide. The high body sways slightly over the planted feet and stays almost level; the long neck and head make small counter-movements to stay steady; the arms hang and swing a little."
+    },
+    {
+      "out": "refs/motion/walk_3q.mp4", "image": "refs/motion/walk_3q_start.png", "duration": 10,
+      "prompt": "Three-quarter front view. The machine walks slowly and carefully toward the camera's left with a heron-like gait: ONE foot at a time lifts high, the leg folds, swings forward in a slow arc and is set down gently and precisely. The other three feet stay planted and do not slide. The body shifts its weight sideways over the planted feet before each step; the neck and head stay steady; the arms hang and sway slightly."
+    },
+    {
+      "out": "refs/motion/reach_3q.mp4", "image": "refs/motion/reach_3q_start.png", "duration": 10,
+      "prompt": "Three-quarter front view. All four feet stay planted. The machine slowly bends its four legs to lower its body, tips its body forward and curves its long neck down to look at the ground, while its left arm unfolds and reaches slowly all the way down to the ground near the tiny human. The big three-fingered hand opens its fingers wide just above the ground, holds still for a moment, then gently closes. Delicate, careful, curious, like a giraffe lowering itself to drink."
+    },
+    {
+      "out": "refs/motion/head_turn.mp4", "image": "refs/motion/head_start.png", "duration": 8,
+      "prompt": "Close view of the head and upper neck. The head starts drooped and dark, lights off. It slowly lifts and levels as the machine wakes; the cluster of small blue sensor lights flickers and comes on. Then the head turns slowly to look to one side, pauses, turns slowly to the other side, pauses, and returns to centre. The neck flexes smoothly; the thin antenna blades at the back of the head tremble very slightly."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "prefix": "Reference images: first the approved orthographic LEFT SIDE view of the giant robot 'Stilt-walker', then its FRONT view, then its turnaround sheet, then the original concept art. The Stilt-walker is about 30 m tall: four very long thin stilt legs, a compact body carried high with a shield-shaped ceramic chest plate and two drooping wing-like ceramic shoulder shells, two long manipulator arms with three-fingered hands, a long slender neck and a small flat wedge-shaped head with a cluster of small BLUE sensor lights. Clean and intact, no moss, no plants, no dirt. Pale grey / off-white ceramic shells with fine panel seams over black carbon and dark graphite frame. This image is a CLOSE-UP hard-surface reference plate for a 3D modeller: a photoreal studio product render of one area of this exact machine, large in frame, sharp, every mechanical part readable and physically plausible as real heavy engineering at giant scale (a joint housing is 1.5 to 2.5 m across): bolted flanges, bearing rings, pins, forked clevises, hydraulic pistons with polished rods, braided cable tendons running over pulleys and through guides, panel seams, inspection hatches, small bolts, vents, stand-off brackets that hold the ceramic shells off the carbon frame. Keep the same shapes and proportions as in the side and front views; do not redesign. Plain flat neutral mid-grey background (#8a8a8a), soft even studio lighting, no scenery, no people, no text, no labels, no arrows, no border.",
+  "jobs": [
+    {
+      "out": "refs/closeup_hip.png", "size": "square_hd",
+      "refs": ["refs/stilt_left.png", "refs/stilt_front.png", "refs/stilt_turnaround.png", "refs/concept_side.png"],
+      "prompt": "CLOSE-UP of ONE HIP JOINT, three-quarter view from below and outside: where a leg meets the underside of the body. Show the dark carbon body frame with a bolted hip mount, a two-axis hip (a yoke that swings the leg outward on a fore-aft pin, carrying a big round drum joint that swings the leg forward and back), the round motor housing with a ring of bolts and a ceramic cap, the top of the thigh: a slim tapering carbon box beam with a long ceramic shell plate held on stand-offs, a hydraulic piston from the body to the thigh, and two braided cable tendons leaving a pulley on the hip and running down along the back of the thigh."
+    },
+    {
+      "out": "refs/closeup_knee.png", "size": "square_hd",
+      "refs": ["refs/stilt_left.png", "refs/stilt_front.png", "refs/stilt_turnaround.png", "refs/concept_side.png"],
+      "prompt": "CLOSE-UP of ONE KNEE JOINT, side view slightly three-quarter: the middle of a leg. The thigh beam comes in from the top and ends in a fork (clevis); the shin beam comes up from below and ends in a tongue; one large pin with bolted bearing caps joins them; a round ceramic knee cap disc covers the outside; a slim hydraulic piston bridges the back of the knee from thigh to shin; two braided cable tendons pass over a grooved pulley on the knee axis and continue down the shin through small guide brackets. Ceramic shell plates on the front of the thigh and the shin stop short of the joint, showing dark carbon structure with lightening slots."
+    },
+    {
+      "out": "refs/closeup_foot.png", "size": "square_hd",
+      "refs": ["refs/stilt_left.png", "refs/stilt_front.png", "refs/stilt_turnaround.png", "refs/concept_side.png"],
+      "prompt": "CLOSE-UP of ONE ANKLE AND FOOT standing on flat ground, three-quarter view from eye level: the bottom of a leg. The slim shin beam with its ceramic shin plate comes down to a compact ankle: a ball-like two-axis joint in a dark carbon housing with a ceramic collar; below it a small foot with three slender pointed toes spread like a heron's foot (two toes forward and outward, one toe back), each toe a tapering ceramic-capped carbon blade hinged on a pin with a small piston above it and a dark rubber sole pad beneath. The two cable tendons from the shin end in clamps on the ankle housing. A small simple grey human silhouette, 1.75 m tall, stands beside the foot for scale and reaches the top of the ankle joint."
+    },
+    {
+      "out": "refs/closeup_hand.png", "size": "square_hd",
+      "refs": ["refs/stilt_left.png", "refs/stilt_front.png", "refs/stilt_turnaround.png", "refs/concept_front.png"],
+      "prompt": "CLOSE-UP of ONE HAND AND WRIST, three-quarter view, the hand open and relaxed, hanging down: a slim forearm beam with a ceramic shell ends in a compact wrist (a pitch hinge and a roll bearing ring), then a small dark carbon palm block, then THREE long slender fingers arranged like a tripod (two fingers side by side and one opposing thumb), each finger with three segments joined by pin hinges with small round bolted caps, pale ceramic shells on the back of each segment, dark carbon underneath, a thin tendon cable along each finger, and a tapered dark fingertip with a rubber pad. The fingers are about 3.5 m long. Delicate and precise, like a surgical instrument made huge."
+    },
+    {
+      "out": "refs/closeup_head.png", "size": "landscape_4_3",
+      "refs": ["refs/stilt_left.png", "refs/stilt_front.png", "refs/stilt_turnaround.png", "refs/concept_head.png"],
+      "prompt": "CLOSE-UP of the HEAD AND UPPER NECK, side view slightly three-quarter from the front, head pointing left: the small flat elongated wedge-shaped head, a pale ceramic upper shell like a flattened blade with a centre seam and a few fine panel lines, a dark carbon underside, a recessed dark sensor bay at the front tip holding a cluster of seven small round lenses glowing BLUE in an irregular group, two thin antenna whiskers at the back, and the head mounted on a yoke with a pitch pin on top of a yaw bearing ring. Below it the top of the long slender neck: stacked dark carbon vertebra segments, each with a small ceramic dorsal plate, joined by pin joints, with thin cables and a pair of slim pistons running alongside."
+    },
+    {
+      "out": "refs/closeup_shoulder.png", "size": "square_hd",
+      "refs": ["refs/stilt_left.png", "refs/stilt_front.png", "refs/stilt_turnaround.png", "refs/concept_front.png"],
+      "prompt": "CLOSE-UP of the BODY, ONE SHOULDER AND THE NECK BASE, three-quarter front view from slightly below: the pointed shield-shaped ceramic chest plate with a centre seam, the dark carbon core body behind it with vents and cable looms, one broad drooping wing-like ceramic shoulder shell held on dark struts, and under it the arm's shoulder joint: a two-axis joint (a round drum that swings the arm forward and back on a yoke that swings it outward), the top of the slim upper-arm beam with its ceramic shell, a small piston, and the base of the neck rising from a bolted turret ring on the front top of the body."
+    },
+    {
+      "out": "refs/closeup_elbow.png", "size": "square_hd",
+      "refs": ["refs/stilt_left.png", "refs/stilt_front.png", "refs/stilt_turnaround.png", "refs/concept_front.png"],
+      "prompt": "CLOSE-UP of ONE ELBOW JOINT of a manipulator arm, side view slightly three-quarter: the upper-arm beam comes in from the top and ends in a fork; the forearm beam ends in a tongue; a pin with small bolted bearing caps joins them, with a small round ceramic cap disc on the outside; a slim hydraulic piston bridges the inside of the elbow; a thin cable loom in clips crosses the joint in a relaxed loop. Narrow ceramic shell plates on the outer faces of both beams stop short of the joint. Lighter and finer than a leg joint: the beams are about 0.45 m thick."
+    }
+  ]
+}

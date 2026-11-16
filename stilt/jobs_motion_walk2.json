@@ -1,0 +1,13 @@
+{
+  "prefix": "A colossal 30-metre-tall four-legged walking machine, the 'Stilt-walker': four extremely long thin stilt legs, a small high body under pale ceramic shells, two long thin manipulator arms with three-fingered hands, a long neck and a small flat head with blue sensor lights. A tiny orange human figure on the ground shows the scale. It is immensely heavy, so it moves slowly with great inertia, filmed like a giraffe in slow motion. Rigid hard-surface mechanical parts that do not bend, stretch or morph; the joints hinge like real machinery. Fixed locked-off camera, no camera movement, no zoom, no cuts. Plain grey studio background and floor, soft even light. The design, proportions and number of limbs stay exactly as in the first frame.",
+  "jobs": [
+    {
+      "out": "refs/motion/walk2_side.mp4", "image": "refs/motion/walk_side_start.png", "duration": 10,
+      "prompt": "Side view. The machine walks steadily to the left across the frame with the natural, flowing walk of a giraffe: a continuous four-beat gait in which the legs overlap. The hind leg and the front leg on the same side swing forward almost together, one just after the other, then the two legs of the other side follow, so two or three feet are on the ground at any moment and the body never stops moving forward. Long relaxed strides, planted feet do not slide. The high body sways gently from side to side over the supporting legs, and the long neck and head rock slowly forward and back in rhythm with the steps."
+    },
+    {
+      "out": "refs/motion/walk2_3q.mp4", "image": "refs/motion/walk_3q_start.png", "duration": 10,
+      "prompt": "Three-quarter front view. The machine walks steadily forward toward the left of the camera with the natural, flowing walk of a giraffe: a continuous four-beat gait in which the legs overlap. The hind leg and the front leg on the same side swing forward almost together, then the two legs of the other side follow, so the body never stops moving forward. Long relaxed strides, planted feet do not slide. The body sways from side to side over the supporting legs; the long neck and head rock slowly in rhythm; the arms hang and swing loosely."
+    }
+  ]
+}

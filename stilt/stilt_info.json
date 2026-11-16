@@ -1,0 +1,4932 @@
+{
+ "tris": 351896,
+ "size": [
+  16.87,
+  12.47,
+  29.98
+ ],
+ "bbox": [
+  [
+   -7.47,
+   -6.23,
+   0.0
+  ],
+  [
+   9.4,
+   6.23,
+   29.98
+  ]
+ ],
+ "atlas": true,
+ "baked": true,
+ "bake": {
+  "size": 4096,
+  "sets": [
+   "ceramic",
+   "frame"
+  ],
+  "reused": true
+ },
+ "lengths": {
+  "thigh": 8.55,
+  "shin": 7.55,
+  "tarsus": 5.05,
+  "upperarm": 7.0,
+  "forearm": 6.8,
+  "palm": 1.25,
+  "fingers": {
+   "a": [
+    1.5,
+    1.2,
+    0.9
+   ],
+   "b": [
+    1.5,
+    1.2,
+    0.9
+   ],
+   "c": [
+    1.3,
+    1.1,
+    0.9
+   ]
+  }
+ },
+ "actuators": {
+  "hip": {
+   "top_bone": "hip",
+   "bot_bone": "thigh",
+   "top_anchor": [
+    2.1,
+    -0.35
+   ],
+   "bot_anchor": [
+    0.75,
+    -3.6
+   ],
+   "sampled_stroke": [
+    2.556,
+    4.387
+   ],
+   "min_lever": 1.949,
+   "cylinder": 2.256,
+   "rod": 2.374,
+   "telescopes": true
+  },
+  "knee": {
+   "top_bone": "thigh",
+   "bot_bone": "shin",
+   "top_anchor": [
+    -0.95,
+    -5.050000000000001
+   ],
+   "bot_anchor": [
+    -0.85,
+    -1.4
+   ],
+   "sampled_stroke": [
+    2.722,
+    4.687
+   ],
+   "min_lever": 1.085,
+   "cylinder": 2.422,
+   "rod": 2.545,
+   "telescopes": true
+  },
+  "ankle": {
+   "top_bone": "shin",
+   "bot_bone": "tarsus",
+   "top_anchor": [
+    0.9,
+    -4.25
+   ],
+   "bot_anchor": [
+    0.65,
+    -1.1
+   ],
+   "sampled_stroke": [
+    2.673,
+    4.233
+   ],
+   "min_lever": 0.879,
+   "cylinder": 2.273,
+   "rod": 2.24,
+   "telescopes": true
+  },
+  "elbow": {
+   "top_bone": "upperarm",
+   "bot_bone": "forearm",
+   "top_anchor": [
+    0.8,
+    -4.4
+   ],
+   "bot_anchor": [
+    0.6,
+    -1.4
+   ],
+   "sampled_stroke": [
+    3.192,
+    3.717
+   ],
+   "min_lever": 0.969,
+   "cylinder": 2.892,
+   "rod": 1.212,
+   "telescopes": true
+  }
+ },
+ "actions": {
+  "A_Stilt_Walk": {
+   "frames": 133,
+   "strokes": {
+    "hip": [
+     3.826,
+     4.387
+    ],
+    "knee": [
+     3.862,
+     4.514
+    ],
+    "ankle": [
+     2.893,
+     4.092
+    ],
+    "elbow": [
+     3.623,
+     3.71
+    ]
+   }
+  },
+  "A_Stilt_Reach": {
+   "frames": 312,
+   "strokes": {
+    "hip": [
+     2.556,
+     4.32
+    ],
+    "knee": [
+     2.722,
+     4.64
+    ],
+    "ankle": [
+     2.673,
+     4.195
+    ],
+    "elbow": [
+     3.192,
+     3.718
+    ]
+   }
+  },
+  "A_Stilt_HeadTurn": {
+   "frames": 240,
+   "strokes": {
+    "hip": [
+     4.085,
+     4.35
+    ],
+    "knee": [
+     4.291,
+     4.687
+    ],
+    "ankle": [
+     3.911,
+     4.233
+    ],
+    "elbow": [
+     3.624,
+     3.711
+    ]
+   }
+  }
+ },
+ "warnings": [],
+ "walk": {
+  "frames": 132,
+  "stride": 6.0,
+  "swing": 0.34,
+  "lift": 1.9,
+  "phase": {
+   "RL": 0.0,
+   "FL": 0.14,
+   "RR": 0.5,
+   "FR": 0.64
+  }
+ },
+ "bones": {
+  "root": {
+   "parent": null,
+   "head": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "x_axis": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "y_axis": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "z_axis": [
+    0.0,
+    0.0,
+    1.0
+   ]
+  },
+  "pelvis": {
+   "parent": "root",
+   "head": [
+    0.0,
+    0.0,
+    21.1
+   ],
+   "x_axis": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "y_axis": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "z_axis": [
+    0.0,
+    0.0,
+    1.0
+   ]
+  },
+  "hip_FL": {
+   "parent": "pelvis",
+   "head": [
+    1.6,
+    1.9,
+    22.65
+   ],
+   "x_axis": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "y_axis": [
+    -0.0,
+    1.0,
+    0.027
+   ],
+   "z_axis": [
+    -0.0,
+    -0.027,
+    1.0
+   ]
+  },
+  "thigh_FL": {
+   "parent": "hip_FL",
+   "head": [
+    1.6,
+    1.937,
+    21.3
+   ],
+   "x_axis": [
+    0.968,
+    -0.007,
+    0.252
+   ],
+   "y_axis": [
+    -0.0,
+    1.0,
+    0.027
+   ],
+   "z_axis": [
+    -0.252,
+    -0.026,
+    0.967
+   ]
+  },
+  "shin_FL": {
+   "parent": "thigh_FL",
+   "head": [
+    3.757,
+    2.162,
+    13.03
+   ],
+   "x_axis": [
+    1.0,
+    0.0,
+    -0.005
+   ],
+   "y_axis": [
+    -0.0,
+    1.0,
+    0.027
+   ],
+   "z_axis": [
+    0.005,
+    -0.027,
+    1.0
+   ]
+  },
+  "tarsus_FL": {
+   "parent": "shin_FL",
+   "head": [
+    3.719,
+    2.367,
+    5.483
+   ],
+   "x_axis": [
+    0.967,
+    -0.007,
+    0.254
+   ],
+   "y_axis": [
+    -0.0,
+    1.0,
+    0.027
+   ],
+   "z_axis": [
+    -0.254,
+    -0.026,
+    0.967
+   ]
+  },
+  "foot_FL": {
+   "parent": "tarsus_FL",
+   "head": [
+    5.0,
+    2.5,
+    0.6
+   ],
+   "x_axis": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "y_axis": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "z_axis": [
+    0.0,
+    0.0,
+    1.0
+   ]
+  },
+  "toe_a_FL": {
+   "parent": "foot_FL",
+   "head": [
+    5.567,
+    2.943,
+    0.27
+   ],
+   "x_axis": [
+    0.788,
+    0.616,
+    0.0
+   ],
+   "y_axis": [
+    -0.616,
+    0.788,
+    0.0
+   ],
+   "z_axis": [
+    0.0,
+    0.0,
+    1.0
+   ]
+  },
+  "toe_b_FL": {
+   "parent": "foot_FL",
+   "head": [
+    5.567,
+    2.057,
+    0.27
+   ],
+   "x_axis": [
+    0.788,
+    -0.616,
+    0.0
+   ],
+   "y_axis": [
+    0.616,
+    0.788,
+    0.0
+   ],
+   "z_axis": [
+    0.0,
+    0.0,
+    1.0
+   ]
+  },
+  "toe_c_FL": {
+   "parent": "foot_FL",
+   "head": [
+    4.28,
+    2.5,
+    0.27
+   ],
+   "x_axis": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "y_axis": [
+    -0.0,
+    -1.0,
+    0.0
+   ],
+   "z_axis": [
+    0.0,
+    0.0,
+    1.0
+   ]
+  },
+  "hip_FR": {
+   "parent": "pelvis",
+   "head": [
+    1.6,
+    -1.9,
+    22.65
+   ],
+   "x_axis": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "y_axis": [
+    0.0,
+    1.0,
+    -0.027
+   ],
+   "z_axis": [
+    -0.0,
+    0.027,
+    1.0
+   ]
+  },
+  "thigh_FR": {
+   "parent": "hip_FR",
+   "head": [
+    1.6,
+    -1.937,
+    21.3
+   ],
+   "x_axis": [
+    0.968,
+    0.007,
+    0.252
+   ],
+   "y_axis": [
+    0.0,
+    1.0,
+    -0.027
+   ],
+   "z_axis": [
+    -0.252,
+    0.026,
+    0.967
+   ]
+  },
+  "shin_FR": {
+   "parent": "thigh_FR",
+   "head": [
+    3.757,
+    -2.162,
+    13.03
+   ],
+   "x_axis": [
+    1.0,
+    -0.0,
+    -0.005
+   ],
+   "y_axis": [
+    0.0,
+    1.0,
+    -0.027
+   ],
+   "z_axis": [
+    0.005,
+    0.027,
+    1.0
+   ]
+  },
+  "tarsus_FR": {
+   "parent": "shin_FR",
+   "head": [
+    3.719,
+    -2.367,
+    5.483
+   ],
+   "x_axis": [
+    0.967,
+    0.007,
+    0.254
+   ],
+   "y_axis": [
+    0.0,
+    1.0,
+    -0.027
+   ],
+   "z_axis": [
+    -0.254,
+    0.026,
+    0.967
+   ]
+  },
+  "foot_FR": {
+   "parent": "tarsus_FR",
+   "head": [
+    5.0,
+    -2.5,
+    0.6
+   ],
+   "x_axis": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "y_axis": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "z_axis": [
+    0.0,
+    0.0,
+    1.0
+   ]
+  },
+  "toe_a_FR": {
+   "parent": "foot_FR",
+   "head": [
+    5.567,
+    -2.943,
+    0.27
+   ],
+   "x_axis": [
+    0.788,
+    -0.616,
+    0.0
+   ],
+   "y_axis": [
+    0.616,
+    0.788,
+    0.0
+   ],
+   "z_axis": [
+    0.0,
+    0.0,
+    1.0
+   ]
+  },
+  "toe_b_FR": {
+   "parent": "foot_FR",
+   "head": [
+    5.567,
+    -2.057,
+    0.27
+   ],
+   "x_axis": [
+    0.788,
+    0.616,
+    0.0
+   ],
+   "y_axis": [
+    -0.616,
+    0.788,
+    0.0
+   ],
+   "z_axis": [
+    0.0,
+    0.0,
+    1.0
+   ]
+  },
+  "toe_c_FR": {
+   "parent": "foot_FR",
+   "head": [
+    4.28,
+    -2.5,
+    0.27
+   ],
+   "x_axis": [
+    -1.0,
+    -0.0,
+    0.0
+   ],
+   "y_axis": [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   "z_axis": [
+    0.0,
+    0.0,
+    1.0
+   ]
+  },
+  "hip_RL": {
+   "parent": "pelvis",
+   "head": [
+    -2.0,
+    2.2,
+    22.25
+   ],
+   "x_axis": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "y_axis": [
+    0.0,
+    -0.994,
+    -0.11
+   ],
+   "z_axis": [
+    -0.0,
+    -0.11,
+    0.994
+   ]
+  },
+  "thigh_RL": {
+   "parent": "hip_RL",
+   "head": [
+    -2.0,
+    2.349,
+    20.908
+   ],
+   "x_axis": [
+    -0.951,
+    -0.034,
+    0.308
+   ],
+   "y_axis": [
+    0.0,
+    -0.994,
+    -0.11
+   ],
+   "z_axis": [
+    0.31,
+    -0.105,
+    0.945
+   ]
+  },
+  "shin_RL": {
+   "parent": "thigh_RL",
+   "head": [
+    -4.648,
+    3.244,
+    12.828
+   ],
+   "x_axis": [
+    -0.994,
+    0.012,
+    -0.108
+   ],
+   "y_axis": [
+    0.0,
+    -0.994,
+    -0.11
+   ],
+   "z_axis": [
+    -0.109,
+    -0.11,
+    0.988
+   ]
+  },
+  "tarsus_RL": {
+   "parent": "shin_RL",
+   "head": [
+    -3.825,
+    4.071,
+    5.369
+   ],
+   "x_axis": [
+    -0.95,
+    -0.034,
+    0.31
+   ],
+   "y_axis": [
+    0.0,
+    -0.994,
+    -0.11
+   ],
+   "z_axis": [
+    0.312,
+    -0.105,
+    0.944
+   ]
+  },
+  "foot_RL": {
+   "parent": "tarsus_RL",
+   "head": [
+    -5.4,
+    4.6,
+    0.6
+   ],
+   "x_axis": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "y_axis": [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   "z_axis": [
+    0.0,
+    0.0,
+    1.0
+   ]
+  },
+  "toe_a_RL": {
+   "parent": "foot_RL",
+   "head": [
+    -5.967,
+    5.043,
+    0.27
+   ],
+   "x_axis": [
+    -0.788,
+    0.616,
+    0.0
+   ],
+   "y_axis": [
+    -0.616,
+    -0.788,
+    0.0
+   ],
+   "z_axis": [
+    0.0,
+    0.0,
+    1.0
+   ]
+  },
+  "toe_b_RL": {
+   "parent": "foot_RL",
+   "head": [
+    -5.967,
+    4.157,
+    0.27
+   ],
+   "x_axis": [
+    -0.788,
+    -0.616,
+    0.0
+   ],
+   "y_axis": [
+    0.616,
+    -0.788,
+    0.0
+   ],
+   "z_axis": [
+    0.0,
+    0.0,
+    1.0
+   ]
+  },
+  "toe_c_RL": {
+   "parent": "foot_RL",
+   "head": [
+    -4.68,
+    4.6,
+    0.27
+   ],
+   "x_axis": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "y_axis": [
+    -0.0,
+    1.0,
+    0.0
+   ],
+   "z_axis": [
+    0.0,
+    0.0,
+    1.0
+   ]
+  },
+  "hip_RR": {
+   "parent": "pelvis",
+   "head": [
+    -2.0,
+    -2.2,
+    22.25
+   ],
+   "x_axis": [
+    -1.0,
+    -0.0,
+    -0.0
+   ],
+   "y_axis": [
+    0.0,
+    -0.994,
+    0.11
+   ],
+   "z_axis": [
+    -0.0,
+    0.11,
+    0.994
+   ]
+  },
+  "thigh_RR": {
+   "parent": "hip_RR",
+   "head": [
+    -2.0,
+    -2.349,
+    20.908
+   ],
+   "x_axis": [
+    -0.951,
+    0.034,
+    0.308
+   ],
+   "y_axis": [
+    0.0,
+    -0.994,
+    0.11
+   ],
+   "z_axis": [
+    0.31,
+    0.105,
+    0.945
+   ]
+  },
+  "shin_RR": {
+   "parent": "thigh_RR",
+   "head": [
+    -4.648,
+    -3.244,
+    12.828
+   ],
+   "x_axis": [
+    -0.994,
+    -0.012,
+    -0.108
+   ],
+   "y_axis": [
+    0.0,
+    -0.994,
+    0.11
+   ],
+   "z_axis": [
+    -0.109,
+    0.11,
+    0.988
+   ]
+  },
+  "tarsus_RR": {
+   "parent": "shin_RR",
+   "head": [
+    -3.825,
+    -4.071,
+    5.369
+   ],
+   "x_axis": [
+    -0.95,
+    0.034,
+    0.31
+   ],
+   "y_axis": [
+    0.0,
+    -0.994,
+    0.11
+   ],
+   "z_axis": [
+    0.312,
+    0.105,
+    0.944
+   ]
+  },
+  "foot_RR": {
+   "parent": "tarsus_RR",
+   "head": [
+    -5.4,
+    -4.6,
+    0.6
+   ],
+   "x_axis": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "y_axis": [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   "z_axis": [
+    0.0,
+    0.0,
+    1.0
+   ]
+  },
+  "toe_a_RR": {
+   "parent": "foot_RR",
+   "head": [
+    -5.967,
+    -5.043,
+    0.27
+   ],
+   "x_axis": [
+    -0.788,
+    -0.616,
+    0.0
+   ],
+   "y_axis": [
+    0.616,
+    -0.788,
+    0.0
+   ],
+   "z_axis": [
+    0.0,
+    0.0,
+    1.0
+   ]
+  },
+  "toe_b_RR": {
+   "parent": "foot_RR",
+   "head": [
+    -5.967,
+    -4.157,
+    0.27
+   ],
+   "x_axis": [
+    -0.788,
+    0.616,
+    0.0
+   ],
+   "y_axis": [
+    -0.616,
+    -0.788,
+    0.0
+   ],
+   "z_axis": [
+    0.0,
+    0.0,
+    1.0
+   ]
+  },
+  "toe_c_RR": {
+   "parent": "foot_RR",
+   "head": [
+    -4.68,
+    -4.6,
+    0.27
+   ],
+   "x_axis": [
+    1.0,
+    -0.0,
+    0.0
+   ],
+   "y_axis": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "z_axis": [
+    0.0,
+    0.0,
+    1.0
+   ]
+  },
+  "shoulder_L": {
+   "parent": "pelvis",
+   "head": [
+    2.6,
+    3.3,
+    24.3
+   ],
+   "x_axis": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "y_axis": [
+    -0.0,
+    0.997,
+    0.079
+   ],
+   "z_axis": [
+    -0.0,
+    -0.079,
+    0.997
+   ]
+  },
+  "upperarm_L": {
+   "parent": "shoulder_L",
+   "head": [
+    2.6,
+    3.379,
+    23.303
+   ],
+   "x_axis": [
+    0.993,
+    0.009,
+    -0.12
+   ],
+   "y_axis": [
+    -0.0,
+    0.997,
+    0.079
+   ],
+   "z_axis": [
+    0.12,
+    -0.078,
+    0.99
+   ]
+  },
+  "forearm_L": {
+   "parent": "upperarm_L",
+   "head": [
+    1.76,
+    3.927,
+    16.375
+   ],
+   "x_axis": [
+    0.972,
+    -0.018,
+    0.233
+   ],
+   "y_axis": [
+    -0.0,
+    0.997,
+    0.079
+   ],
+   "z_axis": [
+    -0.234,
+    -0.077,
+    0.969
+   ]
+  },
+  "hand_L": {
+   "parent": "forearm_L",
+   "head": [
+    3.35,
+    4.449,
+    9.785
+   ],
+   "x_axis": [
+    0.972,
+    -0.018,
+    0.233
+   ],
+   "y_axis": [
+    0.0,
+    0.997,
+    0.079
+   ],
+   "z_axis": [
+    -0.234,
+    -0.077,
+    0.969
+   ]
+  },
+  "finger_a1_L": {
+   "parent": "hand_L",
+   "head": [
+    3.623,
+    4.944,
+    8.6
+   ],
+   "x_axis": [
+    -0.917,
+    0.052,
+    -0.395
+   ],
+   "y_axis": [
+    0.029,
+    -0.98,
+    -0.196
+   ],
+   "z_axis": [
+    -0.398,
+    -0.191,
+    0.897
+   ]
+  },
+  "finger_a2_L": {
+   "parent": "finger_a1_L",
+   "head": [
+    4.22,
+    5.231,
+    7.254
+   ],
+   "x_axis": [
+    -0.794,
+    0.097,
+    -0.6
+   ],
+   "y_axis": [
+    0.029,
+    -0.98,
+    -0.196
+   ],
+   "z_axis": [
+    -0.608,
+    -0.173,
+    0.775
+   ]
+  },
+  "finger_a3_L": {
+   "parent": "finger_a2_L",
+   "head": [
+    4.949,
+    5.439,
+    6.324
+   ],
+   "x_axis": [
+    -0.65,
+    0.131,
+    -0.748
+   ],
+   "y_axis": [
+    0.029,
+    -0.98,
+    -0.196
+   ],
+   "z_axis": [
+    -0.759,
+    -0.149,
+    0.633
+   ]
+  },
+  "finger_b1_L": {
+   "parent": "hand_L",
+   "head": [
+    3.623,
+    4.146,
+    8.537
+   ],
+   "x_axis": [
+    -0.917,
+    0.01,
+    -0.398
+   ],
+   "y_axis": [
+    -0.029,
+    -0.999,
+    0.04
+   ],
+   "z_axis": [
+    -0.398,
+    0.048,
+    0.916
+   ]
+  },
+  "finger_b2_L": {
+   "parent": "finger_b1_L",
+   "head": [
+    4.22,
+    4.074,
+    7.162
+   ],
+   "x_axis": [
+    -0.794,
+    -0.002,
+    -0.608
+   ],
+   "y_axis": [
+    -0.029,
+    -0.999,
+    0.04
+   ],
+   "z_axis": [
+    -0.608,
+    0.049,
+    0.793
+   ]
+  },
+  "finger_b3_L": {
+   "parent": "finger_b2_L",
+   "head": [
+    4.949,
+    4.016,
+    6.211
+   ],
+   "x_axis": [
+    -0.65,
+    -0.012,
+    -0.76
+   ],
+   "y_axis": [
+    -0.029,
+    -0.999,
+    0.04
+   ],
+   "z_axis": [
+    -0.759,
+    0.048,
+    0.649
+   ]
+  },
+  "finger_c1_L": {
+   "parent": "hand_L",
+   "head": [
+    3.877,
+    4.513,
+    8.968
+   ],
+   "x_axis": [
+    0.814,
+    -0.046,
+    0.579
+   ],
+   "y_axis": [
+    0.0,
+    0.997,
+    0.079
+   ],
+   "z_axis": [
+    -0.581,
+    -0.064,
+    0.811
+   ]
+  },
+  "finger_c2_L": {
+   "parent": "finger_c1_L",
+   "head": [
+    4.632,
+    4.597,
+    7.913
+   ],
+   "x_axis": [
+    0.93,
+    -0.029,
+    0.366
+   ],
+   "y_axis": [
+    0.0,
+    0.997,
+    0.079
+   ],
+   "z_axis": [
+    -0.367,
+    -0.073,
+    0.927
+   ]
+  },
+  "finger_c3_L": {
+   "parent": "finger_c2_L",
+   "head": [
+    5.036,
+    4.678,
+    6.893
+   ],
+   "x_axis": [
+    0.986,
+    -0.013,
+    0.165
+   ],
+   "y_axis": [
+    0.0,
+    0.997,
+    0.079
+   ],
+   "z_axis": [
+    -0.166,
+    -0.078,
+    0.983
+   ]
+  },
+  "shoulder_R": {
+   "parent": "pelvis",
+   "head": [
+    2.6,
+    -3.3,
+    24.3
+   ],
+   "x_axis": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "y_axis": [
+    0.0,
+    0.997,
+    -0.079
+   ],
+   "z_axis": [
+    -0.0,
+    0.079,
+    0.997
+   ]
+  },
+  "upperarm_R": {
+   "parent": "shoulder_R",
+   "head": [
+    2.6,
+    -3.379,
+    23.303
+   ],
+   "x_axis": [
+    0.993,
+    -0.009,
+    -0.12
+   ],
+   "y_axis": [
+    0.0,
+    0.997,
+    -0.079
+   ],
+   "z_axis": [
+    0.12,
+    0.078,
+    0.99
+   ]
+  },
+  "forearm_R": {
+   "parent": "upperarm_R",
+   "head": [
+    1.76,
+    -3.927,
+    16.375
+   ],
+   "x_axis": [
+    0.972,
+    0.018,
+    0.233
+   ],
+   "y_axis": [
+    0.0,
+    0.997,
+    -0.079
+   ],
+   "z_axis": [
+    -0.234,
+    0.077,
+    0.969
+   ]
+  },
+  "hand_R": {
+   "parent": "forearm_R",
+   "head": [
+    3.35,
+    -4.449,
+    9.785
+   ],
+   "x_axis": [
+    0.972,
+    0.018,
+    0.233
+   ],
+   "y_axis": [
+    -0.0,
+    0.997,
+    -0.079
+   ],
+   "z_axis": [
+    -0.234,
+    0.077,
+    0.969
+   ]
+  },
+  "finger_a1_R": {
+   "parent": "hand_R",
+   "head": [
+    3.623,
+    -4.944,
+    8.6
+   ],
+   "x_axis": [
+    -0.917,
+    -0.052,
+    -0.395
+   ],
+   "y_axis": [
+    -0.029,
+    -0.98,
+    0.196
+   ],
+   "z_axis": [
+    -0.398,
+    0.191,
+    0.897
+   ]
+  },
+  "finger_a2_R": {
+   "parent": "finger_a1_R",
+   "head": [
+    4.22,
+    -5.231,
+    7.254
+   ],
+   "x_axis": [
+    -0.794,
+    -0.097,
+    -0.6
+   ],
+   "y_axis": [
+    -0.029,
+    -0.98,
+    0.196
+   ],
+   "z_axis": [
+    -0.608,
+    0.173,
+    0.775
+   ]
+  },
+  "finger_a3_R": {
+   "parent": "finger_a2_R",
+   "head": [
+    4.949,
+    -5.439,
+    6.324
+   ],
+   "x_axis": [
+    -0.65,
+    -0.131,
+    -0.748
+   ],
+   "y_axis": [
+    -0.029,
+    -0.98,
+    0.196
+   ],
+   "z_axis": [
+    -0.759,
+    0.149,
+    0.633
+   ]
+  },
+  "finger_b1_R": {
+   "parent": "hand_R",
+   "head": [
+    3.623,
+    -4.146,
+    8.537
+   ],
+   "x_axis": [
+    -0.917,
+    -0.01,
+    -0.398
+   ],
+   "y_axis": [
+    0.029,
+    -0.999,
+    -0.04
+   ],
+   "z_axis": [
+    -0.398,
+    -0.048,
+    0.916
+   ]
+  },
+  "finger_b2_R": {
+   "parent": "finger_b1_R",
+   "head": [
+    4.22,
+    -4.074,
+    7.162
+   ],
+   "x_axis": [
+    -0.794,
+    0.002,
+    -0.608
+   ],
+   "y_axis": [
+    0.029,
+    -0.999,
+    -0.04
+   ],
+   "z_axis": [
+    -0.608,
+    -0.049,
+    0.793
+   ]
+  },
+  "finger_b3_R": {
+   "parent": "finger_b2_R",
+   "head": [
+    4.949,
+    -4.016,
+    6.211
+   ],
+   "x_axis": [
+    -0.65,
+    0.012,
+    -0.76
+   ],
+   "y_axis": [
+    0.029,
+    -0.999,
+    -0.04
+   ],
+   "z_axis": [
+    -0.759,
+    -0.048,
+    0.649
+   ]
+  },
+  "finger_c1_R": {
+   "parent": "hand_R",
+   "head": [
+    3.877,
+    -4.513,
+    8.968
+   ],
+   "x_axis": [
+    0.814,
+    0.046,
+    0.579
+   ],
+   "y_axis": [
+    -0.0,
+    0.997,
+    -0.079
+   ],
+   "z_axis": [
+    -0.581,
+    0.064,
+    0.811
+   ]
+  },
+  "finger_c2_R": {
+   "parent": "finger_c1_R",
+   "head": [
+    4.632,
+    -4.597,
+    7.913
+   ],
+   "x_axis": [
+    0.93,
+    0.029,
+    0.366
+   ],
+   "y_axis": [
+    -0.0,
+    0.997,
+    -0.079
+   ],
+   "z_axis": [
+    -0.367,
+    0.073,
+    0.927
+   ]
+  },
+  "finger_c3_R": {
+   "parent": "finger_c2_R",
+   "head": [
+    5.036,
+    -4.678,
+    6.893
+   ],
+   "x_axis": [
+    0.986,
+    0.013,
+    0.165
+   ],
+   "y_axis": [
+    -0.0,
+    0.997,
+    -0.079
+   ],
+   "z_axis": [
+    -0.166,
+    0.078,
+    0.983
+   ]
+  },
+  "neck_01": {
+   "parent": "pelvis",
+   "head": [
+    2.9,
+    0.0,
+    24.4
+   ],
+   "x_axis": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "y_axis": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "z_axis": [
+    0.0,
+    0.0,
+    1.0
+   ]
+  },
+  "neck_02": {
+   "parent": "neck_01",
+   "head": [
+    3.2,
+    0.0,
+    25.45
+   ],
+   "x_axis": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "y_axis": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "z_axis": [
+    0.0,
+    0.0,
+    1.0
+   ]
+  },
+  "neck_03": {
+   "parent": "neck_02",
+   "head": [
+    3.7,
+    0.0,
+    26.45
+   ],
+   "x_axis": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "y_axis": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "z_axis": [
+    0.0,
+    0.0,
+    1.0
+   ]
+  },
+  "neck_04": {
+   "parent": "neck_03",
+   "head": [
+    4.35,
+    0.0,
+    27.35
+   ],
+   "x_axis": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "y_axis": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "z_axis": [
+    0.0,
+    0.0,
+    1.0
+   ]
+  },
+  "neck_05": {
+   "parent": "neck_04",
+   "head": [
+    5.05,
+    0.0,
+    28.0
+   ],
+   "x_axis": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "y_axis": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "z_axis": [
+    0.0,
+    0.0,
+    1.0
+   ]
+  },
+  "head_yaw": {
+   "parent": "neck_05",
+   "head": [
+    5.8,
+    0.0,
+    28.5
+   ],
+   "x_axis": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "y_axis": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "z_axis": [
+    0.0,
+    0.0,
+    1.0
+   ]
+  },
+  "head": {
+   "parent": "head_yaw",
+   "head": [
+    5.8,
+    0.0,
+    28.85
+   ],
+   "x_axis": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "y_axis": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "z_axis": [
+    0.0,
+    0.0,
+    1.0
+   ]
+  },
+  "sensor": {
+   "parent": "head",
+   "head": [
+    8.0,
+    0.0,
+    28.9
+   ],
+   "x_axis": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "y_axis": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "z_axis": [
+    0.0,
+    0.0,
+    1.0
+   ]
+  },
+  "ik_foot_root": {
+   "parent": "root",
+   "head": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "x_axis": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "y_axis": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "z_axis": [
+    0.0,
+    0.0,
+    1.0
+   ]
+  },
+  "ik_hand_root": {
+   "parent": "root",
+   "head": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "x_axis": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "y_axis": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "z_axis": [
+    0.0,
+    0.0,
+    1.0
+   ]
+  },
+  "ik_foot_FL": {
+   "parent": "ik_foot_root",
+   "head": [
+    5.0,
+    2.5,
+    0.6
+   ],
+   "x_axis": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "y_axis": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "z_axis": [
+    0.0,
+    0.0,
+    1.0
+   ]
+  },
+  "ik_foot_FR": {
+   "parent": "ik_foot_root",
+   "head": [
+    5.0,
+    -2.5,
+    0.6
+   ],
+   "x_axis": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "y_axis": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "z_axis": [
+    0.0,
+    0.0,
+    1.0
+   ]
+  },
+  "ik_foot_RL": {
+   "parent": "ik_foot_root",
+   "head": [
+    -5.4,
+    4.6,
+    0.6
+   ],
+   "x_axis": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "y_axis": [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   "z_axis": [
+    0.0,
+    0.0,
+    1.0
+   ]
+  },
+  "ik_foot_RR": {
+   "parent": "ik_foot_root",
+   "head": [
+    -5.4,
+    -4.6,
+    0.6
+   ],
+   "x_axis": [
+    -1.0,
+    0.0,
+    0.0
+   ],
+   "y_axis": [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   "z_axis": [
+    0.0,
+    0.0,
+    1.0
+   ]
+  },
+  "ik_hand_L": {
+   "parent": "ik_hand_root",
+   "head": [
+    3.35,
+    4.449,
+    9.785
+   ],
+   "x_axis": [
+    0.972,
+    -0.018,
+    0.233
+   ],
+   "y_axis": [
+    0.0,
+    0.997,
+    0.079
+   ],
+   "z_axis": [
+    -0.234,
+    -0.077,
+    0.969
+   ]
+  },
+  "ik_hand_R": {
+   "parent": "ik_hand_root",
+   "head": [
+    3.35,
+    -4.449,
+    9.785
+   ],
+   "x_axis": [
+    0.972,
+    0.018,
+    0.233
+   ],
+   "y_axis": [
+    -0.0,
+    0.997,
+    -0.079
+   ],
+   "z_axis": [
+    -0.234,
+    0.077,
+    0.969
+   ]
+  },
+  "act_hip_top_FL": {
+   "parent": "hip_FL",
+   "head": [
+    3.7,
+    1.91,
+    22.3
+   ],
+   "x_axis": [
+    0.994,
+    0.003,
+    -0.108
+   ],
+   "y_axis": [
+    -0.0,
+    1.0,
+    0.027
+   ],
+   "z_axis": [
+    0.108,
+    -0.027,
+    0.994
+   ]
+  },
+  "act_hip_bot_FL": {
+   "parent": "thigh_FL",
+   "head": [
+    3.234,
+    2.026,
+    18.007
+   ],
+   "x_axis": [
+    0.994,
+    0.003,
+    -0.108
+   ],
+   "y_axis": [
+    -0.0,
+    1.0,
+    0.027
+   ],
+   "z_axis": [
+    0.108,
+    -0.027,
+    0.994
+   ]
+  },
+  "act_hip_top_FR": {
+   "parent": "hip_FR",
+   "head": [
+    3.7,
+    -1.91,
+    22.3
+   ],
+   "x_axis": [
+    0.994,
+    -0.003,
+    -0.108
+   ],
+   "y_axis": [
+    0.0,
+    1.0,
+    -0.027
+   ],
+   "z_axis": [
+    0.108,
+    0.027,
+    0.994
+   ]
+  },
+  "act_hip_bot_FR": {
+   "parent": "thigh_FR",
+   "head": [
+    3.234,
+    -2.026,
+    18.007
+   ],
+   "x_axis": [
+    0.994,
+    -0.003,
+    -0.108
+   ],
+   "y_axis": [
+    0.0,
+    1.0,
+    -0.027
+   ],
+   "z_axis": [
+    0.108,
+    0.027,
+    0.994
+   ]
+  },
+  "act_hip_top_RL": {
+   "parent": "hip_RL",
+   "head": [
+    -4.1,
+    2.239,
+    21.902
+   ],
+   "x_axis": [
+    -0.998,
+    0.007,
+    -0.064
+   ],
+   "y_axis": [
+    0.0,
+    -0.994,
+    -0.11
+   ],
+   "z_axis": [
+    -0.065,
+    -0.11,
+    0.992
+   ]
+  },
+  "act_hip_bot_RL": {
+   "parent": "thigh_RL",
+   "head": [
+    -3.828,
+    2.7,
+    17.737
+   ],
+   "x_axis": [
+    -0.998,
+    0.007,
+    -0.064
+   ],
+   "y_axis": [
+    0.0,
+    -0.994,
+    -0.11
+   ],
+   "z_axis": [
+    -0.065,
+    -0.11,
+    0.992
+   ]
+  },
+  "act_hip_top_RR": {
+   "parent": "hip_RR",
+   "head": [
+    -4.1,
+    -2.239,
+    21.902
+   ],
+   "x_axis": [
+    -0.998,
+    -0.007,
+    -0.064
+   ],
+   "y_axis": [
+    0.0,
+    -0.994,
+    0.11
+   ],
+   "z_axis": [
+    -0.065,
+    0.11,
+    0.992
+   ]
+  },
+  "act_hip_bot_RR": {
+   "parent": "thigh_RR",
+   "head": [
+    -3.828,
+    -2.7,
+    17.737
+   ],
+   "x_axis": [
+    -0.998,
+    -0.007,
+    -0.064
+   ],
+   "y_axis": [
+    0.0,
+    -0.994,
+    0.11
+   ],
+   "z_axis": [
+    -0.065,
+    0.11,
+    0.992
+   ]
+  },
+  "act_knee_top_FL": {
+   "parent": "thigh_FL",
+   "head": [
+    1.955,
+    2.076,
+    16.176
+   ],
+   "x_axis": [
+    0.979,
+    -0.006,
+    0.204
+   ],
+   "y_axis": [
+    -0.0,
+    1.0,
+    0.027
+   ],
+   "z_axis": [
+    -0.204,
+    -0.027,
+    0.979
+   ]
+  },
+  "act_knee_bot_FL": {
+   "parent": "shin_FL",
+   "head": [
+    2.9,
+    2.2,
+    11.635
+   ],
+   "x_axis": [
+    0.979,
+    -0.006,
+    0.204
+   ],
+   "y_axis": [
+    -0.0,
+    1.0,
+    0.027
+   ],
+   "z_axis": [
+    -0.204,
+    -0.027,
+    0.979
+   ]
+  },
+  "act_knee_top_FR": {
+   "parent": "thigh_FR",
+   "head": [
+    1.955,
+    -2.076,
+    16.176
+   ],
+   "x_axis": [
+    0.979,
+    0.006,
+    0.204
+   ],
+   "y_axis": [
+    0.0,
+    1.0,
+    -0.027
+   ],
+   "z_axis": [
+    -0.204,
+    0.027,
+    0.979
+   ]
+  },
+  "act_knee_bot_FR": {
+   "parent": "shin_FR",
+   "head": [
+    2.9,
+    -2.2,
+    11.635
+   ],
+   "x_axis": [
+    0.979,
+    0.006,
+    0.204
+   ],
+   "y_axis": [
+    0.0,
+    1.0,
+    -0.027
+   ],
+   "z_axis": [
+    -0.204,
+    0.027,
+    0.979
+   ]
+  },
+  "act_knee_top_RL": {
+   "parent": "thigh_RL",
+   "head": [
+    -2.661,
+    2.91,
+    15.843
+   ],
+   "x_axis": [
+    -0.975,
+    -0.025,
+    0.221
+   ],
+   "y_axis": [
+    0.0,
+    -0.994,
+    -0.11
+   ],
+   "z_axis": [
+    0.223,
+    -0.107,
+    0.969
+   ]
+  },
+  "act_knee_bot_RL": {
+   "parent": "shin_RL",
+   "head": [
+    -3.65,
+    3.388,
+    11.537
+   ],
+   "x_axis": [
+    -0.975,
+    -0.025,
+    0.221
+   ],
+   "y_axis": [
+    0.0,
+    -0.994,
+    -0.11
+   ],
+   "z_axis": [
+    0.223,
+    -0.107,
+    0.969
+   ]
+  },
+  "act_knee_top_RR": {
+   "parent": "thigh_RR",
+   "head": [
+    -2.661,
+    -2.91,
+    15.843
+   ],
+   "x_axis": [
+    -0.975,
+    0.025,
+    0.221
+   ],
+   "y_axis": [
+    0.0,
+    -0.994,
+    0.11
+   ],
+   "z_axis": [
+    0.223,
+    0.107,
+    0.969
+   ]
+  },
+  "act_knee_bot_RR": {
+   "parent": "shin_RR",
+   "head": [
+    -3.65,
+    -3.388,
+    11.537
+   ],
+   "x_axis": [
+    -0.975,
+    0.025,
+    0.221
+   ],
+   "y_axis": [
+    0.0,
+    -0.994,
+    0.11
+   ],
+   "z_axis": [
+    0.223,
+    0.107,
+    0.969
+   ]
+  },
+  "act_ankle_top_FL": {
+   "parent": "shin_FL",
+   "head": [
+    4.635,
+    2.277,
+    8.777
+   ],
+   "x_axis": [
+    1.0,
+    0.0,
+    -0.002
+   ],
+   "y_axis": [
+    -0.0,
+    1.0,
+    0.027
+   ],
+   "z_axis": [
+    0.002,
+    -0.027,
+    1.0
+   ]
+  },
+  "act_ankle_bot_FL": {
+   "parent": "tarsus_FL",
+   "head": [
+    4.627,
+    2.392,
+    4.584
+   ],
+   "x_axis": [
+    1.0,
+    0.0,
+    -0.002
+   ],
+   "y_axis": [
+    -0.0,
+    1.0,
+    0.027
+   ],
+   "z_axis": [
+    0.002,
+    -0.027,
+    1.0
+   ]
+  },
+  "act_ankle_top_FR": {
+   "parent": "shin_FR",
+   "head": [
+    4.635,
+    -2.277,
+    8.777
+   ],
+   "x_axis": [
+    1.0,
+    -0.0,
+    -0.002
+   ],
+   "y_axis": [
+    0.0,
+    1.0,
+    -0.027
+   ],
+   "z_axis": [
+    0.002,
+    0.027,
+    1.0
+   ]
+  },
+  "act_ankle_bot_FR": {
+   "parent": "tarsus_FR",
+   "head": [
+    4.627,
+    -2.392,
+    4.584
+   ],
+   "x_axis": [
+    1.0,
+    -0.0,
+    -0.002
+   ],
+   "y_axis": [
+    0.0,
+    1.0,
+    -0.027
+   ],
+   "z_axis": [
+    0.002,
+    0.027,
+    1.0
+   ]
+  },
+  "act_ankle_top_RL": {
+   "parent": "shin_RL",
+   "head": [
+    -5.079,
+    3.721,
+    8.532
+   ],
+   "x_axis": [
+    -0.997,
+    0.008,
+    -0.072
+   ],
+   "y_axis": [
+    0.0,
+    -0.994,
+    -0.11
+   ],
+   "z_axis": [
+    -0.073,
+    -0.11,
+    0.991
+   ]
+  },
+  "act_ankle_bot_RL": {
+   "parent": "tarsus_RL",
+   "head": [
+    -4.785,
+    4.164,
+    4.532
+   ],
+   "x_axis": [
+    -0.997,
+    0.008,
+    -0.072
+   ],
+   "y_axis": [
+    0.0,
+    -0.994,
+    -0.11
+   ],
+   "z_axis": [
+    -0.073,
+    -0.11,
+    0.991
+   ]
+  },
+  "act_ankle_top_RR": {
+   "parent": "shin_RR",
+   "head": [
+    -5.079,
+    -3.721,
+    8.532
+   ],
+   "x_axis": [
+    -0.997,
+    -0.008,
+    -0.072
+   ],
+   "y_axis": [
+    0.0,
+    -0.994,
+    0.11
+   ],
+   "z_axis": [
+    -0.073,
+    0.11,
+    0.991
+   ]
+  },
+  "act_ankle_bot_RR": {
+   "parent": "tarsus_RR",
+   "head": [
+    -4.785,
+    -4.164,
+    4.532
+   ],
+   "x_axis": [
+    -0.997,
+    -0.008,
+    -0.072
+   ],
+   "y_axis": [
+    0.0,
+    -0.994,
+    0.11
+   ],
+   "z_axis": [
+    -0.073,
+    0.11,
+    0.991
+   ]
+  },
+  "act_elbow_top_L": {
+   "parent": "upperarm_L",
+   "head": [
+    2.866,
+    3.731,
+    18.853
+   ],
+   "x_axis": [
+    0.999,
+    0.004,
+    -0.053
+   ],
+   "y_axis": [
+    -0.0,
+    0.997,
+    0.079
+   ],
+   "z_axis": [
+    0.053,
+    -0.079,
+    0.995
+   ]
+  },
+  "act_elbow_bot_L": {
+   "parent": "forearm_L",
+   "head": [
+    2.671,
+    4.024,
+    15.158
+   ],
+   "x_axis": [
+    0.999,
+    0.004,
+    -0.053
+   ],
+   "y_axis": [
+    -0.0,
+    0.997,
+    0.079
+   ],
+   "z_axis": [
+    0.053,
+    -0.079,
+    0.995
+   ]
+  },
+  "act_elbow_top_R": {
+   "parent": "upperarm_R",
+   "head": [
+    2.866,
+    -3.731,
+    18.853
+   ],
+   "x_axis": [
+    0.999,
+    -0.004,
+    -0.053
+   ],
+   "y_axis": [
+    0.0,
+    0.997,
+    -0.079
+   ],
+   "z_axis": [
+    0.053,
+    0.079,
+    0.995
+   ]
+  },
+  "act_elbow_bot_R": {
+   "parent": "forearm_R",
+   "head": [
+    2.671,
+    -4.024,
+    15.158
+   ],
+   "x_axis": [
+    0.999,
+    -0.004,
+    -0.053
+   ],
+   "y_axis": [
+    0.0,
+    0.997,
+    -0.079
+   ],
+   "z_axis": [
+    0.053,
+    0.079,
+    0.995
+   ]
+  }
+ },
+ "parts": [
+  {
+   "name": "Hip_Yoke_FL",
+   "bone": "hip_FL",
+   "tris": 3528,
+   "unique": true,
+   "origin": [
+    1.6,
+    1.9,
+    22.65
+   ],
+   "materials": [
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Hip_Cap_FL",
+   "bone": "hip_FL",
+   "tris": 1104,
+   "unique": true,
+   "origin": [
+    1.6,
+    1.9,
+    22.65
+   ],
+   "materials": [
+    "M_Stilt_Ceramic",
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Thigh_Beam_FL",
+   "bone": "thigh_FL",
+   "tris": 8024,
+   "unique": true,
+   "origin": [
+    1.6,
+    1.937,
+    21.3
+   ],
+   "materials": [
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Knee_Cap_FL",
+   "bone": "thigh_FL",
+   "tris": 1208,
+   "unique": true,
+   "origin": [
+    1.6,
+    1.937,
+    21.3
+   ],
+   "materials": [
+    "M_Stilt_Ceramic",
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Thigh_Shell_FL",
+   "bone": "thigh_FL",
+   "tris": 4592,
+   "unique": true,
+   "origin": [
+    1.6,
+    1.937,
+    21.3
+   ],
+   "materials": [
+    "M_Stilt_Ceramic",
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Thigh_Tendons_FL",
+   "bone": "thigh_FL",
+   "tris": 1848,
+   "unique": true,
+   "origin": [
+    1.6,
+    1.937,
+    21.3
+   ],
+   "materials": [
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Shin_Beam_FL",
+   "bone": "shin_FL",
+   "tris": 8028,
+   "unique": true,
+   "origin": [
+    3.757,
+    2.162,
+    13.03
+   ],
+   "materials": [
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Ankle_Cap_FL",
+   "bone": "shin_FL",
+   "tris": 1104,
+   "unique": true,
+   "origin": [
+    3.757,
+    2.162,
+    13.03
+   ],
+   "materials": [
+    "M_Stilt_Ceramic",
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Shin_Shell_FL",
+   "bone": "shin_FL",
+   "tris": 4524,
+   "unique": true,
+   "origin": [
+    3.757,
+    2.162,
+    13.03
+   ],
+   "materials": [
+    "M_Stilt_Ceramic",
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Shin_Tendons_FL",
+   "bone": "shin_FL",
+   "tris": 1848,
+   "unique": true,
+   "origin": [
+    3.757,
+    2.162,
+    13.03
+   ],
+   "materials": [
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Tarsus_Beam_FL",
+   "bone": "tarsus_FL",
+   "tris": 5208,
+   "unique": true,
+   "origin": [
+    3.719,
+    2.367,
+    5.483
+   ],
+   "materials": [
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Tarsus_Shell_FL",
+   "bone": "tarsus_FL",
+   "tris": 3612,
+   "unique": true,
+   "origin": [
+    3.719,
+    2.367,
+    5.483
+   ],
+   "materials": [
+    "M_Stilt_Ceramic",
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Tarsus_Tendons_FL",
+   "bone": "tarsus_FL",
+   "tris": 808,
+   "unique": true,
+   "origin": [
+    3.719,
+    2.367,
+    5.483
+   ],
+   "materials": [
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Foot_Block_FL",
+   "bone": "foot_FL",
+   "tris": 1484,
+   "unique": true,
+   "origin": [
+    5.0,
+    2.5,
+    0.6
+   ],
+   "materials": [
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Foot_Collar_FL",
+   "bone": "foot_FL",
+   "tris": 672,
+   "unique": true,
+   "origin": [
+    5.0,
+    2.5,
+    0.6
+   ],
+   "materials": [
+    "M_Stilt_Ceramic",
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Toe_Blade_A_FL",
+   "bone": "toe_a_FL",
+   "tris": 524,
+   "unique": true,
+   "origin": [
+    5.567,
+    2.943,
+    0.27
+   ],
+   "materials": [
+    "M_Stilt_Frame",
+    "M_Stilt_Ceramic"
+   ]
+  },
+  {
+   "name": "Toe_Blade_B_FL",
+   "bone": "toe_b_FL",
+   "tris": 524,
+   "unique": true,
+   "origin": [
+    5.567,
+    2.057,
+    0.27
+   ],
+   "materials": [
+    "M_Stilt_Frame",
+    "M_Stilt_Ceramic"
+   ]
+  },
+  {
+   "name": "Toe_Blade_C_FL",
+   "bone": "toe_c_FL",
+   "tris": 524,
+   "unique": true,
+   "origin": [
+    4.28,
+    2.5,
+    0.27
+   ],
+   "materials": [
+    "M_Stilt_Frame",
+    "M_Stilt_Ceramic"
+   ]
+  },
+  {
+   "name": "Shoulder_Yoke_L",
+   "bone": "shoulder_L",
+   "tris": 2948,
+   "unique": true,
+   "origin": [
+    2.6,
+    3.3,
+    24.3
+   ],
+   "materials": [
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Shoulder_Cap_L",
+   "bone": "shoulder_L",
+   "tris": 1104,
+   "unique": true,
+   "origin": [
+    2.6,
+    3.3,
+    24.3
+   ],
+   "materials": [
+    "M_Stilt_Ceramic",
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Upperarm_Beam_L",
+   "bone": "upperarm_L",
+   "tris": 8052,
+   "unique": true,
+   "origin": [
+    2.6,
+    3.379,
+    23.303
+   ],
+   "materials": [
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Elbow_Cap_L",
+   "bone": "upperarm_L",
+   "tris": 1160,
+   "unique": true,
+   "origin": [
+    2.6,
+    3.379,
+    23.303
+   ],
+   "materials": [
+    "M_Stilt_Ceramic",
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Upperarm_Shell_L",
+   "bone": "upperarm_L",
+   "tris": 4460,
+   "unique": true,
+   "origin": [
+    2.6,
+    3.379,
+    23.303
+   ],
+   "materials": [
+    "M_Stilt_Ceramic",
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Forearm_Beam_L",
+   "bone": "forearm_L",
+   "tris": 8060,
+   "unique": true,
+   "origin": [
+    1.76,
+    3.927,
+    16.375
+   ],
+   "materials": [
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Wrist_Cap_L",
+   "bone": "forearm_L",
+   "tris": 1160,
+   "unique": true,
+   "origin": [
+    1.76,
+    3.927,
+    16.375
+   ],
+   "materials": [
+    "M_Stilt_Ceramic",
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Forearm_Shell_L",
+   "bone": "forearm_L",
+   "tris": 4172,
+   "unique": true,
+   "origin": [
+    1.76,
+    3.927,
+    16.375
+   ],
+   "materials": [
+    "M_Stilt_Ceramic",
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Hand_Palm_L",
+   "bone": "hand_L",
+   "tris": 3076,
+   "unique": true,
+   "origin": [
+    3.35,
+    4.449,
+    9.785
+   ],
+   "materials": [
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Hand_Shell_L",
+   "bone": "hand_L",
+   "tris": 208,
+   "unique": true,
+   "origin": [
+    3.35,
+    4.449,
+    9.785
+   ],
+   "materials": [
+    "M_Stilt_Ceramic",
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Finger_Seg_A1_L",
+   "bone": "finger_a1_L",
+   "tris": 696,
+   "unique": true,
+   "origin": [
+    3.623,
+    4.944,
+    8.6
+   ],
+   "materials": [
+    "M_Stilt_Frame",
+    "M_Stilt_Ceramic"
+   ]
+  },
+  {
+   "name": "Finger_Seg_A2_L",
+   "bone": "finger_a2_L",
+   "tris": 696,
+   "unique": true,
+   "origin": [
+    4.22,
+    5.231,
+    7.254
+   ],
+   "materials": [
+    "M_Stilt_Frame",
+    "M_Stilt_Ceramic"
+   ]
+  },
+  {
+   "name": "Finger_Seg_A3_L",
+   "bone": "finger_a3_L",
+   "tris": 824,
+   "unique": true,
+   "origin": [
+    4.949,
+    5.439,
+    6.324
+   ],
+   "materials": [
+    "M_Stilt_Frame",
+    "M_Stilt_Ceramic"
+   ]
+  },
+  {
+   "name": "Finger_Seg_B1_L",
+   "bone": "finger_b1_L",
+   "tris": 696,
+   "unique": true,
+   "origin": [
+    3.623,
+    4.146,
+    8.537
+   ],
+   "materials": [
+    "M_Stilt_Frame",
+    "M_Stilt_Ceramic"
+   ]
+  },
+  {
+   "name": "Finger_Seg_B2_L",
+   "bone": "finger_b2_L",
+   "tris": 696,
+   "unique": true,
+   "origin": [
+    4.22,
+    4.074,
+    7.162
+   ],
+   "materials": [
+    "M_Stilt_Frame",
+    "M_Stilt_Ceramic"
+   ]
+  },
+  {
+   "name": "Finger_Seg_B3_L",
+   "bone": "finger_b3_L",
+   "tris": 824,
+   "unique": true,
+   "origin": [
+    4.949,
+    4.016,
+    6.211
+   ],
+   "materials": [
+    "M_Stilt_Frame",
+    "M_Stilt_Ceramic"
+   ]
+  },
+  {
+   "name": "Finger_Seg_C1_L",
+   "bone": "finger_c1_L",
+   "tris": 696,
+   "unique": true,
+   "origin": [
+    3.877,
+    4.513,
+    8.968
+   ],
+   "materials": [
+    "M_Stilt_Frame",
+    "M_Stilt_Ceramic"
+   ]
+  },
+  {
+   "name": "Finger_Seg_C2_L",
+   "bone": "finger_c2_L",
+   "tris": 696,
+   "unique": true,
+   "origin": [
+    4.632,
+    4.597,
+    7.913
+   ],
+   "materials": [
+    "M_Stilt_Frame",
+    "M_Stilt_Ceramic"
+   ]
+  },
+  {
+   "name": "Finger_Seg_C3_L",
+   "bone": "finger_c3_L",
+   "tris": 824,
+   "unique": true,
+   "origin": [
+    5.036,
+    4.678,
+    6.893
+   ],
+   "materials": [
+    "M_Stilt_Frame",
+    "M_Stilt_Ceramic"
+   ]
+  },
+  {
+   "name": "Act_Hip_Cyl_FL",
+   "bone": "act_hip_top_FL",
+   "tris": 920,
+   "unique": true,
+   "origin": [
+    3.7,
+    1.91,
+    22.3
+   ],
+   "materials": [
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Act_Hip_Rod_FL",
+   "bone": "act_hip_bot_FL",
+   "tris": 276,
+   "unique": true,
+   "origin": [
+    3.234,
+    2.026,
+    18.007
+   ],
+   "materials": [
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Act_Knee_Cyl_FL",
+   "bone": "act_knee_top_FL",
+   "tris": 872,
+   "unique": true,
+   "origin": [
+    1.955,
+    2.076,
+    16.176
+   ],
+   "materials": [
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Act_Knee_Rod_FL",
+   "bone": "act_knee_bot_FL",
+   "tris": 276,
+   "unique": true,
+   "origin": [
+    2.9,
+    2.2,
+    11.635
+   ],
+   "materials": [
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Act_Ankle_Cyl_FL",
+   "bone": "act_ankle_top_FL",
+   "tris": 872,
+   "unique": true,
+   "origin": [
+    4.635,
+    2.277,
+    8.777
+   ],
+   "materials": [
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Act_Ankle_Rod_FL",
+   "bone": "act_ankle_bot_FL",
+   "tris": 276,
+   "unique": true,
+   "origin": [
+    4.627,
+    2.392,
+    4.584
+   ],
+   "materials": [
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Act_Elbow_Cyl_L",
+   "bone": "act_elbow_top_L",
+   "tris": 872,
+   "unique": true,
+   "origin": [
+    2.866,
+    3.731,
+    18.853
+   ],
+   "materials": [
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Act_Elbow_Rod_L",
+   "bone": "act_elbow_bot_L",
+   "tris": 292,
+   "unique": true,
+   "origin": [
+    2.671,
+    4.024,
+    15.158
+   ],
+   "materials": [
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Body_Core",
+   "bone": "pelvis",
+   "tris": 3000,
+   "unique": true,
+   "origin": [
+    0.0,
+    0.0,
+    21.1
+   ],
+   "materials": [
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Body_Frame",
+   "bone": "pelvis",
+   "tris": 12196,
+   "unique": true,
+   "origin": [
+    0.0,
+    0.0,
+    21.1
+   ],
+   "materials": [
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Body_Spine_Shell",
+   "bone": "pelvis",
+   "tris": 3012,
+   "unique": true,
+   "origin": [
+    0.0,
+    0.0,
+    21.1
+   ],
+   "materials": [
+    "M_Stilt_Ceramic",
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Chest_Shield",
+   "bone": "pelvis",
+   "tris": 3080,
+   "unique": true,
+   "origin": [
+    0.0,
+    0.0,
+    21.1
+   ],
+   "materials": [
+    "M_Stilt_Ceramic",
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Wing_Shell_L",
+   "bone": "pelvis",
+   "tris": 2584,
+   "unique": true,
+   "origin": [
+    0.0,
+    0.0,
+    21.1
+   ],
+   "materials": [
+    "M_Stilt_Ceramic",
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Wing_Struts_L",
+   "bone": "pelvis",
+   "tris": 1248,
+   "unique": true,
+   "origin": [
+    0.0,
+    0.0,
+    21.1
+   ],
+   "materials": [
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Belly_Cables",
+   "bone": "pelvis",
+   "tris": 2660,
+   "unique": true,
+   "origin": [
+    0.0,
+    0.0,
+    21.1
+   ],
+   "materials": [
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Neck_Link_1",
+   "bone": "neck_01",
+   "tris": 1740,
+   "unique": true,
+   "origin": [
+    2.9,
+    0.0,
+    24.4
+   ],
+   "materials": [
+    "M_Stilt_Frame",
+    "M_Stilt_Ceramic"
+   ]
+  },
+  {
+   "name": "Neck_Link_2",
+   "bone": "neck_02",
+   "tris": 1724,
+   "unique": true,
+   "origin": [
+    3.2,
+    0.0,
+    25.45
+   ],
+   "materials": [
+    "M_Stilt_Frame",
+    "M_Stilt_Ceramic"
+   ]
+  },
+  {
+   "name": "Neck_Link_3",
+   "bone": "neck_03",
+   "tris": 1740,
+   "unique": true,
+   "origin": [
+    3.7,
+    0.0,
+    26.45
+   ],
+   "materials": [
+    "M_Stilt_Frame",
+    "M_Stilt_Ceramic"
+   ]
+  },
+  {
+   "name": "Neck_Link_4",
+   "bone": "neck_04",
+   "tris": 1752,
+   "unique": true,
+   "origin": [
+    4.35,
+    0.0,
+    27.35
+   ],
+   "materials": [
+    "M_Stilt_Frame",
+    "M_Stilt_Ceramic"
+   ]
+  },
+  {
+   "name": "Neck_Link_5",
+   "bone": "neck_05",
+   "tris": 1764,
+   "unique": true,
+   "origin": [
+    5.05,
+    0.0,
+    28.0
+   ],
+   "materials": [
+    "M_Stilt_Frame",
+    "M_Stilt_Ceramic"
+   ]
+  },
+  {
+   "name": "Neck_Bundle",
+   "bone": "neck_01..05 (smooth)",
+   "tris": 2460,
+   "unique": true,
+   "origin": [
+    2.9,
+    0.0,
+    24.4
+   ],
+   "materials": [
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Head_Yoke",
+   "bone": "head_yaw",
+   "tris": 1356,
+   "unique": true,
+   "origin": [
+    5.8,
+    0.0,
+    28.5
+   ],
+   "materials": [
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Head_Core",
+   "bone": "head",
+   "tris": 1168,
+   "unique": true,
+   "origin": [
+    5.8,
+    0.0,
+    28.85
+   ],
+   "materials": [
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Head_Shell",
+   "bone": "head",
+   "tris": 2028,
+   "unique": true,
+   "origin": [
+    5.8,
+    0.0,
+    28.85
+   ],
+   "materials": [
+    "M_Stilt_Ceramic",
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Head_Antennae",
+   "bone": "head",
+   "tris": 2296,
+   "unique": true,
+   "origin": [
+    5.8,
+    0.0,
+    28.85
+   ],
+   "materials": [
+    "M_Stilt_Ceramic",
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Head_Cables",
+   "bone": "head",
+   "tris": 656,
+   "unique": true,
+   "origin": [
+    5.8,
+    0.0,
+    28.85
+   ],
+   "materials": [
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Sensor_Bezels",
+   "bone": "head",
+   "tris": 4352,
+   "unique": true,
+   "origin": [
+    5.8,
+    0.0,
+    28.85
+   ],
+   "materials": [
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Light_Sensors",
+   "bone": "sensor",
+   "tris": 2200,
+   "unique": true,
+   "origin": [
+    8.0,
+    0.0,
+    28.9
+   ],
+   "materials": [
+    "M_Stilt_Emit_Sensor"
+   ]
+  },
+  {
+   "name": "Hip_Yoke_FR",
+   "bone": "hip_FR",
+   "tris": 3528,
+   "unique": false,
+   "origin": [
+    1.6,
+    -1.9,
+    22.65
+   ],
+   "materials": [
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Hip_Cap_FR",
+   "bone": "hip_FR",
+   "tris": 1104,
+   "unique": false,
+   "origin": [
+    1.6,
+    -1.9,
+    22.65
+   ],
+   "materials": [
+    "M_Stilt_Ceramic",
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Thigh_Beam_FR",
+   "bone": "thigh_FR",
+   "tris": 8024,
+   "unique": false,
+   "origin": [
+    1.6,
+    -1.937,
+    21.3
+   ],
+   "materials": [
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Knee_Cap_FR",
+   "bone": "thigh_FR",
+   "tris": 1208,
+   "unique": false,
+   "origin": [
+    1.6,
+    -1.937,
+    21.3
+   ],
+   "materials": [
+    "M_Stilt_Ceramic",
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Thigh_Shell_FR",
+   "bone": "thigh_FR",
+   "tris": 4592,
+   "unique": false,
+   "origin": [
+    1.6,
+    -1.937,
+    21.3
+   ],
+   "materials": [
+    "M_Stilt_Ceramic",
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Thigh_Tendons_FR",
+   "bone": "thigh_FR",
+   "tris": 1848,
+   "unique": false,
+   "origin": [
+    1.6,
+    -1.937,
+    21.3
+   ],
+   "materials": [
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Shin_Beam_FR",
+   "bone": "shin_FR",
+   "tris": 8028,
+   "unique": false,
+   "origin": [
+    3.757,
+    -2.162,
+    13.03
+   ],
+   "materials": [
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Ankle_Cap_FR",
+   "bone": "shin_FR",
+   "tris": 1104,
+   "unique": false,
+   "origin": [
+    3.757,
+    -2.162,
+    13.03
+   ],
+   "materials": [
+    "M_Stilt_Ceramic",
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Shin_Shell_FR",
+   "bone": "shin_FR",
+   "tris": 4524,
+   "unique": false,
+   "origin": [
+    3.757,
+    -2.162,
+    13.03
+   ],
+   "materials": [
+    "M_Stilt_Ceramic",
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Shin_Tendons_FR",
+   "bone": "shin_FR",
+   "tris": 1848,
+   "unique": false,
+   "origin": [
+    3.757,
+    -2.162,
+    13.03
+   ],
+   "materials": [
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Tarsus_Beam_FR",
+   "bone": "tarsus_FR",
+   "tris": 5208,
+   "unique": false,
+   "origin": [
+    3.719,
+    -2.367,
+    5.483
+   ],
+   "materials": [
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Tarsus_Shell_FR",
+   "bone": "tarsus_FR",
+   "tris": 3612,
+   "unique": false,
+   "origin": [
+    3.719,
+    -2.367,
+    5.483
+   ],
+   "materials": [
+    "M_Stilt_Ceramic",
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Tarsus_Tendons_FR",
+   "bone": "tarsus_FR",
+   "tris": 808,
+   "unique": false,
+   "origin": [
+    3.719,
+    -2.367,
+    5.483
+   ],
+   "materials": [
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Foot_Block_FR",
+   "bone": "foot_FR",
+   "tris": 1484,
+   "unique": false,
+   "origin": [
+    5.0,
+    -2.5,
+    0.6
+   ],
+   "materials": [
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Foot_Collar_FR",
+   "bone": "foot_FR",
+   "tris": 672,
+   "unique": false,
+   "origin": [
+    5.0,
+    -2.5,
+    0.6
+   ],
+   "materials": [
+    "M_Stilt_Ceramic",
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Toe_Blade_A_FR",
+   "bone": "toe_a_FR",
+   "tris": 524,
+   "unique": false,
+   "origin": [
+    5.567,
+    -2.943,
+    0.27
+   ],
+   "materials": [
+    "M_Stilt_Frame",
+    "M_Stilt_Ceramic"
+   ]
+  },
+  {
+   "name": "Toe_Blade_B_FR",
+   "bone": "toe_b_FR",
+   "tris": 524,
+   "unique": false,
+   "origin": [
+    5.567,
+    -2.057,
+    0.27
+   ],
+   "materials": [
+    "M_Stilt_Frame",
+    "M_Stilt_Ceramic"
+   ]
+  },
+  {
+   "name": "Toe_Blade_C_FR",
+   "bone": "toe_c_FR",
+   "tris": 524,
+   "unique": false,
+   "origin": [
+    4.28,
+    -2.5,
+    0.27
+   ],
+   "materials": [
+    "M_Stilt_Frame",
+    "M_Stilt_Ceramic"
+   ]
+  },
+  {
+   "name": "Hip_Yoke_RL",
+   "bone": "hip_RL",
+   "tris": 3528,
+   "unique": false,
+   "origin": [
+    -2.0,
+    2.2,
+    22.25
+   ],
+   "materials": [
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Hip_Cap_RL",
+   "bone": "hip_RL",
+   "tris": 1104,
+   "unique": false,
+   "origin": [
+    -2.0,
+    2.2,
+    22.25
+   ],
+   "materials": [
+    "M_Stilt_Ceramic",
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Thigh_Beam_RL",
+   "bone": "thigh_RL",
+   "tris": 8024,
+   "unique": false,
+   "origin": [
+    -2.0,
+    2.349,
+    20.908
+   ],
+   "materials": [
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Knee_Cap_RL",
+   "bone": "thigh_RL",
+   "tris": 1208,
+   "unique": false,
+   "origin": [
+    -2.0,
+    2.349,
+    20.908
+   ],
+   "materials": [
+    "M_Stilt_Ceramic",
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Thigh_Shell_RL",
+   "bone": "thigh_RL",
+   "tris": 4592,
+   "unique": false,
+   "origin": [
+    -2.0,
+    2.349,
+    20.908
+   ],
+   "materials": [
+    "M_Stilt_Ceramic",
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Thigh_Tendons_RL",
+   "bone": "thigh_RL",
+   "tris": 1848,
+   "unique": false,
+   "origin": [
+    -2.0,
+    2.349,
+    20.908
+   ],
+   "materials": [
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Shin_Beam_RL",
+   "bone": "shin_RL",
+   "tris": 8028,
+   "unique": false,
+   "origin": [
+    -4.648,
+    3.244,
+    12.828
+   ],
+   "materials": [
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Ankle_Cap_RL",
+   "bone": "shin_RL",
+   "tris": 1104,
+   "unique": false,
+   "origin": [
+    -4.648,
+    3.244,
+    12.828
+   ],
+   "materials": [
+    "M_Stilt_Ceramic",
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Shin_Shell_RL",
+   "bone": "shin_RL",
+   "tris": 4524,
+   "unique": false,
+   "origin": [
+    -4.648,
+    3.244,
+    12.828
+   ],
+   "materials": [
+    "M_Stilt_Ceramic",
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Shin_Tendons_RL",
+   "bone": "shin_RL",
+   "tris": 1848,
+   "unique": false,
+   "origin": [
+    -4.648,
+    3.244,
+    12.828
+   ],
+   "materials": [
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Tarsus_Beam_RL",
+   "bone": "tarsus_RL",
+   "tris": 5208,
+   "unique": false,
+   "origin": [
+    -3.825,
+    4.071,
+    5.369
+   ],
+   "materials": [
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Tarsus_Shell_RL",
+   "bone": "tarsus_RL",
+   "tris": 3612,
+   "unique": false,
+   "origin": [
+    -3.825,
+    4.071,
+    5.369
+   ],
+   "materials": [
+    "M_Stilt_Ceramic",
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Tarsus_Tendons_RL",
+   "bone": "tarsus_RL",
+   "tris": 808,
+   "unique": false,
+   "origin": [
+    -3.825,
+    4.071,
+    5.369
+   ],
+   "materials": [
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Foot_Block_RL",
+   "bone": "foot_RL",
+   "tris": 1484,
+   "unique": false,
+   "origin": [
+    -5.4,
+    4.6,
+    0.6
+   ],
+   "materials": [
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Foot_Collar_RL",
+   "bone": "foot_RL",
+   "tris": 672,
+   "unique": false,
+   "origin": [
+    -5.4,
+    4.6,
+    0.6
+   ],
+   "materials": [
+    "M_Stilt_Ceramic",
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Toe_Blade_A_RL",
+   "bone": "toe_a_RL",
+   "tris": 524,
+   "unique": false,
+   "origin": [
+    -5.967,
+    5.043,
+    0.27
+   ],
+   "materials": [
+    "M_Stilt_Frame",
+    "M_Stilt_Ceramic"
+   ]
+  },
+  {
+   "name": "Toe_Blade_B_RL",
+   "bone": "toe_b_RL",
+   "tris": 524,
+   "unique": false,
+   "origin": [
+    -5.967,
+    4.157,
+    0.27
+   ],
+   "materials": [
+    "M_Stilt_Frame",
+    "M_Stilt_Ceramic"
+   ]
+  },
+  {
+   "name": "Toe_Blade_C_RL",
+   "bone": "toe_c_RL",
+   "tris": 524,
+   "unique": false,
+   "origin": [
+    -4.68,
+    4.6,
+    0.27
+   ],
+   "materials": [
+    "M_Stilt_Frame",
+    "M_Stilt_Ceramic"
+   ]
+  },
+  {
+   "name": "Hip_Yoke_RR",
+   "bone": "hip_RR",
+   "tris": 3528,
+   "unique": false,
+   "origin": [
+    -2.0,
+    -2.2,
+    22.25
+   ],
+   "materials": [
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Hip_Cap_RR",
+   "bone": "hip_RR",
+   "tris": 1104,
+   "unique": false,
+   "origin": [
+    -2.0,
+    -2.2,
+    22.25
+   ],
+   "materials": [
+    "M_Stilt_Ceramic",
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Thigh_Beam_RR",
+   "bone": "thigh_RR",
+   "tris": 8024,
+   "unique": false,
+   "origin": [
+    -2.0,
+    -2.349,
+    20.908
+   ],
+   "materials": [
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Knee_Cap_RR",
+   "bone": "thigh_RR",
+   "tris": 1208,
+   "unique": false,
+   "origin": [
+    -2.0,
+    -2.349,
+    20.908
+   ],
+   "materials": [
+    "M_Stilt_Ceramic",
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Thigh_Shell_RR",
+   "bone": "thigh_RR",
+   "tris": 4592,
+   "unique": false,
+   "origin": [
+    -2.0,
+    -2.349,
+    20.908
+   ],
+   "materials": [
+    "M_Stilt_Ceramic",
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Thigh_Tendons_RR",
+   "bone": "thigh_RR",
+   "tris": 1848,
+   "unique": false,
+   "origin": [
+    -2.0,
+    -2.349,
+    20.908
+   ],
+   "materials": [
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Shin_Beam_RR",
+   "bone": "shin_RR",
+   "tris": 8028,
+   "unique": false,
+   "origin": [
+    -4.648,
+    -3.244,
+    12.828
+   ],
+   "materials": [
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Ankle_Cap_RR",
+   "bone": "shin_RR",
+   "tris": 1104,
+   "unique": false,
+   "origin": [
+    -4.648,
+    -3.244,
+    12.828
+   ],
+   "materials": [
+    "M_Stilt_Ceramic",
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Shin_Shell_RR",
+   "bone": "shin_RR",
+   "tris": 4524,
+   "unique": false,
+   "origin": [
+    -4.648,
+    -3.244,
+    12.828
+   ],
+   "materials": [
+    "M_Stilt_Ceramic",
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Shin_Tendons_RR",
+   "bone": "shin_RR",
+   "tris": 1848,
+   "unique": false,
+   "origin": [
+    -4.648,
+    -3.244,
+    12.828
+   ],
+   "materials": [
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Tarsus_Beam_RR",
+   "bone": "tarsus_RR",
+   "tris": 5208,
+   "unique": false,
+   "origin": [
+    -3.825,
+    -4.071,
+    5.369
+   ],
+   "materials": [
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Tarsus_Shell_RR",
+   "bone": "tarsus_RR",
+   "tris": 3612,
+   "unique": false,
+   "origin": [
+    -3.825,
+    -4.071,
+    5.369
+   ],
+   "materials": [
+    "M_Stilt_Ceramic",
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Tarsus_Tendons_RR",
+   "bone": "tarsus_RR",
+   "tris": 808,
+   "unique": false,
+   "origin": [
+    -3.825,
+    -4.071,
+    5.369
+   ],
+   "materials": [
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Foot_Block_RR",
+   "bone": "foot_RR",
+   "tris": 1484,
+   "unique": false,
+   "origin": [
+    -5.4,
+    -4.6,
+    0.6
+   ],
+   "materials": [
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Foot_Collar_RR",
+   "bone": "foot_RR",
+   "tris": 672,
+   "unique": false,
+   "origin": [
+    -5.4,
+    -4.6,
+    0.6
+   ],
+   "materials": [
+    "M_Stilt_Ceramic",
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Toe_Blade_A_RR",
+   "bone": "toe_a_RR",
+   "tris": 524,
+   "unique": false,
+   "origin": [
+    -5.967,
+    -5.043,
+    0.27
+   ],
+   "materials": [
+    "M_Stilt_Frame",
+    "M_Stilt_Ceramic"
+   ]
+  },
+  {
+   "name": "Toe_Blade_B_RR",
+   "bone": "toe_b_RR",
+   "tris": 524,
+   "unique": false,
+   "origin": [
+    -5.967,
+    -4.157,
+    0.27
+   ],
+   "materials": [
+    "M_Stilt_Frame",
+    "M_Stilt_Ceramic"
+   ]
+  },
+  {
+   "name": "Toe_Blade_C_RR",
+   "bone": "toe_c_RR",
+   "tris": 524,
+   "unique": false,
+   "origin": [
+    -4.68,
+    -4.6,
+    0.27
+   ],
+   "materials": [
+    "M_Stilt_Frame",
+    "M_Stilt_Ceramic"
+   ]
+  },
+  {
+   "name": "Shoulder_Yoke_R",
+   "bone": "shoulder_R",
+   "tris": 2948,
+   "unique": false,
+   "origin": [
+    2.6,
+    -3.3,
+    24.3
+   ],
+   "materials": [
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Shoulder_Cap_R",
+   "bone": "shoulder_R",
+   "tris": 1104,
+   "unique": false,
+   "origin": [
+    2.6,
+    -3.3,
+    24.3
+   ],
+   "materials": [
+    "M_Stilt_Ceramic",
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Upperarm_Beam_R",
+   "bone": "upperarm_R",
+   "tris": 8052,
+   "unique": false,
+   "origin": [
+    2.6,
+    -3.379,
+    23.303
+   ],
+   "materials": [
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Elbow_Cap_R",
+   "bone": "upperarm_R",
+   "tris": 1160,
+   "unique": false,
+   "origin": [
+    2.6,
+    -3.379,
+    23.303
+   ],
+   "materials": [
+    "M_Stilt_Ceramic",
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Upperarm_Shell_R",
+   "bone": "upperarm_R",
+   "tris": 4460,
+   "unique": false,
+   "origin": [
+    2.6,
+    -3.379,
+    23.303
+   ],
+   "materials": [
+    "M_Stilt_Ceramic",
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Forearm_Beam_R",
+   "bone": "forearm_R",
+   "tris": 8060,
+   "unique": false,
+   "origin": [
+    1.76,
+    -3.927,
+    16.375
+   ],
+   "materials": [
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Wrist_Cap_R",
+   "bone": "forearm_R",
+   "tris": 1160,
+   "unique": false,
+   "origin": [
+    1.76,
+    -3.927,
+    16.375
+   ],
+   "materials": [
+    "M_Stilt_Ceramic",
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Forearm_Shell_R",
+   "bone": "forearm_R",
+   "tris": 4172,
+   "unique": false,
+   "origin": [
+    1.76,
+    -3.927,
+    16.375
+   ],
+   "materials": [
+    "M_Stilt_Ceramic",
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Hand_Palm_R",
+   "bone": "hand_R",
+   "tris": 3076,
+   "unique": false,
+   "origin": [
+    3.35,
+    -4.449,
+    9.785
+   ],
+   "materials": [
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Hand_Shell_R",
+   "bone": "hand_R",
+   "tris": 208,
+   "unique": false,
+   "origin": [
+    3.35,
+    -4.449,
+    9.785
+   ],
+   "materials": [
+    "M_Stilt_Ceramic",
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Finger_Seg_A1_R",
+   "bone": "finger_a1_R",
+   "tris": 696,
+   "unique": false,
+   "origin": [
+    3.623,
+    -4.944,
+    8.6
+   ],
+   "materials": [
+    "M_Stilt_Frame",
+    "M_Stilt_Ceramic"
+   ]
+  },
+  {
+   "name": "Finger_Seg_A2_R",
+   "bone": "finger_a2_R",
+   "tris": 696,
+   "unique": false,
+   "origin": [
+    4.22,
+    -5.231,
+    7.254
+   ],
+   "materials": [
+    "M_Stilt_Frame",
+    "M_Stilt_Ceramic"
+   ]
+  },
+  {
+   "name": "Finger_Seg_A3_R",
+   "bone": "finger_a3_R",
+   "tris": 824,
+   "unique": false,
+   "origin": [
+    4.949,
+    -5.439,
+    6.324
+   ],
+   "materials": [
+    "M_Stilt_Frame",
+    "M_Stilt_Ceramic"
+   ]
+  },
+  {
+   "name": "Finger_Seg_B1_R",
+   "bone": "finger_b1_R",
+   "tris": 696,
+   "unique": false,
+   "origin": [
+    3.623,
+    -4.146,
+    8.537
+   ],
+   "materials": [
+    "M_Stilt_Frame",
+    "M_Stilt_Ceramic"
+   ]
+  },
+  {
+   "name": "Finger_Seg_B2_R",
+   "bone": "finger_b2_R",
+   "tris": 696,
+   "unique": false,
+   "origin": [
+    4.22,
+    -4.074,
+    7.162
+   ],
+   "materials": [
+    "M_Stilt_Frame",
+    "M_Stilt_Ceramic"
+   ]
+  },
+  {
+   "name": "Finger_Seg_B3_R",
+   "bone": "finger_b3_R",
+   "tris": 824,
+   "unique": false,
+   "origin": [
+    4.949,
+    -4.016,
+    6.211
+   ],
+   "materials": [
+    "M_Stilt_Frame",
+    "M_Stilt_Ceramic"
+   ]
+  },
+  {
+   "name": "Finger_Seg_C1_R",
+   "bone": "finger_c1_R",
+   "tris": 696,
+   "unique": false,
+   "origin": [
+    3.877,
+    -4.513,
+    8.968
+   ],
+   "materials": [
+    "M_Stilt_Frame",
+    "M_Stilt_Ceramic"
+   ]
+  },
+  {
+   "name": "Finger_Seg_C2_R",
+   "bone": "finger_c2_R",
+   "tris": 696,
+   "unique": false,
+   "origin": [
+    4.632,
+    -4.597,
+    7.913
+   ],
+   "materials": [
+    "M_Stilt_Frame",
+    "M_Stilt_Ceramic"
+   ]
+  },
+  {
+   "name": "Finger_Seg_C3_R",
+   "bone": "finger_c3_R",
+   "tris": 824,
+   "unique": false,
+   "origin": [
+    5.036,
+    -4.678,
+    6.893
+   ],
+   "materials": [
+    "M_Stilt_Frame",
+    "M_Stilt_Ceramic"
+   ]
+  },
+  {
+   "name": "Act_Hip_Cyl_FR",
+   "bone": "act_hip_top_FR",
+   "tris": 920,
+   "unique": false,
+   "origin": [
+    3.7,
+    -1.91,
+    22.3
+   ],
+   "materials": [
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Act_Hip_Rod_FR",
+   "bone": "act_hip_bot_FR",
+   "tris": 276,
+   "unique": false,
+   "origin": [
+    3.234,
+    -2.026,
+    18.007
+   ],
+   "materials": [
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Act_Hip_Cyl_RL",
+   "bone": "act_hip_top_RL",
+   "tris": 920,
+   "unique": false,
+   "origin": [
+    -4.1,
+    2.239,
+    21.902
+   ],
+   "materials": [
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Act_Hip_Rod_RL",
+   "bone": "act_hip_bot_RL",
+   "tris": 276,
+   "unique": false,
+   "origin": [
+    -3.828,
+    2.7,
+    17.737
+   ],
+   "materials": [
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Act_Hip_Cyl_RR",
+   "bone": "act_hip_top_RR",
+   "tris": 920,
+   "unique": false,
+   "origin": [
+    -4.1,
+    -2.239,
+    21.902
+   ],
+   "materials": [
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Act_Hip_Rod_RR",
+   "bone": "act_hip_bot_RR",
+   "tris": 276,
+   "unique": false,
+   "origin": [
+    -3.828,
+    -2.7,
+    17.737
+   ],
+   "materials": [
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Act_Knee_Cyl_FR",
+   "bone": "act_knee_top_FR",
+   "tris": 872,
+   "unique": false,
+   "origin": [
+    1.955,
+    -2.076,
+    16.176
+   ],
+   "materials": [
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Act_Knee_Rod_FR",
+   "bone": "act_knee_bot_FR",
+   "tris": 276,
+   "unique": false,
+   "origin": [
+    2.9,
+    -2.2,
+    11.635
+   ],
+   "materials": [
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Act_Knee_Cyl_RL",
+   "bone": "act_knee_top_RL",
+   "tris": 872,
+   "unique": false,
+   "origin": [
+    -2.661,
+    2.91,
+    15.843
+   ],
+   "materials": [
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Act_Knee_Rod_RL",
+   "bone": "act_knee_bot_RL",
+   "tris": 276,
+   "unique": false,
+   "origin": [
+    -3.65,
+    3.388,
+    11.537
+   ],
+   "materials": [
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Act_Knee_Cyl_RR",
+   "bone": "act_knee_top_RR",
+   "tris": 872,
+   "unique": false,
+   "origin": [
+    -2.661,
+    -2.91,
+    15.843
+   ],
+   "materials": [
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Act_Knee_Rod_RR",
+   "bone": "act_knee_bot_RR",
+   "tris": 276,
+   "unique": false,
+   "origin": [
+    -3.65,
+    -3.388,
+    11.537
+   ],
+   "materials": [
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Act_Ankle_Cyl_FR",
+   "bone": "act_ankle_top_FR",
+   "tris": 872,
+   "unique": false,
+   "origin": [
+    4.635,
+    -2.277,
+    8.777
+   ],
+   "materials": [
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Act_Ankle_Rod_FR",
+   "bone": "act_ankle_bot_FR",
+   "tris": 276,
+   "unique": false,
+   "origin": [
+    4.627,
+    -2.392,
+    4.584
+   ],
+   "materials": [
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Act_Ankle_Cyl_RL",
+   "bone": "act_ankle_top_RL",
+   "tris": 872,
+   "unique": false,
+   "origin": [
+    -5.079,
+    3.721,
+    8.532
+   ],
+   "materials": [
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Act_Ankle_Rod_RL",
+   "bone": "act_ankle_bot_RL",
+   "tris": 276,
+   "unique": false,
+   "origin": [
+    -4.785,
+    4.164,
+    4.532
+   ],
+   "materials": [
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Act_Ankle_Cyl_RR",
+   "bone": "act_ankle_top_RR",
+   "tris": 872,
+   "unique": false,
+   "origin": [
+    -5.079,
+    -3.721,
+    8.532
+   ],
+   "materials": [
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Act_Ankle_Rod_RR",
+   "bone": "act_ankle_bot_RR",
+   "tris": 276,
+   "unique": false,
+   "origin": [
+    -4.785,
+    -4.164,
+    4.532
+   ],
+   "materials": [
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Act_Elbow_Cyl_R",
+   "bone": "act_elbow_top_R",
+   "tris": 872,
+   "unique": false,
+   "origin": [
+    2.866,
+    -3.731,
+    18.853
+   ],
+   "materials": [
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Act_Elbow_Rod_R",
+   "bone": "act_elbow_bot_R",
+   "tris": 292,
+   "unique": false,
+   "origin": [
+    2.671,
+    -4.024,
+    15.158
+   ],
+   "materials": [
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Wing_Shell_R",
+   "bone": "pelvis",
+   "tris": 2584,
+   "unique": false,
+   "origin": [
+    0.0,
+    0.0,
+    21.1
+   ],
+   "materials": [
+    "M_Stilt_Ceramic",
+    "M_Stilt_Frame"
+   ]
+  },
+  {
+   "name": "Wing_Struts_R",
+   "bone": "pelvis",
+   "tris": 1248,
+   "unique": false,
+   "origin": [
+    0.0,
+    0.0,
+    21.1
+   ],
+   "materials": [
+    "M_Stilt_Frame"
+   ]
+  }
+ ]
+}

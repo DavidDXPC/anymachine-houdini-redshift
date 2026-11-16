@@ -1,0 +1,215 @@
+{
+  "prefix": "Reference images: first, an approved CLOSE-UP hard-surface reference plate of one area of the giant robot 'Stilt-walker'; then the robot's orthographic LEFT SIDE view and FRONT view. The Stilt-walker is about 30 m tall: four very long thin stilt legs, a compact high body with ceramic shells, two long manipulator arms with three-fingered hands, a long neck and a small flat wedge head with small BLUE sensor lights. Pale grey / off-white ceramic shells with fine panel seams over black carbon and dark graphite frame, polished steel piston rods, braided cable tendons. Draw the SAME area as the first image, the SAME mechanism with exactly the same parts, shapes, proportions, bolts, pistons, cables and shell panels, but seen from a DIFFERENT camera angle as described, so a 3D modeller can understand its full three-dimensional form. Do not redesign, add or remove parts. Photoreal studio product render, sharp, large in frame. Plain flat neutral mid-grey background (#8a8a8a), soft even studio lighting, no scenery, no people, no text, no labels, no arrows, no border.",
+  "jobs": [
+    {
+      "out": "refs/closeup_hip_rear.png",
+      "size": "square_hd",
+      "refs": [
+        "refs/closeup_hip.png",
+        "refs/stilt_left.png",
+        "refs/stilt_front.png"
+      ],
+      "prompt": "Camera angle: directly from BEHIND the leg, looking forward: the back of the hip drum, the two tendon cables leaving their pulley and running down the back of the thigh, the back of the piston."
+    },
+    {
+      "out": "refs/closeup_hip_front.png",
+      "size": "square_hd",
+      "refs": [
+        "refs/closeup_hip.png",
+        "refs/stilt_left.png",
+        "refs/stilt_front.png"
+      ],
+      "prompt": "Camera angle: directly from the FRONT of the leg, looking backward: the hip drum edge-on, the width of the yoke and fork arms, the front of the thigh shell."
+    },
+    {
+      "out": "refs/closeup_hip_below.png",
+      "size": "square_hd",
+      "refs": [
+        "refs/closeup_hip.png",
+        "refs/stilt_left.png",
+        "refs/stilt_front.png"
+      ],
+      "prompt": "Camera angle: from directly BELOW looking straight up at the hip: the underside of the body frame, the hip mount, the drum and the top of the thigh end-on."
+    },
+    {
+      "out": "refs/closeup_knee_rear.png",
+      "size": "square_hd",
+      "refs": [
+        "refs/closeup_knee.png",
+        "refs/stilt_left.png",
+        "refs/stilt_front.png"
+      ],
+      "prompt": "Camera angle: directly from BEHIND the knee: the piston centred on the back, the cable tendons either side of it, the fork cheeks edge-on."
+    },
+    {
+      "out": "refs/closeup_knee_front.png",
+      "size": "square_hd",
+      "refs": [
+        "refs/closeup_knee.png",
+        "refs/stilt_left.png",
+        "refs/stilt_front.png"
+      ],
+      "prompt": "Camera angle: directly from the FRONT of the knee: the ceramic shells of thigh and shin, the fork and tongue edge-on, the knee cap seen from its edge."
+    },
+    {
+      "out": "refs/closeup_knee_inner.png",
+      "size": "square_hd",
+      "refs": [
+        "refs/closeup_knee.png",
+        "refs/stilt_left.png",
+        "refs/stilt_front.png"
+      ],
+      "prompt": "Camera angle: from the opposite, INNER side of the knee (the side without the ceramic knee cap): the bare bolted bearing cap, the pin end, the inner fork cheek with its lightening holes."
+    },
+    {
+      "out": "refs/closeup_foot_side.png",
+      "size": "square_hd",
+      "refs": [
+        "refs/closeup_foot.png",
+        "refs/stilt_left.png",
+        "refs/stilt_front.png"
+      ],
+      "prompt": "Camera angle: a true orthographic SIDE view of the ankle and foot at ground level, toes flat on the ground."
+    },
+    {
+      "out": "refs/closeup_foot_top.png",
+      "size": "square_hd",
+      "refs": [
+        "refs/closeup_foot.png",
+        "refs/stilt_left.png",
+        "refs/stilt_front.png"
+      ],
+      "prompt": "Camera angle: looking straight DOWN from above at the foot: the three toes spread in plan (two forward, one back), the ankle housing in the centre, the shin cut off."
+    },
+    {
+      "out": "refs/closeup_foot_rear.png",
+      "size": "square_hd",
+      "refs": [
+        "refs/closeup_foot.png",
+        "refs/stilt_left.png",
+        "refs/stilt_front.png"
+      ],
+      "prompt": "Camera angle: from BEHIND and slightly above: the rear toe in the foreground, the tendon clamps on the back of the ankle housing."
+    },
+    {
+      "out": "refs/closeup_hand_palm.png",
+      "size": "square_hd",
+      "refs": [
+        "refs/closeup_hand.png",
+        "refs/stilt_left.png",
+        "refs/stilt_front.png"
+      ],
+      "prompt": "Camera angle: the PALM side of the open hand, fingers spread: the dark carbon underside of the palm, the tendon cables and rubber finger pads."
+    },
+    {
+      "out": "refs/closeup_hand_side.png",
+      "size": "square_hd",
+      "refs": [
+        "refs/closeup_hand.png",
+        "refs/stilt_left.png",
+        "refs/stilt_front.png"
+      ],
+      "prompt": "Camera angle: a true SIDE view of the hand hanging relaxed: the wrist joint, the palm block in profile, the fingers gently curved, the opposing thumb finger separated from the other two."
+    },
+    {
+      "out": "refs/closeup_hand_grip.png",
+      "size": "square_hd",
+      "refs": [
+        "refs/closeup_hand.png",
+        "refs/stilt_left.png",
+        "refs/stilt_front.png"
+      ],
+      "prompt": "Camera angle: the same hand CLOSED around a rusty steel beam about 0.5 m thick, three-quarter view, showing how the three fingers and their three segments wrap and where the hinges fold."
+    },
+    {
+      "out": "refs/closeup_head_front.png",
+      "size": "square_hd",
+      "refs": [
+        "refs/closeup_head.png",
+        "refs/stilt_left.png",
+        "refs/stilt_front.png"
+      ],
+      "prompt": "Camera angle: directly from the FRONT, looking at the nose of the head: the flat wedge seen head-on, the blue sensor lenses, the antenna blades spreading behind."
+    },
+    {
+      "out": "refs/closeup_head_top.png",
+      "size": "square_hd",
+      "refs": [
+        "refs/closeup_head.png",
+        "refs/stilt_left.png",
+        "refs/stilt_front.png"
+      ],
+      "prompt": "Camera angle: looking straight DOWN on the head: the blade-shaped ceramic top shell with its centre seam and panel lines, the antenna blades trailing back, the neck below."
+    },
+    {
+      "out": "refs/closeup_head_under.png",
+      "size": "square_hd",
+      "refs": [
+        "refs/closeup_head.png",
+        "refs/stilt_left.png",
+        "refs/stilt_front.png"
+      ],
+      "prompt": "Camera angle: from BELOW and behind, looking up at the dark underside of the head: the yoke, the yaw bearing ring, the pitch pin, the cable connectors and the top neck vertebrae."
+    },
+    {
+      "out": "refs/closeup_shoulder_side.png",
+      "size": "square_hd",
+      "refs": [
+        "refs/closeup_shoulder.png",
+        "refs/stilt_left.png",
+        "refs/stilt_front.png"
+      ],
+      "prompt": "Camera angle: a true LEFT SIDE view of the body: the wing-like shoulder shell in profile with its overlapping plates and pointed drooping tip, the shoulder drum under it, the dorsal shell and the neck base."
+    },
+    {
+      "out": "refs/closeup_shoulder_rear.png",
+      "size": "square_hd",
+      "refs": [
+        "refs/closeup_shoulder.png",
+        "refs/stilt_left.png",
+        "refs/stilt_front.png"
+      ],
+      "prompt": "Camera angle: from BEHIND and slightly above: the back of the body, the dorsal spine shell ending in a point, both wing shells from behind, the struts that hold them."
+    },
+    {
+      "out": "refs/closeup_shoulder_below.png",
+      "size": "square_hd",
+      "refs": [
+        "refs/closeup_shoulder.png",
+        "refs/stilt_left.png",
+        "refs/stilt_front.png"
+      ],
+      "prompt": "Camera angle: from directly BELOW looking up at the belly: the dark carbon keel, the frame ribs, the four hip mounts, hanging cable loops, the undersides of the wing shells."
+    },
+    {
+      "out": "refs/closeup_elbow_rear.png",
+      "size": "square_hd",
+      "refs": [
+        "refs/closeup_elbow.png",
+        "refs/stilt_left.png",
+        "refs/stilt_front.png"
+      ],
+      "prompt": "Camera angle: directly from BEHIND the elbow: the piston centred, the cable loom beside it, the fork cheeks edge-on."
+    },
+    {
+      "out": "refs/closeup_elbow_front.png",
+      "size": "square_hd",
+      "refs": [
+        "refs/closeup_elbow.png",
+        "refs/stilt_left.png",
+        "refs/stilt_front.png"
+      ],
+      "prompt": "Camera angle: directly from the FRONT of the elbow: the ceramic shells, the joint edge-on showing the fork, the tongue and the cap disc thickness."
+    },
+    {
+      "out": "refs/closeup_elbow_inner.png",
+      "size": "square_hd",
+      "refs": [
+        "refs/closeup_elbow.png",
+        "refs/stilt_left.png",
+        "refs/stilt_front.png"
+      ],
+      "prompt": "Camera angle: from the opposite, INNER side of the elbow (without the ceramic cap disc): the bare bolted bearing cap and inner cheek."
+    }
+  ]
+}

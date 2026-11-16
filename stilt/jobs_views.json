@@ -1,0 +1,30 @@
+{
+  "prefix": "Reference images: first, the approved orthographic turnaround sheet of the giant robot 'Stilt-walker' (front, left side, rear, top, three-quarter); then the original concept art. The Stilt-walker is about 30 m tall, extremely thin and graceful: four very long stilt legs (front pair and rear pair; hip, one knee half way down, small ankle, small pointed three-toed foot), a compact body carried very high with a pointed shield-shaped ceramic chest plate and two broad drooping wing-like ceramic shoulder shells, two long delicate manipulator arms hanging from the front shoulders with one elbow each and large three-fingered hands, a long slender neck, and a small flat elongated wedge-shaped head with a cluster of small BLUE sensor lights at its front tip. Clean and intact: no moss, no plants, no vines, no dirt. Pale grey / off-white ceramic shells with fine panel seams over black carbon and dark graphite frame, joints, pistons and cable tendons. Reproduce the robot EXACTLY as drawn in the turnaround sheet: same proportions, same shell shapes and split lines, same joints, same hands, same head. Do not redesign or add anything.",
+  "jobs": [
+    {
+      "out": "refs/stilt_front.png", "size": "portrait_16_9",
+      "refs": ["refs/stilt_turnaround.png", "refs/concept_front.png"],
+      "prompt": "Draw ONE single large view only: the FRONT view, true orthographic (no perspective), camera exactly on the forward axis at mid height, perfectly symmetrical left/right. Neutral standing pose, all four feet planted, arms hanging straight down, head level facing the camera. The whole robot fills about 90% of the image height, centred, feet on a ground line near the bottom. Plain flat neutral mid-grey background (#8a8a8a), soft even studio lighting, faint contact shadow only. No other views, no text, no labels, no border."
+    },
+    {
+      "out": "refs/stilt_left.png", "size": "portrait_4_3",
+      "refs": ["refs/stilt_turnaround.png", "refs/concept_side.png"],
+      "prompt": "Draw ONE single large view only: the LEFT SIDE view with the head pointing to the LEFT of the image, true orthographic (no perspective), camera exactly perpendicular to the robot. Neutral standing pose: the left and right legs exactly aligned so only one front leg and one rear leg are visible, the front leg planted a little ahead of the body and the rear leg a little behind, one arm visible hanging straight down in front of the front leg. The whole robot fills about 90% of the image height, centred, feet on a ground line near the bottom. Plain flat neutral mid-grey background (#8a8a8a), soft even studio lighting, faint contact shadow only. No other views, no text, no labels, no border."
+    },
+    {
+      "out": "refs/stilt_rear.png", "size": "portrait_16_9",
+      "refs": ["refs/stilt_turnaround.png", "refs/concept_front.png"],
+      "prompt": "Draw ONE single large view only: the REAR view (seen from directly behind), true orthographic (no perspective), camera exactly on the rear axis at mid height, perfectly symmetrical left/right. Neutral standing pose, all four feet planted, arms hanging straight down, the back of the neck and head visible above the body. The whole robot fills about 90% of the image height, centred, feet on a ground line near the bottom. Plain flat neutral mid-grey background (#8a8a8a), soft even studio lighting, faint contact shadow only. No other views, no text, no labels, no border."
+    },
+    {
+      "out": "refs/stilt_top.png", "size": "square_hd",
+      "refs": ["refs/stilt_turnaround.png", "refs/concept_side.png"],
+      "prompt": "Draw ONE single large view only: the TOP view, looking straight down from above, true orthographic (no perspective), with the head pointing to the TOP of the image and perfectly symmetrical left/right. Show the top of the flat wedge head, the neck, the two broad shoulder shells, the dorsal shell of the body, the four hips and the four legs splaying outward to the four small feet, and the two arms. The robot fills about 85% of the image, centred. Plain flat neutral mid-grey background (#8a8a8a), soft even studio lighting. No other views, no text, no labels, no border."
+    },
+    {
+      "out": "refs/stilt_3q.png", "size": "portrait_4_3",
+      "refs": ["refs/stilt_turnaround.png", "refs/concept_side.png"],
+      "prompt": "Draw ONE single large view only: a THREE-QUARTER front-left view seen from a low human eye level far away, slight perspective, the whole robot standing in the neutral pose, with a tiny human figure (1.75 m tall, simple grey silhouette) standing beside one front foot for scale: the person reaches only to the ankle joint. The whole robot fills about 90% of the image height. Plain flat neutral mid-grey background (#8a8a8a), soft even studio lighting, faint contact shadow only. No other views, no text, no labels, no border."
+    }
+  ]
+}
