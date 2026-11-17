@@ -23,3 +23,6 @@ stilt/renders/_tmp/
 stilt/renders/frames*/
 stilt/textures/
 *.fbx
+
+# local render output
+/out/
