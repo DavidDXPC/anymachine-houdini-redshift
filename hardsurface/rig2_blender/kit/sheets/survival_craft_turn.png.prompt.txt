@@ -1,0 +1,14 @@
+endpoint: openai/gpt-image-2.6/sunburst/text-to-image
+image_size: landscape_16_9
+quality: high
+inputs: 
+
+A technical reference sheet for 3D modelling, showing ONE object from six directions: a totally enclosed motor-propelled survival craft (TEMPSC), the standard enclosed offshore lifeboat: about 7.5 m long, 2.7 m beam, 3 m high. International orange glass-fibre hull and canopy. Hull: a hard chine, a straight keel with a skeg, a fine raked bow, a transom stern; a heavy black rubber rubbing strake (fender) right round at the sheer line where hull and canopy join; a white becketed grab line hanging in loops along both sides just under the strake. Canopy: rounded enclosed superstructure with a large outward-opening boarding hatch on each side with two hinges and lever dog handles, a smaller hatch on top forward and one aft, a raised square conning position (steering tower) aft with small rectangular windows all round and a white navigation light on a short mast, small fixed rectangular portlights with black rubber gaskets, a stainless water-spray deluge pipe running along the top centre line with nozzles, grab rails along the canopy top. Lifting hooks: one heavy galvanised on-load release hook in a steel hook box forward and one aft on the centre line of the canopy. Stern: a bronze propeller inside a round steel nozzle guard with a rudder behind it, an exhaust outlet. Strips of silver retro-reflective tape in short bars round the canopy and along the hull; black stencilled capacity and identification lettering on the canopy sides (generic letters and numbers).
+
+Layout: six separate views of the same single object on a plain seamless light-grey background, arranged in a tidy grid of three columns and two rows with clear space between them. Top row: front elevation, left side elevation, back elevation. Bottom row: right side elevation, top plan view, three-quarter view from the front and slightly above. The five elevation and plan views are true orthographic projections with no perspective at all, drawn at the same scale; only the three-quarter view has perspective. Every view shows the identical object: same parts, same colours.
+
+Photographic, not a drawing: a real object photographed for 3D scanning, soft even diffuse studio light, no cast shadows on the background, sharp focus edge to edge, true-to-life materials, real fasteners at real size. The whole object is inside each view with a margin. Nothing else in frame.
+
+Condition: in working order on a modern North Sea platform, repainted within the last year: clean glossy marine paint, crisp edges, only the faintest salt dust and a few small scuffs. No rust, no grime, no dents.
+
+No people, no logos, no brand names, no watermark, no borders, no arrows, no dimension lines.

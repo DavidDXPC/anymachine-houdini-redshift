@@ -1,0 +1,75 @@
+{
+ "tris": 238,
+ "ngons": 0,
+ "texture": 2048,
+ "baked": true,
+ "atlas": "../lighting_color.png, ../lighting_normal.png, ../lighting_orm.png (shared by the family)",
+ "bbox_err_mm": 0,
+ "items": {
+  "obstruction_light": {
+   "tris": 238,
+   "min": [
+    -0.075,
+    -0.075,
+    0.0
+   ],
+   "max": [
+    0.1146,
+    0.075,
+    0.2099
+   ],
+   "size": [
+    0.1896,
+    0.15,
+    0.2099
+   ],
+   "parts": [
+    "obstruction_light/main"
+   ],
+   "lit_material": "obstruction_light__lit",
+   "mount": "pole top",
+   "origin": "bottom centre of the base plate",
+   "light_at": [
+    0,
+    0,
+    0.14
+   ],
+   "light_dir": null,
+   "suggested": {
+    "kelvin": null,
+    "rgb": [
+     1.0,
+     0.03,
+     0.015
+    ],
+    "power": 0.6,
+    "lumens": 400,
+    "spot_deg": null,
+    "range_m": 12,
+    "note": "steady red; seen from far, lights little"
+   },
+   "cable_ends": [
+    {
+     "at": [
+      0.11,
+      0,
+      0
+     ],
+     "dir": [
+      0,
+      0,
+      -1
+     ]
+    }
+   ]
+  }
+ },
+ "layout": {
+  "obstruction_light": [
+   -0.0198,
+   0,
+   0
+  ]
+ },
+ "unique_tris": 238
+}

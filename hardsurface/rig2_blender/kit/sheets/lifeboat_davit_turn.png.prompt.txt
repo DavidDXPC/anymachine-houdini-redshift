@@ -1,0 +1,14 @@
+endpoint: openai/gpt-image-2.6/sunburst/text-to-image
+image_size: landscape_16_9
+quality: high
+inputs: 
+
+A technical reference sheet for 3D modelling, showing ONE object from six directions: an offshore platform lifeboat station: a fixed twin-arm platform davit holding a stowed orange totally enclosed lifeboat outboard of the deck edge. Two welded white-painted steel box-section davit frames about 5 m apart, each a vertical column rising 3.5 m from a cantilever base girder at deck level with an arm reaching 2.5 m outboard at the top, a knee gusset at the elbow and a head sheave in cheek plates at the arm tip; a cross girder between the two columns carrying the blue electric lifeboat winch with twin grooved drums, gearbox, motor and a counterweighted brake lever; galvanised wire rope falls running from the winch drums over lead sheaves at the column heads, along the arms, over the head sheaves and down to a suspension block with a long link that hangs in each of the two lifting hooks of the boat. Below, a narrow embarkation platform of galvanised bar grating cantilevered from the deck edge on I-beam brackets with diagonal knee braces going down to a lower mounting pad, ochre-yellow tube handrails with toe boards on its ends and outboard edge and a gap with a safety chain opposite the side hatch of the boat; the boat held in against rubber fender pads by two wire gripe lashings with turnbuckles and slip hooks; a remote release wire and a small control box on one column.
+
+Layout: six separate views of the same single object on a plain seamless light-grey background, arranged in a tidy grid of three columns and two rows with clear space between them. Top row: front elevation, left side elevation, back elevation. Bottom row: right side elevation, top plan view, three-quarter view from the front and slightly above. The five elevation and plan views are true orthographic projections with no perspective at all, drawn at the same scale; only the three-quarter view has perspective. Every view shows the identical object: same parts, same colours.
+
+Photographic, not a drawing: a real object photographed for 3D scanning, soft even diffuse studio light, no cast shadows on the background, sharp focus edge to edge, true-to-life materials, real fasteners at real size. The whole object is inside each view with a margin. Nothing else in frame.
+
+Condition: in working order on a modern North Sea platform, repainted within the last year: clean glossy marine paint, crisp edges, only the faintest salt dust and a few small scuffs. No rust, no grime, no dents.
+
+No people, no logos, no brand names, no watermark, no borders, no arrows, no dimension lines.

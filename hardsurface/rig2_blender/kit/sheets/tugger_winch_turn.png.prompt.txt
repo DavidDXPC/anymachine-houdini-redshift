@@ -1,0 +1,16 @@
+endpoint: openai/gpt-image-2.6/sunburst/edit
+image_size: landscape_16_9
+quality: high
+inputs: drill_floor.png
+
+A technical reference sheet for 3D modelling, showing ONE object from six directions: an air tugger winch: a steel drum wound with wire rope between two side frames, a mesh and plate guard over the drum painted ochre yellow, an air motor and gearbox on one side, a long brake lever and a control lever, all on a heavy base frame bolted to the deck; winch body painted orange. Condition: in daily use and somewhat dirty but maintained: dark grime runs below fittings, grease near moving parts, paint chipped on edges, a little rust bleed at joints. A compact, solid mass with no large see-through gaps.. Its real size is 1.6 x 1.1 x 1.1 metres (length x width x height); keep those proportions exactly.
+
+Layout: six separate views of the same single object on a plain seamless light-grey background, arranged in a tidy grid of three columns and two rows with clear space between them. Top row: front elevation, left side elevation, back elevation. Bottom row: right side elevation, top plan view, three-quarter view from the front and slightly above. The five elevation and plan views are true orthographic projections with no perspective at all, drawn at the same scale and standing on a common ground line; only the three-quarter view has perspective. Every view shows the identical object: same parts, same colours, same damage.
+
+Photographic, not a drawing: a real object photographed for 3D scanning, soft even diffuse studio light, no cast shadows on the background, sharp focus edge to edge, true-to-life materials. The whole object is inside each view with a margin. Nothing else in frame: no people, no floor, no room, no other objects.
+
+The input image is a photograph of the platform this object belongs to; the object appears in it. Take its colours, materials, proportions and condition from that photograph, but show only the one object, complete, on its own.
+
+Look: equipment on a modern North Sea oil and gas platform, maintained and repainted within the last few years. Real industrial construction: steel plate, rolled sections, weld seams, bolted joints, real fasteners at real size. Paint is marine two-pack: soft off-white and light grey for structures, slightly dull ochre safety yellow for rails, stairs and guards, dark blue for containers, muted green, blue and red for pipes, orange or blue for machinery skids, galvanised zinc for grating. Light honest wear only: paint chipped to primer on corners and edges, scuffs, a few touch-up patches, a little salt dust, a few hand-sized rust blooms at welds and bolts. No heavy rust, no grime, no mud.
+
+No text, no labels, no arrows, no dimension lines, no logos, no brand names, no watermark, no borders.

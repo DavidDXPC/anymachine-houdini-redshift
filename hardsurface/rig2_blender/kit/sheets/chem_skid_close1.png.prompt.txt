@@ -1,0 +1,18 @@
+endpoint: openai/gpt-image-2.6/sunburst/edit
+image_size: landscape_16_9
+quality: high
+inputs: chem_skid_turn.png
+
+A reference sheet of close-up photographs of ONE piece of equipment, for a 3D modeller who must build it accurately: a chemical injection skid: two stainless tote tanks in a blue steel frame on a blue bunded base, two dosing pumps, stainless tubing and a control box at one end. The input image shows this exact object from six directions; every close-up must show that same object, with the same colours, the same construction and the same condition.
+
+Layout: six close-up photographs in a tidy grid of three columns and two rows, with clear space between them, each on a plain light-grey background or with the rest of the object softly behind. In reading order:
+(1) the pump end seen square-on from the front: the two dosing pumps with their motors on plinths, suction and discharge tubing, valves, pulsation dampener, pressure gauge;
+(2) one dosing pump from the side at close range: motor with cooling fins, gearbox, diaphragm pump head with its bolts, the tube fittings;
+(3) the stainless control box on the frame with its hinges, latch, cable glands underneath and conduit;
+(4) a tote tank front seen square-on: pressed panel, the outlet ball valve at the bottom, a level gauge tube, a blank label plate and a blank hazard diamond;
+(5) the top of a tank: bolted manway lid, vent, filler cap, and the tubing manifold running across to the pumps;
+(6) a corner of the blue bund base with a fork pocket, the frame post standing on it and a lifting lug at the top corner of the frame;
+
+Each close-up is photographed square-on or at a slight angle from about a metre away, so the shape, the sections used, the joints and the fastener pattern are completely clear and could be measured. No people. Real industrial equipment at real proportions: correct fastener sizes, weld seams, cast and forged surfaces, bolted flanges. Photographic, soft even overcast light, very sharp, true-to-life materials. Condition: in daily use on a North Sea platform and somewhat dirty but maintained: dark grime runs below fittings, grease near moving parts, paint chipped to primer on edges, a little rust bleed at joints, no heavy rust.
+
+No text, no labels, no arrows, no logos, no brand names, no watermark, no borders.

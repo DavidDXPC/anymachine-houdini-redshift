@@ -1,0 +1,56 @@
+{
+ "tris": 5750,
+ "quads": 2691,
+ "tri_faces": 368,
+ "ngons": 0,
+ "verts": 3642,
+ "min": [
+  -1.6,
+  -0.8,
+  0.0
+ ],
+ "max": [
+  1.6,
+  0.8,
+  2.0
+ ],
+ "bbox_err_mm": 0.0,
+ "hi_tris": 26338,
+ "uv_fill": 0.377,
+ "surface_m2": 47.21,
+ "uv_min": 0.003999942913651466,
+ "uv_max": 0.9949560165405273,
+ "texture": 2048,
+ "texture_target": 2048,
+ "size": [
+  3.2,
+  1.6,
+  2.0
+ ],
+ "box": [
+  3.2,
+  1.6,
+  2.0
+ ],
+ "origin": "centre of the footprint, on the floor (z = 0); long side along X; front faces -Y",
+ "footprint": {
+  "min": [
+   -1.6,
+   -0.8
+  ],
+  "max": [
+   1.6,
+   0.8
+  ]
+ },
+ "cover_below_1m": {
+  "along_y": 1.0,
+  "along_x": 1.0
+ },
+ "faces": {
+  "minus_y": "tank taps, level gauges, the open pump bay and control box (pump bay at the +X end)",
+  "plus_x": "open pump end: pumps, tubing, dampener and gauge in front of the second tank",
+  "plus_y": "backs of the tanks and the plate behind the pump bay",
+  "minus_x": "plate panel"
+ }
+}

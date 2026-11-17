@@ -1,0 +1,56 @@
+{
+ "tris": 5914,
+ "quads": 2799,
+ "tri_faces": 316,
+ "ngons": 0,
+ "verts": 3562,
+ "min": [
+  -1.1,
+  -0.7,
+  0.0
+ ],
+ "max": [
+  1.1,
+  0.7,
+  1.7
+ ],
+ "bbox_err_mm": 0.0,
+ "hi_tris": 26886,
+ "uv_fill": 0.441,
+ "surface_m2": 23.8,
+ "uv_min": 0.00399996992200613,
+ "uv_max": 0.9959134459495544,
+ "texture": 2048,
+ "texture_target": 2048,
+ "size": [
+  2.2,
+  1.4,
+  1.7
+ ],
+ "box": [
+  2.2,
+  1.4,
+  1.7
+ ],
+ "origin": "centre of the footprint, on the floor (z = 0); long side along X; front faces -Y",
+ "footprint": {
+  "min": [
+   -1.1,
+   -0.7
+  ],
+  "max": [
+   1.1,
+   0.7
+  ]
+ },
+ "cover_below_1m": {
+  "along_y": 0.914,
+  "along_x": 0.915
+ },
+ "faces": {
+  "minus_y": "inspection cover, sight glass, filters, junction box",
+  "minus_x": "two hose reels",
+  "plus_x": "plain tank end, accumulators above",
+  "plus_y": "plain tank back with drain valve"
+ }
+}

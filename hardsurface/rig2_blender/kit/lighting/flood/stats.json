@@ -1,0 +1,319 @@
+{
+ "tris": 1850,
+ "ngons": 0,
+ "texture": 2048,
+ "baked": true,
+ "atlas": "../lighting_color.png, ../lighting_normal.png, ../lighting_orm.png (shared by the family)",
+ "bbox_err_mm": 0.0,
+ "items": {
+  "flood_head": {
+   "tris": 290,
+   "min": [
+    -0.192,
+    -0.1268,
+    0.0
+   ],
+   "max": [
+    0.192,
+    0.1208,
+    0.3899
+   ],
+   "size": [
+    0.384,
+    0.2476,
+    0.3899
+   ],
+   "parts": [
+    "flood/unit"
+   ],
+   "lit_material": "flood__lit",
+   "bbox_err_mm": 0.0,
+   "mount": "deck",
+   "origin": "centre of the stirrup base (any flat surface: deck, beam top, bracket)",
+   "light_at": [
+    0.0,
+    -0.0453,
+    0.1939
+   ],
+   "light_dir": [
+    0.0,
+    -0.9063,
+    -0.4226
+   ],
+   "suggested": {
+    "kelvin": 2100,
+    "rgb": [
+     1.0,
+     0.52,
+     0.14
+    ],
+    "power": 8.0,
+    "lumens": 24000,
+    "spot_deg": 110,
+    "range_m": 30
+   },
+   "cable_ends": [
+    {
+     "at": [
+      0,
+      0.05,
+      0
+     ],
+     "dir": [
+      0,
+      0,
+      -1
+     ]
+    }
+   ]
+  },
+  "flood_pole": {
+   "tris": 468,
+   "min": [
+    -0.2,
+    -0.2219,
+    0.0
+   ],
+   "max": [
+    0.2,
+    0.16,
+    4.4179
+   ],
+   "size": [
+    0.4,
+    0.3819,
+    4.4179
+   ],
+   "parts": [
+    "flood/pole_foot",
+    "flood/pole_1m",
+    "flood/pole_1m",
+    "flood/pole_1m",
+    "flood/pole_1m",
+    "flood/pole_top",
+    "flood/unit"
+   ],
+   "lit_material": "flood__lit",
+   "bbox_err_mm": 0.0,
+   "mount": "deck",
+   "origin": "bottom centre of the base plate",
+   "light_at": [
+    0.0,
+    -0.0453,
+    4.2219
+   ],
+   "light_dir": [
+    0.0,
+    -0.9063,
+    -0.4226
+   ],
+   "suggested": {
+    "kelvin": 2100,
+    "rgb": [
+     1.0,
+     0.52,
+     0.14
+    ],
+    "power": 8.0,
+    "lumens": 24000,
+    "spot_deg": 110,
+    "range_m": 30
+   },
+   "cable_ends": [
+    {
+     "at": [
+      0,
+      -0.21,
+      0
+     ],
+     "dir": [
+      0,
+      0,
+      -1
+     ],
+     "note": "conduit from the junction box enters the deck"
+    }
+   ]
+  },
+  "flood_pole_pair": {
+   "tris": 758,
+   "min": [
+    -0.62,
+    -0.2219,
+    0.0
+   ],
+   "max": [
+    0.62,
+    0.16,
+    4.4659
+   ],
+   "size": [
+    1.24,
+    0.3819,
+    4.4659
+   ],
+   "parts": [
+    "flood/pole_foot",
+    "flood/pole_1m",
+    "flood/pole_1m",
+    "flood/pole_1m",
+    "flood/pole_1m",
+    "flood/crossarm",
+    "flood/unit",
+    "flood/unit"
+   ],
+   "lit_material": "flood__lit",
+   "bbox_err_mm": 0.0,
+   "mount": "deck",
+   "origin": "bottom centre of the base plate",
+   "light_at": [
+    -0.4045,
+    -0.0426,
+    4.2699
+   ],
+   "light_dir": [
+    0.31,
+    -0.8517,
+    -0.4226
+   ],
+   "suggested": {
+    "kelvin": 2100,
+    "rgb": [
+     1.0,
+     0.52,
+     0.14
+    ],
+    "power": 8.0,
+    "lumens": 24000,
+    "spot_deg": 110,
+    "range_m": 30
+   },
+   "cable_ends": [
+    {
+     "at": [
+      0,
+      -0.21,
+      0
+     ],
+     "dir": [
+      0,
+      0,
+      -1
+     ],
+     "note": "conduit from the junction box enters the deck"
+    }
+   ],
+   "lights": [
+    {
+     "at": [
+      -0.4045,
+      -0.0426,
+      4.2699
+     ],
+     "dir": [
+      0.31,
+      -0.8517,
+      -0.4226
+     ]
+    },
+    {
+     "at": [
+      0.4045,
+      -0.0426,
+      4.2699
+     ],
+     "dir": [
+      -0.31,
+      -0.8517,
+      -0.4226
+     ]
+    }
+   ]
+  },
+  "flood_rail": {
+   "tris": 334,
+   "min": [
+    -0.2,
+    -0.1208,
+    -0.066
+   ],
+   "max": [
+    0.2,
+    0.1268,
+    0.6019
+   ],
+   "size": [
+    0.4,
+    0.2476,
+    0.6679
+   ],
+   "parts": [
+    "flood/rail_clamp",
+    "flood/unit"
+   ],
+   "lit_material": "flood__lit",
+   "mount": "rail",
+   "origin": "top of the handrail top rail, over a post; rail along X, lens to +Y (deck side)",
+   "light_at": [
+    0.0,
+    0.0453,
+    0.4059
+   ],
+   "light_dir": [
+    0.0,
+    0.9063,
+    -0.4226
+   ],
+   "suggested": {
+    "kelvin": 2100,
+    "rgb": [
+     1.0,
+     0.52,
+     0.14
+    ],
+    "power": 5.0,
+    "lumens": 15000,
+    "spot_deg": 110,
+    "range_m": 30
+   },
+   "cable_ends": [
+    {
+     "at": [
+      0,
+      -0.05,
+      -0.03
+     ],
+     "dir": [
+      0,
+      0,
+      -1
+     ],
+     "note": "tail ends on the clamp / handrail post"
+    }
+   ]
+  }
+ },
+ "layout": {
+  "flood_head": [
+   0.0,
+   0,
+   0
+  ],
+  "flood_pole": [
+   0.632,
+   0,
+   0
+  ],
+  "flood_pole_pair": [
+   1.692,
+   0,
+   0
+  ],
+  "flood_rail": [
+   2.752,
+   0,
+   0
+  ]
+ },
+ "unique_tris": 476
+}

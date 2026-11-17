@@ -1,0 +1,55 @@
+{
+ "tris": 4456,
+ "quads": 2042,
+ "tri_faces": 372,
+ "ngons": 0,
+ "verts": 2734,
+ "min": [
+  -3.0,
+  -0.7,
+  0.0
+ ],
+ "max": [
+  3.0,
+  0.7,
+  1.2
+ ],
+ "bbox_err_mm": 0.0,
+ "hi_tris": 17264,
+ "uv_fill": 0.426,
+ "surface_m2": 59.18,
+ "uv_min": 0.0039999657310545444,
+ "uv_max": 0.9959998726844788,
+ "texture": 2048,
+ "texture_target": 2048,
+ "size": [
+  6.0,
+  1.4,
+  1.2
+ ],
+ "box": [
+  6.0,
+  1.4,
+  1.2
+ ],
+ "origin": "centre of the footprint, on the floor (z = 0); long side along X; front faces -Y",
+ "footprint": {
+  "min": [
+   -3.0,
+   -0.7
+  ],
+  "max": [
+   3.0,
+   0.7
+  ]
+ },
+ "cover_below_1m": {
+  "along_y": 0.885,
+  "along_x": 0.905
+ },
+ "faces": {
+  "minus_y": "long side with the strap buckles",
+  "plus_x": "pipe ends with thread protectors",
+  "plus_y": "long side, plain straps"
+ }
+}

@@ -1,0 +1,56 @@
+{
+ "tris": 3780,
+ "quads": 1852,
+ "tri_faces": 76,
+ "ngons": 0,
+ "verts": 2255,
+ "min": [
+  -0.95,
+  -0.6,
+  0.0
+ ],
+ "max": [
+  0.95,
+  0.6,
+  1.9
+ ],
+ "bbox_err_mm": 0.0,
+ "hi_tris": 23114,
+ "uv_fill": 0.398,
+ "surface_m2": 24.23,
+ "uv_min": 0.003999981097877026,
+ "uv_max": 0.9932205677032471,
+ "texture": 2048,
+ "texture_target": 2048,
+ "size": [
+  1.9,
+  1.2,
+  1.9
+ ],
+ "box": [
+  1.9,
+  1.2,
+  1.9
+ ],
+ "origin": "centre of the footprint, on the floor (z = 0); long side along X; front faces -Y",
+ "footprint": {
+  "min": [
+   -0.95,
+   -0.6
+  ],
+  "max": [
+   0.95,
+   0.6
+  ]
+ },
+ "cover_below_1m": {
+  "along_y": 0.889,
+  "along_x": 0.946
+ },
+ "faces": {
+  "minus_y": "reel disc, drive gearbox and motor (motor points +X)",
+  "plus_y": "reel disc, plain A-frame",
+  "plus_x": "cable windings over a striped chock",
+  "minus_x": "cable windings over a striped chock"
+ }
+}

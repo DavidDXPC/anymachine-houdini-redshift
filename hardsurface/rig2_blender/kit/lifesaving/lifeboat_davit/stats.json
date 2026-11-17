@@ -1,0 +1,70 @@
+{
+ "sets": {
+  "lifeboat_davit": {
+   "tris": 8610,
+   "quads": 4054,
+   "tri_faces": 502,
+   "ngons": 0,
+   "verts": 5535,
+   "min": [
+    -4.25,
+    -3.99,
+    0.26
+   ],
+   "max": [
+    0.61,
+    3.99,
+    6.0957
+   ],
+   "hi_tris": 18976,
+   "uv_fill": 0.466,
+   "surface_m2": 61.03,
+   "uv_min": 0.001999955391511321,
+   "uv_max": 0.9964418411254883
+  }
+ },
+ "tris_baked": 8610,
+ "tris_tiles": 12,
+ "tris": 8622,
+ "min": [
+  -4.25,
+  -3.99,
+  0.26
+ ],
+ "max": [
+  0.61,
+  3.99,
+  6.0957
+ ],
+ "place": {
+  "frame": "station frame = the frame of the generated lifeboat prop: use that prop's transform unchanged",
+  "scene_blender": [
+   {
+    "loc": [
+     -2.25,
+     -21.0,
+     2.4
+    ],
+    "rot_z_deg": 180
+   },
+   {
+    "loc": [
+     -2.25,
+     -33.0,
+     2.4
+    ],
+    "rot_z_deg": 180
+   }
+  ],
+  "deck_edge_plane_x": -2.25,
+  "deck_top_z": 2.6,
+  "wall_pad_plane_x": -4.25,
+  "frame_planes_y": [
+   -3.065,
+   3.065
+  ]
+ },
+ "note": "two objects: lifeboat_davit (baked set) and lifeboat_davit_grate (tiling grating, alpha).  The knee braces run under the gallery deck to pads on the cellar wall (map x = 2.0); the deck handrail needs a 1.5 m opening at the boarding gap.",
+ "texture": 2048,
+ "texture_sets": 1
+}

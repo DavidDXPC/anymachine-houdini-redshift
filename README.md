@@ -19,7 +19,28 @@ with a person choosing the design and approving each stage.
 Video: [`stilt/renders/stilt_reference_to_model.mp4`](stilt/renders/stilt_reference_to_model.mp4) (the build, then
 the references beside what was built). Model: [`stilt/stilt.glb`](stilt/stilt.glb).
 
-## Two ways in
+## New: complicated objects, modelled part by part
+
+| Reference sheet | Built (clay above, baked below) |
+|---|---|
+| ![](hardsurface/rig2_blender/kit/aircraft/helicopter/sheets/heli_turn.jpg) | ![](hardsurface/previews/helicopter/overview_clay_top_textured_bottom.jpg) |
+| ![](hardsurface/rig2_blender/kit/sheets/survival_craft_turn.jpg) | ![](hardsurface/previews/lifeboat/after_bow.jpg) |
+
+The same agent (Claude Fable 5.2 in Claude Code) now builds objects with far more on them: a helicopter with a full
+rotor head, cabin and cockpit (31,477 triangles, three texture sets), an enclosed lifeboat on its davit and winch,
+twelve pieces of oil-rig equipment, nineteen light fixtures, three rifles. The method: generate detailed reference
+sheets first (the whole object from six sides, then sheets of close-ups), model it in Blender Python one real part
+at a time, render it beside the sheets, do a second pass where it came out plainer, bake the textures on a GPU
+render farm, export game-ready. Image-to-3D meshes are not used for these; the lifeboat replaced one.
+
+They are still simpler and flatter than their sheets in places, and the notes say where.
+[PIPELINE.md, part 2](PIPELINE.md#part-2-complicated-static-objects) is the method;
+[`hardsurface/`](hardsurface/NOTES.md) has the scripts, sheets and comparisons.
+
+## Three ways in
+
+**From reference sheets, for static objects with a lot on them.** Above, and
+[PIPELINE.md, part 2](PIPELINE.md#part-2-complicated-static-objects).
 
 **From references, for machines no generator can give you.** One concept image becomes a turnaround, single views
 and a close-up plate for every mechanism. A parts breakdown is written from those, then a script that builds the
@@ -38,12 +59,13 @@ and opens. Every control is a 0-1 parameter, and every result is checked by mach
 4. **Check.** Sweep every parameter for triangle overlaps, clamp out-of-range values, measure foot slip, then
    re-import the GLB to confirm it matches.
 
-**Status: experiments.** This repo holds the five runs so far; there is no endpoint yet.
+**Status: experiments.** This repo holds the six runs so far; there is no endpoint yet.
 
 ## Experiments
 
 | | Joints | Result |
 |---|---|---|
+| [hardsurface](hardsurface/NOTES.md) | none: static props. Lifeboat station, helicopter, 12 equipment pieces, 19 light fixtures, 3 rifles | Works as game props. From reference sheets, no generated mesh. Simpler and flatter than the sheets in places; the helicopter is not yet tested in the game |
 | [stilt](stilt/NOTES.md) | 4 legs x 3 joints, 2 arms, hands, 5-link neck; 14 hydraulic actuators; walk, reach, head turn | Works. From references, no generated mesh. No intersections through all three actions; plainer than its plates in the hands, elbows and feet |
 | [laptop](laptop/NOTES.md) | one lid hinge, 0-135 deg | Works. 0 overlaps over the full sweep, min clearance 0.32 mm |
 | [quadruped](quadruped/NOTES.md) | 4 legs x 3 joints; trot, idle, sit, stand | Works. 0 overlaps, 0.014 mm foot slip; legs are plain slabs |
@@ -67,6 +89,16 @@ blender --background --python stilt/verify_glb.py
 The first line rebuilds `stilt.blend` and `stilt.glb` from nothing, including the texture bake (about 80 s; add
 `--no-bake` to skip it). `stilt/edit.ps1` and `stilt/video.ps1` regenerate the references from the `jobs_*.json`
 prompt files and need `FAL_KEY`.
+
+**Hard-surface objects** (Blender 5.2). Each object is one script; `--nobake` builds the geometry in seconds:
+
+```
+cd hardsurface/rig2_blender/kit
+blender -b --factory-startup --python aircraft/helicopter/build.py -- --nobake
+blender -b --factory-startup --python equipment/xmas_tree/build.py -- --size 512 --spp 4 --noreview
+```
+
+See [`hardsurface/NOTES.md`](hardsurface/NOTES.md) for what is and is not in the repo.
 
 **The others** (Blender 5.0). Each folder has a `run_all.sh` (`run_bag.sh` for the backpacks) that rebuilds
 everything from the cached generations in its `gen/` folder, headless. Generations, `.blend` files, GLBs and render

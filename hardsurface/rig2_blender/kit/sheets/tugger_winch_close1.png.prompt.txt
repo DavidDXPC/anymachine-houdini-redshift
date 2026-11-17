@@ -1,0 +1,18 @@
+endpoint: openai/gpt-image-2.6/sunburst/edit
+image_size: landscape_16_9
+quality: high
+inputs: tugger_winch_turn.png
+
+A reference sheet of close-up photographs of ONE piece of equipment, for a 3D modeller who must build it accurately: an orange air tugger winch with a yellow mesh guard over its drum, an air motor and levers, on a base frame bolted to the deck. The input image shows this exact object from six directions; every close-up must show that same object, with the same colours, the same construction and the same condition.
+
+Layout: six close-up photographs in a tidy grid of three columns and two rows, with clear space between them, each on a plain light-grey background or with the rest of the object softly behind. In reading order:
+(1) the drum with the guard removed, seen square-on: drum barrel, the two flanges, the wire rope wound in neat layers and its anchor;
+(2) one side frame from the end: the ribbed cast plate, bearing cover with its bolt circle, grease nipple;
+(3) the yellow guard: frame, mesh, hinges and how it bolts to the side frames;
+(4) the air motor and gearbox on the side with the air inlet pipe, valve and exhaust silencer;
+(5) the brake lever and the control lever: pivots, linkage, black knobs, the brake band;
+(6) a corner of the base frame with its hold-down bolt, washer plate and the weld to the side frame;
+
+Each close-up is photographed square-on or at a slight angle from about a metre away, so the shape, the sections used, the joints and the fastener pattern are completely clear and could be measured. No people. Real industrial equipment at real proportions: correct fastener sizes, weld seams, cast and forged surfaces, bolted flanges. Photographic, soft even overcast light, very sharp, true-to-life materials. Condition: in daily use on a North Sea platform and somewhat dirty but maintained: dark grime runs below fittings, grease near moving parts, paint chipped to primer on edges, a little rust bleed at joints, no heavy rust.
+
+No text, no labels, no arrows, no logos, no brand names, no watermark, no borders.

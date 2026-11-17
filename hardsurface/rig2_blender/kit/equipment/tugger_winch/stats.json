@@ -1,0 +1,56 @@
+{
+ "tris": 2195,
+ "quads": 987,
+ "tri_faces": 221,
+ "ngons": 0,
+ "verts": 1465,
+ "min": [
+  -0.8,
+  -0.55,
+  0.0
+ ],
+ "max": [
+  0.8,
+  0.55,
+  1.1
+ ],
+ "bbox_err_mm": 0.0,
+ "hi_tris": 10475,
+ "uv_fill": 0.611,
+ "surface_m2": 12.53,
+ "uv_min": 0.003999950829893351,
+ "uv_max": 0.9960001111030579,
+ "texture": 1024,
+ "texture_target": 1024,
+ "size": [
+  1.6,
+  1.1,
+  1.1
+ ],
+ "box": [
+  1.6,
+  1.1,
+  1.1
+ ],
+ "origin": "centre of the footprint, on the floor (z = 0); long side along X; front faces -Y",
+ "footprint": {
+  "min": [
+   -0.8,
+   -0.55
+  ],
+  "max": [
+   0.8,
+   0.55
+  ]
+ },
+ "cover_below_1m": {
+  "along_y": 0.91,
+  "along_x": 0.856
+ },
+ "faces": {
+  "minus_y": "mesh guard over the drum, brake lever and control valve at the right",
+  "plus_y": "solid yellow guard plate",
+  "plus_x": "gearcase, air motor, levers",
+  "minus_x": "ribbed side frame with bearing cover"
+ }
+}

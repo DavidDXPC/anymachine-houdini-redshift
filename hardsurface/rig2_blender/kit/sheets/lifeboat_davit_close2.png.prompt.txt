@@ -1,0 +1,20 @@
+endpoint: openai/gpt-image-2.6/sunburst/edit
+image_size: landscape_16_9
+quality: high
+inputs: lifeboat_davit_turn.png
+
+A reference sheet of close-up photographs of ONE object, for a 3D modeller who must build it accurately: an offshore platform lifeboat station: a fixed twin-arm platform davit holding a stowed orange totally enclosed lifeboat outboard of the deck edge. Two welded white-painted steel box-section davit frames about 5 m apart, each a vertical column rising 3.5 m from a cantilever base girder at deck level with an arm reaching 2.5 m outboard at the top, a knee gusset at the elbow and a head sheave in cheek plates at the arm tip; a cross girder between the two columns carrying the blue electric lifeboat winch with twin grooved drums, gearbox, motor and a counterweighted brake lever; galvanised wire rope falls running from the winch drums over lead sheaves at the column heads, along the arms, over the head sheaves and down to a suspension block with a long link that hangs in each of the two lifting hooks of the boat. Below, a narrow embarkation platform of galvanised bar grating cantilevered from the deck edge on I-beam brackets with diagonal knee braces going down to a lower mounting pad, ochre-yellow tube handrails with toe boards on its ends and outboard edge and a gap with a safety chain opposite the side hatch of the boat; the boat held in against rubber fender pads by two wire gripe lashings with turnbuckles and slip hooks; a remote release wire and a small control box on one column. The input image shows this exact object from six directions; every close-up must show that same object, with the same colours, the same construction and the same condition.
+
+Layout: six close-up photographs in a tidy grid of three columns and two rows, with clear space between them. In reading order:
+(1) the embarkation platform from above at an angle: bar grating panels, the kick plate and the edge beam;
+(2) the underside of the embarkation platform: I-beam cantilever bracket, the diagonal knee brace and its bolted mounting pads on the deck edge girder;
+(3) the handrail gap opposite the boarding hatch with its safety chain and hook, and the rail posts bolted to the edge beam;
+(4) a rubber fender pad on its steel bracket where the boat hull rests against the platform;
+(5) the control box and the remote release wire with its small guide pulleys on a davit column;
+(6) the cross girder end where it is bolted to a davit column: flange plate, bolts, a lifting lug;
+
+Each close-up is photographed square-on or at a slight angle from one or two metres away, so the shape, the joint, the hardware and the fastener pattern are completely clear and could be measured. Exterior only. Real marine and industrial construction at real proportions. Photographic, soft even overcast light, very sharp, true-to-life materials.
+
+Condition: in working order on a modern North Sea platform, repainted within the last year: clean glossy marine paint, crisp edges, only the faintest salt dust and a few small scuffs. No rust, no grime, no dents.
+
+No people, no logos, no brand names, no watermark, no borders, no arrows, no dimension lines.

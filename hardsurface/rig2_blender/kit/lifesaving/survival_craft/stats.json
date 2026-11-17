@@ -1,0 +1,75 @@
+{
+ "sets": {
+  "survival_craft": {
+   "tris": 7750,
+   "quads": 3747,
+   "tri_faces": 256,
+   "ngons": 0,
+   "verts": 4659,
+   "min": [
+    -0.805,
+    -3.72,
+    1.297
+   ],
+   "max": [
+    1.905,
+    3.8397,
+    4.806
+   ],
+   "hi_tris": 25540,
+   "uv_fill": 0.354,
+   "surface_m2": 83.57,
+   "uv_min": 0.0019999684300273657,
+   "uv_max": 0.9980000853538513
+  }
+ },
+ "tris_baked": 7750,
+ "tris_tiles": 0,
+ "tris": 7750,
+ "min": [
+  -0.805,
+  -3.72,
+  1.297
+ ],
+ "max": [
+  1.905,
+  3.8397,
+  4.806
+ ],
+ "place": {
+  "frame": "station frame = the frame of the generated lifeboat prop: use that prop's transform unchanged",
+  "scene_blender": [
+   {
+    "loc": [
+     -2.25,
+     -21.0,
+     2.4
+    ],
+    "rot_z_deg": 180
+   },
+   {
+    "loc": [
+     -2.25,
+     -33.0,
+     2.4
+    ],
+    "rot_z_deg": 180
+   }
+  ],
+  "hook_points_station": [
+   [
+    0.55,
+    3.065,
+    3.7652
+   ],
+   [
+    0.55,
+    -3.065,
+    4.0947
+   ]
+  ]
+ },
+ "note": "one object / one texture set.  Hangs by its two hooks from lifeboat_davit (same transform).",
+ "texture": 2048,
+ "texture_sets": 1
+}

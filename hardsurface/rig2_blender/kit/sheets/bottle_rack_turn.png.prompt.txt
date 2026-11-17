@@ -1,0 +1,16 @@
+endpoint: openai/gpt-image-2.6/sunburst/edit
+image_size: landscape_16_9
+quality: high
+inputs: laydown_alley.png
+
+A technical reference sheet for 3D modelling, showing ONE object from six directions: a gas cylinder rack (bottle quad) for offshore lifting: a galvanised steel frame with expanded-mesh side panels and a plate floor on fork pockets, holding six tall gas cylinders upright in two rows of three, three cylinders maroon and three grey with white shoulders, valve caps on top, a chain across the open front, four lifting eyes on the top corners, blank diamond hazard placards on the mesh. Condition: in daily use and somewhat dirty but maintained: dark grime runs below fittings, grease near moving parts, paint chipped on edges, a little rust bleed at joints. A compact, solid mass with no large see-through gaps.. Its real size is 1.3 x 1.0 x 1.9 metres (length x width x height); keep those proportions exactly.
+
+Layout: six separate views of the same single object on a plain seamless light-grey background, arranged in a tidy grid of three columns and two rows with clear space between them. Top row: front elevation, left side elevation, back elevation. Bottom row: right side elevation, top plan view, three-quarter view from the front and slightly above. The five elevation and plan views are true orthographic projections with no perspective at all, drawn at the same scale and standing on a common ground line; only the three-quarter view has perspective. Every view shows the identical object: same parts, same colours, same damage.
+
+Photographic, not a drawing: a real object photographed for 3D scanning, soft even diffuse studio light, no cast shadows on the background, sharp focus edge to edge, true-to-life materials. The whole object is inside each view with a margin. Nothing else in frame: no people, no floor, no room, no other objects.
+
+The input image is a photograph of the platform this object belongs to; the object appears in it. Take its colours, materials, proportions and condition from that photograph, but show only the one object, complete, on its own.
+
+Look: equipment on a modern North Sea oil and gas platform, maintained and repainted within the last few years. Real industrial construction: steel plate, rolled sections, weld seams, bolted joints, real fasteners at real size. Paint is marine two-pack: soft off-white and light grey for structures, slightly dull ochre safety yellow for rails, stairs and guards, dark blue for containers, muted green, blue and red for pipes, orange or blue for machinery skids, galvanised zinc for grating. Light honest wear only: paint chipped to primer on corners and edges, scuffs, a few touch-up patches, a little salt dust, a few hand-sized rust blooms at welds and bolts. No heavy rust, no grime, no mud.
+
+No text, no labels, no arrows, no dimension lines, no logos, no brand names, no watermark, no borders.

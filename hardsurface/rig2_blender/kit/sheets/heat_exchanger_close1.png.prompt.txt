@@ -1,0 +1,18 @@
+endpoint: openai/gpt-image-2.6/sunburst/edit
+image_size: landscape_16_9
+quality: high
+inputs: heat_exchanger_turn.png
+
+A reference sheet of close-up photographs of ONE piece of equipment, for a 3D modeller who must build it accurately: a horizontal shell-and-tube heat exchanger on two saddles, with ribbed aluminium insulation cladding, a flat bolted channel cover at one end and a dished bonnet at the other. The input image shows this exact object from six directions; every close-up must show that same object, with the same colours, the same construction and the same condition.
+
+Layout: six close-up photographs in a tidy grid of three columns and two rows, with clear space between them, each on a plain light-grey background or with the rest of the object softly behind. In reading order:
+(1) the channel head with its flat cover seen from the end: the stud circle, the cover thickness, lifting lug;
+(2) the same channel end from the side: channel barrel, the girth flanges, studs and nuts, the gap to the cladding;
+(3) the dished bonnet end from the side: bonnet, girth flange pair with studs, where the cladding stops;
+(4) a top nozzle rising through the cladding: collar flashing, the nozzle neck and its flange with studs;
+(5) a saddle: wear plate under the shell, web, ribs, base plate and anchor bolts;
+(6) the ribbed cladding with a banding strap and its buckle, an overlap seam with rivets, and the nameplate bracket;
+
+Each close-up is photographed square-on or at a slight angle from about a metre away, so the shape, the sections used, the joints and the fastener pattern are completely clear and could be measured. No people. Real industrial equipment at real proportions: correct fastener sizes, weld seams, cast and forged surfaces, bolted flanges. Photographic, soft even overcast light, very sharp, true-to-life materials. Condition: in daily use on a North Sea platform and somewhat dirty but maintained: dark grime runs below fittings, grease near moving parts, paint chipped to primer on edges, a little rust bleed at joints, no heavy rust.
+
+No text, no labels, no arrows, no logos, no brand names, no watermark, no borders.

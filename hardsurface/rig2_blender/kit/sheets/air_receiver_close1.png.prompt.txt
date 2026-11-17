@@ -1,0 +1,18 @@
+endpoint: openai/gpt-image-2.6/sunburst/edit
+image_size: landscape_16_9
+quality: high
+inputs: air_receiver_turn.png
+
+A reference sheet of close-up photographs of ONE piece of equipment, for a 3D modeller who must build it accurately: a vertical air receiver pressure vessel painted light grey, on legs, with a bolted manway, flanged nozzles, a relief valve and a pressure gauge. The input image shows this exact object from six directions; every close-up must show that same object, with the same colours, the same construction and the same condition.
+
+Layout: six close-up photographs in a tidy grid of three columns and two rows, with clear space between them, each on a plain light-grey background or with the rest of the object softly behind. In reading order:
+(1) the bolted manway seen square-on: cover, ring of bolts, two handles and the hinge or davit arm;
+(2) the same manway from the side, showing how far the neck and cover stand off the shell and the davit;
+(3) the top head with the relief valve on its nozzle and the pressure gauge with its isolating valve and syphon tube;
+(4) a side nozzle with its weld-neck flange, studs and nuts and the reinforcing pad on the shell;
+(5) the nameplate on its stand-off bracket and the girth weld seam of the shell beside it;
+(6) the bottom of the vessel: the dished head, drain valve, and a leg with its base plate and anchor bolts;
+
+Each close-up is photographed square-on or at a slight angle from about a metre away, so the shape, the sections used, the joints and the fastener pattern are completely clear and could be measured. No people. Real industrial equipment at real proportions: correct fastener sizes, weld seams, cast and forged surfaces, bolted flanges. Photographic, soft even overcast light, very sharp, true-to-life materials. Condition: in daily use on a North Sea platform and somewhat dirty but maintained: dark grime runs below fittings, grease near moving parts, paint chipped to primer on edges, a little rust bleed at joints, no heavy rust.
+
+No text, no labels, no arrows, no logos, no brand names, no watermark, no borders.

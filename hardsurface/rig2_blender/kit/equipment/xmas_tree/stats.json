@@ -1,0 +1,56 @@
+{
+ "tris": 5894,
+ "quads": 2781,
+ "tri_faces": 332,
+ "ngons": 0,
+ "verts": 3686,
+ "min": [
+  -0.8,
+  -0.8,
+  0.0
+ ],
+ "max": [
+  0.8,
+  0.8,
+  2.6
+ ],
+ "bbox_err_mm": 0.0,
+ "hi_tris": 22440,
+ "uv_fill": 0.416,
+ "surface_m2": 17.23,
+ "uv_min": 0.0039999657310545444,
+ "uv_max": 0.9960000514984131,
+ "texture": 2048,
+ "texture_target": 2048,
+ "size": [
+  1.6,
+  1.6,
+  2.6
+ ],
+ "box": [
+  1.6,
+  1.6,
+  2.6
+ ],
+ "origin": "centre of the footprint, on the floor (z = 0); long side along X; front faces -Y",
+ "footprint": {
+  "min": [
+   -0.8,
+   -0.8
+  ],
+  "max": [
+   0.8,
+   0.8
+  ]
+ },
+ "cover_below_1m": {
+  "along_y": 0.663,
+  "along_x": 0.581
+ },
+ "faces": {
+  "minus_y": "master valve handwheels, gauge dial",
+  "plus_x": "wing with the choke (T handle)",
+  "minus_x": "wing with the blind cap",
+  "plus_y": "backs of the valve bodies"
+ }
+}

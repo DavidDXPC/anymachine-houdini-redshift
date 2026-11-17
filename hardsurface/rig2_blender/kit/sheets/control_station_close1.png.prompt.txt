@@ -1,0 +1,18 @@
+endpoint: openai/gpt-image-2.6/sunburst/edit
+image_size: landscape_16_9
+quality: high
+inputs: control_station_turn.png
+
+A reference sheet of close-up photographs of ONE piece of equipment, for a 3D modeller who must build it accurately: a local control station: a stainless steel cabinet with a window and push buttons on a grey steel stand with a sloping sunshade. The input image shows this exact object from six directions; every close-up must show that same object, with the same colours, the same construction and the same condition.
+
+Layout: six close-up photographs in a tidy grid of three columns and two rows, with clear space between them, each on a plain light-grey background or with the rest of the object softly behind. In reading order:
+(1) the cabinet door seen square-on: window with its gasket, the row of push buttons and indicator lamps, the emergency stop, the handle;
+(2) the hinge side of the door: two lift-off hinges and the door edge with its gasket lip;
+(3) the latch side: quarter-turn latches and the handle;
+(4) the underside of the cabinet: the row of cable glands and the steel conduits dropping down the stand, with their saddle clamps;
+(5) the sunshade from below and the side: the folded plate, its two brackets and the bolts to the stand;
+(6) the foot of the stand: base plate, gussets and anchor bolts, and the conduits entering the deck;
+
+Each close-up is photographed square-on or at a slight angle from about a metre away, so the shape, the sections used, the joints and the fastener pattern are completely clear and could be measured. No people. Real industrial equipment at real proportions: correct fastener sizes, weld seams, cast and forged surfaces, bolted flanges. Photographic, soft even overcast light, very sharp, true-to-life materials. Condition: in daily use on a North Sea platform and somewhat dirty but maintained: dark grime runs below fittings, grease near moving parts, paint chipped to primer on edges, a little rust bleed at joints, no heavy rust.
+
+No text, no labels, no arrows, no logos, no brand names, no watermark, no borders.

@@ -1,0 +1,25 @@
+{
+ "about": "Proposed collision for the helideck helicopter, in the map's box format (rig2_boxes.json: x east, y up, z south, metres). Valid for the placement below only. Not added to any map file.",
+ "place": { "blender_location": [7.5, -27.0, 13.0], "rot_z_deg": 0, "map_origin": [7.5, 13, 27], "local_to_map": "map x = 7.5 + local x, map y = 13 + local z, map z = 27 - local y (nose = +x = east)" },
+ "boxes": [
+  { "min": [5.3, 13.45, 25.88], "max": [10.8, 15.45, 28.12], "tag": "prop", "name": "heli cabin and cockpit" },
+  { "min": [10.8, 13.6, 26.25], "max": [11.75, 14.6, 27.75], "tag": "prop", "name": "heli nose" },
+  { "min": [5.1, 15.45, 26.25], "max": [9.2, 16.05, 27.75], "tag": "prop", "name": "heli engine cowling (on the roof)" },
+  { "min": [3.9, 14.0, 26.25], "max": [5.3, 15.45, 27.75], "tag": "prop", "name": "heli aft fuselage taper" },
+  { "min": [0.7, 14.6, 26.68], "max": [3.9, 15.5, 27.32], "tag": "prop", "name": "heli tail boom (1.6 m clear underneath: walk under it)" },
+  { "min": [-0.05, 14.5, 26.88], "max": [1.3, 17.3, 27.12], "tag": "prop", "name": "heli fin (stands over the west rail and net)" },
+  { "min": [1.38, 15.05, 25.75], "max": [2.0, 15.15, 28.25], "tag": "prop", "name": "heli horizontal stabiliser (thin, 2.05 m up)" },
+  { "min": [5.46, 13.0, 25.26], "max": [8.1, 14.0, 26.06], "tag": "prop", "name": "heli left sponson and main wheel (north side), 1.0 m high: low cover, can be climbed" },
+  { "min": [5.46, 13.0, 27.94], "max": [8.1, 14.0, 28.74], "tag": "prop", "name": "heli right sponson and main wheel (south side)" },
+  { "min": [10.3, 13.0, 26.8], "max": [10.7, 13.6, 27.2], "tag": "prop", "name": "heli nose gear" }
+ ],
+ "non_blocking": [
+  { "min": [1.8, 16.45, 21.3], "max": [13.2, 16.8, 32.7], "name": "main rotor disc: five stopped blades, 3.46 to 3.72 m above the deck, radius 5.7 m round map (7.5, 27). Above head height; leave without collision." },
+  { "min": [-0.7, 15.25, 27.25], "max": [1.4, 17.35, 27.45], "name": "tail rotor (south face of the fin), lowest point 2.25 m above the deck" },
+  { "name": "tie-down straps (four, from the sponsons to deck points at map (9.03, 22.1), (4.97, 22.1), (9.03, 31.9), (4.97, 31.9)), blade tie-down ropes, chocks, boarding steps, antennas, pitot tubes: no collision" }
+ ],
+ "conflicts_with_the_current_blockout": [
+  "deck_locker.001 and its crouch box (min [6, 13, 26.2], max [8, 14.2, 27.8]) stand inside the fuselage: move or remove them.",
+  "box_yellow.008 with coiled_hose.010 (map x 9..11.5, z 21..22.2) covers the deck tie-down point at map (9.03, 22.1) that the front-left strap hooks into: move it at least 0.4 m east or north, or hide that strap."
+ ]
+}

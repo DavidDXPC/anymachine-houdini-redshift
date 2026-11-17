@@ -1,0 +1,16 @@
+endpoint: openai/gpt-image-2.6/sunburst/edit
+image_size: landscape_16_9
+quality: high
+inputs: north_edge.png
+
+A reference sheet of close-up construction details of ONE object, for a 3D modeller: an open-top offshore waste skip: a steel body with sloping tapered ends and pressed vertical ribs on the sides, painted dark blue, a heavy top rim, four lifting lugs with a wire sling set and shackles laid over it, skids underneath, a green tarpaulin lashed over half of the open top, large white stencilled markings of plain invented numbers. Condition: in daily use and somewhat dirty but maintained: dark grime runs below fittings, grease near moving parts, paint chipped on edges, a little rust bleed at joints. A compact, solid mass with no large see-through gaps..
+
+Layout: six close-up photographs in a tidy grid of three columns and two rows on a plain light-grey background with clear space between them. Each close-up shows a different part of the same object at about 30 to 60 cm across, square-on: (1) a corner, showing how the edges meet; (2) a typical joint or seam, showing welds, bolts or rivets and their spacing; (3) the base or foot, showing how it stands on or fixes to the deck; (4) a functional detail such as a hinge, latch, handle, clamp, flange or bracket; (5) a typical area of plain surface, showing the paint texture, panel pressing or ribbing; (6) the most worn spot, showing chipped paint and scuffing.
+
+Photographic, soft even diffuse light, very sharp, true-to-life materials and real fastener sizes. Nothing else in frame.
+
+The input image is a photograph of the platform this object belongs to; the object appears in it. Take its colours, materials, proportions and condition from that photograph, but show only the one object, complete, on its own.
+
+Look: equipment on a modern North Sea oil and gas platform, maintained and repainted within the last few years. Real industrial construction: steel plate, rolled sections, weld seams, bolted joints, real fasteners at real size. Paint is marine two-pack: soft off-white and light grey for structures, slightly dull ochre safety yellow for rails, stairs and guards, dark blue for containers, muted green, blue and red for pipes, orange or blue for machinery skids, galvanised zinc for grating. Light honest wear only: paint chipped to primer on corners and edges, scuffs, a few touch-up patches, a little salt dust, a few hand-sized rust blooms at welds and bolts. No heavy rust, no grime, no mud.
+
+No text, no labels, no arrows, no logos, no brand names, no watermark, no borders.

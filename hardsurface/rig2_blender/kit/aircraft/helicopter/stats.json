@@ -1,0 +1,101 @@
+{
+ "sets": {
+  "heli_body": {
+   "tris": 9984,
+   "quads": 4730,
+   "tri_faces": 524,
+   "ngons": 0,
+   "verts": 5571,
+   "min": [
+    -7.565,
+    -1.752,
+    0.299
+   ],
+   "max": [
+    4.3537,
+    1.752,
+    4.347
+   ],
+   "hi_tris": 39724,
+   "uv_fill": 0.479,
+   "surface_m2": 92.52,
+   "uv_min": 0.0014999578706920147,
+   "uv_max": 0.9985002279281616,
+   "texture": 4096
+  },
+  "heli_mech": {
+   "tris": 15405,
+   "quads": 7042,
+   "tri_faces": 1321,
+   "ngons": 0,
+   "verts": 8395,
+   "min": [
+    -7.9626,
+    -5.5361,
+    0.0
+   ],
+   "max": [
+    5.73,
+    5.482,
+    4.1126
+   ],
+   "hi_tris": 20143,
+   "uv_fill": 0.558,
+   "surface_m2": 41.5,
+   "uv_min": 0.001499882317148149,
+   "uv_max": 0.9982185363769531,
+   "texture": 4096
+  },
+  "heli_interior": {
+   "tris": 5812,
+   "quads": 2627,
+   "tri_faces": 558,
+   "ngons": 0,
+   "verts": 3637,
+   "min": [
+    -1.5996,
+    -1.0801,
+    0.7777
+   ],
+   "max": [
+    3.6494,
+    1.0801,
+    2.41
+   ],
+   "hi_tris": 7408,
+   "uv_fill": 0.655,
+   "surface_m2": 60.16,
+   "uv_min": 0.0014999601989984512,
+   "uv_max": 0.9929922819137573,
+   "texture": 2048
+  }
+ },
+ "tris_baked": 31201,
+ "tris_glass": 276,
+ "tris": 31477,
+ "min": [
+  -7.9626,
+  -5.5361,
+  0.0
+ ],
+ "max": [
+  5.73,
+  5.482,
+  4.347
+ ],
+ "place": {
+  "blender_location": [
+   7.5,
+   -27.0,
+   13.0
+  ],
+  "rot_z_deg": 0,
+  "map_origin": [
+   7.5,
+   13,
+   27
+  ],
+  "axes": "blender (x, y, z) = map (x, -z, y)",
+  "note": "origin = deck under the rotor mast, nose +X (east, towards the walkway tab); straps end on the helideck's own tie-down points"
+ }
+}

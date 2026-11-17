@@ -1,0 +1,113 @@
+{
+ "tris": 3031,
+ "quads": 1457,
+ "tri_faces": 117,
+ "ngons": 0,
+ "verts": 2001,
+ "min": [
+  0.32,
+  -0.2219,
+  -0.3476
+ ],
+ "max": [
+  29.578,
+  0.3139,
+  1.54
+ ],
+ "hi_tris": 18517,
+ "part_tris": {
+  "wellglass/main": 386,
+  "tube_light/body": 68,
+  "tube_light/hanger": 30,
+  "tube_light/cable": 32,
+  "tube_light/post": 142,
+  "tube_light/cable_loose": 56,
+  "flood/unit": 290,
+  "flood/pole_1m": 16,
+  "flood/pole_foot": 102,
+  "flood/pole_top": 12,
+  "flood/crossarm": 12,
+  "flood/rail_clamp": 44,
+  "obstruction_light/main": 238,
+  "helideck_lights/perimeter": 132,
+  "helideck_lights/circle": 22,
+  "helideck_lights/edge_flood": 118,
+  "escape_route/sign": 200,
+  "escape_route/strip": 14,
+  "beacon/head": 216,
+  "beacon/lens": 40,
+  "beacon/pole": 58,
+  "beacon/wall_bracket": 32,
+  "work_light/mast": 100,
+  "work_light/leg": 26,
+  "work_light/head": 174,
+  "work_light/cable_box": 82,
+  "work_light/handlamp": 389
+ },
+ "uv_fill": 0.404,
+ "surface_m2": 5.48,
+ "uv_min": 0.0029999513644725084,
+ "uv_max": 0.9970000982284546,
+ "texture": 2048,
+ "fixtures": {
+  "wellglass": {
+   "tris": 386,
+   "objects": {
+    "wellglass": 386
+   }
+  },
+  "tube_light": {
+   "tris": 678,
+   "objects": {
+    "tube_light_ceiling": 192,
+    "tube_light_pole": 302,
+    "tube_light_broken": 184
+   }
+  },
+  "flood": {
+   "tris": 1850,
+   "objects": {
+    "flood_head": 290,
+    "flood_pole": 468,
+    "flood_pole_pair": 758,
+    "flood_rail": 334
+   }
+  },
+  "obstruction_light": {
+   "tris": 238,
+   "objects": {
+    "obstruction_light": 238
+   }
+  },
+  "helideck_lights": {
+   "tris": 272,
+   "objects": {
+    "helideck_perimeter": 132,
+    "helideck_circle": 22,
+    "helideck_edge_flood": 118
+   }
+  },
+  "escape_route": {
+   "tris": 214,
+   "objects": {
+    "escape_sign": 200,
+    "escape_strip": 14
+   }
+  },
+  "beacon": {
+   "tris": 562,
+   "objects": {
+    "beacon_pole": 274,
+    "beacon_wall": 248,
+    "beacon_lens": 40
+   }
+  },
+  "work_light": {
+   "tris": 997,
+   "objects": {
+    "work_tripod": 608,
+    "work_handlamp": 389
+   }
+  }
+ }
+}

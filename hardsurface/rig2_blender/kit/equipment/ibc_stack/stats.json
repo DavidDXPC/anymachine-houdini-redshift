@@ -1,0 +1,54 @@
+{
+ "tris": 3804,
+ "quads": 1874,
+ "tri_faces": 56,
+ "ngons": 0,
+ "verts": 2331,
+ "min": [
+  -0.6,
+  -0.5,
+  0.0
+ ],
+ "max": [
+  0.6,
+  0.5,
+  2.3
+ ],
+ "bbox_err_mm": 0.0,
+ "hi_tris": 5636,
+ "uv_fill": 0.209,
+ "surface_m2": 21.0,
+ "uv_min": 0.003999977372586727,
+ "uv_max": 0.9959219098091125,
+ "texture": 1024,
+ "texture_target": 1024,
+ "size": [
+  1.2,
+  1.0,
+  2.3
+ ],
+ "box": [
+  1.2,
+  1.0,
+  2.3
+ ],
+ "origin": "centre of the footprint, on the floor (z = 0); long side along X; front faces -Y",
+ "footprint": {
+  "min": [
+   -0.6,
+   -0.5
+  ],
+  "max": [
+   0.6,
+   0.5
+  ]
+ },
+ "cover_below_1m": {
+  "along_y": 1.0,
+  "along_x": 0.996
+ },
+ "faces": {
+  "minus_y": "drain taps and label plates",
+  "plus_x": "plain cage side"
+ }
+}

@@ -1,0 +1,20 @@
+endpoint: openai/gpt-image-2.6/sunburst/edit
+image_size: landscape_16_9
+quality: high
+inputs: survival_craft_turn.png
+
+A reference sheet of close-up photographs of ONE object, for a 3D modeller who must build it accurately: a totally enclosed motor-propelled survival craft (TEMPSC), the standard enclosed offshore lifeboat: about 7.5 m long, 2.7 m beam, 3 m high. International orange glass-fibre hull and canopy. Hull: a hard chine, a straight keel with a skeg, a fine raked bow, a transom stern; a heavy black rubber rubbing strake (fender) right round at the sheer line where hull and canopy join; a white becketed grab line hanging in loops along both sides just under the strake. Canopy: rounded enclosed superstructure with a large outward-opening boarding hatch on each side with two hinges and lever dog handles, a smaller hatch on top forward and one aft, a raised square conning position (steering tower) aft with small rectangular windows all round and a white navigation light on a short mast, small fixed rectangular portlights with black rubber gaskets, a stainless water-spray deluge pipe running along the top centre line with nozzles, grab rails along the canopy top. Lifting hooks: one heavy galvanised on-load release hook in a steel hook box forward and one aft on the centre line of the canopy. Stern: a bronze propeller inside a round steel nozzle guard with a rudder behind it, an exhaust outlet. Strips of silver retro-reflective tape in short bars round the canopy and along the hull; black stencilled capacity and identification lettering on the canopy sides (generic letters and numbers). The input image shows this exact object from six directions; every close-up must show that same object, with the same colours, the same construction and the same condition.
+
+Layout: six close-up photographs in a tidy grid of three columns and two rows, with clear space between them. In reading order:
+(1) the bow from the front and slightly below: the stem, the chine running aft and the keel line;
+(2) the canopy top seen from above: the deluge spray pipe with a nozzle and its clips, a grab rail and the top hatch with its hinges;
+(3) the hull bottom amidships from the side: the chine, the flat of the bottom and the keel with its metal shoe;
+(4) a fixed portlight up close: black rubber gasket, clear pane, the moulded recess;
+(5) the towing and painter fitting at the bow: bollard or release hook and a fairlead;
+(6) the join between hull and canopy at the stern quarter: the strake end, a moulded seam, a drain scupper;
+
+Each close-up is photographed square-on or at a slight angle from one or two metres away, so the shape, the joint, the hardware and the fastener pattern are completely clear and could be measured. Exterior only. Real marine and industrial construction at real proportions. Photographic, soft even overcast light, very sharp, true-to-life materials.
+
+Condition: in working order on a modern North Sea platform, repainted within the last year: clean glossy marine paint, crisp edges, only the faintest salt dust and a few small scuffs. No rust, no grime, no dents.
+
+No people, no logos, no brand names, no watermark, no borders, no arrows, no dimension lines.

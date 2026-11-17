@@ -1,0 +1,55 @@
+{
+ "tris": 2268,
+ "quads": 1108,
+ "tri_faces": 52,
+ "ngons": 0,
+ "verts": 1382,
+ "min": [
+  -0.65,
+  -0.501,
+  0.0
+ ],
+ "max": [
+  0.65,
+  0.5,
+  1.9
+ ],
+ "bbox_err_mm": 1.0,
+ "hi_tris": 8186,
+ "uv_fill": 0.526,
+ "surface_m2": 20.79,
+ "uv_min": 0.003999966662377119,
+ "uv_max": 0.9959266185760498,
+ "texture": 1024,
+ "texture_target": 1024,
+ "size": [
+  1.3,
+  1.001,
+  1.9
+ ],
+ "box": [
+  1.3,
+  1.0,
+  1.9
+ ],
+ "origin": "centre of the footprint, on the floor (z = 0); long side along X; front faces -Y",
+ "footprint": {
+  "min": [
+   -0.65,
+   -0.501
+  ],
+  "max": [
+   0.65,
+   0.5
+  ]
+ },
+ "cover_below_1m": {
+  "along_y": 1.0,
+  "along_x": 1.0
+ },
+ "faces": {
+  "minus_y": "open side: three cylinders behind a chain",
+  "plus_x": "mesh end with a hazard diamond",
+  "plus_y": "mesh back"
+ }
+}

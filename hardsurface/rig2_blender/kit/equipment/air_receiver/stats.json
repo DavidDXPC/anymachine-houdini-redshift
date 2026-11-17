@@ -1,0 +1,55 @@
+{
+ "tris": 4026,
+ "quads": 1861,
+ "tri_faces": 304,
+ "ngons": 0,
+ "verts": 2496,
+ "min": [
+  -0.7,
+  -0.7,
+  0.0
+ ],
+ "max": [
+  0.7,
+  0.7,
+  2.8
+ ],
+ "bbox_err_mm": 0.0,
+ "hi_tris": 17040,
+ "uv_fill": 0.479,
+ "surface_m2": 13.38,
+ "uv_min": 0.003999950829893351,
+ "uv_max": 0.9959999918937683,
+ "texture": 2048,
+ "texture_target": 2048,
+ "size": [
+  1.4,
+  1.4,
+  2.8
+ ],
+ "box": [
+  1.4,
+  1.4,
+  2.8
+ ],
+ "origin": "centre of the footprint, on the floor (z = 0); long side along X; front faces -Y",
+ "footprint": {
+  "min": [
+   -0.7,
+   -0.7
+  ],
+  "max": [
+   0.7,
+   0.7
+  ]
+ },
+ "cover_below_1m": {
+  "along_y": 0.862,
+  "along_x": 0.854
+ },
+ "faces": {
+  "minus_y": "manway, nameplate, drain valve",
+  "plus_x": "flanged nozzle (the same at -X)",
+  "plus_y": "one leg, small blind nozzle, skirt access opening towards +X+Y"
+ }
+}

@@ -1,0 +1,89 @@
+{
+ "tris": 386,
+ "ngons": 0,
+ "texture": 2048,
+ "baked": true,
+ "atlas": "../lighting_color.png, ../lighting_normal.png, ../lighting_orm.png (shared by the family)",
+ "bbox_err_mm": 0.0,
+ "items": {
+  "wellglass": {
+   "tris": 386,
+   "min": [
+    -0.09,
+    -0.1776,
+    0.0031
+   ],
+   "max": [
+    0.09,
+    0.0,
+    0.2979
+   ],
+   "size": [
+    0.18,
+    0.1776,
+    0.2948
+   ],
+   "parts": [
+    "wellglass/main"
+   ],
+   "lit_material": "wellglass__lit",
+   "bbox_err_mm": 0.0,
+   "mount": "wall",
+   "origin": "wall plane, bottom centre",
+   "light_at": [
+    0,
+    -0.1,
+    0.0905
+   ],
+   "light_dir": null,
+   "suggested": {
+    "kelvin": 2700,
+    "rgb": [
+     1.0,
+     0.74,
+     0.46
+    ],
+    "power": 1.0,
+    "lumens": 800,
+    "spot_deg": null,
+    "range_m": 7
+   },
+   "cable_ends": [
+    {
+     "at": [
+      0,
+      0,
+      0.2905
+     ],
+     "dir": [
+      0,
+      1,
+      0
+     ],
+     "note": "conduit elbows into the wall above"
+    },
+    {
+     "at": [
+      0,
+      0,
+      0.0105
+     ],
+     "dir": [
+      0,
+      1,
+      0
+     ],
+     "note": "and below"
+    }
+   ]
+  }
+ },
+ "layout": {
+  "wellglass": [
+   0.0,
+   0,
+   0
+  ]
+ },
+ "unique_tris": 386
+}

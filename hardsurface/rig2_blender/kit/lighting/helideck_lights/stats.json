@@ -1,0 +1,212 @@
+{
+ "tris": 272,
+ "ngons": 0,
+ "texture": 2048,
+ "baked": true,
+ "atlas": "../lighting_color.png, ../lighting_normal.png, ../lighting_orm.png (shared by the family)",
+ "bbox_err_mm": 0.0,
+ "items": {
+  "helideck_perimeter": {
+   "tris": 132,
+   "min": [
+    -0.0966,
+    -0.0966,
+    0.0
+   ],
+   "max": [
+    0.0966,
+    0.0966,
+    0.043
+   ],
+   "size": [
+    0.1932,
+    0.1932,
+    0.043
+   ],
+   "parts": [
+    "helideck_lights/perimeter"
+   ],
+   "lit_material": "helideck_lights__lit",
+   "bbox_err_mm": 0.0,
+   "mount": "deck",
+   "origin": "bottom centre",
+   "light_at": [
+    0,
+    0,
+    0.06
+   ],
+   "light_dir": null,
+   "suggested": {
+    "kelvin": null,
+    "rgb": [
+     0.04,
+     1.0,
+     0.32
+    ],
+    "power": 0.25,
+    "lumens": 150,
+    "spot_deg": null,
+    "range_m": 4,
+    "note": "upper hemisphere only"
+   },
+   "cable_ends": [
+    {
+     "at": [
+      0,
+      0,
+      0
+     ],
+     "dir": [
+      0,
+      0,
+      -1
+     ],
+     "note": "fed from below through the deck; no surface cable"
+    }
+   ]
+  },
+  "helideck_circle": {
+   "tris": 22,
+   "min": [
+    -0.25,
+    -0.04,
+    0.0
+   ],
+   "max": [
+    0.25,
+    0.04,
+    0.012
+   ],
+   "size": [
+    0.5,
+    0.08,
+    0.012
+   ],
+   "parts": [
+    "helideck_lights/circle"
+   ],
+   "lit_material": "helideck_lights__lit_yellow",
+   "bbox_err_mm": 0.0,
+   "mount": "deck",
+   "origin": "bottom centre, long side X",
+   "light_at": [
+    0,
+    0,
+    0.04
+   ],
+   "light_dir": [
+    0,
+    0,
+    1
+   ],
+   "suggested": {
+    "kelvin": null,
+    "rgb": [
+     1.0,
+     0.78,
+     0.04
+    ],
+    "power": 0.2,
+    "lumens": 120,
+    "spot_deg": 160,
+    "range_m": 3,
+    "shape": "line 0.36 m along X"
+   },
+   "cable_ends": [
+    {
+     "at": [
+      0,
+      0,
+      0
+     ],
+     "dir": [
+      0,
+      0,
+      -1
+     ],
+     "note": "fed from below through the deck; no surface cable"
+    }
+   ]
+  },
+  "helideck_edge_flood": {
+   "tris": 118,
+   "min": [
+    -0.084,
+    -0.15,
+    0.0
+   ],
+   "max": [
+    0.1346,
+    0.06,
+    0.246
+   ],
+   "size": [
+    0.2186,
+    0.21,
+    0.246
+   ],
+   "parts": [
+    "helideck_lights/edge_flood"
+   ],
+   "lit_material": "helideck_lights__lit_flood",
+   "bbox_err_mm": 0.0,
+   "mount": "deck",
+   "origin": "bottom centre of the foot, throws to -Y",
+   "light_at": [
+    0,
+    -0.07,
+    0.175
+   ],
+   "light_dir": [
+    0,
+    -0.9848,
+    -0.1736
+   ],
+   "suggested": {
+    "kelvin": 4000,
+    "rgb": [
+     1.0,
+     0.93,
+     0.8
+    ],
+    "power": 2.0,
+    "lumens": 3000,
+    "spot_deg": 100,
+    "range_m": 14,
+    "note": "hooded: nothing above the horizontal"
+   },
+   "cable_ends": [
+    {
+     "at": [
+      0.13,
+      0.03,
+      0
+     ],
+     "dir": [
+      0,
+      0,
+      -1
+     ]
+    }
+   ]
+  }
+ },
+ "layout": {
+  "helideck_perimeter": [
+   0.0,
+   0,
+   0
+  ],
+  "helideck_circle": [
+   0.5866,
+   0,
+   0
+  ],
+  "helideck_edge_flood": [
+   1.1606,
+   0,
+   0
+  ]
+ },
+ "unique_tris": 272
+}

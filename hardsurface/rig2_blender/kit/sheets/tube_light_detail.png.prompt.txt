@@ -1,0 +1,14 @@
+endpoint: openai/gpt-image-2.6/sunburst/text-to-image
+image_size: landscape_16_9
+quality: high
+inputs: 
+
+A reference sheet of close-up construction details, for a 3D modeller, of a sealed linear twin-tube fluorescent fitting: a 1.3 m long grey glass-fibre body with a clear ribbed polycarbonate diffuser through which the two white tubes are seen, stainless toggle clips along the edge, a square end cap at each end with a cable gland, hung by two galvanised mounting brackets. Real marine hazardous-area (Ex) fitting, used but maintained: cast alloy and stainless parts, light salt dust, a few paint chips, a small riveted maker's plate.
+
+Layout: six close-up photographs in a tidy grid of three columns and two rows on a plain mid-grey background with clear space between them. Each close-up shows a different part at about 10 to 25 cm across, square-on: (1) the guard or frame over the lens, showing how its wires or bars are joined and fixed to the body; (2) the lens or glass itself, unlit, showing its ribs or prisms and what is seen behind it; (3) the mounting bracket or foot, showing how it bolts to the surface; (4) the cable gland and the conduit or cable leaving the fitting; (5) a clip, hinge, pivot or fastener; (6) the same lens as in close-up 2 but switched on and glowing at dusk.
+
+Photographic, soft even diffuse light, very sharp, true-to-life materials and real fastener sizes. Nothing else in frame.
+
+Look: a light fitting on a modern North Sea oil and gas platform, a real marine hazardous-area product, in service for some years and maintained. Real industrial construction: cast aluminium alloy bodies painted light grey or dark grey, thick glass, stainless steel clips and bolts, brass cable glands, galvanised steel brackets and conduit, black rubber cable. Light honest wear only: paint chipped on corners, a little salt dust, slight weathering of the glass. No heavy rust, no grime.
+
+No text, no labels, no arrows, no logos, no brand names, no watermark, no borders.

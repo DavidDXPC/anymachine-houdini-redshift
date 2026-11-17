@@ -1,0 +1,858 @@
+{
+ "about": "Oil Rig V2: every component the map needs, and how each one gets made. Draft for review, nothing built yet. track: model = hand-modelled in Blender Python by an agent from a turnaround sheet; generate = image-to-3D (Meshy 7.1 and Tripo, best of both); script = parametric, built straight from the blockout boxes; reuse = a rig 1 hand-modelled prop, repainted. dims are metres, long side x short side x height, taken from the blockout where a box exists. n is the count in the current map (both halves).",
+ "look": "rig2_blender/concepts/out/v5_ref/bypass (overcast film grade, light wear)",
+ "families": {
+  "structure": [
+   {
+    "id": "deck_plate",
+    "track": "script",
+    "what": "painted anti-slip deck plate, tiling panel with weld seams and walkway lines",
+    "n": "8,737 m2",
+    "refs": [
+     "atrium",
+     "north_edge"
+    ]
+   },
+   {
+    "id": "deck_grating",
+    "track": "model",
+    "what": "bar grating panel 1 x 3 m with bearing bars, banding and clips; also used for bridges and stair treads",
+    "n": "997 m2",
+    "refs": [
+     "west_yard",
+     "yard_down"
+    ]
+   },
+   {
+    "id": "wall_panel",
+    "track": "model",
+    "what": "steel-plate module wall bay 1.2 m wide, 3.7 and 4.7 m tall, stiffeners and bolt lines; variants: plain, louvre, with cable tray",
+    "n": "2,393 m2",
+    "refs": [
+     "pipe_alley",
+     "generator"
+    ]
+   },
+   {
+    "id": "door_frame",
+    "track": "model",
+    "what": "2.4 m doorway frame with coaming; variants: open, steel door, roller door 4 m",
+    "n": 40,
+    "refs": [
+     "pipe_alley",
+     "west_yard"
+    ]
+   },
+   {
+    "id": "window_band",
+    "track": "model",
+    "what": "window opening frame 3 to 4 m wide, 1.5 m tall",
+    "n": 4,
+    "refs": [
+     "atrium"
+    ]
+   },
+   {
+    "id": "beam_column",
+    "track": "model",
+    "what": "under-deck framing: I-beam, column, bracket, in lengths that tile",
+    "n": "all undersides",
+    "refs": [
+     "cellar",
+     "south_cellar_walk"
+    ]
+   },
+   {
+    "id": "jacket_leg",
+    "track": "model",
+    "what": "3 x 3 m leg column through the cellar, and the leg down to the sea",
+    "dims": "3 x 3 x 4.7",
+    "n": 6,
+    "refs": [
+     "cellar_pool",
+     "ext_day"
+    ]
+   },
+   {
+    "id": "pool_frame",
+    "track": "model",
+    "what": "coaming and bracing round a sea opening, caisson pipe going down",
+    "n": 4,
+    "refs": [
+     "cellar_pool"
+    ]
+   },
+   {
+    "id": "deck_chequer",
+    "track": "model",
+    "what": "steel chequer plate deck panel (raised diamond tread pattern), 1.5 x 3 m, painted dark blue-grey with the paint worn off the diamond tops, countersunk fixings along the edges, butted to the next panel with a visible joint",
+    "dims": "3 x 1.5 x 0.3",
+    "n": "walkways and door thresholds",
+    "refs": [
+     "pipe_alley"
+    ]
+   },
+   {
+    "id": "deck_raised",
+    "track": "model",
+    "what": "yellow raised-pattern anti-slip steel plate used at stair heads and in front of doors, 1.2 x 1.2 m, with a bevelled edge and bolted corners",
+    "dims": "1.2 x 1.2 x 0.02",
+    "n": "stair heads, doors",
+    "refs": [
+     "atrium"
+    ]
+   },
+   {
+    "id": "hatch_cover",
+    "track": "model",
+    "what": "removable steel deck hatch cover set flush in the deck: a chequer plate lid 1.5 x 1.5 m in a kerb frame with four recessed lifting lugs, hinge-free, bolted down at the corners, yellow hazard edge",
+    "dims": "1.5 x 1.5 x 0.3",
+    "n": "laydown areas, under equipment",
+    "refs": [
+     "north_edge"
+    ]
+   },
+   {
+    "id": "grating_serrated",
+    "track": "model",
+    "what": "heavy-duty serrated bar grating panel with a closer bar pitch and toothed bearing bars, 1 x 3 m, hot-dip galvanised, with banding and saddle clips",
+    "dims": "3 x 1 x 0.3",
+    "n": "walk lanes on grated decks",
+    "refs": [
+     "west_yard"
+    ]
+   }
+  ],
+  "circulation": [
+   {
+    "id": "handrail",
+    "track": "model",
+    "what": "tube handrail kit: post, top and mid rail, toe board, corner, end, in 1.5 m bays",
+    "n": "1,444 m",
+    "refs": [
+     "bridge",
+     "north_edge"
+    ]
+   },
+   {
+    "id": "rail_panel",
+    "track": "model",
+    "what": "plate infill panel for a rail bay, 2.4 x 1.15 m",
+    "n": 30,
+    "refs": [
+     "atrium",
+     "cellar_pool"
+    ]
+   },
+   {
+    "id": "stair_flight",
+    "track": "script",
+    "what": "open-tread flight on the map's own step boxes: stringers, grating treads, nosings, sloped rails (as rig 1 stairs/build.py)",
+    "n": 26,
+    "refs": [
+     "atrium",
+     "quarters_roof",
+     "pit"
+    ]
+   },
+   {
+    "id": "stair_landing",
+    "track": "script",
+    "what": "half landing and top landing with brackets",
+    "n": 20,
+    "refs": [
+     "atrium"
+    ]
+   },
+   {
+    "id": "edge_ramp",
+    "track": "script",
+    "what": "15 m ramp stair, cellar to main deck",
+    "n": 2,
+    "refs": [
+     "ext_day",
+     "south_cellar_walk"
+    ]
+   },
+   {
+    "id": "bridge_span",
+    "track": "model",
+    "what": "3 m wide footbridge and catwalk span with truss sides, grating floor",
+    "n": 6,
+    "refs": [
+     "west_yard",
+     "bridge"
+    ]
+   },
+   {
+    "id": "zip_station",
+    "track": "reuse",
+    "from": "props_hand/zipline",
+    "n": 4
+   }
+  ],
+  "boxes_and_cabinets": [
+   {
+    "id": "container_20",
+    "track": "model",
+    "what": "20 ft shipping container, dark blue",
+    "dims": "6 x 2.5 x 2.6",
+    "n": 6,
+    "refs": [
+     "west_yard",
+     "laydown_alley"
+    ]
+   },
+   {
+    "id": "container_10",
+    "track": "model",
+    "what": "10 ft container / lane breaker",
+    "dims": "3 x 2.6 x 2.6",
+    "n": 4,
+    "refs": [
+     "pipe_alley"
+    ]
+   },
+   {
+    "id": "crate_pallet",
+    "track": "model",
+    "what": "wooden crate on a pallet (hop height)",
+    "dims": "1.5 x 1.5 x 0.9",
+    "n": 34,
+    "refs": [
+     "atrium",
+     "pit"
+    ]
+   },
+   {
+    "id": "transit_case",
+    "track": "reuse",
+    "from": "props_hand/box_yellow and case_orange",
+    "what": "long case (crouch height)",
+    "dims": "2.5 x 1.2 x 1.2",
+    "n": 46
+   },
+   {
+    "id": "cargo_basket",
+    "track": "model",
+    "what": "tall cargo carrier / stacked cases (full cover)",
+    "dims": "2.4 x 1.2 x 2.2",
+    "n": 16,
+    "refs": [
+     "cellar",
+     "quarters_roof"
+    ]
+   },
+   {
+    "id": "switchgear",
+    "track": "model",
+    "what": "switchgear cabinet row",
+    "dims": "2.6 x 0.8 x 2.0",
+    "n": 6,
+    "refs": [
+     "atrium"
+    ]
+   },
+   {
+    "id": "deck_locker",
+    "track": "model",
+    "what": "low equipment locker, helideck and roofs",
+    "dims": "2 x 1.6 x 1.2",
+    "n": 6,
+    "refs": [
+     "helideck",
+     "gen_roof"
+    ]
+   },
+   {
+    "id": "lockers",
+    "track": "reuse",
+    "from": "props_hand/lockers",
+    "n": "mess hall"
+   },
+   {
+    "id": "container_unit",
+    "track": "reuse",
+    "from": "props_hand/module",
+    "n": 4
+   },
+   {
+    "id": "bench",
+    "track": "model",
+    "what": "fixed steel bench",
+    "n": 8,
+    "refs": [
+     "mess_hall"
+    ]
+   },
+   {
+    "id": "wind_screen",
+    "track": "model",
+    "what": "helideck wind screen wall, 10 x 3 m",
+    "n": 2,
+    "refs": [
+     "helideck"
+    ]
+   },
+   {
+    "id": "air_handler",
+    "track": "model",
+    "what": "roof air handling unit and vent cowl",
+    "dims": "1.8 x 1.6 x 1.8",
+    "n": 4,
+    "refs": [
+     "hall_roof"
+    ]
+   }
+  ],
+  "pipework": [
+   {
+    "id": "pipe_kit",
+    "track": "model",
+    "what": "straight runs, elbows, tees, flanges, clamps and supports in three diameters; colour-coded",
+    "n": "all pipe runs",
+    "refs": [
+     "atrium",
+     "pipe_alley"
+    ]
+   },
+   {
+    "id": "pipe_rack",
+    "track": "model",
+    "what": "overhead pipe rack frame on the centre line and the pipe bridge",
+    "n": 4,
+    "refs": [
+     "hall_roof",
+     "pipe_alley"
+    ]
+   },
+   {
+    "id": "cable_tray",
+    "track": "model",
+    "what": "cable tray, conduit, junction box, in tiling lengths",
+    "n": "all walls and ceilings",
+    "refs": [
+     "mess_hall",
+     "generator"
+    ]
+   },
+   {
+    "id": "storage_tank",
+    "track": "model",
+    "what": "horizontal off-white vessel on saddles (lathed body, dished ends, manway)",
+    "dims": "10 x 6 x 3.2",
+    "n": 4,
+    "refs": [
+     "cellar"
+    ]
+   },
+   {
+    "id": "separator",
+    "track": "model",
+    "what": "long horizontal separator in the pit",
+    "dims": "7 x 1.8 x 2.4",
+    "n": 1,
+    "refs": [
+     "atrium",
+     "pit"
+    ]
+   },
+   {
+    "id": "separator_tower",
+    "track": "model",
+    "what": "tall process tower: stacked vessels in a frame with platforms",
+    "dims": "9 x 8 x 10",
+    "n": 2,
+    "refs": [
+     "pipe_alley",
+     "bridge"
+    ]
+   },
+   {
+    "id": "sys_pump_station",
+    "track": "script",
+    "what": "a complete pump station piping arrangement on a deck: two centrifugal pumps on a skid, each with a flanged suction line coming from a common suction header and a discharge line with a check valve and gate valve rising to a common discharge header, the headers ending in flanged connections, with pipe supports on shoes, drain valves and small instrument lines; every pipe visibly starts and ends at a flange, a pump nozzle or a header",
+    "n": "pump room, undercrofts",
+    "refs": [
+     "pump_room"
+    ]
+   },
+   {
+    "id": "sys_penetration",
+    "track": "script",
+    "what": "pipes passing through a steel module wall and through a steel deck: each pipe goes through a welded sleeve with a bolted split collar and a rubber seal, with a pipe support just before the wall, two pipes of different diameters side by side and one vertical riser going down through the deck in a kerbed sleeve",
+    "n": "all wall and deck crossings",
+    "refs": [
+     "pipe_alley"
+    ]
+   },
+   {
+    "id": "sys_riser_rack",
+    "track": "script",
+    "what": "vertical pipe risers leaving equipment at deck level and climbing a steel support frame to join an overhead pipe rack: three colour-coded pipes with long-radius elbows at top and bottom, guide clamps on the frame every two metres, a block valve at hand height on each riser, and tee connections into the horizontal rack lines above",
+    "n": "yards, alleys",
+    "refs": [
+     "pipe_alley"
+    ]
+   },
+   {
+    "id": "sys_manifold",
+    "track": "script",
+    "what": "a production manifold: several parallel flowlines each with a gate valve and a check valve joining a larger horizontal header pipe through tees, the header ending at one end in a blind flange and at the other in a flanged elbow leading to a pressure vessel nozzle, all on a low steel skid with supports, drip tray and pressure gauges",
+    "n": "manifold pit",
+    "refs": [
+     "pit"
+    ]
+   }
+  ],
+  "machinery": [
+   {
+    "id": "pump_skid",
+    "track": "generate",
+    "what": "motor and centrifugal pump on a blue skid with pipe stubs",
+    "n": 8,
+    "refs": [
+     "cellar",
+     "pump_room"
+    ]
+   },
+   {
+    "id": "valve_manifold",
+    "track": "generate",
+    "what": "valve manifold skid with handwheels and gauges",
+    "n": 4,
+    "refs": [
+     "pit",
+     "cellar"
+    ]
+   },
+   {
+    "id": "pig_receiver",
+    "track": "generate",
+    "what": "pipeline scraper receiver: a horizontal steel barrel on saddles with a hinged quick-opening end closure, a bypass line and valves",
+    "n": 2,
+    "refs": [
+     "pit"
+    ]
+   },
+   {
+    "id": "compressor_skid",
+    "track": "generate",
+    "what": "orange compressor package",
+    "n": 2,
+    "refs": [
+     "pipe_alley"
+    ]
+   },
+   {
+    "id": "generator_set",
+    "track": "reuse",
+    "from": "props_hand/genset",
+    "n": 2
+   },
+   {
+    "id": "fuel_tank",
+    "track": "reuse",
+    "from": "props_hand/fuel_tank",
+    "n": 2
+   },
+   {
+    "id": "tool_cart",
+    "track": "reuse",
+    "from": "props_hand/tool_cart",
+    "n": 4
+   },
+   {
+    "id": "shelf_rack",
+    "track": "reuse",
+    "from": "props_hand/shelf_rack",
+    "n": 4
+   },
+   {
+    "id": "wellhead",
+    "track": "generate",
+    "what": "wellhead valve tree on the drill floor",
+    "n": 1,
+    "refs": [
+     "drill_floor"
+    ]
+   },
+   {
+    "id": "winch",
+    "track": "generate",
+    "what": "deck winch with wire drum",
+    "n": 2,
+    "refs": [
+     "drill_floor"
+    ]
+   }
+  ],
+  "small_fixtures": [
+   {
+    "id": "bulkhead_light",
+    "track": "model",
+    "what": "caged bulkhead light, LED strip fitting, floodlight on bracket",
+    "n": "about 200",
+    "refs": [
+     "pipe_alley",
+     "lifeboat_gallery"
+    ]
+   },
+   {
+    "id": "hose_reel",
+    "track": "generate",
+    "what": "red fire hose reel on a wall bracket",
+    "n": 12,
+    "refs": [
+     "mess_hall",
+     "generator"
+    ]
+   },
+   {
+    "id": "fire_hydrant",
+    "track": "generate",
+    "what": "red deck hydrant with outlets",
+    "n": 6,
+    "refs": [
+     "pipe_alley"
+    ]
+   },
+   {
+    "id": "life_ring",
+    "track": "generate",
+    "what": "life ring with line on a bracket",
+    "n": 8,
+    "refs": [
+     "lifeboat_gallery"
+    ]
+   },
+   {
+    "id": "cable_drum",
+    "track": "generate",
+    "what": "wooden cable drum with cable",
+    "n": 4,
+    "refs": [
+     "pit"
+    ]
+   },
+   {
+    "id": "extinguisher",
+    "track": "generate",
+    "what": "wheeled extinguisher and wall extinguisher",
+    "n": 10
+   },
+   {
+    "id": "oil_drum",
+    "track": "generate",
+    "what": "200 litre drum, single and on a pallet of four",
+    "n": 12
+   },
+   {
+    "id": "coiled_hose",
+    "track": "generate",
+    "what": "coiled hose and sling pile, the things that sit on crates",
+    "n": 8,
+    "refs": [
+     "cellar_pool"
+    ]
+   },
+   {
+    "id": "windsock",
+    "track": "generate",
+    "what": "windsock on a mast",
+    "n": 2,
+    "refs": [
+     "helideck"
+    ]
+   },
+   {
+    "id": "bollard",
+    "track": "model",
+    "what": "yellow bollard and door guard",
+    "n": 12,
+    "refs": [
+     "west_yard"
+    ]
+   },
+   {
+    "id": "sign_plate",
+    "track": "model",
+    "what": "blank sign plates and noticeboard frame",
+    "n": 40,
+    "refs": [
+     "mess_hall"
+    ]
+   }
+  ],
+  "landmarks": [
+   {
+    "id": "derrick",
+    "track": "script",
+    "what": "red and white lattice derrick with substructure; trusswork from members",
+    "n": 1,
+    "refs": [
+     "ext_day",
+     "drill_floor"
+    ]
+   },
+   {
+    "id": "crane",
+    "track": "script",
+    "what": "pedestal crane: lattice boom scripted; cab and machinery house modelled",
+    "n": 1,
+    "refs": [
+     "ext_day",
+     "gen_roof"
+    ]
+   },
+   {
+    "id": "flare_boom",
+    "track": "script",
+    "what": "lattice flare boom with tip and walkway",
+    "n": 1,
+    "refs": [
+     "ext_day",
+     "helideck"
+    ]
+   },
+   {
+    "id": "helideck",
+    "track": "script",
+    "what": "green deck with markings, perimeter net and lights",
+    "n": 1,
+    "refs": [
+     "helideck"
+    ]
+   },
+   {
+    "id": "lifeboat",
+    "track": "generate",
+    "what": "enclosed orange lifeboat in davits, outboard of the gallery (scenery)",
+    "n": 2
+   }
+  ],
+  "equipment": [
+   {
+    "id": "xmas_tree",
+    "track": "model",
+    "what": "a wellhead christmas tree (valve tree) standing on a square steel kerb with grating: a wellhead flange at the bottom, two stacked master gate valves with red handwheels on the vertical bore, a cross block with a wing gate valve on each side, a choke valve on one wing, a tree cap with a pressure gauge on top; heavy forged valve bodies painted muted green, bolted flanges with studs and nuts, the low square kerb painted ochre yellow. Condition: in daily use and somewhat dirty but maintained: dark grime runs below fittings, grease near moving parts, paint chipped on edges, a little rust bleed at joints. A compact, solid mass with no large see-through gaps.",
+    "dims": "1.6 x 1.6 x 2.6",
+    "n": 12,
+    "refs": [
+     "cellar"
+    ]
+   },
+   {
+    "id": "chem_skid",
+    "track": "model",
+    "what": "a chemical injection skid: a bunded steel base tray painted blue with fork pockets, a steel frame holding two square stainless steel tote tanks side by side that fill most of the skid, two small dosing pumps with motors on the base at one end, stainless tubing runs, a small stainless control box on the frame, lifting lugs at the four top corners; the sides between the frame posts are closed by the tanks and by plate panels. Condition: in daily use and somewhat dirty but maintained: dark grime runs below fittings, grease near moving parts, paint chipped on edges, a little rust bleed at joints. A compact, solid mass with no large see-through gaps.",
+    "dims": "3.2 x 1.6 x 2.0",
+    "n": 6,
+    "refs": [
+     "pump_room"
+    ]
+   },
+   {
+    "id": "bottle_rack",
+    "track": "model",
+    "what": "a gas cylinder rack (bottle quad) for offshore lifting: a galvanised steel frame with expanded-mesh side panels and a plate floor on fork pockets, holding six tall gas cylinders upright in two rows of three, three cylinders maroon and three grey with white shoulders, valve caps on top, a chain across the open front, four lifting eyes on the top corners, blank diamond hazard placards on the mesh. Condition: in daily use and somewhat dirty but maintained: dark grime runs below fittings, grease near moving parts, paint chipped on edges, a little rust bleed at joints. A compact, solid mass with no large see-through gaps.",
+    "dims": "1.3 x 1.0 x 1.9",
+    "n": 8,
+    "refs": [
+     "laydown_alley"
+    ]
+   },
+   {
+    "id": "air_receiver",
+    "track": "model",
+    "what": "a vertical air receiver pressure vessel: a cylinder with dished ends, 1.2 m in diameter, standing on three short legs with a skirt plate and base plates bolted to the deck, an oval bolted manway on the side at chest height, a relief valve and a pressure gauge on top nozzles, a drain valve under the bottom head, flanged inlet and outlet nozzles, a riveted nameplate on a bracket; painted light grey. Condition: in daily use and somewhat dirty but maintained: dark grime runs below fittings, grease near moving parts, paint chipped on edges, a little rust bleed at joints. A compact, solid mass with no large see-through gaps.",
+    "dims": "1.4 x 1.4 x 2.8",
+    "n": 6,
+    "refs": [
+     "pump_room"
+    ]
+   },
+   {
+    "id": "hpu",
+    "track": "model",
+    "what": "a hydraulic power unit: a rectangular steel oil tank body painted blue forming the main block, standing in a drip tray, an electric motor and pump mounted on top of the tank, a row of four black accumulator bottles clamped upright at one end, two filter housings, a valve block with small pipes, two hose reels with black hose on one side, a level sight glass, a small control box. Condition: in daily use and somewhat dirty but maintained: dark grime runs below fittings, grease near moving parts, paint chipped on edges, a little rust bleed at joints. A compact, solid mass with no large see-through gaps.",
+    "dims": "2.2 x 1.4 x 1.7",
+    "n": 6,
+    "refs": [
+     "pump_room"
+    ]
+   },
+   {
+    "id": "cable_reel",
+    "track": "model",
+    "what": "a large steel cable reel (drum) 1.8 m in diameter with thick black electrical cable wound on it almost to the flange rims, the flanges made of steel plate with radial ribs painted grey, carried on its axle by a powered A-frame spooling stand painted ochre yellow with a small drive motor and gearbox on one side, the stand feet joined by plate, wheel chocks under the reel. Condition: in daily use and somewhat dirty but maintained: dark grime runs below fittings, grease near moving parts, paint chipped on edges, a little rust bleed at joints. A compact, solid mass with no large see-through gaps.",
+    "dims": "1.9 x 1.2 x 1.9",
+    "n": 6,
+    "refs": [
+     "laydown_alley"
+    ]
+   },
+   {
+    "id": "tugger_winch",
+    "track": "model",
+    "what": "an air tugger winch: a steel drum wound with wire rope between two side frames, a mesh and plate guard over the drum painted ochre yellow, an air motor and gearbox on one side, a long brake lever and a control lever, all on a heavy base frame bolted to the deck; winch body painted orange. Condition: in daily use and somewhat dirty but maintained: dark grime runs below fittings, grease near moving parts, paint chipped on edges, a little rust bleed at joints. A compact, solid mass with no large see-through gaps.",
+    "dims": "1.6 x 1.1 x 1.1",
+    "n": 8,
+    "refs": [
+     "drill_floor"
+    ]
+   },
+   {
+    "id": "pipe_bolster",
+    "track": "model",
+    "what": "a transport rack of oilfield pipe joints: two heavy steel bolster frames with four upright posts each, painted ochre yellow, holding three layers of dark steel tubing joints (five pipes a layer, each pipe about 0.25 m in diameter and 6 m long) lying lengthwise with timber spacers between the layers, coloured plastic thread protectors on every pipe end, steel strapping bands around the bundle. Condition: in daily use and somewhat dirty but maintained: dark grime runs below fittings, grease near moving parts, paint chipped on edges, a little rust bleed at joints. A compact, solid mass with no large see-through gaps.",
+    "dims": "6.0 x 1.4 x 1.2",
+    "n": 6,
+    "refs": [
+     "west_yard"
+    ]
+   },
+   {
+    "id": "ibc_stack",
+    "track": "model",
+    "what": "two intermediate bulk containers (tote tanks) stacked one on top of the other: each a white opaque plastic cube tank inside a galvanised tubular steel cage on a steel pallet base, a screw lid on top, a drain tap at the bottom front, a blank label plate on the cage front; the plastic is opaque milky white with a darker liquid level line showing faintly, not transparent. Condition: in daily use and somewhat dirty but maintained: dark grime runs below fittings, grease near moving parts, paint chipped on edges, a little rust bleed at joints. A compact, solid mass with no large see-through gaps.",
+    "dims": "1.2 x 1.0 x 2.3",
+    "n": 10,
+    "refs": [
+     "laydown_alley"
+    ]
+   },
+   {
+    "id": "heat_exchanger",
+    "track": "model",
+    "what": "a shell-and-tube heat exchanger: a horizontal cylindrical shell 0.9 m in diameter lying on two steel saddles, the shell wrapped in ribbed aluminium insulation cladding with banding straps, a bolted channel head with a flat cover at one end and a dished bonnet at the other, big girth flanges with many studs, two flanged nozzles on top and two underneath, a nameplate on a bracket; heads and saddles painted light grey. Condition: in daily use and somewhat dirty but maintained: dark grime runs below fittings, grease near moving parts, paint chipped on edges, a little rust bleed at joints. A compact, solid mass with no large see-through gaps.",
+    "dims": "4.2 x 1.2 x 1.9",
+    "n": 6,
+    "refs": [
+     "pipe_alley"
+    ]
+   },
+   {
+    "id": "control_station",
+    "track": "model",
+    "what": "a local control station: a stainless steel cabinet 1.1 m wide mounted on a two-post steel stand with a plate plinth and a closed back panel down to the deck, a sloping sunshade canopy over it, a door with a small glass window, a row of push buttons and indicator lamps and an emergency stop, cable glands under the cabinet and steel conduits running down to the deck; stand painted light grey. Condition: in daily use and somewhat dirty but maintained: dark grime runs below fittings, grease near moving parts, paint chipped on edges, a little rust bleed at joints. A compact, solid mass with no large see-through gaps.",
+    "dims": "1.2 x 0.6 x 2.0",
+    "n": 8,
+    "refs": [
+     "pipe_alley"
+    ]
+   },
+   {
+    "id": "waste_skip",
+    "track": "model",
+    "what": "an open-top offshore waste skip: a steel body with sloping tapered ends and pressed vertical ribs on the sides, painted dark blue, a heavy top rim, four lifting lugs on the top rim, and a four-leg wire rope sling set with shackles and a master link lying slack and flat across the tarpaulin and the rim (the skip is standing on the deck, not being lifted: no sling rises above the skip, nothing is higher than the lugs), skids underneath, a green tarpaulin lashed over half of the open top, large white stencilled markings of plain invented numbers. Condition: in daily use and somewhat dirty but maintained: dark grime runs below fittings, grease near moving parts, paint chipped on edges, a little rust bleed at joints. A compact, solid mass with no large see-through gaps.",
+    "dims": "3.6 x 1.8 x 1.4",
+    "n": 6,
+    "refs": [
+     "north_edge"
+    ]
+   }
+  ],
+  "lighting": [
+   {
+    "id": "wellglass",
+    "track": "model",
+    "what": "a caged bulkhead \"well glass\" lamp for a wall: a cast alloy back box painted grey bolted flat to the wall, a round cast body, a thick ribbed prismatic clear glass dome hanging down, a galvanised wire guard cage round the glass, a brass cable gland and steel conduit entering at the top and another at the bottom. Real marine hazardous-area (Ex) fitting, used but maintained: cast alloy and stainless parts, light salt dust, a few paint chips, a small riveted maker's plate.",
+    "dims": "0.22 x 0.18 x 0.32",
+    "n": "about 120",
+    "objects": [
+     "wellglass"
+    ],
+    "atlas": "lighting/lighting_color|normal|orm.png (one shared 2048 set)"
+   },
+   {
+    "id": "tube_light",
+    "track": "model",
+    "what": "a sealed linear twin-tube fluorescent fitting: a 1.3 m long grey glass-fibre body with a clear ribbed polycarbonate diffuser through which the two white tubes are seen, stainless toggle clips along the edge, a square end cap at each end with a cable gland, hung by two galvanised mounting brackets. Real marine hazardous-area (Ex) fitting, used but maintained: cast alloy and stainless parts, light salt dust, a few paint chips, a small riveted maker's plate.",
+    "dims": "1.3 x 0.16 x 0.12",
+    "n": "about 150",
+    "objects": [
+     "tube_light_ceiling",
+     "tube_light_pole",
+     "tube_light_broken"
+    ],
+    "atlas": "lighting/lighting_color|normal|orm.png (one shared 2048 set)"
+   },
+   {
+    "id": "flood",
+    "track": "model",
+    "what": "an industrial floodlight: a square cast aluminium flood head, dark grey, with deep cooling fins on the back, a flat glass front in a bolted frame with a reflector behind it, held in a galvanised steel U-shaped stirrup bracket with pivot bolts at the sides, a cable gland and a short black cable at the back. Real marine hazardous-area (Ex) fitting, used but maintained: cast alloy and stainless parts, light salt dust, a few paint chips, a small riveted maker's plate.",
+    "dims": "0.36 x 0.14 x 0.40",
+    "n": "about 60",
+    "objects": [
+     "flood_head",
+     "flood_pole",
+     "flood_pole_pair",
+     "flood_rail"
+    ],
+    "atlas": "lighting/lighting_color|normal|orm.png (one shared 2048 set)"
+   },
+   {
+    "id": "obstruction_light",
+    "track": "model",
+    "what": "a red aviation obstruction light: a red ribbed fresnel glass dome on a short round cast alloy base painted grey, a galvanised wire guard of four bars over the dome, a cable gland in the side of the base, the base bolted to a small plate. Real marine hazardous-area (Ex) fitting, used but maintained: cast alloy and stainless parts, light salt dust, a few paint chips, a small riveted maker's plate.",
+    "dims": "0.14 x 0.14 x 0.20",
+    "n": 8,
+    "objects": [
+     "obstruction_light"
+    ],
+    "atlas": "lighting/lighting_color|normal|orm.png (one shared 2048 set)"
+   },
+   {
+    "id": "helideck_lights",
+    "track": "model",
+    "what": "three helicopter deck lights shown side by side: (1) a flush green perimeter light, a 0.2 m low round stainless disc standing 4 cm proud of the deck with a green glass lens in the middle of its domed top and bolts round its rim; (2) a yellow touchdown circle light, a flat flush aluminium strip segment 0.5 m long and 8 cm wide with a row of yellow LED lenses along it; (3) a low deck edge floodlight 0.25 m high, a small hooded stainless box on a short foot that throws light across the deck. Real marine hazardous-area (Ex) fitting, used but maintained: cast alloy and stainless parts, light salt dust, a few paint chips, a small riveted maker's plate.",
+    "dims": "0.5 x 0.2 x 0.25",
+    "n": "about 40",
+    "objects": [
+     "helideck_perimeter",
+     "helideck_circle",
+     "helideck_edge_flood"
+    ],
+    "atlas": "lighting/lighting_color|normal|orm.png (one shared 2048 set)"
+   },
+   {
+    "id": "escape_route",
+    "track": "model",
+    "what": "two escape route pieces shown side by side: (1) an emergency exit sign light box for a wall, 0.6 m wide and 0.3 m high and 8 cm deep, grey sealed body with a green illuminated face showing a simple white running figure and a white arrow pictogram, a cable gland on top; (2) a photoluminescent edge strip 1.0 m long and 5 cm wide, a pale yellow-green glow strip in a thin aluminium carrier with countersunk screws, for walkway edges and stair nosings. Real marine hazardous-area (Ex) fitting, used but maintained: cast alloy and stainless parts, light salt dust, a few paint chips, a small riveted maker's plate.",
+    "dims": "1.0 x 0.08 x 0.3",
+    "n": "about 80",
+    "objects": [
+     "escape_sign",
+     "escape_strip"
+    ],
+    "atlas": "lighting/lighting_color|normal|orm.png (one shared 2048 set)"
+   },
+   {
+    "id": "beacon",
+    "track": "model",
+    "what": "a rotating status warning beacon: an amber ribbed polycarbonate dome with a rotating reflector inside, on a round cast alloy base painted grey, standing on a short galvanised steel pole with a small bolted base plate, a cable gland in the base. Real marine hazardous-area (Ex) fitting, used but maintained: cast alloy and stainless parts, light salt dust, a few paint chips, a small riveted maker's plate.",
+    "dims": "0.16 x 0.16 x 0.55",
+    "n": "about 20",
+    "objects": [
+     "beacon_pole",
+     "beacon_wall",
+     "beacon_lens"
+    ],
+    "atlas": "lighting/lighting_color|normal|orm.png (one shared 2048 set)"
+   },
+   {
+    "id": "work_light",
+    "track": "model",
+    "what": "two portable work lights shown side by side: (1) a tripod site floodlight 1.8 m tall, a yellow painted steel telescopic tripod with three splayed legs carrying a crossbar with twin square flood heads with wire guards, a black rubber cable running down to a yellow plug box on the deck; (2) a caged hand lamp hanging from a steel hook, a rubber handle, a clear glass in a wire cage, with a coil of black rubber cable. Real marine hazardous-area (Ex) fitting, used but maintained: cast alloy and stainless parts, light salt dust, a few paint chips, a small riveted maker's plate.",
+    "dims": "1.2 x 1.1 x 1.8",
+    "n": "about 10",
+    "objects": [
+     "work_tripod",
+     "work_handlamp"
+    ],
+    "atlas": "lighting/lighting_color|normal|orm.png (one shared 2048 set)"
+   }
+  ]
+ }
+}

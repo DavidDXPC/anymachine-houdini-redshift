@@ -1,0 +1,55 @@
+{
+ "tris": 2876,
+ "quads": 1348,
+ "tri_faces": 180,
+ "ngons": 0,
+ "verts": 2003,
+ "min": [
+  -0.6,
+  -0.3,
+  0.0
+ ],
+ "max": [
+  0.6,
+  0.3,
+  2.0
+ ],
+ "bbox_err_mm": 0.0,
+ "hi_tris": 12536,
+ "uv_fill": 0.524,
+ "surface_m2": 14.91,
+ "uv_min": 0.003999917767941952,
+ "uv_max": 0.9926382303237915,
+ "texture": 1024,
+ "texture_target": 1024,
+ "size": [
+  1.2,
+  0.6,
+  2.0
+ ],
+ "box": [
+  1.2,
+  0.6,
+  2.0
+ ],
+ "origin": "centre of the footprint, on the floor (z = 0); long side along X; front faces -Y",
+ "footprint": {
+  "min": [
+   -0.6,
+   -0.3
+  ],
+  "max": [
+   0.6,
+   0.3
+  ]
+ },
+ "cover_below_1m": {
+  "along_y": 0.967,
+  "along_x": 0.703
+ },
+ "faces": {
+  "minus_y": "cabinet door, lamps, emergency stop, conduits",
+  "plus_x": "post and canopy cheek (handle side)",
+  "plus_y": "closed back panel"
+ }
+}

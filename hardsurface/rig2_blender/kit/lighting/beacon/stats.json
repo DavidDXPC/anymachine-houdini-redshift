@@ -1,0 +1,203 @@
+{
+ "tris": 562,
+ "ngons": 0,
+ "texture": 2048,
+ "baked": true,
+ "atlas": "../lighting_color.png, ../lighting_normal.png, ../lighting_orm.png (shared by the family)",
+ "bbox_err_mm": 0.0,
+ "items": {
+  "beacon_pole": {
+   "tris": 274,
+   "min": [
+    -0.0702,
+    -0.0702,
+    0.0
+   ],
+   "max": [
+    0.0702,
+    0.1226,
+    0.4633
+   ],
+   "size": [
+    0.1404,
+    0.1928,
+    0.4633
+   ],
+   "parts": [
+    "beacon/pole",
+    "beacon/head"
+   ],
+   "lit_material": null,
+   "bbox_err_mm": 0.0,
+   "mount": "deck",
+   "origin": "bottom centre of the base plate",
+   "lens_at": [
+    0,
+    0,
+    0.332
+   ],
+   "light_at": [
+    0,
+    0,
+    0.377
+   ],
+   "light_dir": null,
+   "suggested": {
+    "kelvin": null,
+    "rgb": [
+     1.0,
+     0.46,
+     0.02
+    ],
+    "power": 1.2,
+    "lumens": 900,
+    "spot_deg": 50,
+    "range_m": 14,
+    "note": "rotating: sweep a 50 degree spot round Z at 2 turns a second, plus a weak all-round glow; red variant rgb [1.0, 0.05, 0.02]"
+   },
+   "lit_object": "beacon_lens",
+   "cable_ends": [
+    {
+     "at": [
+      0,
+      0.118,
+      0
+     ],
+     "dir": [
+      0,
+      0,
+      -1
+     ]
+    }
+   ]
+  },
+  "beacon_wall": {
+   "tris": 248,
+   "min": [
+    -0.0702,
+    -0.2002,
+    0.0
+   ],
+   "max": [
+    0.0702,
+    0.0,
+    0.3433
+   ],
+   "size": [
+    0.1404,
+    0.2002,
+    0.3433
+   ],
+   "parts": [
+    "beacon/wall_bracket",
+    "beacon/head"
+   ],
+   "lit_material": null,
+   "bbox_err_mm": 0.0,
+   "mount": "wall",
+   "origin": "wall plane, bottom centre of the wall plate",
+   "lens_at": [
+    0,
+    -0.13,
+    0.212
+   ],
+   "light_at": [
+    0,
+    -0.13,
+    0.257
+   ],
+   "light_dir": null,
+   "suggested": {
+    "kelvin": null,
+    "rgb": [
+     1.0,
+     0.46,
+     0.02
+    ],
+    "power": 1.2,
+    "lumens": 900,
+    "spot_deg": 50,
+    "range_m": 14,
+    "note": "rotating: sweep a 50 degree spot round Z at 2 turns a second, plus a weak all-round glow; red variant rgb [1.0, 0.05, 0.02]"
+   },
+   "lit_object": "beacon_lens",
+   "cable_ends": [
+    {
+     "at": [
+      0,
+      0,
+      0.173
+     ],
+     "dir": [
+      0,
+      1,
+      0
+     ],
+     "note": "cable goes straight into the wall"
+    }
+   ]
+  },
+  "beacon_lens": {
+   "tris": 40,
+   "min": [
+    -0.0462,
+    -0.0462,
+    0.0
+   ],
+   "max": [
+    0.0462,
+    0.0462,
+    0.108
+   ],
+   "size": [
+    0.0924,
+    0.0924,
+    0.108
+   ],
+   "parts": [
+    "beacon/lens"
+   ],
+   "lit_material": "beacon__lit",
+   "mount": "on beacon_pole / beacon_wall at lens_at",
+   "origin": "bottom centre of the dome",
+   "light_at": [
+    0,
+    0,
+    0.045
+   ],
+   "light_dir": null,
+   "suggested": {
+    "kelvin": null,
+    "rgb": [
+     1.0,
+     0.46,
+     0.02
+    ],
+    "power": 1.2,
+    "lumens": 900,
+    "spot_deg": 50,
+    "range_m": 14,
+    "note": "rotating: sweep a 50 degree spot round Z at 2 turns a second, plus a weak all-round glow; red variant rgb [1.0, 0.05, 0.02]"
+   },
+   "cable_ends": []
+  }
+ },
+ "layout": {
+  "beacon_pole": [
+   0.0,
+   0,
+   0
+  ],
+  "beacon_wall": [
+   0.3804,
+   0,
+   0
+  ],
+  "beacon_lens": [
+   0.7368,
+   0,
+   0
+  ]
+ },
+ "unique_tris": 346
+}

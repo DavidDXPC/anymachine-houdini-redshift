@@ -1,0 +1,176 @@
+{
+ "tris": 997,
+ "ngons": 0,
+ "texture": 2048,
+ "baked": true,
+ "atlas": "../lighting_color.png, ../lighting_normal.png, ../lighting_orm.png (shared by the family)",
+ "bbox_err_mm": 0.0,
+ "items": {
+  "work_tripod": {
+   "tris": 608,
+   "min": [
+    -0.5013,
+    -0.2976,
+    0.0
+   ],
+   "max": [
+    0.93,
+    0.5707,
+    1.8149
+   ],
+   "size": [
+    1.4313,
+    0.8683,
+    1.8149
+   ],
+   "parts": [
+    "work_light/mast",
+    "work_light/cable_box",
+    "work_light/leg",
+    "work_light/leg",
+    "work_light/leg",
+    "work_light/head",
+    "work_light/head"
+   ],
+   "lit_material": "work_light__lit",
+   "bbox_err_mm": 0.0,
+   "mount": "deck",
+   "origin": "on the deck under the mast; heads throw to -Y",
+   "light_at": [
+    0.0,
+    -0.0876,
+    1.6843
+   ],
+   "light_dir": [
+    0.0,
+    -0.9903,
+    -0.1392
+   ],
+   "lights": [
+    {
+     "at": [
+      -0.1777,
+      -0.0876,
+      1.6843
+     ],
+     "dir": [
+      0.1378,
+      -0.9806,
+      -0.1392
+     ]
+    },
+    {
+     "at": [
+      0.1777,
+      -0.0876,
+      1.6843
+     ],
+     "dir": [
+      -0.1378,
+      -0.9806,
+      -0.1392
+     ]
+    }
+   ],
+   "suggested": {
+    "kelvin": 3200,
+    "rgb": [
+     1.0,
+     0.9,
+     0.74
+    ],
+    "power": 4.0,
+    "lumens": 9000,
+    "spot_deg": 120,
+    "range_m": 14,
+    "note": "both heads together; halve it per head"
+   },
+   "cable_ends": [
+    {
+     "at": [
+      0.86,
+      0.2,
+      0
+     ],
+     "dir": [
+      0,
+      0,
+      -1
+     ],
+     "note": "the plug box on the deck is the end"
+    }
+   ]
+  },
+  "work_handlamp": {
+   "tris": 389,
+   "min": [
+    -0.125,
+    -0.1144,
+    0.0
+   ],
+   "max": [
+    0.098,
+    0.0,
+    0.51
+   ],
+   "size": [
+    0.223,
+    0.1144,
+    0.51
+   ],
+   "parts": [
+    "work_light/handlamp"
+   ],
+   "lit_material": "work_light__lit_hand",
+   "bbox_err_mm": 0.0,
+   "mount": "wall",
+   "origin": "wall plane, bottom centre (0.47 below the hook)",
+   "light_at": [
+    0,
+    -0.075,
+    0.34
+   ],
+   "light_dir": null,
+   "suggested": {
+    "kelvin": 2700,
+    "rgb": [
+     1.0,
+     0.82,
+     0.58
+    ],
+    "power": 0.6,
+    "lumens": 450,
+    "spot_deg": null,
+    "range_m": 5
+   },
+   "cable_ends": [
+    {
+     "at": [
+      -0.09,
+      0,
+      0.035
+     ],
+     "dir": [
+      0,
+      1,
+      0
+     ],
+     "note": "plugged into the socket box on the wall"
+    }
+   ]
+  }
+ },
+ "layout": {
+  "work_tripod": [
+   -0.2144,
+   0,
+   0
+  ],
+  "work_handlamp": [
+   1.0806,
+   0,
+   0
+  ]
+ },
+ "unique_tris": 771
+}

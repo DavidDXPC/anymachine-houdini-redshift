@@ -1,0 +1,238 @@
+{
+ "tris": 678,
+ "ngons": 0,
+ "texture": 2048,
+ "baked": true,
+ "atlas": "../lighting_color.png, ../lighting_normal.png, ../lighting_orm.png (shared by the family)",
+ "bbox_err_mm": 0.0,
+ "items": {
+  "tube_light_ceiling": {
+   "tris": 192,
+   "min": [
+    -0.7546,
+    -0.075,
+    -0.17
+   ],
+   "max": [
+    0.7546,
+    0.075,
+    0.0
+   ],
+   "size": [
+    1.5092,
+    0.15,
+    0.17
+   ],
+   "parts": [
+    "tube_light/body",
+    "tube_light/hanger",
+    "tube_light/hanger",
+    "tube_light/cable",
+    "tube_light/cable"
+   ],
+   "lit_material": "tube_light__lit",
+   "bbox_err_mm": 0.0,
+   "mount": "ceiling",
+   "origin": "ceiling plane, centre",
+   "light_at": [
+    0,
+    0,
+    -0.17
+   ],
+   "light_dir": [
+    0,
+    0,
+    -1
+   ],
+   "suggested": {
+    "kelvin": 5000,
+    "rgb": [
+     0.8,
+     0.9,
+     1.0
+    ],
+    "power": 1.6,
+    "lumens": 3200,
+    "spot_deg": 150,
+    "range_m": 9,
+    "shape": "line 1.2 m along X"
+   },
+   "cable_ends": [
+    {
+     "at": [
+      0.75,
+      0,
+      0
+     ],
+     "dir": [
+      0,
+      0,
+      1
+     ]
+    },
+    {
+     "at": [
+      -0.75,
+      0,
+      0
+     ],
+     "dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   ]
+  },
+  "tube_light_pole": {
+   "tris": 302,
+   "min": [
+    -0.68,
+    -0.0792,
+    -0.1242
+   ],
+   "max": [
+    0.7546,
+    0.275,
+    1.071
+   ],
+   "size": [
+    1.4346,
+    0.3542,
+    1.1952
+   ],
+   "parts": [
+    "tube_light/post",
+    "tube_light/body",
+    "tube_light/hanger",
+    "tube_light/hanger",
+    "tube_light/cable"
+   ],
+   "lit_material": "tube_light__lit",
+   "mount": "rail",
+   "origin": "top of the handrail top rail, over a post; rail along X, fitting on the +Y (deck) side",
+   "light_at": [
+    0,
+    0.2,
+    0.819
+   ],
+   "light_dir": [
+    0,
+    0,
+    -1
+   ],
+   "suggested": {
+    "kelvin": 5000,
+    "rgb": [
+     0.8,
+     0.9,
+     1.0
+    ],
+    "power": 1.6,
+    "lumens": 3200,
+    "spot_deg": 150,
+    "range_m": 9,
+    "shape": "line 1.2 m along X"
+   },
+   "cable_ends": [
+    {
+     "at": [
+      0,
+      -0.0375,
+      -0.12
+     ],
+     "dir": [
+      0,
+      1,
+      0
+     ],
+     "note": "tail from the clamp ends on the handrail post"
+    }
+   ]
+  },
+  "tube_light_broken": {
+   "tris": 184,
+   "min": [
+    -0.6853,
+    -0.075,
+    -0.3861
+   ],
+   "max": [
+    0.7546,
+    0.075,
+    0.0
+   ],
+   "size": [
+    1.4399,
+    0.15,
+    0.3861
+   ],
+   "parts": [
+    "tube_light/body",
+    "tube_light/hanger",
+    "tube_light/hanger",
+    "tube_light/cable_loose"
+   ],
+   "lit_material": "tube_light__lit",
+   "bbox_err_mm": 0.0,
+   "mount": "ceiling",
+   "origin": "ceiling plane, centre (as tube_light_ceiling)",
+   "light_at": [
+    0.05,
+    0,
+    -0.27
+   ],
+   "light_dir": [
+    0.2079,
+    0,
+    -0.9781
+   ],
+   "suggested": {
+    "kelvin": 5000,
+    "rgb": [
+     0.8,
+     0.9,
+     1.0
+    ],
+    "power": 0.8,
+    "lumens": 3200,
+    "spot_deg": 150,
+    "range_m": 9,
+    "shape": "line 1.2 m along X",
+    "note": "one tube out: flicker it"
+   },
+   "cable_ends": [
+    {
+     "at": [
+      0.75,
+      0,
+      0
+     ],
+     "dir": [
+      0,
+      0,
+      1
+     ]
+    }
+   ]
+  }
+ },
+ "layout": {
+  "tube_light_ceiling": [
+   0.0,
+   0,
+   0
+  ],
+  "tube_light_pole": [
+   1.6746,
+   0,
+   0
+  ],
+  "tube_light_broken": [
+   3.3545,
+   0,
+   0
+  ]
+ },
+ "unique_tris": 328
+}

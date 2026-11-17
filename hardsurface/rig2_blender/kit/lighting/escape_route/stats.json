@@ -1,0 +1,135 @@
+{
+ "tris": 214,
+ "ngons": 0,
+ "texture": 2048,
+ "baked": true,
+ "atlas": "../lighting_color.png, ../lighting_normal.png, ../lighting_orm.png (shared by the family)",
+ "bbox_err_mm": 0.0,
+ "items": {
+  "escape_sign": {
+   "tris": 200,
+   "min": [
+    -0.3,
+    -0.1322,
+    0.0
+   ],
+   "max": [
+    0.3,
+    0.0,
+    0.3749
+   ],
+   "size": [
+    0.6,
+    0.1322,
+    0.3749
+   ],
+   "parts": [
+    "escape_route/sign"
+   ],
+   "lit_material": "escape_route__lit",
+   "bbox_err_mm": 0.0,
+   "mount": "wall",
+   "origin": "wall plane, bottom centre of the box; chevrons point to +X",
+   "light_at": [
+    0,
+    -0.13,
+    0.15
+   ],
+   "light_dir": [
+    0,
+    -1,
+    0
+   ],
+   "suggested": {
+    "kelvin": null,
+    "rgb": [
+     0.1,
+     1.0,
+     0.4
+    ],
+    "power": 0.3,
+    "lumens": 200,
+    "spot_deg": 140,
+    "range_m": 4,
+    "shape": "panel 0.5 x 0.21"
+   },
+   "cable_ends": [
+    {
+     "at": [
+      -0.15,
+      0,
+      0.37
+     ],
+     "dir": [
+      0,
+      1,
+      0
+     ],
+     "note": "cable turns into the wall above the box"
+    }
+   ]
+  },
+  "escape_strip": {
+   "tris": 14,
+   "min": [
+    -0.5,
+    -0.025,
+    0.0
+   ],
+   "max": [
+    0.5,
+    0.025,
+    0.008
+   ],
+   "size": [
+    1.0,
+    0.05,
+    0.008
+   ],
+   "parts": [
+    "escape_route/strip"
+   ],
+   "lit_material": "escape_route__lit_strip",
+   "bbox_err_mm": 0.0,
+   "mount": "deck",
+   "origin": "bottom centre, long side X",
+   "light_at": [
+    0,
+    0,
+    0.02
+   ],
+   "light_dir": [
+    0,
+    0,
+    1
+   ],
+   "suggested": {
+    "kelvin": null,
+    "rgb": [
+     0.5,
+     1.0,
+     0.4
+    ],
+    "power": 0.02,
+    "lumens": 5,
+    "spot_deg": null,
+    "range_m": 0.5,
+    "note": "afterglow: emission only, no light source needed"
+   },
+   "cable_ends": []
+  }
+ },
+ "layout": {
+  "escape_sign": [
+   0.0,
+   0,
+   0
+  ],
+  "escape_strip": [
+   1.04,
+   0,
+   0
+  ]
+ },
+ "unique_tris": 214
+}

@@ -1,0 +1,18 @@
+endpoint: openai/gpt-image-2.6/sunburst/edit
+image_size: landscape_16_9
+quality: high
+inputs: xmas_tree_turn.png
+
+A reference sheet of close-up photographs of ONE piece of equipment, for a 3D modeller who must build it accurately: a wellhead christmas tree (valve tree) painted muted green with red handwheels, on a yellow kerb with grating. The input image shows this exact object from six directions; every close-up must show that same object, with the same colours, the same construction and the same condition.
+
+Layout: six close-up photographs in a tidy grid of three columns and two rows, with clear space between them, each on a plain light-grey background or with the rest of the object softly behind. In reading order:
+(1) one master gate valve seen square-on from the front: the forged block body, the bonnet with its stud ring, the stem and the red handwheel with its spokes;
+(2) the same master valve from the side, showing how far the bonnet and handwheel stand off the bore and the flange above and below;
+(3) the cross block where the two wing arms leave the vertical bore, with the studded flanges;
+(4) a wing valve and the choke at the end of the wing arm: choke body, its adjusting stem and indicator, the blind end flange;
+(5) the tree cap on top: cap flange, needle valve and the pressure gauge;
+(6) the wellhead flange at the bottom where it passes through the grating in the kerb, with its ring of studs and nuts;
+
+Each close-up is photographed square-on or at a slight angle from about a metre away, so the shape, the sections used, the joints and the fastener pattern are completely clear and could be measured. No people. Real industrial equipment at real proportions: correct fastener sizes, weld seams, cast and forged surfaces, bolted flanges. Photographic, soft even overcast light, very sharp, true-to-life materials. Condition: in daily use on a North Sea platform and somewhat dirty but maintained: dark grime runs below fittings, grease near moving parts, paint chipped to primer on edges, a little rust bleed at joints, no heavy rust.
+
+No text, no labels, no arrows, no logos, no brand names, no watermark, no borders.

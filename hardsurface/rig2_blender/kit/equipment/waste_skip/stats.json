@@ -1,0 +1,56 @@
+{
+ "tris": 2222,
+ "quads": 1047,
+ "tri_faces": 128,
+ "ngons": 0,
+ "verts": 1286,
+ "min": [
+  -1.8,
+  -0.9,
+  0.0
+ ],
+ "max": [
+  1.8,
+  0.9,
+  1.4
+ ],
+ "bbox_err_mm": 0.0,
+ "hi_tris": 18012,
+ "uv_fill": 0.441,
+ "surface_m2": 41.93,
+ "uv_min": 0.0039999824948608875,
+ "uv_max": 0.9959572553634644,
+ "texture": 2048,
+ "texture_target": 2048,
+ "size": [
+  3.6,
+  1.8,
+  1.4
+ ],
+ "box": [
+  3.6,
+  1.8,
+  1.4
+ ],
+ "origin": "centre of the footprint, on the floor (z = 0); long side along X; front faces -Y",
+ "footprint": {
+  "min": [
+   -1.8,
+   -0.9
+  ],
+  "max": [
+   1.8,
+   0.9
+  ]
+ },
+ "cover_below_1m": {
+  "along_y": 0.849,
+  "along_x": 0.848
+ },
+ "faces": {
+  "minus_y": "long side, number 74036",
+  "plus_y": "long side, number 74036",
+  "minus_x": "tapered end under the tarpaulin",
+  "plus_x": "tapered end, open half of the skip"
+ }
+}
