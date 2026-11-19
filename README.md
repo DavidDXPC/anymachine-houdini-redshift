@@ -1,105 +1,46 @@
-# AnyMachine: machines that work, built in Blender by an agent
+# AnyMachine para Houdini 22 e Redshift
 
-Part of a family: [AnyScene](https://github.com/apekshik/anyscene) builds whole sets,
-[AnyKit](https://github.com/apekshik/anykit) builds the props that go in them, AnyMachine makes machines that move, and
-[AnyShot](https://github.com/apekshik/anyshot) shoots the result.
+Constrói máquinas com peças editáveis, anima os mecanismos e prepara a cena em Solaris. O fork inclui 41 modelos, uma [skill para agentes](.agents/skills/anymachine-houdini-redshift/SKILL.md) e uma cena Houdini Indie pronta a abrir.
 
-![Stilt walking past a 1.75 m figure](stilt/renders/stilt_walk.gif)
+[Descarrega a cena do reservatório](examples/air_receiver_hip.zip), extrai a pasta e abre `air_receiver_v004.hiplc`. Mantém a pasta `air_receiver_v004_data` ao lado da cena. Em `/stage/REDSHIFT`, **Render to Disk** escreve o EXR.
 
-**Stilt**: a 30 m walker with 160 parts, working hydraulics on every joint, a 104-bone rig and three animations. It
-started as one painting. Every part of it is built by [one Python script](stilt/build_stilt.py) that runs in Blender.
-The work was done by an agent (Claude Fable 5.2 in Claude Code) following the steps in [PIPELINE.md](PIPELINE.md),
-with a person choosing the design and approving each stage.
+![Reservatório de ar renderizado no Solaris com Redshift](examples/air_receiver.png)
 
-| Reference | Built |
+O [EXR original](examples/air_receiver.exr) tem 512 × 384 píxeis, RGBA em ACEScg. Foi renderizado a partir da cena reaberta em Houdini Indie 22.0.466 com Redshift 2027.0.4.
+
+## Gerar uma cena
+
+Usa o `hython` do Houdini 22. No Windows, abre **Houdini Command Line Tools** e entra na pasta deste repositório. A extensão da cena depende da licença, por exemplo `.hiplc` para Indie. Para renderizar, instala o plugin Redshift e o delegate Solaris correspondentes à tua build. [Configuração da Maxon](https://help.maxon.net/r3d/houdini/en-us/Content/html/Houdini%2BPlugin%2BConfiguration.html)
+
+```shell
+hython anymachine.py list
+hython anymachine.py list laptop
+hython anymachine.py hip laptop out/laptop_v001.hiplc --set open=0.72
+hython anymachine.py usd spider out/spider_walk.usdc --clip walk
+hython anymachine.py glb rolltop out/rolltop_demo.glb --clip demo
+hython anymachine.py check out/spider_walk.usdc --frame 13
+hython check_rigs.py --asset quadruped --surfaces
+```
+
+Escolhe um nome de saída novo a cada versão. No HIP, os controlos estão em `/stage/MACHINE`. **Manual pose** permite editar cada controlo de 0 a 1. Ao gerar uma cena com `--clip`, a timeline recebe a duração e os fps do movimento. `STUDIO` controla câmara e resolução. `EXPORT_USD` escreve o palco. Cada peça tem um caminho em `/Machine/Parts` e os materiais estão em `/Machine/Looks`.
+
+Os comandos USD e GLB também funcionam em Python com `numpy` e `usd-core`. O USD leva os materiais RS Standard e de pré-visualização. O GLB leva materiais PBR e o clip escolhido. O GLB do Stilt conserva os três clips originais. Mantém mapas e pastas criados ao lado do USD ou HIP quando os mudares de sítio.
+
+## Modelos e cobertura
+
+| Família | O que podes usar |
 |---|---|
-| ![](stilt/refs/concept_sheet.png) | ![](stilt/renders/stilt_compare_3q.jpg) |
-| ![](stilt/refs/closeup_knee.png) | ![](stilt/renders/stilt_cu_knee.jpg) |
+| Portátil | Dobradiça de 0–135°, teclado, ecrã com UV e animações de abertura. |
+| Quadrúpede e aranha | 4 e 8 pernas, controlos por junta, IK, ciclos de marcha e poses. |
+| Mochilas | Daypack, rolltop e rucksack. Fecho, enchimento, aba, rolo e alças conforme o modelo. |
+| Stilt | 160 malhas, 104 juntas, 3 movimentos e 6 texturas. Conversão do GLB publicado para UsdSkel. |
+| Indústria | 12 equipamentos, 19 variantes de luminárias, helicóptero, embarcação de salvamento e turco. |
+| Props externos | Três modelos do original dependem de um pack comercial ausente. Com a malha licenciada em USD, usa `hip` ou `usd` com `--source ficheiro.usd`. |
 
-Video: [`stilt/renders/stilt_reference_to_model.mp4`](stilt/renders/stilt_reference_to_model.mp4) (the build, then
-the references beside what was built). Model: [`stilt/stilt.glb`](stilt/stilt.glb).
+Os seis rigs do portátil, robôs e mochilas usam carcaças reconstruídas a partir das medidas publicadas. Nos modelos industriais, materiais e geometria preservam a separação por peça. Alguns decalques, sujidade projetada e texturas de desgaste do bake original ficam como referência visual.
 
-## New: complicated objects, modelled part by part
+## Verificação
 
-| Reference sheet | Built (clay above, baked below) |
-|---|---|
-| ![](hardsurface/rig2_blender/kit/aircraft/helicopter/sheets/heli_turn.jpg) | ![](hardsurface/previews/helicopter/overview_clay_top_textured_bottom.jpg) |
-| ![](hardsurface/rig2_blender/kit/sheets/survival_craft_turn.jpg) | ![](hardsurface/previews/lifeboat/after_bow.jpg) |
+Reabrimos os 41 modelos em USD e verificámos a topologia e as ligações dos materiais Redshift. Nos seis rigs procedurais, o verificador percorreu 49 controlos e 25 clips. No portátil, a folga vertical mínima medida foi 0,24 mm. No quadrúpede, o maior deslizamento acumulado por apoio no trote foi 0,014 mm. O teste de superfícies cobre os pares e as poses identificados no relatório. O render de validação foi feito no reservatório.
 
-The same agent (Claude Fable 5.2 in Claude Code) now builds objects with far more on them: a helicopter with a full
-rotor head, cabin and cockpit (31,477 triangles, three texture sets), an enclosed lifeboat on its davit and winch,
-twelve pieces of oil-rig equipment, nineteen light fixtures, three rifles. The method: generate detailed reference
-sheets first (the whole object from six sides, then sheets of close-ups), model it in Blender Python one real part
-at a time, render it beside the sheets, do a second pass where it came out plainer, bake the textures on a GPU
-render farm, export game-ready. Image-to-3D meshes are not used for these; the lifeboat replaced one.
-
-They are still simpler and flatter than their sheets in places, and the notes say where.
-[PIPELINE.md, part 2](PIPELINE.md#part-2-complicated-static-objects) is the method;
-[`hardsurface/`](hardsurface/NOTES.md) has the scripts, sheets and comparisons.
-
-## Three ways in
-
-**From reference sheets, for static objects with a lot on them.** Above, and
-[PIPELINE.md, part 2](PIPELINE.md#part-2-complicated-static-objects).
-
-**From references, for machines no generator can give you.** One concept image becomes a turnaround, single views
-and a close-up plate for every mechanism. A parts breakdown is written from those, then a script that builds the
-geometry, materials, rig and animations, and check renders that put each reference beside the model.
-[PIPELINE.md](PIPELINE.md) is the method; [`stilt/`](stilt/NOTES.md) is the worked example.
-
-**From a generated mesh, for everyday objects.** Give it an object (a reference image, or a static mesh from a kit)
-and it hands back a rig that works: a laptop lid on a real hinge, legs that walk without sliding, a bag that fills
-and opens. Every control is a 0-1 parameter, and every result is checked by machine before anyone looks at it.
-
-1. **Generate** the object in an articulated pose (Meshy and Tripo, both tried).
-2. **Treat the mesh as a skin.** Measure the joint axes off it, then rebuild the moving parts as clean geometry on
-   those axes: coaxial hinge barrels, side-by-side joint slabs, so nothing can pass through anything.
-3. **Expose parameters.** Each joint gets a 0-1 custom property with drivers and limits, and bakes to linear glTF
-   actions, so `seek(t = value)` poses the GLB in any engine.
-4. **Check.** Sweep every parameter for triangle overlaps, clamp out-of-range values, measure foot slip, then
-   re-import the GLB to confirm it matches.
-
-**Status: experiments.** This repo holds the six runs so far; there is no endpoint yet.
-
-## Experiments
-
-| | Joints | Result |
-|---|---|---|
-| [hardsurface](hardsurface/NOTES.md) | none: static props. Lifeboat station, helicopter, 12 equipment pieces, 19 light fixtures, 3 rifles | Works as game props. From reference sheets, no generated mesh. Simpler and flatter than the sheets in places; the helicopter is not yet tested in the game |
-| [stilt](stilt/NOTES.md) | 4 legs x 3 joints, 2 arms, hands, 5-link neck; 14 hydraulic actuators; walk, reach, head turn | Works. From references, no generated mesh. No intersections through all three actions; plainer than its plates in the hands, elbows and feet |
-| [laptop](laptop/NOTES.md) | one lid hinge, 0-135 deg | Works. 0 overlaps over the full sweep, min clearance 0.32 mm |
-| [quadruped](quadruped/NOTES.md) | 4 legs x 3 joints; trot, idle, sit, stand | Works. 0 overlaps, 0.014 mm foot slip; legs are plain slabs |
-| [spider](spider/NOTES.md) | 8 legs x 3 joints; walk, idle, crouch | Works. 0 overlaps; generators gave 6 legs, the 8 come from the brief; body skin is rough |
-| [backpacks](backpacks/NOTES.md) | roll, clip, fill, flap, zip, straps | Partly. The roll-top passes every check; the rucksack and daypack fail where controls interact |
-
-What the backpacks showed: hinges, sliders and wheels cover hard-surface objects, but soft goods need their own joint
-types (`flap`, `zip_path`, `fill`, `strap`, `roll`, `clip`, `jiggle`) and a way to say which controls depend on each
-other. The notes in `backpacks/` draft them.
-
-## Running
-
-**Stilt** (Blender 5.2). The build needs nothing but the script:
-
-```
-blender --background --python stilt/build_stilt.py
-blender --background stilt/stilt.blend --python stilt/render_stilt.py -- 3q cu check
-blender --background --python stilt/verify_glb.py
-```
-
-The first line rebuilds `stilt.blend` and `stilt.glb` from nothing, including the texture bake (about 80 s; add
-`--no-bake` to skip it). `stilt/edit.ps1` and `stilt/video.ps1` regenerate the references from the `jobs_*.json`
-prompt files and need `FAL_KEY`.
-
-**Hard-surface objects** (Blender 5.2). Each object is one script; `--nobake` builds the geometry in seconds:
-
-```
-cd hardsurface/rig2_blender/kit
-blender -b --factory-startup --python aircraft/helicopter/build.py -- --nobake
-blender -b --factory-startup --python equipment/xmas_tree/build.py -- --size 512 --spp 4 --noreview
-```
-
-See [`hardsurface/NOTES.md`](hardsurface/NOTES.md) for what is and is not in the repo.
-
-**The others** (Blender 5.0). Each folder has a `run_all.sh` (`run_bag.sh` for the backpacks) that rebuilds
-everything from the cached generations in its `gen/` folder, headless. Generations, `.blend` files, GLBs and render
-frames are not in the repo; the demo GIFs, stills and `check.json` reports are.
+O [pipeline](PIPELINE.md) explica como construir e rever uma máquina nova. As [referências](references) conservam imagens, medidas e relatórios históricos. O código original e o respetivo histórico estão disponíveis no [AnyMachine de apekshik](https://github.com/apekshik/anymachine/tree/d5e8889eef0b33e0bbe62ddca6f713f94b154b68). Licença [MIT](LICENSE).

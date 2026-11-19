@@ -1,0 +1,559 @@
+{
+  "laptop": {
+    "y_back_bottom_shell": 0.0854,
+    "closed_gap_mm": 1.46,
+    "pedestal_h_mm": 1.16,
+    "base_dims_m": [
+      0.3194,
+      0.227,
+      0.0105
+    ],
+    "joint": {
+      "name": "lid_hinge",
+      "type": "hinge",
+      "parent": "base",
+      "child": [
+        "lid",
+        "screen"
+      ],
+      "axis_origin_m": [
+        0.0,
+        0.08293,
+        0.01331
+      ],
+      "axis_dir": [
+        1,
+        0,
+        0
+      ],
+      "limits_deg": [
+        0,
+        135.0
+      ],
+      "param": "open",
+      "param_map": "angle_deg = open * 135.0"
+    },
+    "lid_built": {
+      "W": 0.3155,
+      "L": 0.2237,
+      "t": 0.005
+    }
+  },
+  "spider": {
+    "params": {
+      "body_len": 0.4,
+      "hip_z": 0.1,
+      "L1": 0.045,
+      "L2": 0.13,
+      "L3": 0.17,
+      "foot_r": 0.013,
+      "gap": 0.0015,
+      "wC": 0.024,
+      "wF": 0.024,
+      "wT": 0.02,
+      "rY": 0.019,
+      "rP": 0.019,
+      "rK": 0.016,
+      "hip_y": [
+        -0.105,
+        -0.035,
+        0.035,
+        0.105
+      ],
+      "hip_az": [
+        52.0,
+        17.0,
+        -17.0,
+        -50.0
+      ],
+      "reach": 0.225,
+      "step_length": 0.12,
+      "step_height": 0.035,
+      "speed": 0.12,
+      "duty": 0.6,
+      "bob": 0.003,
+      "crouch_drop": 0.045,
+      "fps": 24,
+      "lim_yaw": 22.0,
+      "lim_femur_elev": [
+        -35.0,
+        80.0
+      ],
+      "lim_knee_rel": [
+        -165.0,
+        -25.0
+      ]
+    },
+    "shell": {
+      "gen": "meshy",
+      "scale": 0.3525179444572864,
+      "gen_span_m": [
+        0.6702,
+        0.5725,
+        0.1644
+      ],
+      "shell_dims_m": [
+        0.1788,
+        0.3678,
+        0.0639
+      ],
+      "shell_z": [
+        0.0909,
+        0.1548
+      ],
+      "shell_faces": 13892,
+      "feet_found": 5,
+      "feet_xy_m": [
+        [
+          -0.3242,
+          0.0339
+        ],
+        [
+          -0.2223,
+          0.2103
+        ],
+        [
+          0.2372,
+          -0.2915
+        ],
+        [
+          0.32,
+          0.0101
+        ],
+        [
+          0.1909,
+          0.2466
+        ]
+      ],
+      "foot_radius_from_center_m": [
+        0.326,
+        0.306,
+        0.3758,
+        0.3202,
+        0.3119
+      ],
+      "legs_generated": [
+        {
+          "foot_az_deg": -50.9,
+          "foot_r_m": 0.3759,
+          "knee_r_m": 0.2883,
+          "knee_z_m": 0.1612,
+          "hip_r_m": 0.1294
+        },
+        {
+          "foot_az_deg": 1.8,
+          "foot_r_m": 0.3202,
+          "knee_r_m": 0.2475,
+          "knee_z_m": 0.139,
+          "hip_r_m": 0.1059
+        },
+        {
+          "foot_az_deg": 52.3,
+          "foot_r_m": 0.3118,
+          "knee_r_m": 0.2392,
+          "knee_z_m": 0.1535,
+          "hip_r_m": 0.1068
+        },
+        {
+          "foot_az_deg": 174.0,
+          "foot_r_m": 0.3259,
+          "knee_r_m": 0.2394,
+          "knee_z_m": 0.1556,
+          "hip_r_m": 0.1028
+        },
+        {
+          "foot_az_deg": 136.6,
+          "foot_r_m": 0.306,
+          "knee_r_m": 0.2259,
+          "knee_z_m": 0.1636,
+          "hip_r_m": 0.1016
+        }
+      ],
+      "opening_radius_m": 0.0369
+    },
+    "measured": {
+      "hip_z_generated_m": 0.0777,
+      "skin_lift_m": 0.0223,
+      "chassis": {
+        "y_range_m": [
+          -0.204,
+          0.146
+        ],
+        "max_half_width_m": 0.0803,
+        "rim_z_m": [
+          0.1225,
+          0.1529
+        ],
+        "belly_z_m": [
+          0.0668,
+          0.105
+        ]
+      }
+    },
+    "legs": {
+      "L1": {
+        "yaw_axis": [
+          -0.1041,
+          -0.105,
+          0.1
+        ],
+        "dir_deg": 52.0,
+        "rest_femur_elev_deg": 31.65,
+        "rest_knee_rel_deg": -97.58,
+        "foot_rest": [
+          -0.2511,
+          -0.2757,
+          0.013
+        ],
+        "limits_local_deg": {
+          "coxa": [
+            -22.0,
+            22.0
+          ],
+          "femur": [
+            -66.65,
+            48.35
+          ],
+          "tibia": [
+            -67.42,
+            72.58
+          ]
+        }
+      },
+      "L2": {
+        "yaw_axis": [
+          -0.103,
+          -0.035,
+          0.1
+        ],
+        "dir_deg": 17.0,
+        "rest_femur_elev_deg": 31.65,
+        "rest_knee_rel_deg": -97.58,
+        "foot_rest": [
+          -0.3213,
+          -0.0905,
+          0.013
+        ],
+        "limits_local_deg": {
+          "coxa": [
+            -22.0,
+            22.0
+          ],
+          "femur": [
+            -66.65,
+            48.35
+          ],
+          "tibia": [
+            -67.42,
+            72.58
+          ]
+        }
+      },
+      "L3": {
+        "yaw_axis": [
+          -0.0983,
+          0.035,
+          0.1
+        ],
+        "dir_deg": -17.0,
+        "rest_femur_elev_deg": 31.65,
+        "rest_knee_rel_deg": -97.58,
+        "foot_rest": [
+          -0.3103,
+          0.1111,
+          0.013
+        ],
+        "limits_local_deg": {
+          "coxa": [
+            -22.0,
+            22.0
+          ],
+          "femur": [
+            -66.65,
+            48.35
+          ],
+          "tibia": [
+            -67.42,
+            72.58
+          ]
+        }
+      },
+      "L4": {
+        "yaw_axis": [
+          -0.0734,
+          0.105,
+          0.1
+        ],
+        "dir_deg": -50.0,
+        "rest_femur_elev_deg": 31.65,
+        "rest_knee_rel_deg": -97.58,
+        "foot_rest": [
+          -0.2098,
+          0.2843,
+          0.013
+        ],
+        "limits_local_deg": {
+          "coxa": [
+            -22.0,
+            22.0
+          ],
+          "femur": [
+            -66.65,
+            48.35
+          ],
+          "tibia": [
+            -67.42,
+            72.58
+          ]
+        }
+      },
+      "R1": {
+        "yaw_axis": [
+          0.1041,
+          -0.105,
+          0.1
+        ],
+        "dir_deg": 52.0,
+        "rest_femur_elev_deg": 31.65,
+        "rest_knee_rel_deg": -97.58,
+        "foot_rest": [
+          0.2511,
+          -0.2757,
+          0.013
+        ],
+        "limits_local_deg": {
+          "coxa": [
+            -22.0,
+            22.0
+          ],
+          "femur": [
+            -66.65,
+            48.35
+          ],
+          "tibia": [
+            -67.42,
+            72.58
+          ]
+        }
+      },
+      "R2": {
+        "yaw_axis": [
+          0.103,
+          -0.035,
+          0.1
+        ],
+        "dir_deg": 17.0,
+        "rest_femur_elev_deg": 31.65,
+        "rest_knee_rel_deg": -97.58,
+        "foot_rest": [
+          0.3213,
+          -0.0905,
+          0.013
+        ],
+        "limits_local_deg": {
+          "coxa": [
+            -22.0,
+            22.0
+          ],
+          "femur": [
+            -66.65,
+            48.35
+          ],
+          "tibia": [
+            -67.42,
+            72.58
+          ]
+        }
+      },
+      "R3": {
+        "yaw_axis": [
+          0.0983,
+          0.035,
+          0.1
+        ],
+        "dir_deg": -17.0,
+        "rest_femur_elev_deg": 31.65,
+        "rest_knee_rel_deg": -97.58,
+        "foot_rest": [
+          0.3103,
+          0.1111,
+          0.013
+        ],
+        "limits_local_deg": {
+          "coxa": [
+            -22.0,
+            22.0
+          ],
+          "femur": [
+            -66.65,
+            48.35
+          ],
+          "tibia": [
+            -67.42,
+            72.58
+          ]
+        }
+      },
+      "R4": {
+        "yaw_axis": [
+          0.0734,
+          0.105,
+          0.1
+        ],
+        "dir_deg": -50.0,
+        "rest_femur_elev_deg": 31.65,
+        "rest_knee_rel_deg": -97.58,
+        "foot_rest": [
+          0.2098,
+          0.2843,
+          0.013
+        ],
+        "limits_local_deg": {
+          "coxa": [
+            -22.0,
+            22.0
+          ],
+          "femur": [
+            -66.65,
+            48.35
+          ],
+          "tibia": [
+            -67.42,
+            72.58
+          ]
+        }
+      }
+    }
+  },
+  "quadruped": {
+    "gen_dims_m": [
+      0.4124,
+      0.7,
+      0.421
+    ],
+    "body_bottom": 0.2733,
+    "body_top": 0.421,
+    "body_hw": 0.1054,
+    "measured_legs": {
+      "FL": {
+        "hip": [
+          -0.2367,
+          0.3312
+        ],
+        "hip_r": 0.0538,
+        "knee": [
+          -0.127,
+          0.1825
+        ],
+        "knee_r": 0.0316,
+        "knee_points": "back",
+        "foot": [
+          -0.1794,
+          -0.2465,
+          0.026
+        ],
+        "foot_r": 0.026,
+        "thigh_len": 0.1848,
+        "shin_len": 0.1969
+      },
+      "HL": {
+        "hip": [
+          0.1953,
+          0.3315
+        ],
+        "hip_r": 0.0535,
+        "knee": [
+          0.3214,
+          0.1825
+        ],
+        "knee_r": 0.0274,
+        "knee_points": "back",
+        "foot": [
+          -0.1388,
+          0.2264,
+          0.0247
+        ],
+        "foot_r": 0.0247,
+        "thigh_len": 0.1952,
+        "shin_len": 0.1841
+      },
+      "FR": {
+        "hip": [
+          -0.2325,
+          0.3302
+        ],
+        "hip_r": 0.0548,
+        "knee": [
+          -0.1274,
+          0.18
+        ],
+        "knee_r": 0.0318,
+        "knee_points": "back",
+        "foot": [
+          0.1798,
+          -0.2462,
+          0.0266
+        ],
+        "foot_r": 0.0265,
+        "thigh_len": 0.1833,
+        "shin_len": 0.1941
+      },
+      "HR": {
+        "hip": [
+          0.2022,
+          0.331
+        ],
+        "hip_r": 0.054,
+        "knee": [
+          0.3216,
+          0.1825
+        ],
+        "knee_r": 0.0275,
+        "knee_points": "back",
+        "foot": [
+          0.1389,
+          0.2261,
+          0.025
+        ],
+        "foot_r": 0.025,
+        "thigh_len": 0.1905,
+        "shin_len": 0.1842
+      }
+    },
+    "design": {
+      "L1": 0.1883,
+      "L2": 0.1895,
+      "knee_rest_interior_deg": 107.9,
+      "thigh_rest_from_vertical_deg": 37.66,
+      "z_hip": 0.331,
+      "y_hip": {
+        "F": -0.2346,
+        "H": 0.1987
+      },
+      "foot_r": 0.0255,
+      "limits_deg": {
+        "haa": [
+          -18.0,
+          18.0
+        ],
+        "hfe": [
+          -60.0,
+          60.0
+        ],
+        "kfe": [
+          -77.9,
+          62.1
+        ]
+      },
+      "leg_plane_x": 0.1544,
+      "haa_pivot_x": 0.0754
+    },
+    "actions": {
+      "trot": 19,
+      "trot_forward": 73,
+      "idle": 121,
+      "sit": 49,
+      "stand": 49
+    }
+  }
+}
