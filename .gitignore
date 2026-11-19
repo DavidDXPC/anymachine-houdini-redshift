@@ -1,0 +1,71 @@
+# Build outputs and generated assets: large, downloaded separately
+*.blend
+*.blend1
+*.glb
+*.vdb
+*.exr
+*.mp4
+*.png
+*.jpg
+assets/
+refs/
+out/
+cache/
+scenes/*/props/
+scenes/*/props_prebrand/
+scenes/*/compare/
+scenes/*/debrand/
+scenes/*/out/
+scenes/*/cache/
+breakdown/*/
+!breakdown/*.py
+!breakdown/*.md
+# other heavy formats that should never be committed
+*.mov
+*.webm
+*.fbx
+*.obj
+*.usd
+*.usdz
+*.hdr
+*.blend@
+# small README images are the exception to *.png / *.jpg above
+!docs/media/
+!docs/media/*.jpg
+!docs/media/*.png
+!docs/media/*.gif
+
+# Local state
+generate/spend.jsonl
+**/spend.jsonl
+logs/
+*.log
+.gpu.queue/
+.gpu.*_done
+__pycache__/
+node_modules/
+.env*
+!.env.example
+pipeline/env.local.sh
+*.pem
+*.key
+.secrets*
+credentials*.json
+.venv/
+
+# Blender writes this into the working directory
+waveletNoiseTile.bin
+
+# Client output folders (responses, downloaded stills/videos, event logs)
+anyshot_out/
+builder_out/
+# Generation records (refs/**/*.json) hold local output paths; refs/ above already excludes them, this is explicit
+refs/**/*.json
+*.tsbuildinfo
+
+# Unreal build logs
+*.out
+unreal_fx/work/
+# sample reference plates for the Studio picker
+!web/public/samples/
+!web/public/samples/*.jpg

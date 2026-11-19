@@ -1,0 +1,4982 @@
+{
+ "label": "hk-dai-pai-dong",
+ "source": "scenes/hk-dai-pai-dong/assets.json and scripts/",
+ "architecture": [
+  {
+   "id": "pavement",
+   "at": [
+    -2.14,
+    -0.4,
+    -9.0
+   ],
+   "dims": [
+    3.92,
+    0.4,
+    62.0
+   ],
+   "material": "asphalt"
+  },
+  {
+   "id": "pavement_far",
+   "at": [
+    8.64,
+    -0.4,
+    -9.0
+   ],
+   "dims": [
+    2.12,
+    0.4,
+    62.0
+   ],
+   "material": "asphalt"
+  },
+  {
+   "id": "kerb",
+   "at": [
+    -0.09,
+    -0.4,
+    -9.0
+   ],
+   "dims": [
+    0.18,
+    0.4,
+    62.0
+   ],
+   "material": "concrete"
+  },
+  {
+   "id": "kerb_far",
+   "at": [
+    7.49,
+    -0.4,
+    -9.0
+   ],
+   "dims": [
+    0.18,
+    0.4,
+    62.0
+   ],
+   "material": "concrete"
+  },
+  {
+   "id": "road",
+   "at": [
+    3.7,
+    -0.5,
+    -39.0
+   ],
+   "dims": [
+    7.4,
+    0.35,
+    122.0
+   ],
+   "material": "asphalt"
+  },
+  {
+   "id": "line_y_0.28",
+   "at": [
+    0.28,
+    -0.15,
+    -9.0
+   ],
+   "dims": [
+    0.1,
+    0.002,
+    62.0
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "line_y_0.42",
+   "at": [
+    0.42,
+    -0.15,
+    -9.0
+   ],
+   "dims": [
+    0.1,
+    0.002,
+    62.0
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "line_y_6.98",
+   "at": [
+    6.98,
+    -0.15,
+    -9.0
+   ],
+   "dims": [
+    0.1,
+    0.002,
+    62.0
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "line_y_7.12",
+   "at": [
+    7.12,
+    -0.15,
+    -9.0
+   ],
+   "dims": [
+    0.1,
+    0.002,
+    62.0
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "drain_0.1_-10",
+   "at": [
+    0.25,
+    -0.155,
+    9.05
+   ],
+   "dims": [
+    0.4,
+    0.009,
+    0.9
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "drain_7.0_-10",
+   "at": [
+    7.15,
+    -0.155,
+    9.05
+   ],
+   "dims": [
+    0.4,
+    0.009,
+    0.9
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "drain_0.1_-2",
+   "at": [
+    0.25,
+    -0.155,
+    1.35
+   ],
+   "dims": [
+    0.4,
+    0.009,
+    0.9
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "drain_7.0_-2",
+   "at": [
+    7.15,
+    -0.155,
+    1.35
+   ],
+   "dims": [
+    0.4,
+    0.009,
+    0.9
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "drain_0.1_9",
+   "at": [
+    0.25,
+    -0.155,
+    -9.45
+   ],
+   "dims": [
+    0.4,
+    0.009,
+    0.9
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "drain_7.0_9",
+   "at": [
+    7.15,
+    -0.155,
+    -9.45
+   ],
+   "dims": [
+    0.4,
+    0.009,
+    0.9
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "drain_0.1_18",
+   "at": [
+    0.25,
+    -0.155,
+    -17.95
+   ],
+   "dims": [
+    0.4,
+    0.009,
+    0.9
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "drain_7.0_18",
+   "at": [
+    7.15,
+    -0.155,
+    -17.95
+   ],
+   "dims": [
+    0.4,
+    0.009,
+    0.9
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "harbour_water",
+   "at": [
+    5.0,
+    -1.6,
+    -270.0
+   ],
+   "dims": [
+    170.0,
+    0.1,
+    340.0
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "awn_beam",
+   "at": [
+    -0.3,
+    2.55,
+    -3.0
+   ],
+   "dims": [
+    0.05,
+    0.05,
+    8.0
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "awn_wall_rail",
+   "at": [
+    -3.97,
+    3.1,
+    -3.0
+   ],
+   "dims": [
+    0.06,
+    0.07,
+    8.0
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "stall_sign_board",
+   "at": [
+    -0.295,
+    2.1,
+    -2.8
+   ],
+   "dims": [
+    0.05,
+    0.64,
+    5.2
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "stall_sign_end",
+   "at": [
+    -2.8,
+    2.0,
+    1.025
+   ],
+   "dims": [
+    2.2,
+    0.62,
+    0.05
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "shelf_post_-0.3_-4.0",
+   "at": [
+    -3.965,
+    0.0,
+    0.285
+   ],
+   "dims": [
+    0.03,
+    2.3,
+    0.03
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "shelf_post_-0.3_-3.6",
+   "at": [
+    -3.595,
+    0.0,
+    0.285
+   ],
+   "dims": [
+    0.03,
+    2.3,
+    0.03
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "shelf_post_1.6_-4.0",
+   "at": [
+    -3.965,
+    0.0,
+    -1.585
+   ],
+   "dims": [
+    0.03,
+    2.3,
+    0.03
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "shelf_post_1.6_-3.6",
+   "at": [
+    -3.595,
+    0.0,
+    -1.585
+   ],
+   "dims": [
+    0.03,
+    2.3,
+    0.03
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "shelf_-0.3_1.25",
+   "at": [
+    -3.78,
+    1.25,
+    -0.65
+   ],
+   "dims": [
+    0.4,
+    0.025,
+    1.9
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "shelf_-0.3_1.70",
+   "at": [
+    -3.78,
+    1.7,
+    -0.65
+   ],
+   "dims": [
+    0.4,
+    0.025,
+    1.9
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "shelf_-0.3_2.15",
+   "at": [
+    -3.78,
+    2.15,
+    -0.65
+   ],
+   "dims": [
+    0.4,
+    0.025,
+    1.9
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "shelf_post_1.7_-4.0",
+   "at": [
+    -3.965,
+    0.0,
+    -1.715
+   ],
+   "dims": [
+    0.03,
+    2.3,
+    0.03
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "shelf_post_1.7_-3.6",
+   "at": [
+    -3.595,
+    0.0,
+    -1.715
+   ],
+   "dims": [
+    0.03,
+    2.3,
+    0.03
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "shelf_post_3.6_-4.0",
+   "at": [
+    -3.965,
+    0.0,
+    -3.585
+   ],
+   "dims": [
+    0.03,
+    2.3,
+    0.03
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "shelf_post_3.6_-3.6",
+   "at": [
+    -3.595,
+    0.0,
+    -3.585
+   ],
+   "dims": [
+    0.03,
+    2.3,
+    0.03
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "shelf_1.7_1.25",
+   "at": [
+    -3.78,
+    1.25,
+    -2.65
+   ],
+   "dims": [
+    0.4,
+    0.025,
+    1.9
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "shelf_1.7_1.70",
+   "at": [
+    -3.78,
+    1.7,
+    -2.65
+   ],
+   "dims": [
+    0.4,
+    0.025,
+    1.9
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "shelf_1.7_2.15",
+   "at": [
+    -3.78,
+    2.15,
+    -2.65
+   ],
+   "dims": [
+    0.4,
+    0.025,
+    1.9
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "shelf_post_3.7_-4.0",
+   "at": [
+    -3.965,
+    0.0,
+    -3.715
+   ],
+   "dims": [
+    0.03,
+    2.3,
+    0.03
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "shelf_post_3.7_-3.6",
+   "at": [
+    -3.595,
+    0.0,
+    -3.715
+   ],
+   "dims": [
+    0.03,
+    2.3,
+    0.03
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "shelf_post_5.8_-4.0",
+   "at": [
+    -3.965,
+    0.0,
+    -5.785
+   ],
+   "dims": [
+    0.03,
+    2.3,
+    0.03
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "shelf_post_5.8_-3.6",
+   "at": [
+    -3.595,
+    0.0,
+    -5.785
+   ],
+   "dims": [
+    0.03,
+    2.3,
+    0.03
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "shelf_3.7_1.25",
+   "at": [
+    -3.78,
+    1.25,
+    -4.75
+   ],
+   "dims": [
+    0.4,
+    0.025,
+    2.1
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "shelf_3.7_1.70",
+   "at": [
+    -3.78,
+    1.7,
+    -4.75
+   ],
+   "dims": [
+    0.4,
+    0.025,
+    2.1
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "shelf_3.7_2.15",
+   "at": [
+    -3.78,
+    2.15,
+    -4.75
+   ],
+   "dims": [
+    0.4,
+    0.025,
+    2.1
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "prep_table",
+   "at": [
+    -3.125,
+    0.86,
+    -4.925
+   ],
+   "dims": [
+    0.85,
+    0.04,
+    1.65
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "prep_table_shelf",
+   "at": [
+    -3.125,
+    0.18,
+    -4.925
+   ],
+   "dims": [
+    0.75,
+    0.02,
+    1.55
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "prep_leg_4.1_-3.5",
+   "at": [
+    -3.515,
+    0.0,
+    -4.135
+   ],
+   "dims": [
+    0.03,
+    0.86,
+    0.03
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "prep_leg_4.1_-2.8",
+   "at": [
+    -2.735,
+    0.0,
+    -4.135
+   ],
+   "dims": [
+    0.03,
+    0.86,
+    0.03
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "prep_leg_5.7_-3.5",
+   "at": [
+    -3.515,
+    0.0,
+    -5.715
+   ],
+   "dims": [
+    0.03,
+    0.86,
+    0.03
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "prep_leg_5.7_-2.8",
+   "at": [
+    -2.735,
+    0.0,
+    -5.715
+   ],
+   "dims": [
+    0.03,
+    0.86,
+    0.03
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "kitchen_tiles",
+   "at": [
+    -3.9975,
+    0.0,
+    -2.75
+   ],
+   "dims": [
+    0.025,
+    1.5,
+    6.5
+   ],
+   "material": "ceramic"
+  },
+  {
+   "id": "kitchen_sheet",
+   "at": [
+    -3.999,
+    1.5,
+    -2.75
+   ],
+   "dims": [
+    0.022,
+    1.65,
+    6.5
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "stall_facade",
+   "at": [
+    -4.125,
+    -0.12,
+    -9.0
+   ],
+   "dims": [
+    0.25,
+    13.12,
+    62.0
+   ],
+   "material": "paint"
+  },
+  {
+   "id": "far_facade",
+   "at": [
+    9.75,
+    -0.12,
+    -9.0
+   ],
+   "dims": [
+    0.3,
+    17.12,
+    62.0
+   ],
+   "material": "paint"
+  },
+  {
+   "id": "awning",
+   "at": [
+    -2.075,
+    2.75,
+    -3.0
+   ],
+   "dims": [
+    3.85,
+    0.05,
+    8.0
+   ],
+   "material": "fabric"
+  }
+ ],
+ "props": [
+  {
+   "id": "kitchen_cart",
+   "asset": "hk_kitchen_cart",
+   "at": [
+    -2.595,
+    0.0,
+    -1.2
+   ],
+   "yaw": 90.0,
+   "dims": [
+    1.9,
+    1.0,
+    0.85
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "wok_range",
+   "asset": "hk_wok_range",
+   "at": [
+    -2.795,
+    0.0,
+    -3.18
+   ],
+   "yaw": 90.0,
+   "dims": [
+    1.5,
+    0.85,
+    0.85
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "table_t1",
+   "asset": "hk_table_round",
+   "at": [
+    -0.95,
+    0.0,
+    -0.25
+   ],
+   "yaw": 46.979,
+   "dims": [
+    0.95,
+    0.74,
+    0.95
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "stool_t1_0",
+   "asset": "hk_stool_red",
+   "at": [
+    -0.41158,
+    0.0,
+    -0.63171
+   ],
+   "yaw": 104.265,
+   "dims": [
+    0.315,
+    0.45,
+    0.2835
+   ],
+   "fit": "height",
+   "shape": "cylinder"
+  },
+  {
+   "id": "stool_t1_0_2",
+   "asset": "hk_stool_red",
+   "at": [
+    -1.31241,
+    0.0,
+    -0.8016
+   ],
+   "yaw": 238.098,
+   "dims": [
+    0.315,
+    0.45,
+    0.2835
+   ],
+   "fit": "height",
+   "shape": "cylinder"
+  },
+  {
+   "id": "stool_t1_0_3",
+   "asset": "hk_stool_blue",
+   "at": [
+    -1.60997,
+    0.0,
+    -0.24415
+   ],
+   "yaw": 138.302,
+   "dims": [
+    0.315,
+    0.45,
+    0.2835
+   ],
+   "fit": "height",
+   "shape": "cylinder"
+  },
+  {
+   "id": "stool_t1_0_4",
+   "asset": "hk_stool_red",
+   "at": [
+    -0.59714,
+    0.0,
+    0.30775
+   ],
+   "yaw": 180.577,
+   "dims": [
+    0.315,
+    0.45,
+    0.2835
+   ],
+   "fit": "height",
+   "shape": "cylinder"
+  },
+  {
+   "id": "table_t2",
+   "asset": "hk_table_square",
+   "at": [
+    -0.95,
+    0.0,
+    -5.05
+   ],
+   "yaw": 28.569,
+   "dims": [
+    0.75,
+    0.72,
+    0.75
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "stool_t2_0",
+   "asset": "hk_stool_red",
+   "at": [
+    -0.37719,
+    0.0,
+    -5.22859
+   ],
+   "yaw": 144.573,
+   "dims": [
+    0.315,
+    0.45,
+    0.2835
+   ],
+   "fit": "height",
+   "shape": "cylinder"
+  },
+  {
+   "id": "stool_t2_0_2",
+   "asset": "hk_stool_blue",
+   "at": [
+    -1.20283,
+    0.0,
+    -5.59413
+   ],
+   "yaw": 292.539,
+   "dims": [
+    0.315,
+    0.45,
+    0.2835
+   ],
+   "fit": "height",
+   "shape": "cylinder"
+  },
+  {
+   "id": "stool_t2_0_3",
+   "asset": "hk_stool_red",
+   "at": [
+    -1.5181,
+    0.0,
+    -4.85698
+   ],
+   "yaw": 254.005,
+   "dims": [
+    0.315,
+    0.45,
+    0.2835
+   ],
+   "fit": "height",
+   "shape": "cylinder"
+  },
+  {
+   "id": "stool_t2_0_4",
+   "asset": "hk_stool_red",
+   "at": [
+    -0.91918,
+    0.0,
+    -4.45079
+   ],
+   "yaw": 75.604,
+   "dims": [
+    0.315,
+    0.45,
+    0.2835
+   ],
+   "fit": "height",
+   "shape": "cylinder"
+  },
+  {
+   "id": "table_t3",
+   "asset": "hk_table_round",
+   "at": [
+    1.65,
+    -0.15,
+    0.35
+   ],
+   "yaw": 48.597,
+   "dims": [
+    0.95,
+    0.74,
+    0.95
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "stool_t3_0",
+   "asset": "hk_stool_red",
+   "at": [
+    2.16202,
+    -0.15,
+    -0.06645
+   ],
+   "yaw": 111.312,
+   "dims": [
+    0.315,
+    0.45,
+    0.2835
+   ],
+   "fit": "height",
+   "shape": "cylinder"
+  },
+  {
+   "id": "stool_t3_0_2",
+   "asset": "hk_stool_red",
+   "at": [
+    1.66045,
+    -0.15,
+    -0.30992
+   ],
+   "yaw": 170.675,
+   "dims": [
+    0.315,
+    0.45,
+    0.2835
+   ],
+   "fit": "height",
+   "shape": "cylinder"
+  },
+  {
+   "id": "stool_t3_0_3",
+   "asset": "hk_stool_red",
+   "at": [
+    1.18182,
+    0.59,
+    0.81519
+   ],
+   "yaw": 292.394,
+   "dims": [
+    0.315,
+    0.45,
+    0.2835
+   ],
+   "fit": "height",
+   "shape": "cylinder"
+  },
+  {
+   "id": "stool_t3_0_4",
+   "asset": "hk_stool_red",
+   "at": [
+    2.03485,
+    -0.15,
+    0.88618
+   ],
+   "yaw": 6.42,
+   "dims": [
+    0.315,
+    0.45,
+    0.2835
+   ],
+   "fit": "height",
+   "shape": "cylinder"
+  },
+  {
+   "id": "table_t4",
+   "asset": "hk_table_round",
+   "at": [
+    1.75,
+    -0.15,
+    -4.55
+   ],
+   "yaw": 33.497,
+   "dims": [
+    0.95,
+    0.74,
+    0.95
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "stool_t4_0",
+   "asset": "hk_stool_red",
+   "at": [
+    2.40941,
+    -0.15,
+    -4.52217
+   ],
+   "yaw": 127.671,
+   "dims": [
+    0.315,
+    0.45,
+    0.2835
+   ],
+   "fit": "height",
+   "shape": "cylinder"
+  },
+  {
+   "id": "stool_t4_0_2",
+   "asset": "hk_stool_red",
+   "at": [
+    1.30009,
+    -0.15,
+    -5.03289
+   ],
+   "yaw": 278.775,
+   "dims": [
+    0.315,
+    0.45,
+    0.2835
+   ],
+   "fit": "height",
+   "shape": "cylinder"
+  },
+  {
+   "id": "stool_t4_0_3",
+   "asset": "hk_stool_red",
+   "at": [
+    1.23269,
+    -0.15,
+    -4.14014
+   ],
+   "yaw": 200.454,
+   "dims": [
+    0.315,
+    0.45,
+    0.2835
+   ],
+   "fit": "height",
+   "shape": "cylinder"
+  },
+  {
+   "id": "stool_t4_0_4",
+   "asset": "hk_stool_red",
+   "at": [
+    2.19902,
+    -0.15,
+    -4.06628
+   ],
+   "yaw": 129.495,
+   "dims": [
+    0.315,
+    0.45,
+    0.2835
+   ],
+   "fit": "height",
+   "shape": "cylinder"
+  },
+  {
+   "id": "table_t5",
+   "asset": "hk_table_round",
+   "at": [
+    3.95,
+    -0.15,
+    -2.45
+   ],
+   "yaw": 24.048,
+   "dims": [
+    0.95,
+    0.74,
+    0.95
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "stool_t5_0",
+   "asset": "hk_stool_red",
+   "at": [
+    4.49507,
+    -0.15,
+    -2.82215
+   ],
+   "yaw": 217.403,
+   "dims": [
+    0.315,
+    0.45,
+    0.2835
+   ],
+   "fit": "height",
+   "shape": "cylinder"
+  },
+  {
+   "id": "stool_t5_0_2",
+   "asset": "hk_stool_red",
+   "at": [
+    3.69448,
+    -0.15,
+    -3.05853
+   ],
+   "yaw": 46.615,
+   "dims": [
+    0.315,
+    0.45,
+    0.2835
+   ],
+   "fit": "height",
+   "shape": "cylinder"
+  },
+  {
+   "id": "stool_t5_0_3",
+   "asset": "hk_stool_red",
+   "at": [
+    3.36687,
+    -0.15,
+    -2.14088
+   ],
+   "yaw": 114.796,
+   "dims": [
+    0.315,
+    0.45,
+    0.2835
+   ],
+   "fit": "height",
+   "shape": "cylinder"
+  },
+  {
+   "id": "stool_t5_0_4",
+   "asset": "hk_stool_red",
+   "at": [
+    4.08275,
+    -0.15,
+    -1.80349
+   ],
+   "yaw": 208.204,
+   "dims": [
+    0.315,
+    0.45,
+    0.2835
+   ],
+   "fit": "height",
+   "shape": "cylinder"
+  },
+  {
+   "id": "hk_stool_stack",
+   "asset": "hk_stool_stack",
+   "at": [
+    -0.85,
+    0.0,
+    1.35
+   ],
+   "yaw": 20.0,
+   "dims": [
+    0.665,
+    0.95,
+    0.5985
+   ],
+   "fit": "height",
+   "shape": "cylinder"
+  },
+  {
+   "id": "hk_stool_stack_2",
+   "asset": "hk_stool_stack",
+   "at": [
+    -2.05,
+    0.0,
+    -6.55
+   ],
+   "yaw": -30.0,
+   "dims": [
+    0.665,
+    0.95,
+    0.5985
+   ],
+   "fit": "height",
+   "shape": "cylinder"
+  },
+  {
+   "id": "hk_stool_red",
+   "asset": "hk_stool_red",
+   "at": [
+    3.4,
+    -0.15,
+    -7.2
+   ],
+   "yaw": 40.0,
+   "dims": [
+    0.315,
+    0.45,
+    0.2835
+   ],
+   "fit": "height",
+   "shape": "cylinder"
+  },
+  {
+   "id": "wok_rice",
+   "asset": "hk_wok_rice",
+   "at": [
+    -3.05,
+    0.85,
+    -2.8
+   ],
+   "yaw": 100.0,
+   "dims": [
+    0.154,
+    0.22,
+    0.1386
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "wok_back",
+   "asset": "hk_wok_a",
+   "at": [
+    -3.05,
+    0.85,
+    -3.55
+   ],
+   "yaw": 70.0,
+   "dims": [
+    0.14,
+    0.2,
+    0.126
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "stockpot",
+   "asset": "hk_stockpot",
+   "at": [
+    -3.2,
+    0.0,
+    -0.55
+   ],
+   "yaw": 90.0,
+   "dims": [
+    0.315,
+    0.45,
+    0.2835
+   ],
+   "fit": "height",
+   "shape": "cylinder"
+  },
+  {
+   "id": "hk_stockpot_small",
+   "asset": "hk_stockpot_small",
+   "at": [
+    -3.25,
+    1.0,
+    -1.1
+   ],
+   "yaw": 60.0,
+   "dims": [
+    0.182,
+    0.26,
+    0.1638
+   ],
+   "fit": "height",
+   "shape": "cylinder"
+  },
+  {
+   "id": "hk_cleaver_block",
+   "asset": "hk_cleaver_block",
+   "at": [
+    -2.98,
+    1.0,
+    -1.55
+   ],
+   "yaw": 90.0,
+   "dims": [
+    0.112,
+    0.16,
+    0.1008
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aromatics_bowls",
+   "asset": "hk_aromatics_bowls",
+   "at": [
+    -2.95,
+    0.0,
+    -2.0
+   ],
+   "yaw": 95.0,
+   "dims": [
+    0.07,
+    0.1,
+    0.063
+   ],
+   "fit": "height",
+   "shape": "cylinder"
+  },
+  {
+   "id": "hk_wok_tools",
+   "asset": "hk_wok_tools",
+   "at": [
+    -2.85,
+    1.0,
+    -0.9
+   ],
+   "yaw": 90.0,
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_prawn_tray",
+   "asset": "hk_prawn_tray",
+   "at": [
+    -2.95,
+    0.9,
+    -4.4
+   ],
+   "yaw": 90.0,
+   "dims": [
+    0.049,
+    0.07,
+    0.0441
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_veg_basket",
+   "asset": "hk_veg_basket",
+   "at": [
+    -3.2,
+    0.9,
+    -4.85
+   ],
+   "yaw": 80.0,
+   "dims": [
+    0.168,
+    0.24,
+    0.1512
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_steamer_stack",
+   "asset": "hk_steamer_stack",
+   "at": [
+    -3.25,
+    0.9,
+    -5.45
+   ],
+   "yaw": 90.0,
+   "dims": [
+    0.224,
+    0.32,
+    0.2016
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_spider_strainer",
+   "asset": "hk_spider_strainer",
+   "at": [
+    -2.95,
+    0.9,
+    -5.35
+   ],
+   "yaw": 10.0,
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_rice_sack",
+   "asset": "hk_rice_sack",
+   "at": [
+    -3.15,
+    0.2,
+    -5.25
+   ],
+   "yaw": 90.0,
+   "dims": [
+    0.385,
+    0.55,
+    0.3465
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_tub_blue",
+   "asset": "hk_tub_blue",
+   "at": [
+    -3.1,
+    0.2,
+    -4.5
+   ],
+   "yaw": 90.0,
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hanging_utensils",
+   "asset": "hk_hanging_utensils",
+   "at": [
+    -2.8,
+    1.72,
+    -1.25
+   ],
+   "yaw": 90.0,
+   "dims": [
+    0.9,
+    0.7,
+    0.12
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "wok_shade",
+   "asset": "hk_enamel_shade",
+   "at": [
+    -2.9,
+    2.12,
+    -3.175
+   ],
+   "yaw": 90.0,
+   "dims": [
+    0.126,
+    0.18,
+    0.1134
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "fluoro",
+   "asset": "hk_fluoro_fitting",
+   "at": [
+    -3.29,
+    2.8,
+    -2.6
+   ],
+   "yaw": 90.0,
+   "dims": [
+    1.25,
+    0.08,
+    0.12
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "menu_board_aframe",
+   "asset": "hk_menu_board_a",
+   "at": [
+    -2.25,
+    0.0,
+    1.2
+   ],
+   "yaw": 0.0,
+   "dims": [
+    0.6,
+    0.9,
+    0.03
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "lpg_a",
+   "asset": "hk_lpg_cylinder",
+   "at": [
+    -3.25,
+    0.0,
+    0.2
+   ],
+   "yaw": 60.0,
+   "dims": [
+    0.525,
+    0.75,
+    0.4725
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "lpg_b",
+   "asset": "hk_lpg_cylinder",
+   "at": [
+    -2.8,
+    0.0,
+    0.55
+   ],
+   "yaw": 130.0,
+   "dims": [
+    0.525,
+    0.75,
+    0.4725
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_wash_basin",
+   "asset": "hk_wash_basin",
+   "at": [
+    -2.05,
+    0.0,
+    -4.7
+   ],
+   "yaw": 0.0,
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_water_bucket",
+   "asset": "hk_water_bucket",
+   "at": [
+    -2.0,
+    0.0,
+    -5.35
+   ],
+   "yaw": 0.0,
+   "dims": [
+    0.224,
+    0.32,
+    0.2016
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_crate_stack",
+   "asset": "hk_crate_stack",
+   "at": [
+    -3.3,
+    0.0,
+    -6.45
+   ],
+   "yaw": 90.0,
+   "dims": [
+    0.42,
+    0.6,
+    0.378
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_beer_crate",
+   "asset": "hk_beer_crate",
+   "at": [
+    -2.6,
+    0.0,
+    -6.55
+   ],
+   "yaw": 20.0,
+   "dims": [
+    0.224,
+    0.32,
+    0.2016
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_styrofoam_box",
+   "asset": "hk_styrofoam_box",
+   "at": [
+    -2.5,
+    0.0,
+    -6.0
+   ],
+   "yaw": 70.0,
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_veg_basket_2",
+   "asset": "hk_veg_basket",
+   "at": [
+    -2.05,
+    0.0,
+    -6.05
+   ],
+   "yaw": 10.0,
+   "dims": [
+    0.168,
+    0.24,
+    0.1512
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_fire_extinguisher",
+   "asset": "hk_fire_extinguisher",
+   "at": [
+    -3.8025,
+    0.0,
+    -6.2
+   ],
+   "yaw": 90.0,
+   "dims": [
+    0.385,
+    0.55,
+    0.3465
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_mop_bucket",
+   "asset": "hk_mop_bucket",
+   "at": [
+    -3.65,
+    0.0,
+    -7.1
+   ],
+   "yaw": 40.0,
+   "dims": [
+    0.49,
+    0.7,
+    0.441
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "bird_cage",
+   "asset": "hk_bird_cage",
+   "at": [
+    -1.2,
+    1.95,
+    0.75
+   ],
+   "yaw": 0.0,
+   "dims": [
+    0.315,
+    0.45,
+    0.2835
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_plastic_bag_hang",
+   "asset": "hk_plastic_bag_hang",
+   "at": [
+    -2.3,
+    1.65,
+    -5.85
+   ],
+   "yaw": 90.0,
+   "dims": [
+    0.28,
+    0.4,
+    0.252
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_umbrella",
+   "asset": "hk_umbrella",
+   "at": [
+    -0.45,
+    0.0,
+    -3.05
+   ],
+   "yaw": 30.0,
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "street_lamp",
+   "asset": "hk_street_lamp",
+   "at": [
+    7.85,
+    0.0,
+    -1.8
+   ],
+   "yaw": 90.0,
+   "dims": [
+    5.95,
+    8.5,
+    5.355
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_guard_railing",
+   "asset": "hk_guard_railing",
+   "at": [
+    -0.32,
+    0.0,
+    7.4
+   ],
+   "yaw": 90.0,
+   "dims": [
+    2.0,
+    1.0,
+    0.1
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_guard_railing_2",
+   "asset": "hk_guard_railing",
+   "at": [
+    -0.32,
+    0.0,
+    5.35
+   ],
+   "yaw": 90.0,
+   "dims": [
+    2.0,
+    1.0,
+    0.1
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_guard_railing_3",
+   "asset": "hk_guard_railing",
+   "at": [
+    7.72,
+    0.0,
+    3.0
+   ],
+   "yaw": -90.0,
+   "dims": [
+    2.0,
+    1.0,
+    0.1
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_guard_railing_4",
+   "asset": "hk_guard_railing",
+   "at": [
+    7.72,
+    0.0,
+    -12.5
+   ],
+   "yaw": -90.0,
+   "dims": [
+    2.0,
+    1.0,
+    0.1
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_guard_railing_5",
+   "asset": "hk_guard_railing",
+   "at": [
+    7.72,
+    0.0,
+    -14.55
+   ],
+   "yaw": -90.0,
+   "dims": [
+    2.0,
+    1.0,
+    0.1
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "barrier_a",
+   "asset": "hk_water_barrier",
+   "at": [
+    5.05,
+    -0.15,
+    0.6
+   ],
+   "yaw": 90.0,
+   "dims": [
+    1.3,
+    0.8,
+    0.45
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "barrier_b",
+   "asset": "hk_water_barrier",
+   "at": [
+    5.05,
+    -0.15,
+    -0.75
+   ],
+   "yaw": 90.0,
+   "dims": [
+    1.3,
+    0.8,
+    0.45
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "barrier_c",
+   "asset": "hk_water_barrier",
+   "at": [
+    5.1,
+    -0.15,
+    -4.6
+   ],
+   "yaw": 90.0,
+   "dims": [
+    1.3,
+    0.8,
+    0.45
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_traffic_cone",
+   "asset": "hk_traffic_cone",
+   "at": [
+    5.0,
+    -0.15,
+    -2.6
+   ],
+   "yaw": 0.0,
+   "dims": [
+    0.49,
+    0.7,
+    0.441
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_traffic_cone_2",
+   "asset": "hk_traffic_cone",
+   "at": [
+    4.9,
+    -0.15,
+    -6.4
+   ],
+   "yaw": 30.0,
+   "dims": [
+    0.49,
+    0.7,
+    0.441
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "parked_car",
+   "asset": "hk_parked_car",
+   "at": [
+    6.35,
+    -0.15,
+    -9.5
+   ],
+   "yaw": 180.0,
+   "dims": [
+    1.75,
+    1.45,
+    4.4
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "scooter",
+   "asset": "hk_scooter",
+   "at": [
+    0.75,
+    -0.15,
+    3.4
+   ],
+   "yaw": 200.0,
+   "dims": [
+    0.805,
+    1.15,
+    0.7245
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_hand_trolley",
+   "asset": "hk_hand_trolley",
+   "at": [
+    -3.55,
+    0.0,
+    1.6
+   ],
+   "yaw": 80.0,
+   "dims": [
+    0.77,
+    1.1,
+    0.693
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "shrine",
+   "asset": "hk_shrine",
+   "at": [
+    -3.82,
+    0.0,
+    2.15
+   ],
+   "yaw": 90.0,
+   "dims": [
+    0.35,
+    0.5,
+    0.315
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_trash_bin",
+   "asset": "hk_trash_bin",
+   "at": [
+    -3.55,
+    0.0,
+    -7.7
+   ],
+   "yaw": 90.0,
+   "dims": [
+    0.665,
+    0.95,
+    0.5985
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_bin_bags",
+   "asset": "hk_bin_bags",
+   "at": [
+    -2.85,
+    0.0,
+    -7.85
+   ],
+   "yaw": 10.0,
+   "dims": [
+    0.42,
+    0.6,
+    0.378
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_bin_bags_2",
+   "asset": "hk_bin_bags",
+   "at": [
+    8.1,
+    0.0,
+    1.5
+   ],
+   "yaw": 200.0,
+   "dims": [
+    0.42,
+    0.6,
+    0.378
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_cardboard_boxes",
+   "asset": "hk_cardboard_boxes",
+   "at": [
+    8.2,
+    0.0,
+    -5.0
+   ],
+   "yaw": -90.0,
+   "dims": [
+    0.42,
+    0.6,
+    0.378
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_electric_box",
+   "asset": "hk_electric_box",
+   "at": [
+    -3.77,
+    1.3,
+    3.9
+   ],
+   "yaw": 90.0,
+   "dims": [
+    0.45,
+    0.55,
+    0.2
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_electric_box_2",
+   "asset": "hk_electric_box",
+   "at": [
+    9.37,
+    1.5,
+    -7.4
+   ],
+   "yaw": -90.0,
+   "dims": [
+    0.45,
+    0.55,
+    0.2
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit",
+   "asset": "hk_aircon_unit",
+   "at": [
+    -3.505,
+    5.35196,
+    14.78438
+   ],
+   "yaw": 90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_2",
+   "asset": "hk_aircon_unit",
+   "at": [
+    -3.505,
+    8.08429,
+    13.60857
+   ],
+   "yaw": 90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_3",
+   "asset": "hk_aircon_unit",
+   "at": [
+    -3.505,
+    10.74502,
+    14.30434
+   ],
+   "yaw": 90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_4",
+   "asset": "hk_aircon_unit",
+   "at": [
+    -3.505,
+    14.0116,
+    13.8973
+   ],
+   "yaw": 90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_5",
+   "asset": "hk_aircon_unit",
+   "at": [
+    -3.505,
+    5.48715,
+    10.2777
+   ],
+   "yaw": 90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_6",
+   "asset": "hk_aircon_unit",
+   "at": [
+    -3.505,
+    8.37654,
+    10.20736
+   ],
+   "yaw": 90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_7",
+   "asset": "hk_aircon_unit",
+   "at": [
+    -3.505,
+    11.28396,
+    11.71964
+   ],
+   "yaw": 90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_8",
+   "asset": "hk_aircon_unit",
+   "at": [
+    -3.505,
+    14.08647,
+    10.3277
+   ],
+   "yaw": 90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_9",
+   "asset": "hk_aircon_unit",
+   "at": [
+    -3.505,
+    5.3148,
+    8.1296
+   ],
+   "yaw": 90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_10",
+   "asset": "hk_aircon_unit",
+   "at": [
+    -3.505,
+    8.04221,
+    7.74808
+   ],
+   "yaw": 90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_11",
+   "asset": "hk_aircon_unit",
+   "at": [
+    -3.505,
+    11.28758,
+    7.93115
+   ],
+   "yaw": 90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_12",
+   "asset": "hk_aircon_unit",
+   "at": [
+    -3.505,
+    13.69805,
+    8.37564
+   ],
+   "yaw": 90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_13",
+   "asset": "hk_aircon_unit",
+   "at": [
+    -3.505,
+    5.25184,
+    4.37968
+   ],
+   "yaw": 90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_14",
+   "asset": "hk_aircon_unit",
+   "at": [
+    -3.505,
+    8.17609,
+    5.14738
+   ],
+   "yaw": 90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_15",
+   "asset": "hk_aircon_unit",
+   "at": [
+    -3.505,
+    10.83744,
+    4.59723
+   ],
+   "yaw": 90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_16",
+   "asset": "hk_aircon_unit",
+   "at": [
+    -3.505,
+    13.9589,
+    4.24839
+   ],
+   "yaw": 90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_17",
+   "asset": "hk_aircon_unit",
+   "at": [
+    -3.505,
+    5.43606,
+    2.12371
+   ],
+   "yaw": 90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_18",
+   "asset": "hk_aircon_unit",
+   "at": [
+    -3.505,
+    8.37875,
+    2.52942
+   ],
+   "yaw": 90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_19",
+   "asset": "hk_aircon_unit",
+   "at": [
+    -3.505,
+    11.29886,
+    2.21127
+   ],
+   "yaw": 90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_20",
+   "asset": "hk_aircon_unit",
+   "at": [
+    -3.505,
+    13.95491,
+    2.23117
+   ],
+   "yaw": 90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_21",
+   "asset": "hk_aircon_unit",
+   "at": [
+    -3.505,
+    5.46532,
+    -0.21681
+   ],
+   "yaw": 90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_22",
+   "asset": "hk_aircon_unit",
+   "at": [
+    -3.505,
+    8.06733,
+    -0.91901
+   ],
+   "yaw": 90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_23",
+   "asset": "hk_aircon_unit",
+   "at": [
+    -3.505,
+    10.97168,
+    -1.079
+   ],
+   "yaw": 90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_24",
+   "asset": "hk_aircon_unit",
+   "at": [
+    -3.505,
+    14.09579,
+    -1.78049
+   ],
+   "yaw": 90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_25",
+   "asset": "hk_aircon_unit",
+   "at": [
+    -3.505,
+    4.93108,
+    -3.726
+   ],
+   "yaw": 90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_26",
+   "asset": "hk_aircon_unit",
+   "at": [
+    -3.505,
+    7.81654,
+    -4.31887
+   ],
+   "yaw": 90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_27",
+   "asset": "hk_aircon_unit",
+   "at": [
+    -3.505,
+    10.82243,
+    -3.68226
+   ],
+   "yaw": 90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_28",
+   "asset": "hk_aircon_unit",
+   "at": [
+    -3.505,
+    14.19118,
+    -4.512
+   ],
+   "yaw": 90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_29",
+   "asset": "hk_aircon_unit",
+   "at": [
+    -3.505,
+    5.03323,
+    -7.41485
+   ],
+   "yaw": 90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_30",
+   "asset": "hk_aircon_unit",
+   "at": [
+    -3.505,
+    8.05687,
+    -7.47031
+   ],
+   "yaw": 90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_31",
+   "asset": "hk_aircon_unit",
+   "at": [
+    -3.505,
+    11.28464,
+    -6.29571
+   ],
+   "yaw": 90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_32",
+   "asset": "hk_aircon_unit",
+   "at": [
+    -3.505,
+    13.92624,
+    -6.7557
+   ],
+   "yaw": 90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_33",
+   "asset": "hk_aircon_unit",
+   "at": [
+    -3.505,
+    5.3501,
+    -9.21193
+   ],
+   "yaw": 90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_34",
+   "asset": "hk_aircon_unit",
+   "at": [
+    -3.505,
+    8.27641,
+    -10.3992
+   ],
+   "yaw": 90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_35",
+   "asset": "hk_aircon_unit",
+   "at": [
+    -3.505,
+    10.77635,
+    -9.38794
+   ],
+   "yaw": 90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_36",
+   "asset": "hk_aircon_unit",
+   "at": [
+    -3.505,
+    13.86552,
+    -10.51494
+   ],
+   "yaw": 90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_37",
+   "asset": "hk_aircon_unit",
+   "at": [
+    -3.505,
+    5.08631,
+    -13.2895
+   ],
+   "yaw": 90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_38",
+   "asset": "hk_aircon_unit",
+   "at": [
+    -3.505,
+    8.10291,
+    -12.40512
+   ],
+   "yaw": 90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_39",
+   "asset": "hk_aircon_unit",
+   "at": [
+    -3.505,
+    10.96154,
+    -12.6701
+   ],
+   "yaw": 90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_40",
+   "asset": "hk_aircon_unit",
+   "at": [
+    -3.505,
+    13.96265,
+    -13.44963
+   ],
+   "yaw": 90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_41",
+   "asset": "hk_aircon_unit",
+   "at": [
+    -3.505,
+    5.25188,
+    -15.42825
+   ],
+   "yaw": 90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_42",
+   "asset": "hk_aircon_unit",
+   "at": [
+    -3.505,
+    7.96894,
+    -16.59707
+   ],
+   "yaw": 90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_43",
+   "asset": "hk_aircon_unit",
+   "at": [
+    -3.505,
+    11.24133,
+    -15.57786
+   ],
+   "yaw": 90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_44",
+   "asset": "hk_aircon_unit",
+   "at": [
+    -3.505,
+    13.79301,
+    -15.88323
+   ],
+   "yaw": 90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_45",
+   "asset": "hk_aircon_unit",
+   "at": [
+    -3.505,
+    5.07321,
+    -19.47889
+   ],
+   "yaw": 90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_46",
+   "asset": "hk_aircon_unit",
+   "at": [
+    -3.505,
+    8.02348,
+    -19.0038
+   ],
+   "yaw": 90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_47",
+   "asset": "hk_aircon_unit",
+   "at": [
+    -3.505,
+    10.75195,
+    -18.32297
+   ],
+   "yaw": 90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_48",
+   "asset": "hk_aircon_unit",
+   "at": [
+    -3.505,
+    14.15852,
+    -18.47253
+   ],
+   "yaw": 90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_49",
+   "asset": "hk_aircon_unit",
+   "at": [
+    -3.505,
+    5.17754,
+    -22.65111
+   ],
+   "yaw": 90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_50",
+   "asset": "hk_aircon_unit",
+   "at": [
+    -3.505,
+    7.98498,
+    -22.38959
+   ],
+   "yaw": 90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_51",
+   "asset": "hk_aircon_unit",
+   "at": [
+    -3.505,
+    10.78613,
+    -22.02239
+   ],
+   "yaw": 90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_52",
+   "asset": "hk_aircon_unit",
+   "at": [
+    -3.505,
+    14.19031,
+    -22.40784
+   ],
+   "yaw": 90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_53",
+   "asset": "hk_aircon_unit",
+   "at": [
+    -3.505,
+    5.42057,
+    -24.54117
+   ],
+   "yaw": 90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_54",
+   "asset": "hk_aircon_unit",
+   "at": [
+    -3.505,
+    7.98463,
+    -25.71183
+   ],
+   "yaw": 90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_55",
+   "asset": "hk_aircon_unit",
+   "at": [
+    -3.505,
+    11.22139,
+    -24.21906
+   ],
+   "yaw": 90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_56",
+   "asset": "hk_aircon_unit",
+   "at": [
+    -3.505,
+    13.89522,
+    -25.27983
+   ],
+   "yaw": 90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_57",
+   "asset": "hk_aircon_unit",
+   "at": [
+    -3.505,
+    5.1696,
+    -28.30291
+   ],
+   "yaw": 90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_58",
+   "asset": "hk_aircon_unit",
+   "at": [
+    -3.505,
+    7.92483,
+    -27.54076
+   ],
+   "yaw": 90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_59",
+   "asset": "hk_aircon_unit",
+   "at": [
+    -3.505,
+    10.81755,
+    -28.33151
+   ],
+   "yaw": 90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_60",
+   "asset": "hk_aircon_unit",
+   "at": [
+    -3.505,
+    13.81302,
+    -28.25433
+   ],
+   "yaw": 90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_61",
+   "asset": "hk_aircon_unit",
+   "at": [
+    9.105,
+    5.19051,
+    13.29686
+   ],
+   "yaw": -90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_62",
+   "asset": "hk_aircon_unit",
+   "at": [
+    9.105,
+    7.94141,
+    14.65943
+   ],
+   "yaw": -90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_63",
+   "asset": "hk_aircon_unit",
+   "at": [
+    9.105,
+    10.94111,
+    14.43562
+   ],
+   "yaw": -90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_64",
+   "asset": "hk_aircon_unit",
+   "at": [
+    9.105,
+    14.07668,
+    13.40543
+   ],
+   "yaw": -90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_65",
+   "asset": "hk_aircon_unit",
+   "at": [
+    9.105,
+    5.41468,
+    10.31215
+   ],
+   "yaw": -90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_66",
+   "asset": "hk_aircon_unit",
+   "at": [
+    9.105,
+    8.3239,
+    11.64298
+   ],
+   "yaw": -90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_67",
+   "asset": "hk_aircon_unit",
+   "at": [
+    9.105,
+    10.99802,
+    10.21134
+   ],
+   "yaw": -90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_68",
+   "asset": "hk_aircon_unit",
+   "at": [
+    9.105,
+    13.75395,
+    11.48193
+   ],
+   "yaw": -90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_69",
+   "asset": "hk_aircon_unit",
+   "at": [
+    9.105,
+    4.93242,
+    8.33424
+   ],
+   "yaw": -90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_70",
+   "asset": "hk_aircon_unit",
+   "at": [
+    9.105,
+    8.1188,
+    7.76578
+   ],
+   "yaw": -90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_71",
+   "asset": "hk_aircon_unit",
+   "at": [
+    9.105,
+    10.72031,
+    7.50521
+   ],
+   "yaw": -90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_72",
+   "asset": "hk_aircon_unit",
+   "at": [
+    9.105,
+    13.96709,
+    8.34411
+   ],
+   "yaw": -90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_73",
+   "asset": "hk_aircon_unit",
+   "at": [
+    9.105,
+    5.26965,
+    5.36051
+   ],
+   "yaw": -90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_74",
+   "asset": "hk_aircon_unit",
+   "at": [
+    9.105,
+    7.86455,
+    4.57199
+   ],
+   "yaw": -90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_75",
+   "asset": "hk_aircon_unit",
+   "at": [
+    9.105,
+    11.18171,
+    5.08567
+   ],
+   "yaw": -90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_76",
+   "asset": "hk_aircon_unit",
+   "at": [
+    9.105,
+    13.96055,
+    5.44844
+   ],
+   "yaw": -90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_77",
+   "asset": "hk_aircon_unit",
+   "at": [
+    9.105,
+    5.41093,
+    1.53966
+   ],
+   "yaw": -90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_78",
+   "asset": "hk_aircon_unit",
+   "at": [
+    9.105,
+    7.82453,
+    1.26591
+   ],
+   "yaw": -90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_79",
+   "asset": "hk_aircon_unit",
+   "at": [
+    9.105,
+    10.97659,
+    1.71758
+   ],
+   "yaw": -90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_80",
+   "asset": "hk_aircon_unit",
+   "at": [
+    9.105,
+    14.00702,
+    2.09205
+   ],
+   "yaw": -90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_81",
+   "asset": "hk_aircon_unit",
+   "at": [
+    9.105,
+    5.36404,
+    -1.14895
+   ],
+   "yaw": -90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_82",
+   "asset": "hk_aircon_unit",
+   "at": [
+    9.105,
+    8.18645,
+    -0.69432
+   ],
+   "yaw": -90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_83",
+   "asset": "hk_aircon_unit",
+   "at": [
+    9.105,
+    10.96247,
+    -1.08413
+   ],
+   "yaw": -90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_84",
+   "asset": "hk_aircon_unit",
+   "at": [
+    9.105,
+    14.12559,
+    -0.93817
+   ],
+   "yaw": -90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_85",
+   "asset": "hk_aircon_unit",
+   "at": [
+    9.105,
+    5.45581,
+    -4.37745
+   ],
+   "yaw": -90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_86",
+   "asset": "hk_aircon_unit",
+   "at": [
+    9.105,
+    8.18788,
+    -3.34902
+   ],
+   "yaw": -90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_87",
+   "asset": "hk_aircon_unit",
+   "at": [
+    9.105,
+    11.22021,
+    -3.39659
+   ],
+   "yaw": -90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_88",
+   "asset": "hk_aircon_unit",
+   "at": [
+    9.105,
+    13.79333,
+    -3.31357
+   ],
+   "yaw": -90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_89",
+   "asset": "hk_aircon_unit",
+   "at": [
+    9.105,
+    5.47164,
+    -7.54713
+   ],
+   "yaw": -90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_90",
+   "asset": "hk_aircon_unit",
+   "at": [
+    9.105,
+    8.2766,
+    -7.39762
+   ],
+   "yaw": -90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_91",
+   "asset": "hk_aircon_unit",
+   "at": [
+    9.105,
+    10.73382,
+    -6.80974
+   ],
+   "yaw": -90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_92",
+   "asset": "hk_aircon_unit",
+   "at": [
+    9.105,
+    14.00489,
+    -7.47658
+   ],
+   "yaw": -90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_93",
+   "asset": "hk_aircon_unit",
+   "at": [
+    9.105,
+    5.14287,
+    -10.00258
+   ],
+   "yaw": -90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_94",
+   "asset": "hk_aircon_unit",
+   "at": [
+    9.105,
+    7.99885,
+    -9.5552
+   ],
+   "yaw": -90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_95",
+   "asset": "hk_aircon_unit",
+   "at": [
+    9.105,
+    11.17425,
+    -9.95343
+   ],
+   "yaw": -90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_96",
+   "asset": "hk_aircon_unit",
+   "at": [
+    9.105,
+    14.05119,
+    -10.53571
+   ],
+   "yaw": -90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_97",
+   "asset": "hk_aircon_unit",
+   "at": [
+    9.105,
+    5.38753,
+    -12.89718
+   ],
+   "yaw": -90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_98",
+   "asset": "hk_aircon_unit",
+   "at": [
+    9.105,
+    7.94958,
+    -13.73682
+   ],
+   "yaw": -90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_99",
+   "asset": "hk_aircon_unit",
+   "at": [
+    9.105,
+    11.12722,
+    -12.61848
+   ],
+   "yaw": -90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_100",
+   "asset": "hk_aircon_unit",
+   "at": [
+    9.105,
+    13.93578,
+    -12.27331
+   ],
+   "yaw": -90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_101",
+   "asset": "hk_aircon_unit",
+   "at": [
+    9.105,
+    5.35388,
+    -16.0662
+   ],
+   "yaw": -90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_102",
+   "asset": "hk_aircon_unit",
+   "at": [
+    9.105,
+    8.33103,
+    -16.45274
+   ],
+   "yaw": -90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_103",
+   "asset": "hk_aircon_unit",
+   "at": [
+    9.105,
+    11.05935,
+    -16.25627
+   ],
+   "yaw": -90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_104",
+   "asset": "hk_aircon_unit",
+   "at": [
+    9.105,
+    13.66637,
+    -16.67701
+   ],
+   "yaw": -90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_105",
+   "asset": "hk_aircon_unit",
+   "at": [
+    9.105,
+    4.99183,
+    -18.92647
+   ],
+   "yaw": -90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_106",
+   "asset": "hk_aircon_unit",
+   "at": [
+    9.105,
+    7.80468,
+    -18.21166
+   ],
+   "yaw": -90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_107",
+   "asset": "hk_aircon_unit",
+   "at": [
+    9.105,
+    10.75965,
+    -19.319
+   ],
+   "yaw": -90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_108",
+   "asset": "hk_aircon_unit",
+   "at": [
+    9.105,
+    13.96392,
+    -19.34034
+   ],
+   "yaw": -90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_109",
+   "asset": "hk_aircon_unit",
+   "at": [
+    9.105,
+    5.47726,
+    -21.96169
+   ],
+   "yaw": -90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_110",
+   "asset": "hk_aircon_unit",
+   "at": [
+    9.105,
+    8.06834,
+    -22.36613
+   ],
+   "yaw": -90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_111",
+   "asset": "hk_aircon_unit",
+   "at": [
+    9.105,
+    10.84957,
+    -21.59657
+   ],
+   "yaw": -90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_112",
+   "asset": "hk_aircon_unit",
+   "at": [
+    9.105,
+    13.75464,
+    -22.35729
+   ],
+   "yaw": -90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_113",
+   "asset": "hk_aircon_unit",
+   "at": [
+    9.105,
+    5.17183,
+    -24.82535
+   ],
+   "yaw": -90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_114",
+   "asset": "hk_aircon_unit",
+   "at": [
+    9.105,
+    7.92735,
+    -25.7266
+   ],
+   "yaw": -90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_115",
+   "asset": "hk_aircon_unit",
+   "at": [
+    9.105,
+    10.72417,
+    -24.38195
+   ],
+   "yaw": -90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_116",
+   "asset": "hk_aircon_unit",
+   "at": [
+    9.105,
+    13.90371,
+    -24.56377
+   ],
+   "yaw": -90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_117",
+   "asset": "hk_aircon_unit",
+   "at": [
+    9.105,
+    5.26405,
+    -28.12112
+   ],
+   "yaw": -90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_118",
+   "asset": "hk_aircon_unit",
+   "at": [
+    9.105,
+    8.22735,
+    -28.56364
+   ],
+   "yaw": -90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_119",
+   "asset": "hk_aircon_unit",
+   "at": [
+    9.105,
+    11.02473,
+    -27.7363
+   ],
+   "yaw": -90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "hk_aircon_unit_120",
+   "asset": "hk_aircon_unit",
+   "at": [
+    9.105,
+    13.61589,
+    -28.79906
+   ],
+   "yaw": -90.0,
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  }
+ ],
+ "lights": [
+  {
+   "id": "stall_warm",
+   "kind": "area",
+   "at": [
+    -2.4,
+    2.55,
+    -2.8
+   ],
+   "look_at": [
+    -2.6,
+    0.8,
+    -3.1
+   ],
+   "size": [
+    1.4,
+    0.32
+   ],
+   "intensity": 160,
+   "color": [
+    1,
+    0.73,
+    0.47
+   ]
+  },
+  {
+   "id": "street_neon",
+   "kind": "area",
+   "at": [
+    7.2,
+    4.3,
+    -7
+   ],
+   "look_at": [
+    0,
+    0.1,
+    -3
+   ],
+   "size": [
+    2,
+    0.4
+   ],
+   "intensity": 120,
+   "color": [
+    0.36,
+    0.72,
+    1
+   ]
+  },
+  {
+   "id": "sign_fill",
+   "kind": "area",
+   "at": [
+    -3.68,
+    3.1,
+    -0.4
+   ],
+   "look_at": [
+    -0.4,
+    1,
+    0
+   ],
+   "size": [
+    1.2,
+    0.4
+   ],
+   "intensity": 74,
+   "color": [
+    1,
+    0.21,
+    0.12
+   ]
+  }
+ ],
+ "catalog": {
+  "hk_kitchen_cart": {
+   "dims": [
+    1.9,
+    1.0,
+    0.85
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "hk_wok_range": {
+   "dims": [
+    1.5,
+    0.85,
+    0.85
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "hk_wok_a": {
+   "dims": [
+    0.14,
+    0.2,
+    0.126
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "hk_wok_rice": {
+   "dims": [
+    0.154,
+    0.22,
+    0.1386
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "hk_wok_tools": {
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "hk_spider_strainer": {
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height",
+   "pick": "tripo-h31"
+  },
+  "hk_stockpot": {
+   "dims": [
+    0.315,
+    0.45,
+    0.2835
+   ],
+   "fit": "height",
+   "pick": "tripo-h31"
+  },
+  "hk_stockpot_small": {
+   "dims": [
+    0.182,
+    0.26,
+    0.1638
+   ],
+   "fit": "height",
+   "pick": "tripo-h31"
+  },
+  "hk_steamer_stack": {
+   "dims": [
+    0.224,
+    0.32,
+    0.2016
+   ],
+   "fit": "height",
+   "pick": "tripo-h31"
+  },
+  "hk_claypot": {
+   "dims": [
+    0.112,
+    0.16,
+    0.1008
+   ],
+   "fit": "height",
+   "pick": "tripo-h31"
+  },
+  "hk_rice_cooker": {
+   "dims": [
+    0.294,
+    0.42,
+    0.2646
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "hk_tea_urn": {
+   "dims": [
+    0.385,
+    0.55,
+    0.3465
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "hk_cleaver_block": {
+   "dims": [
+    0.112,
+    0.16,
+    0.1008
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "hk_hanging_utensils": {
+   "dims": [
+    0.9,
+    0.7,
+    0.12
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "hk_sauce_shelf": {
+   "dims": [
+    0.9,
+    0.42,
+    0.25
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "hk_oil_tin": {
+   "dims": [
+    0.238,
+    0.34,
+    0.2142
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "hk_lpg_cylinder": {
+   "dims": [
+    0.525,
+    0.75,
+    0.4725
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "hk_veg_basket": {
+   "dims": [
+    0.168,
+    0.24,
+    0.1512
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "hk_prawn_tray": {
+   "dims": [
+    0.049,
+    0.07,
+    0.0441
+   ],
+   "fit": "height",
+   "pick": "tripo-h31"
+  },
+  "hk_aromatics_bowls": {
+   "dims": [
+    0.07,
+    0.1,
+    0.063
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "hk_bowl_stack": {
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "hk_plate_stack": {
+   "dims": [
+    0.154,
+    0.22,
+    0.1386
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "hk_dish_rack": {
+   "dims": [
+    0.315,
+    0.45,
+    0.2835
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "hk_wash_basin": {
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "hk_tub_blue": {
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "hk_crate_stack": {
+   "dims": [
+    0.42,
+    0.6,
+    0.378
+   ],
+   "fit": "height",
+   "pick": "tripo-h31"
+  },
+  "hk_styrofoam_box": {
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "hk_rice_sack": {
+   "dims": [
+    0.385,
+    0.55,
+    0.3465
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "hk_cardboard_boxes": {
+   "dims": [
+    0.42,
+    0.6,
+    0.378
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "hk_jars_preserved": {
+   "dims": [
+    0.175,
+    0.25,
+    0.1575
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "hk_thermos": {
+   "dims": [
+    0.252,
+    0.36,
+    0.2268
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "hk_takeaway_boxes": {
+   "dims": [
+    0.154,
+    0.22,
+    0.1386
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "hk_fan": {
+   "dims": [
+    0.385,
+    0.55,
+    0.3465
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "hk_radio": {
+   "dims": [
+    0.112,
+    0.16,
+    0.1008
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "hk_fire_extinguisher": {
+   "dims": [
+    0.385,
+    0.55,
+    0.3465
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "hk_menu_board_a": {
+   "dims": [
+    0.6,
+    0.9,
+    0.03
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "hk_menu_board_b": {
+   "dims": [
+    0.8,
+    0.5,
+    0.03
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "hk_enamel_shade": {
+   "dims": [
+    0.126,
+    0.18,
+    0.1134
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "hk_fluoro_fitting": {
+   "dims": [
+    1.25,
+    0.08,
+    0.12
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "hk_table_round": {
+   "dims": [
+    0.95,
+    0.74,
+    0.95
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "hk_table_square": {
+   "dims": [
+    0.75,
+    0.72,
+    0.75
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "hk_stool_red": {
+   "dims": [
+    0.315,
+    0.45,
+    0.2835
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "hk_stool_stack": {
+   "dims": [
+    0.665,
+    0.95,
+    0.5985
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "hk_stool_blue": {
+   "dims": [
+    0.315,
+    0.45,
+    0.2835
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "hk_enamel_teapot": {
+   "dims": [
+    0.14,
+    0.2,
+    0.126
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "hk_tea_cups": {
+   "dims": [
+    0.056,
+    0.08,
+    0.0504
+   ],
+   "fit": "height",
+   "pick": "tripo-h31"
+  },
+  "hk_condiment_caddy": {
+   "dims": [
+    0.14,
+    0.2,
+    0.126
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "hk_soy_bottles": {
+   "dims": [
+    0.168,
+    0.24,
+    0.1512
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "hk_chopstick_cup": {
+   "dims": [
+    0.168,
+    0.24,
+    0.1512
+   ],
+   "fit": "height",
+   "pick": "tripo-h31"
+  },
+  "hk_toilet_roll": {
+   "dims": [
+    0.084,
+    0.12,
+    0.0756
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "hk_newspaper": {
+   "dims": [
+    0.021,
+    0.03,
+    0.0189
+   ],
+   "fit": "height",
+   "pick": "retired"
+  },
+  "hk_dish_fried_rice": {
+   "dims": [
+    0.056,
+    0.08,
+    0.0504
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "hk_dish_beef_hofun": {
+   "dims": [
+    0.056,
+    0.08,
+    0.0504
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "hk_dish_clams": {
+   "dims": [
+    0.056,
+    0.08,
+    0.0504
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "hk_dish_greens": {
+   "dims": [
+    0.042,
+    0.06,
+    0.0378
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "hk_dish_salt_squid": {
+   "dims": [
+    0.056,
+    0.08,
+    0.0504
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "hk_milk_tea": {
+   "dims": [
+    0.098,
+    0.14,
+    0.0882
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "hk_lemon_tea": {
+   "dims": [
+    0.119,
+    0.17,
+    0.1071
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "hk_beer_bottles": {
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "hk_beer_crate": {
+   "dims": [
+    0.224,
+    0.32,
+    0.2016
+   ],
+   "fit": "height",
+   "pick": "retired"
+  },
+  "hk_ashtray": {
+   "dims": [
+    0.028,
+    0.04,
+    0.0252
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "hk_bowl_congee": {
+   "dims": [
+    0.07,
+    0.1,
+    0.063
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "hk_street_lamp": {
+   "dims": [
+    5.95,
+    8.5,
+    5.355
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "hk_guard_railing": {
+   "dims": [
+    2.0,
+    1.0,
+    0.1
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "hk_water_barrier": {
+   "dims": [
+    1.3,
+    0.8,
+    0.45
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "hk_traffic_cone": {
+   "dims": [
+    0.49,
+    0.7,
+    0.441
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "hk_parked_car": {
+   "dims": [
+    1.75,
+    1.45,
+    4.4
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "hk_scooter": {
+   "dims": [
+    0.805,
+    1.15,
+    0.7245
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "hk_hand_trolley": {
+   "dims": [
+    0.77,
+    1.1,
+    0.693
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "hk_trash_bin": {
+   "dims": [
+    0.665,
+    0.95,
+    0.5985
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "hk_bin_bags": {
+   "dims": [
+    0.42,
+    0.6,
+    0.378
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "hk_umbrella": {
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "hk_shrine": {
+   "dims": [
+    0.35,
+    0.5,
+    0.315
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "hk_aircon_unit": {
+   "dims": [
+    0.66,
+    0.4,
+    0.6
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "hk_electric_box": {
+   "dims": [
+    0.45,
+    0.55,
+    0.2
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "hk_mop_bucket": {
+   "dims": [
+    0.49,
+    0.7,
+    0.441
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "hk_plastic_bag_hang": {
+   "dims": [
+    0.28,
+    0.4,
+    0.252
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "hk_bird_cage": {
+   "dims": [
+    0.315,
+    0.45,
+    0.2835
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "hk_water_bucket": {
+   "dims": [
+    0.224,
+    0.32,
+    0.2016
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "hk_beer_crate_nb": {
+   "dims": [
+    0.224,
+    0.32,
+    0.2016
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  }
+ },
+ "dimensions_m": [
+  13.6,
+  22,
+  62
+ ]
+}

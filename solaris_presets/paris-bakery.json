@@ -1,0 +1,406 @@
+{
+ "label": "Maison Roussel bakery",
+ "source": "Reference-led layout study from docs/media/bakery_reference.jpg. The endpoint run did not publish measured set geometry in Git.",
+ "architecture": [
+  {
+   "id": "floor",
+   "at": [
+    0,
+    -0.1,
+    0
+   ],
+   "dims": [
+    6,
+    0.1,
+    7
+   ],
+   "material": "ceramic",
+   "shape": "box"
+  },
+  {
+   "id": "rear_wall",
+   "at": [
+    0,
+    0,
+    -3.5
+   ],
+   "dims": [
+    6,
+    3.3,
+    0.12
+   ],
+   "material": "plaster",
+   "shape": "box"
+  },
+  {
+   "id": "side_wall",
+   "at": [
+    -3,
+    0,
+    0
+   ],
+   "dims": [
+    0.12,
+    3.3,
+    7
+   ],
+   "material": "plaster",
+   "shape": "box"
+  },
+  {
+   "id": "display_base",
+   "at": [
+    -0.65,
+    0,
+    0.1
+   ],
+   "dims": [
+    3.4,
+    0.77,
+    0.82
+   ],
+   "material": "wood",
+   "shape": "box"
+  },
+  {
+   "id": "display_top",
+   "at": [
+    -0.65,
+    0.77,
+    0.1
+   ],
+   "dims": [
+    3.5,
+    0.06,
+    0.86
+   ],
+   "material": "steel",
+   "shape": "box"
+  },
+  {
+   "id": "display_glass",
+   "at": [
+    -0.65,
+    0.83,
+    0.55
+   ],
+   "dims": [
+    3.4,
+    0.56,
+    0.02
+   ],
+   "material": "glass",
+   "shape": "box"
+  },
+  {
+   "id": "bread_shelf_0",
+   "at": [
+    -1.95,
+    1.26,
+    -3.19
+   ],
+   "dims": [
+    1.04,
+    0.035,
+    0.48
+   ],
+   "material": "wood",
+   "shape": "box"
+  },
+  {
+   "id": "bread_shelf_1",
+   "at": [
+    -0.85,
+    1.26,
+    -3.19
+   ],
+   "dims": [
+    1.04,
+    0.035,
+    0.48
+   ],
+   "material": "wood",
+   "shape": "box"
+  },
+  {
+   "id": "bread_shelf_2",
+   "at": [
+    0.25,
+    1.26,
+    -3.19
+   ],
+   "dims": [
+    1.04,
+    0.035,
+    0.48
+   ],
+   "material": "wood",
+   "shape": "box"
+  },
+  {
+   "id": "bread_shelf_3",
+   "at": [
+    1.35,
+    1.26,
+    -3.19
+   ],
+   "dims": [
+    1.04,
+    0.035,
+    0.48
+   ],
+   "material": "wood",
+   "shape": "box"
+  }
+ ],
+ "props": [
+  {
+   "id": "bread_0_0",
+   "asset": "country_loaf",
+   "at": [
+    -2.22,
+    1.295,
+    -3.18
+   ],
+   "dims": [
+    0.23,
+    0.14,
+    0.28
+   ],
+   "shape": "sphere",
+   "material": "wood"
+  },
+  {
+   "id": "bread_0_1",
+   "asset": "country_loaf",
+   "at": [
+    -1.95,
+    1.295,
+    -3.18
+   ],
+   "dims": [
+    0.23,
+    0.14,
+    0.28
+   ],
+   "shape": "sphere",
+   "material": "wood"
+  },
+  {
+   "id": "bread_0_2",
+   "asset": "country_loaf",
+   "at": [
+    -1.68,
+    1.295,
+    -3.18
+   ],
+   "dims": [
+    0.23,
+    0.14,
+    0.28
+   ],
+   "shape": "sphere",
+   "material": "wood"
+  },
+  {
+   "id": "bread_1_0",
+   "asset": "country_loaf",
+   "at": [
+    -1.12,
+    1.295,
+    -3.18
+   ],
+   "dims": [
+    0.23,
+    0.14,
+    0.28
+   ],
+   "shape": "sphere",
+   "material": "wood"
+  },
+  {
+   "id": "bread_1_1",
+   "asset": "country_loaf",
+   "at": [
+    -0.85,
+    1.295,
+    -3.18
+   ],
+   "dims": [
+    0.23,
+    0.14,
+    0.28
+   ],
+   "shape": "sphere",
+   "material": "wood"
+  },
+  {
+   "id": "bread_1_2",
+   "asset": "country_loaf",
+   "at": [
+    -0.58,
+    1.295,
+    -3.18
+   ],
+   "dims": [
+    0.23,
+    0.14,
+    0.28
+   ],
+   "shape": "sphere",
+   "material": "wood"
+  },
+  {
+   "id": "bread_2_0",
+   "asset": "country_loaf",
+   "at": [
+    -0.02,
+    1.295,
+    -3.18
+   ],
+   "dims": [
+    0.23,
+    0.14,
+    0.28
+   ],
+   "shape": "sphere",
+   "material": "wood"
+  },
+  {
+   "id": "bread_2_1",
+   "asset": "country_loaf",
+   "at": [
+    0.25,
+    1.295,
+    -3.18
+   ],
+   "dims": [
+    0.23,
+    0.14,
+    0.28
+   ],
+   "shape": "sphere",
+   "material": "wood"
+  },
+  {
+   "id": "bread_2_2",
+   "asset": "country_loaf",
+   "at": [
+    0.52,
+    1.295,
+    -3.18
+   ],
+   "dims": [
+    0.23,
+    0.14,
+    0.28
+   ],
+   "shape": "sphere",
+   "material": "wood"
+  },
+  {
+   "id": "bread_3_0",
+   "asset": "country_loaf",
+   "at": [
+    1.08,
+    1.295,
+    -3.18
+   ],
+   "dims": [
+    0.23,
+    0.14,
+    0.28
+   ],
+   "shape": "sphere",
+   "material": "wood"
+  },
+  {
+   "id": "bread_3_1",
+   "asset": "country_loaf",
+   "at": [
+    1.35,
+    1.295,
+    -3.18
+   ],
+   "dims": [
+    0.23,
+    0.14,
+    0.28
+   ],
+   "shape": "sphere",
+   "material": "wood"
+  },
+  {
+   "id": "bread_3_2",
+   "asset": "country_loaf",
+   "at": [
+    1.62,
+    1.295,
+    -3.18
+   ],
+   "dims": [
+    0.23,
+    0.14,
+    0.28
+   ],
+   "shape": "sphere",
+   "material": "wood"
+  }
+ ],
+ "lights": [
+  {
+   "id": "storefront",
+   "kind": "area",
+   "at": [
+    1.6,
+    2.6,
+    3.15
+   ],
+   "look_at": [
+    0,
+    1.0,
+    -0.8
+   ],
+   "size": [
+    2.6,
+    2.0
+   ],
+   "intensity": 90,
+   "color": [
+    0.68,
+    0.8,
+    1
+   ]
+  },
+  {
+   "id": "counter_pool",
+   "kind": "area",
+   "at": [
+    -0.7,
+    2.6,
+    0
+   ],
+   "look_at": [
+    -0.7,
+    1.15,
+    0.2
+   ],
+   "size": [
+    1.5,
+    0.45
+   ],
+   "intensity": 145,
+   "color": [
+    1,
+    0.73,
+    0.47
+   ]
+  }
+ ],
+ "catalog": {},
+ "dimensions_m": [
+  6,
+  3.3,
+  7
+ ]
+}

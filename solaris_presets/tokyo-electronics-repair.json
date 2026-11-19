@@ -1,0 +1,3596 @@
+{
+ "label": "tokyo-electronics-repair",
+ "source": "scenes/tokyo-electronics-repair/assets.json and scripts/",
+ "architecture": [
+  {
+   "id": "floor",
+   "at": [
+    2.1,
+    -0.05,
+    -3.06
+   ],
+   "dims": [
+    4.44,
+    0.05,
+    7.12
+   ],
+   "material": "concrete"
+  },
+  {
+   "id": "ceiling",
+   "at": [
+    2.1,
+    2.7,
+    -3.21
+   ],
+   "dims": [
+    4.44,
+    0.05,
+    6.82
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "wall_left",
+   "at": [
+    -0.06,
+    0.0,
+    -3.25
+   ],
+   "dims": [
+    0.12,
+    2.7,
+    6.5
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "wall_right",
+   "at": [
+    4.26,
+    0.0,
+    -3.25
+   ],
+   "dims": [
+    0.12,
+    2.7,
+    6.5
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "wall_back_a",
+   "at": [
+    1.14,
+    0.0,
+    -6.56
+   ],
+   "dims": [
+    2.52,
+    2.7,
+    0.12
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "wall_back_b",
+   "at": [
+    3.81,
+    0.0,
+    -6.56
+   ],
+   "dims": [
+    1.02,
+    2.7,
+    0.12
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "wall_back_c",
+   "at": [
+    2.85,
+    2.05,
+    -6.56
+   ],
+   "dims": [
+    0.9,
+    0.65,
+    0.12
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "baseboard_l",
+   "at": [
+    0.006,
+    0.0,
+    -3.275
+   ],
+   "dims": [
+    0.012,
+    0.08,
+    6.45
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "baseboard_r",
+   "at": [
+    4.194,
+    0.0,
+    -3.275
+   ],
+   "dims": [
+    0.012,
+    0.08,
+    6.45
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "baseboard_b1",
+   "at": [
+    1.2,
+    0.0,
+    -6.494
+   ],
+   "dims": [
+    2.4,
+    0.08,
+    0.012
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "baseboard_b2",
+   "at": [
+    3.75,
+    0.0,
+    -6.494
+   ],
+   "dims": [
+    0.9,
+    0.08,
+    0.012
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "door_frame_l",
+   "at": [
+    2.425,
+    0.0,
+    -6.55
+   ],
+   "dims": [
+    0.05,
+    2.1,
+    0.14
+   ],
+   "material": "paint"
+  },
+  {
+   "id": "door_frame_r",
+   "at": [
+    3.275,
+    0.0,
+    -6.55
+   ],
+   "dims": [
+    0.05,
+    2.1,
+    0.14
+   ],
+   "material": "paint"
+  },
+  {
+   "id": "door_frame_t",
+   "at": [
+    2.85,
+    2.05,
+    -6.55
+   ],
+   "dims": [
+    0.9,
+    0.05,
+    0.14
+   ],
+   "material": "paint"
+  },
+  {
+   "id": "door_slab",
+   "at": [
+    2.85,
+    0.01,
+    -6.54
+   ],
+   "dims": [
+    0.8,
+    2.035,
+    0.04
+   ],
+   "material": "concrete"
+  },
+  {
+   "id": "backroom_dark",
+   "at": [
+    2.85,
+    0.0,
+    -8.05
+   ],
+   "dims": [
+    1.9,
+    2.4,
+    0.1
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "front_knee_l",
+   "at": [
+    0.75,
+    0.0,
+    0.06
+   ],
+   "dims": [
+    1.5,
+    0.5,
+    0.12
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "front_knee_r",
+   "at": [
+    3.47,
+    0.0,
+    0.06
+   ],
+   "dims": [
+    1.46,
+    0.5,
+    0.12
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "front_header",
+   "at": [
+    2.1,
+    2.35,
+    0.06
+   ],
+   "dims": [
+    4.2,
+    0.35,
+    0.12
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "front_post_0.00",
+   "at": [
+    0.025,
+    0.0,
+    0.035
+   ],
+   "dims": [
+    0.05,
+    2.35,
+    0.07
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "front_post_1.47",
+   "at": [
+    1.495,
+    0.0,
+    0.035
+   ],
+   "dims": [
+    0.05,
+    2.35,
+    0.07
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "front_post_2.72",
+   "at": [
+    2.745,
+    0.0,
+    0.035
+   ],
+   "dims": [
+    0.05,
+    2.35,
+    0.07
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "front_post_4.15",
+   "at": [
+    4.175,
+    0.0,
+    0.035
+   ],
+   "dims": [
+    0.05,
+    2.35,
+    0.07
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "front_head",
+   "at": [
+    2.1,
+    2.3,
+    0.035
+   ],
+   "dims": [
+    4.2,
+    0.05,
+    0.07
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "front_sill_l",
+   "at": [
+    0.76,
+    0.5,
+    0.025
+   ],
+   "dims": [
+    1.42,
+    0.03,
+    0.09
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "front_sill_r",
+   "at": [
+    3.46,
+    0.5,
+    0.025
+   ],
+   "dims": [
+    1.38,
+    0.03,
+    0.09
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "glass_l",
+   "at": [
+    0.76,
+    0.53,
+    0.036
+   ],
+   "dims": [
+    1.42,
+    1.77,
+    0.008
+   ],
+   "material": "glass"
+  },
+  {
+   "id": "glass_r",
+   "at": [
+    3.46,
+    0.53,
+    0.036
+   ],
+   "dims": [
+    1.38,
+    1.77,
+    0.008
+   ],
+   "material": "glass"
+  },
+  {
+   "id": "door_leaf0_l",
+   "at": [
+    1.545,
+    0.02,
+    0.045
+   ],
+   "dims": [
+    0.05,
+    2.26,
+    0.03
+   ],
+   "material": "paint"
+  },
+  {
+   "id": "door_leaf0_r",
+   "at": [
+    2.135,
+    0.02,
+    0.045
+   ],
+   "dims": [
+    0.05,
+    2.26,
+    0.03
+   ],
+   "material": "paint"
+  },
+  {
+   "id": "door_leaf0_b",
+   "at": [
+    1.84,
+    0.02,
+    0.045
+   ],
+   "dims": [
+    0.64,
+    0.12,
+    0.03
+   ],
+   "material": "paint"
+  },
+  {
+   "id": "door_leaf0_t",
+   "at": [
+    1.84,
+    2.23,
+    0.045
+   ],
+   "dims": [
+    0.64,
+    0.05,
+    0.03
+   ],
+   "material": "paint"
+  },
+  {
+   "id": "door_leaf0_glass",
+   "at": [
+    1.84,
+    0.14,
+    0.044
+   ],
+   "dims": [
+    0.54,
+    2.09,
+    0.008
+   ],
+   "material": "glass"
+  },
+  {
+   "id": "door_leaf0_pull",
+   "at": [
+    2.08,
+    0.9,
+    0.015
+   ],
+   "dims": [
+    0.02,
+    0.3,
+    0.03
+   ],
+   "material": "paint"
+  },
+  {
+   "id": "door_leaf1_l",
+   "at": [
+    2.105,
+    0.02,
+    0.075
+   ],
+   "dims": [
+    0.05,
+    2.26,
+    0.03
+   ],
+   "material": "paint"
+  },
+  {
+   "id": "door_leaf1_r",
+   "at": [
+    2.695,
+    0.02,
+    0.075
+   ],
+   "dims": [
+    0.05,
+    2.26,
+    0.03
+   ],
+   "material": "paint"
+  },
+  {
+   "id": "door_leaf1_b",
+   "at": [
+    2.4,
+    0.02,
+    0.075
+   ],
+   "dims": [
+    0.64,
+    0.12,
+    0.03
+   ],
+   "material": "paint"
+  },
+  {
+   "id": "door_leaf1_t",
+   "at": [
+    2.4,
+    2.23,
+    0.075
+   ],
+   "dims": [
+    0.64,
+    0.05,
+    0.03
+   ],
+   "material": "paint"
+  },
+  {
+   "id": "door_leaf1_glass",
+   "at": [
+    2.4,
+    0.14,
+    0.074
+   ],
+   "dims": [
+    0.54,
+    2.09,
+    0.008
+   ],
+   "material": "glass"
+  },
+  {
+   "id": "door_leaf1_pull",
+   "at": [
+    2.15,
+    0.9,
+    0.045
+   ],
+   "dims": [
+    0.02,
+    0.3,
+    0.03
+   ],
+   "material": "paint"
+  },
+  {
+   "id": "pavement",
+   "at": [
+    2.1,
+    -0.08,
+    1.31
+   ],
+   "dims": [
+    6.2,
+    0.02,
+    2.38
+   ],
+   "material": "asphalt"
+  },
+  {
+   "id": "road",
+   "at": [
+    2.1,
+    -0.1,
+    3.85
+   ],
+   "dims": [
+    10.2,
+    0.02,
+    2.7
+   ],
+   "material": "asphalt"
+  },
+  {
+   "id": "bench_top",
+   "at": [
+    0.375,
+    0.835,
+    -3.3
+   ],
+   "dims": [
+    0.75,
+    0.045,
+    4.0
+   ],
+   "material": "wood"
+  },
+  {
+   "id": "bench_apron",
+   "at": [
+    0.73,
+    0.75,
+    -3.3
+   ],
+   "dims": [
+    0.02,
+    0.085,
+    3.9
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "bench_leg_0.04_1.34",
+   "at": [
+    0.04,
+    0.0,
+    -1.34
+   ],
+   "dims": [
+    0.04,
+    0.835,
+    0.04
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "bench_leg_0.69_1.34",
+   "at": [
+    0.69,
+    0.0,
+    -1.34
+   ],
+   "dims": [
+    0.04,
+    0.835,
+    0.04
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "bench_leg_0.04_3.30",
+   "at": [
+    0.04,
+    0.0,
+    -3.3
+   ],
+   "dims": [
+    0.04,
+    0.835,
+    0.04
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "bench_leg_0.69_3.30",
+   "at": [
+    0.69,
+    0.0,
+    -3.3
+   ],
+   "dims": [
+    0.04,
+    0.835,
+    0.04
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "bench_leg_0.04_5.26",
+   "at": [
+    0.04,
+    0.0,
+    -5.26
+   ],
+   "dims": [
+    0.04,
+    0.835,
+    0.04
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "bench_leg_0.69_5.26",
+   "at": [
+    0.69,
+    0.0,
+    -5.26
+   ],
+   "dims": [
+    0.04,
+    0.835,
+    0.04
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "bench_shelf",
+   "at": [
+    0.365,
+    0.14,
+    -3.3
+   ],
+   "dims": [
+    0.69,
+    0.025,
+    3.96
+   ],
+   "material": "wood"
+  },
+  {
+   "id": "bench_rail",
+   "at": [
+    0.69,
+    0.14,
+    -3.3
+   ],
+   "dims": [
+    0.04,
+    0.04,
+    4.0
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "bench_mat",
+   "at": [
+    0.37,
+    0.88,
+    -2.45
+   ],
+   "dims": [
+    0.5,
+    0.003,
+    0.9
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "shelf_1.68",
+   "at": [
+    0.16,
+    1.68,
+    -3.3
+   ],
+   "dims": [
+    0.32,
+    0.025,
+    4.0
+   ],
+   "material": "wood"
+  },
+  {
+   "id": "shelf_bracket_1.68_1.40",
+   "at": [
+    0.125,
+    1.5,
+    -1.4
+   ],
+   "dims": [
+    0.25,
+    0.18,
+    0.02
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "shelf_bracket_1.68_3.30",
+   "at": [
+    0.125,
+    1.5,
+    -3.3
+   ],
+   "dims": [
+    0.25,
+    0.18,
+    0.02
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "shelf_bracket_1.68_5.20",
+   "at": [
+    0.125,
+    1.5,
+    -5.2
+   ],
+   "dims": [
+    0.25,
+    0.18,
+    0.02
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "shelf_2.12",
+   "at": [
+    0.16,
+    2.12,
+    -3.3
+   ],
+   "dims": [
+    0.32,
+    0.025,
+    4.0
+   ],
+   "material": "wood"
+  },
+  {
+   "id": "shelf_bracket_2.12_1.40",
+   "at": [
+    0.125,
+    1.94,
+    -1.4
+   ],
+   "dims": [
+    0.25,
+    0.18,
+    0.02
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "shelf_bracket_2.12_3.30",
+   "at": [
+    0.125,
+    1.94,
+    -3.3
+   ],
+   "dims": [
+    0.25,
+    0.18,
+    0.02
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "shelf_bracket_2.12_5.20",
+   "at": [
+    0.125,
+    1.94,
+    -5.2
+   ],
+   "dims": [
+    0.25,
+    0.18,
+    0.02
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "pegboard",
+   "at": [
+    0.006,
+    0.95,
+    -4.2
+   ],
+   "dims": [
+    0.012,
+    0.65,
+    2.1
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "counter_body",
+   "at": [
+    2.7,
+    0.0,
+    -1.83
+   ],
+   "dims": [
+    1.6,
+    0.92,
+    0.56
+   ],
+   "material": "paint"
+  },
+  {
+   "id": "counter_kick",
+   "at": [
+    2.7,
+    0.0,
+    -1.5575
+   ],
+   "dims": [
+    1.54,
+    0.09,
+    0.025
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "counter_top",
+   "at": [
+    2.7,
+    0.92,
+    -1.83
+   ],
+   "dims": [
+    1.66,
+    0.03,
+    0.64
+   ],
+   "material": "wood"
+  },
+  {
+   "id": "counter_mat",
+   "at": [
+    2.225,
+    0.95,
+    -1.815
+   ],
+   "dims": [
+    0.45,
+    0.003,
+    0.37
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "rack0_post_3.74_1.15",
+   "at": [
+    3.7575,
+    0.0,
+    -1.1675
+   ],
+   "dims": [
+    0.035,
+    1.95,
+    0.035
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "rack0_post_3.74_2.31",
+   "at": [
+    3.7575,
+    0.0,
+    -2.3325
+   ],
+   "dims": [
+    0.035,
+    1.95,
+    0.035
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "rack0_post_4.16_1.15",
+   "at": [
+    4.1725,
+    0.0,
+    -1.1675
+   ],
+   "dims": [
+    0.035,
+    1.95,
+    0.035
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "rack0_post_4.16_2.31",
+   "at": [
+    4.1725,
+    0.0,
+    -2.3325
+   ],
+   "dims": [
+    0.035,
+    1.95,
+    0.035
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "rack0_shelf_0.08",
+   "at": [
+    3.965,
+    0.08,
+    -1.75
+   ],
+   "dims": [
+    0.45,
+    0.02,
+    1.2
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "rack0_shelf_0.5",
+   "at": [
+    3.965,
+    0.5,
+    -1.75
+   ],
+   "dims": [
+    0.45,
+    0.02,
+    1.2
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "rack0_shelf_0.92",
+   "at": [
+    3.965,
+    0.92,
+    -1.75
+   ],
+   "dims": [
+    0.45,
+    0.02,
+    1.2
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "rack0_shelf_1.34",
+   "at": [
+    3.965,
+    1.34,
+    -1.75
+   ],
+   "dims": [
+    0.45,
+    0.02,
+    1.2
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "rack0_shelf_1.76",
+   "at": [
+    3.965,
+    1.76,
+    -1.75
+   ],
+   "dims": [
+    0.45,
+    0.02,
+    1.2
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "rack1_post_3.74_2.45",
+   "at": [
+    3.7575,
+    0.0,
+    -2.4675
+   ],
+   "dims": [
+    0.035,
+    1.95,
+    0.035
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "rack1_post_3.74_3.61",
+   "at": [
+    3.7575,
+    0.0,
+    -3.6325
+   ],
+   "dims": [
+    0.035,
+    1.95,
+    0.035
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "rack1_post_4.16_2.45",
+   "at": [
+    4.1725,
+    0.0,
+    -2.4675
+   ],
+   "dims": [
+    0.035,
+    1.95,
+    0.035
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "rack1_post_4.16_3.61",
+   "at": [
+    4.1725,
+    0.0,
+    -3.6325
+   ],
+   "dims": [
+    0.035,
+    1.95,
+    0.035
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "rack1_shelf_0.08",
+   "at": [
+    3.965,
+    0.08,
+    -3.05
+   ],
+   "dims": [
+    0.45,
+    0.02,
+    1.2
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "rack1_shelf_0.5",
+   "at": [
+    3.965,
+    0.5,
+    -3.05
+   ],
+   "dims": [
+    0.45,
+    0.02,
+    1.2
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "rack1_shelf_0.92",
+   "at": [
+    3.965,
+    0.92,
+    -3.05
+   ],
+   "dims": [
+    0.45,
+    0.02,
+    1.2
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "rack1_shelf_1.34",
+   "at": [
+    3.965,
+    1.34,
+    -3.05
+   ],
+   "dims": [
+    0.45,
+    0.02,
+    1.2
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "rack1_shelf_1.76",
+   "at": [
+    3.965,
+    1.76,
+    -3.05
+   ],
+   "dims": [
+    0.45,
+    0.02,
+    1.2
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "rack2_post_3.74_3.75",
+   "at": [
+    3.7575,
+    0.0,
+    -3.7675
+   ],
+   "dims": [
+    0.035,
+    1.95,
+    0.035
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "rack2_post_3.74_4.92",
+   "at": [
+    3.7575,
+    0.0,
+    -4.9325
+   ],
+   "dims": [
+    0.035,
+    1.95,
+    0.035
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "rack2_post_4.16_3.75",
+   "at": [
+    4.1725,
+    0.0,
+    -3.7675
+   ],
+   "dims": [
+    0.035,
+    1.95,
+    0.035
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "rack2_post_4.16_4.92",
+   "at": [
+    4.1725,
+    0.0,
+    -4.9325
+   ],
+   "dims": [
+    0.035,
+    1.95,
+    0.035
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "rack2_shelf_0.08",
+   "at": [
+    3.965,
+    0.08,
+    -4.35
+   ],
+   "dims": [
+    0.45,
+    0.02,
+    1.2
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "rack2_shelf_0.5",
+   "at": [
+    3.965,
+    0.5,
+    -4.35
+   ],
+   "dims": [
+    0.45,
+    0.02,
+    1.2
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "rack2_shelf_0.92",
+   "at": [
+    3.965,
+    0.92,
+    -4.35
+   ],
+   "dims": [
+    0.45,
+    0.02,
+    1.2
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "rack2_shelf_1.34",
+   "at": [
+    3.965,
+    1.34,
+    -4.35
+   ],
+   "dims": [
+    0.45,
+    0.02,
+    1.2
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "rack2_shelf_1.76",
+   "at": [
+    3.965,
+    1.76,
+    -4.35
+   ],
+   "dims": [
+    0.45,
+    0.02,
+    1.2
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "fixture_2.0",
+   "at": [
+    2.1,
+    2.64,
+    -2.0
+   ],
+   "dims": [
+    0.4,
+    0.06,
+    1.3
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "fixture_4.6",
+   "at": [
+    2.1,
+    2.64,
+    -4.6
+   ],
+   "dims": [
+    0.4,
+    0.06,
+    1.3
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "outlet_2.2",
+   "at": [
+    0.006,
+    0.95,
+    -2.2
+   ],
+   "dims": [
+    0.012,
+    0.1,
+    0.07
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "outlet_3.4",
+   "at": [
+    0.006,
+    0.95,
+    -3.4
+   ],
+   "dims": [
+    0.012,
+    0.1,
+    0.07
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "outlet_4.6",
+   "at": [
+    0.006,
+    0.95,
+    -4.6
+   ],
+   "dims": [
+    0.012,
+    0.1,
+    0.07
+   ],
+   "material": "plaster"
+  }
+ ],
+ "props": [
+  {
+   "id": "repair_tool_chest",
+   "asset": "repair_tool_chest",
+   "at": [
+    1.05,
+    0.0,
+    -6.2
+   ],
+   "yaw": 0.0,
+   "dims": [
+    0.7,
+    1.0,
+    0.63
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "repair_crt_stack",
+   "asset": "repair_crt_stack",
+   "at": [
+    3.33,
+    0.0,
+    -5.95
+   ],
+   "yaw": -20.0,
+   "dims": [
+    0.77,
+    1.1,
+    0.693
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "repair_kerosene_heater",
+   "asset": "repair_kerosene_heater",
+   "at": [
+    0.45,
+    0.0,
+    -5.85
+   ],
+   "yaw": 60.0,
+   "dims": [
+    0.315,
+    0.45,
+    0.2835
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "repair_stool",
+   "asset": "repair_stool",
+   "at": [
+    1.1,
+    0.0,
+    -2.75
+   ],
+   "yaw": 20.0,
+   "dims": [
+    0.434,
+    0.62,
+    0.3906
+   ],
+   "fit": "height",
+   "shape": "cylinder"
+  },
+  {
+   "id": "repair_boxes_a",
+   "asset": "repair_boxes_a",
+   "at": [
+    3.965,
+    1.78,
+    -1.75
+   ],
+   "yaw": -90.0,
+   "dims": [
+    0.49,
+    0.7,
+    0.441
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "repair_boxes_b",
+   "asset": "repair_boxes_b",
+   "at": [
+    3.965,
+    1.78,
+    -4.35
+   ],
+   "yaw": -95.0,
+   "dims": [
+    0.385,
+    0.55,
+    0.3465
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "boxes_b_front",
+   "asset": "repair_boxes_b",
+   "at": [
+    0.55,
+    0.0,
+    -0.55
+   ],
+   "yaw": 160.0,
+   "dims": [
+    0.385,
+    0.55,
+    0.3465
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "boxes_a_back",
+   "asset": "repair_boxes_a",
+   "at": [
+    2.0,
+    0.0,
+    -6.17
+   ],
+   "yaw": 5.0,
+   "dims": [
+    0.49,
+    0.7,
+    0.441
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "repair_trash_bin",
+   "asset": "repair_trash_bin",
+   "at": [
+    0.95,
+    0.0,
+    -5.45
+   ],
+   "yaw": 0.0,
+   "dims": [
+    0.245,
+    0.35,
+    0.2205
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "oscilloscope",
+   "asset": "oscilloscope",
+   "at": [
+    0.32,
+    0.883,
+    -2.2
+   ],
+   "yaw": 108.0,
+   "dims": [
+    0.147,
+    0.21,
+    0.1323
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "repair_bench_psu",
+   "asset": "repair_bench_psu",
+   "at": [
+    0.24,
+    0.88,
+    -1.6
+   ],
+   "yaw": 85.0,
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "max",
+   "shape": "box"
+  },
+  {
+   "id": "helping_hands",
+   "asset": "helping_hands",
+   "at": [
+    0.5,
+    0.883,
+    -2.68
+   ],
+   "yaw": 115.0,
+   "dims": [
+    0.182,
+    0.26,
+    0.1638
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "repair_work_lamp",
+   "asset": "repair_work_lamp",
+   "at": [
+    0.5,
+    0.88,
+    -2.86
+   ],
+   "yaw": 27.0,
+   "dims": [
+    0.434,
+    0.62,
+    0.3906
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "solder_station",
+   "asset": "solder_station",
+   "at": [
+    0.27,
+    0.88,
+    -3.1
+   ],
+   "yaw": 100.0,
+   "dims": [
+    0.154,
+    0.22,
+    0.1386
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "boombox_open",
+   "asset": "boombox_open",
+   "at": [
+    0.32,
+    0.88,
+    -3.7
+   ],
+   "yaw": 92.0,
+   "dims": [
+    0.434,
+    0.62,
+    0.3906
+   ],
+   "fit": "max",
+   "shape": "box"
+  },
+  {
+   "id": "repair_vcr_open",
+   "asset": "repair_vcr_open",
+   "at": [
+    0.3,
+    0.88,
+    -4.3
+   ],
+   "yaw": 88.0,
+   "dims": [
+    0.301,
+    0.43,
+    0.2709
+   ],
+   "fit": "max",
+   "shape": "box"
+  },
+  {
+   "id": "repair_vintage_radio",
+   "asset": "repair_vintage_radio",
+   "at": [
+    0.16,
+    1.705,
+    -1.85
+   ],
+   "yaw": 90.0,
+   "dims": [
+    0.224,
+    0.32,
+    0.2016
+   ],
+   "fit": "max",
+   "shape": "box"
+  },
+  {
+   "id": "repair_receiver",
+   "asset": "repair_receiver",
+   "at": [
+    0.17,
+    1.705,
+    -2.3
+   ],
+   "yaw": 90.0,
+   "dims": [
+    0.301,
+    0.43,
+    0.2709
+   ],
+   "fit": "max",
+   "shape": "box"
+  },
+  {
+   "id": "repair_rice_cooker",
+   "asset": "repair_rice_cooker",
+   "at": [
+    0.16,
+    1.705,
+    -3.0
+   ],
+   "yaw": 75.0,
+   "dims": [
+    0.175,
+    0.25,
+    0.1575
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "repair_crt_tv",
+   "asset": "repair_crt_tv",
+   "at": [
+    0.17,
+    1.705,
+    -3.65
+   ],
+   "yaw": 85.0,
+   "dims": [
+    0.252,
+    0.36,
+    0.2268
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "repair_turntable",
+   "asset": "repair_turntable",
+   "at": [
+    0.17,
+    1.705,
+    -4.5
+   ],
+   "yaw": 90.0,
+   "dims": [
+    0.315,
+    0.45,
+    0.2835
+   ],
+   "fit": "max",
+   "shape": "box"
+  },
+  {
+   "id": "repair_desk_fan",
+   "asset": "repair_desk_fan",
+   "at": [
+    0.16,
+    2.145,
+    -1.7
+   ],
+   "yaw": 110.0,
+   "dims": [
+    0.294,
+    0.42,
+    0.2646
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "crt_tv_shelf2",
+   "asset": "repair_crt_tv",
+   "at": [
+    0.17,
+    2.145,
+    -4.75
+   ],
+   "yaw": 95.0,
+   "dims": [
+    0.252,
+    0.36,
+    0.2268
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "receiver_rack",
+   "asset": "repair_receiver",
+   "at": [
+    3.965,
+    0.1,
+    -1.42
+   ],
+   "yaw": -90.0,
+   "dims": [
+    0.301,
+    0.43,
+    0.2709
+   ],
+   "fit": "max",
+   "shape": "box"
+  },
+  {
+   "id": "vcr_rack",
+   "asset": "repair_vcr_open",
+   "at": [
+    3.965,
+    0.52,
+    -2.0
+   ],
+   "yaw": -88.0,
+   "dims": [
+    0.301,
+    0.43,
+    0.2709
+   ],
+   "fit": "max",
+   "shape": "box"
+  },
+  {
+   "id": "radio_rack",
+   "asset": "repair_vintage_radio",
+   "at": [
+    3.965,
+    0.1,
+    -3.05
+   ],
+   "yaw": -95.0,
+   "dims": [
+    0.224,
+    0.32,
+    0.2016
+   ],
+   "fit": "max",
+   "shape": "box"
+  },
+  {
+   "id": "rice_rack",
+   "asset": "repair_rice_cooker",
+   "at": [
+    3.965,
+    0.94,
+    -2.75
+   ],
+   "yaw": -80.0,
+   "dims": [
+    0.175,
+    0.25,
+    0.1575
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "turntable_rack",
+   "asset": "repair_turntable",
+   "at": [
+    3.965,
+    0.52,
+    -3.1
+   ],
+   "yaw": -90.0,
+   "dims": [
+    0.315,
+    0.45,
+    0.2835
+   ],
+   "fit": "max",
+   "shape": "box"
+  },
+  {
+   "id": "crt_rack",
+   "asset": "repair_crt_tv",
+   "at": [
+    3.965,
+    0.1,
+    -4.25
+   ],
+   "yaw": -100.0,
+   "dims": [
+    0.252,
+    0.36,
+    0.2268
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "fan_rack",
+   "asset": "repair_desk_fan",
+   "at": [
+    3.965,
+    0.94,
+    -1.6
+   ],
+   "yaw": -70.0,
+   "dims": [
+    0.2587,
+    0.3696,
+    0.2328
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "heater_rack",
+   "asset": "repair_kerosene_heater",
+   "at": [
+    3.965,
+    0.1,
+    -3.45
+   ],
+   "yaw": -90.0,
+   "dims": [
+    0.2646,
+    0.378,
+    0.2381
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "repair_cable_coils",
+   "asset": "repair_cable_coils",
+   "at": [
+    0.06,
+    1.25,
+    -5.65
+   ],
+   "yaw": 90.0,
+   "dims": [
+    0.42,
+    0.6,
+    0.378
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "repair_wall_clock",
+   "asset": "repair_wall_clock",
+   "at": [
+    1.9,
+    2.08,
+    -6.47
+   ],
+   "yaw": 0.0,
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "max",
+   "shape": "box"
+  },
+  {
+   "id": "repair_multimeter_red",
+   "asset": "repair_multimeter_red",
+   "at": [
+    0.58,
+    0.88,
+    -1.78
+   ],
+   "yaw": 125.0,
+   "dims": [
+    0.14,
+    0.2,
+    0.126
+   ],
+   "fit": "max",
+   "shape": "box"
+  },
+  {
+   "id": "repair_multimeter_yellow",
+   "asset": "repair_multimeter_yellow",
+   "at": [
+    0.68,
+    0.88,
+    -3.42
+   ],
+   "yaw": 60.0,
+   "dims": [
+    0.133,
+    0.19,
+    0.1197
+   ],
+   "fit": "max",
+   "shape": "box"
+  },
+  {
+   "id": "repair_parts_tray",
+   "asset": "repair_parts_tray",
+   "at": [
+    0.62,
+    0.88,
+    -4.55
+   ],
+   "yaw": 95.0,
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "max",
+   "shape": "box"
+  },
+  {
+   "id": "repair_solder_junk",
+   "asset": "repair_solder_junk",
+   "at": [
+    0.62,
+    0.883,
+    -2.3
+   ],
+   "yaw": 30.0,
+   "dims": [
+    0.14,
+    0.2,
+    0.126
+   ],
+   "fit": "max",
+   "shape": "box"
+  },
+  {
+   "id": "repair_mug",
+   "asset": "repair_mug",
+   "at": [
+    0.66,
+    0.88,
+    -5.12
+   ],
+   "yaw": 200.0,
+   "dims": [
+    0.07,
+    0.1,
+    0.063
+   ],
+   "fit": "height",
+   "shape": "cylinder"
+  },
+  {
+   "id": "repair_tool_block",
+   "asset": "repair_tool_block",
+   "at": [
+    0.12,
+    0.88,
+    -4.7
+   ],
+   "yaw": 90.0,
+   "dims": [
+    0.14,
+    0.2,
+    0.126
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "mug_shelf",
+   "asset": "repair_mug",
+   "at": [
+    0.15,
+    1.705,
+    -5.0
+   ],
+   "yaw": 120.0,
+   "dims": [
+    0.07,
+    0.1,
+    0.063
+   ],
+   "fit": "height",
+   "shape": "cylinder"
+  },
+  {
+   "id": "tray_rack",
+   "asset": "repair_parts_tray",
+   "at": [
+    3.965,
+    1.36,
+    -3.4
+   ],
+   "yaw": -80.0,
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "max",
+   "shape": "box"
+  },
+  {
+   "id": "dmm_rack",
+   "asset": "repair_multimeter_yellow",
+   "at": [
+    3.965,
+    1.36,
+    -2.2
+   ],
+   "yaw": -120.0,
+   "dims": [
+    0.133,
+    0.19,
+    0.1197
+   ],
+   "fit": "max",
+   "shape": "box"
+  },
+  {
+   "id": "fill_receiver_1",
+   "asset": "repair_cassette_deck",
+   "at": [
+    3.965,
+    0.52,
+    -1.55
+   ],
+   "yaw": -88.0,
+   "dims": [
+    0.301,
+    0.43,
+    0.2709
+   ],
+   "fit": "max",
+   "shape": "box"
+  },
+  {
+   "id": "fill_vcr_1",
+   "asset": "repair_amp_black",
+   "at": [
+    3.965,
+    0.94,
+    -1.95
+   ],
+   "yaw": -92.0,
+   "dims": [
+    0.301,
+    0.43,
+    0.2709
+   ],
+   "fit": "max",
+   "shape": "box"
+  },
+  {
+   "id": "fill_crt_1",
+   "asset": "repair_crt_monitor_beige",
+   "at": [
+    3.965,
+    0.1,
+    -2.12
+   ],
+   "yaw": -85.0,
+   "dims": [
+    0.266,
+    0.38,
+    0.2394
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "fill_radio_1",
+   "asset": "repair_radio_cassette",
+   "at": [
+    3.965,
+    1.36,
+    -1.78
+   ],
+   "yaw": -95.0,
+   "dims": [
+    0.245,
+    0.35,
+    0.2205
+   ],
+   "fit": "max",
+   "shape": "box"
+  },
+  {
+   "id": "fill_rice_1",
+   "asset": "repair_electric_kettle",
+   "at": [
+    3.965,
+    0.52,
+    -2.66
+   ],
+   "yaw": -100.0,
+   "dims": [
+    0.175,
+    0.25,
+    0.1575
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "fill_receiver_2",
+   "asset": "repair_dotmatrix_printer",
+   "at": [
+    3.965,
+    0.97,
+    -3.2
+   ],
+   "yaw": -90.0,
+   "dims": [
+    0.315,
+    0.45,
+    0.2835
+   ],
+   "fit": "max",
+   "shape": "box"
+  },
+  {
+   "id": "fill_crt_2",
+   "asset": "repair_crt_tv",
+   "at": [
+    3.965,
+    1.36,
+    -2.85
+   ],
+   "yaw": -92.0,
+   "dims": [
+    0.252,
+    0.36,
+    0.2268
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "fill_fan_1",
+   "asset": "repair_portable_tv",
+   "at": [
+    3.965,
+    0.1,
+    -2.62
+   ],
+   "yaw": -60.0,
+   "dims": [
+    0.1478,
+    0.2112,
+    0.1331
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "fill_vcr_2",
+   "asset": "repair_fax_phone",
+   "at": [
+    3.965,
+    0.52,
+    -4.1
+   ],
+   "yaw": -90.0,
+   "dims": [
+    0.224,
+    0.32,
+    0.2016
+   ],
+   "fit": "max",
+   "shape": "box"
+  },
+  {
+   "id": "fill_turntable_1",
+   "asset": "repair_speaker_pair",
+   "at": [
+    3.965,
+    0.94,
+    -4.35
+   ],
+   "yaw": -95.0,
+   "dims": [
+    0.238,
+    0.34,
+    0.2142
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "fill_radio_2",
+   "asset": "repair_camcorder",
+   "at": [
+    3.965,
+    1.36,
+    -4.6
+   ],
+   "yaw": -85.0,
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "max",
+   "shape": "box"
+  },
+  {
+   "id": "fill_heater_1",
+   "asset": "repair_microwave",
+   "at": [
+    3.965,
+    0.1,
+    -4.7
+   ],
+   "yaw": -90.0,
+   "dims": [
+    0.294,
+    0.42,
+    0.2646
+   ],
+   "fit": "max",
+   "shape": "box"
+  },
+  {
+   "id": "fill_boxes_rack2",
+   "asset": "repair_boxes_b",
+   "at": [
+    3.965,
+    1.78,
+    -3.05
+   ],
+   "yaw": -88.0,
+   "dims": [
+    0.385,
+    0.55,
+    0.3465
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "fill_crt_under",
+   "asset": "repair_tv_wood",
+   "at": [
+    0.3,
+    0.165,
+    -1.75
+   ],
+   "yaw": 95.0,
+   "dims": [
+    0.315,
+    0.45,
+    0.2835
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "fill_receiver_under",
+   "asset": "repair_karaoke_machine",
+   "at": [
+    0.3,
+    0.165,
+    -2.5
+   ],
+   "yaw": 90.0,
+   "dims": [
+    0.28,
+    0.4,
+    0.252
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "fill_rice_under",
+   "asset": "repair_rice_cooker",
+   "at": [
+    0.3,
+    0.165,
+    -3.1
+   ],
+   "yaw": 70.0,
+   "dims": [
+    0.175,
+    0.25,
+    0.1575
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "fill_boxes_under",
+   "asset": "repair_boxes_b",
+   "at": [
+    0.35,
+    0.165,
+    -3.85
+   ],
+   "yaw": 92.0,
+   "dims": [
+    0.2695,
+    0.385,
+    0.2425
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "fill_vcr_under",
+   "asset": "repair_pc_tower",
+   "at": [
+    0.3,
+    0.165,
+    -4.75
+   ],
+   "yaw": 85.0,
+   "dims": [
+    0.294,
+    0.42,
+    0.2646
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "counter_dmm",
+   "asset": "repair_multimeter_yellow",
+   "at": [
+    2.98,
+    0.95,
+    -1.68
+   ],
+   "yaw": 150.0,
+   "dims": [
+    0.133,
+    0.19,
+    0.1197
+   ],
+   "fit": "max",
+   "shape": "box"
+  },
+  {
+   "id": "counter_laptop",
+   "asset": "repair_laptop_broken",
+   "at": [
+    2.66,
+    0.95,
+    -1.78
+   ],
+   "yaw": 175.0,
+   "dims": [
+    0.252,
+    0.36,
+    0.2268
+   ],
+   "fit": "max",
+   "shape": "box"
+  },
+  {
+   "id": "counter_tray",
+   "asset": "repair_parts_tray",
+   "at": [
+    3.0,
+    0.95,
+    -2.0
+   ],
+   "yaw": 185.0,
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "max",
+   "shape": "box"
+  },
+  {
+   "id": "solder_station_2",
+   "asset": "solder_station",
+   "at": [
+    0.25,
+    0.88,
+    -5.0
+   ],
+   "yaw": 100.0,
+   "dims": [
+    0.154,
+    0.22,
+    0.1386
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "psu_shelf",
+   "asset": "repair_bench_psu",
+   "at": [
+    0.2,
+    1.705,
+    -4.15
+   ],
+   "yaw": 92.0,
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "max",
+   "shape": "box"
+  },
+  {
+   "id": "dmm_station2",
+   "asset": "repair_multimeter_red",
+   "at": [
+    0.55,
+    0.88,
+    -4.88
+   ],
+   "yaw": 140.0,
+   "dims": [
+    0.14,
+    0.2,
+    0.126
+   ],
+   "fit": "max",
+   "shape": "box"
+  },
+  {
+   "id": "fill_boxes_front",
+   "asset": "repair_boxes_a",
+   "at": [
+    1.3,
+    0.0,
+    -0.75
+   ],
+   "yaw": 170.0,
+   "dims": [
+    0.49,
+    0.7,
+    0.441
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "fill_crt_floor",
+   "asset": "repair_tv_wood",
+   "at": [
+    3.55,
+    0.0,
+    -0.45
+   ],
+   "yaw": 205.0,
+   "dims": [
+    0.315,
+    0.45,
+    0.2835
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "fill_heater_floor",
+   "asset": "repair_floor_fan",
+   "at": [
+    2.75,
+    0.0,
+    -5.0
+   ],
+   "yaw": 30.0,
+   "dims": [
+    0.63,
+    0.9,
+    0.567
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "counter_stool",
+   "asset": "repair_stool",
+   "at": [
+    2.85,
+    0.0,
+    -2.62
+   ],
+   "yaw": -20.0,
+   "dims": [
+    0.434,
+    0.62,
+    0.3906
+   ],
+   "fit": "height",
+   "shape": "cylinder"
+  }
+ ],
+ "lights": [
+  {
+   "id": "bench_practical",
+   "kind": "area",
+   "at": [
+    0.6,
+    2.3,
+    -2.9
+   ],
+   "look_at": [
+    0.35,
+    0.88,
+    -2.75
+   ],
+   "size": [
+    0.55,
+    0.35
+   ],
+   "intensity": 105,
+   "color": [
+    1,
+    0.73,
+    0.47
+   ]
+  },
+  {
+   "id": "window_fill",
+   "kind": "area",
+   "at": [
+    2,
+    2.0,
+    0.35
+   ],
+   "look_at": [
+    2,
+    1,
+    -4
+   ],
+   "size": [
+    2.4,
+    1.8
+   ],
+   "intensity": 42,
+   "color": [
+    0.68,
+    0.8,
+    1
+   ]
+  },
+  {
+   "id": "rear_strip",
+   "kind": "area",
+   "at": [
+    2.9,
+    2.48,
+    -5.5
+   ],
+   "look_at": [
+    2,
+    0,
+    -5
+   ],
+   "size": [
+    1.1,
+    0.22
+   ],
+   "intensity": 43,
+   "color": [
+    0.68,
+    0.8,
+    1
+   ]
+  }
+ ],
+ "catalog": {
+  "oscilloscope": {
+   "dims": [
+    0.147,
+    0.21,
+    0.1323
+   ],
+   "fit": "height",
+   "pick": "tripo-h31"
+  },
+  "solder_station": {
+   "dims": [
+    0.154,
+    0.22,
+    0.1386
+   ],
+   "fit": "height",
+   "pick": "tripo-h31"
+  },
+  "helping_hands": {
+   "dims": [
+    0.182,
+    0.26,
+    0.1638
+   ],
+   "fit": "height",
+   "pick": "tripo-h31"
+  },
+  "boombox_open": {
+   "dims": [
+    0.434,
+    0.62,
+    0.3906
+   ],
+   "fit": "max",
+   "pick": "tripo-h31"
+  },
+  "repair_multimeter_yellow": {
+   "dims": [
+    0.133,
+    0.19,
+    0.1197
+   ],
+   "fit": "max",
+   "pick": "meshy"
+  },
+  "repair_multimeter_red": {
+   "dims": [
+    0.14,
+    0.2,
+    0.126
+   ],
+   "fit": "max",
+   "pick": "meshy"
+  },
+  "repair_bench_psu": {
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "max",
+   "pick": "meshy"
+  },
+  "repair_work_lamp": {
+   "dims": [
+    0.434,
+    0.62,
+    0.3906
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "repair_vcr_open": {
+   "dims": [
+    0.301,
+    0.43,
+    0.2709
+   ],
+   "fit": "max",
+   "pick": "meshy"
+  },
+  "repair_crt_tv": {
+   "dims": [
+    0.252,
+    0.36,
+    0.2268
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "repair_vintage_radio": {
+   "dims": [
+    0.224,
+    0.32,
+    0.2016
+   ],
+   "fit": "max",
+   "pick": "meshy"
+  },
+  "repair_receiver": {
+   "dims": [
+    0.301,
+    0.43,
+    0.2709
+   ],
+   "fit": "max",
+   "pick": "tripo-h31"
+  },
+  "repair_turntable": {
+   "dims": [
+    0.315,
+    0.45,
+    0.2835
+   ],
+   "fit": "max",
+   "pick": "tripo-h31"
+  },
+  "repair_rice_cooker": {
+   "dims": [
+    0.175,
+    0.25,
+    0.1575
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "repair_desk_fan": {
+   "dims": [
+    0.294,
+    0.42,
+    0.2646
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "repair_kerosene_heater": {
+   "dims": [
+    0.315,
+    0.45,
+    0.2835
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "repair_tool_chest": {
+   "dims": [
+    0.7,
+    1.0,
+    0.63
+   ],
+   "fit": "height",
+   "pick": "tripo-h31"
+  },
+  "repair_stool": {
+   "dims": [
+    0.434,
+    0.62,
+    0.3906
+   ],
+   "fit": "height",
+   "pick": "tripo-h31"
+  },
+  "repair_mug": {
+   "dims": [
+    0.07,
+    0.1,
+    0.063
+   ],
+   "fit": "height",
+   "pick": "tripo-h31"
+  },
+  "repair_cup_noodle": {
+   "dims": [
+    0.084,
+    0.12,
+    0.0756
+   ],
+   "fit": "height",
+   "pick": "tripo-h31"
+  },
+  "repair_solder_junk": {
+   "dims": [
+    0.14,
+    0.2,
+    0.126
+   ],
+   "fit": "max",
+   "pick": "meshy"
+  },
+  "repair_parts_tray": {
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "max",
+   "pick": "meshy"
+  },
+  "repair_tool_block": {
+   "dims": [
+    0.14,
+    0.2,
+    0.126
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "repair_cable_coils": {
+   "dims": [
+    0.42,
+    0.6,
+    0.378
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "repair_boxes_a": {
+   "dims": [
+    0.49,
+    0.7,
+    0.441
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "repair_boxes_b": {
+   "dims": [
+    0.385,
+    0.55,
+    0.3465
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "repair_trash_bin": {
+   "dims": [
+    0.245,
+    0.35,
+    0.2205
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "repair_spray_cans": {
+   "dims": [
+    0.147,
+    0.21,
+    0.1323
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "repair_wall_clock": {
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "max",
+   "pick": "meshy"
+  },
+  "repair_tissue_box": {
+   "dims": [
+    0.168,
+    0.24,
+    0.1512
+   ],
+   "fit": "max",
+   "pick": "meshy"
+  },
+  "repair_laptop_broken": {
+   "dims": [
+    0.252,
+    0.36,
+    0.2268
+   ],
+   "fit": "max",
+   "pick": "meshy"
+  },
+  "repair_crt_stack": {
+   "dims": [
+    0.77,
+    1.1,
+    0.693
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "repair_oscilloscope_nb": {
+   "dims": [
+    0.147,
+    0.21,
+    0.1323
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "repair_solder_station_nb": {
+   "dims": [
+    0.154,
+    0.22,
+    0.1386
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "repair_boombox_open_nb": {
+   "dims": [
+    0.434,
+    0.62,
+    0.3906
+   ],
+   "fit": "max",
+   "pick": "meshy"
+  },
+  "repair_multimeter_yellow_nb": {
+   "dims": [
+    0.133,
+    0.19,
+    0.1197
+   ],
+   "fit": "max",
+   "pick": "meshy"
+  },
+  "repair_multimeter_red_nb": {
+   "dims": [
+    0.14,
+    0.2,
+    0.126
+   ],
+   "fit": "max",
+   "pick": "meshy"
+  },
+  "repair_bench_psu_nb": {
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "max",
+   "pick": "meshy"
+  },
+  "repair_tool_chest_nb": {
+   "dims": [
+    0.7,
+    1.0,
+    0.63
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "repair_spray_cans_nb": {
+   "dims": [
+    0.147,
+    0.21,
+    0.1323
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "repair_cup_noodle_nb": {
+   "dims": [
+    0.084,
+    0.12,
+    0.0756
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "repair_boxes_b_nb": {
+   "dims": [
+    0.385,
+    0.55,
+    0.3465
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "repair_vcr_open_nb": {
+   "dims": [
+    0.301,
+    0.43,
+    0.2709
+   ],
+   "fit": "max",
+   "pick": "meshy"
+  },
+  "repair_tissue_box_nb": {
+   "dims": [
+    0.168,
+    0.24,
+    0.1512
+   ],
+   "fit": "max",
+   "pick": "meshy"
+  },
+  "repair_rice_cooker_nb": {
+   "dims": [
+    0.175,
+    0.25,
+    0.1575
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "repair_vintage_radio_nb": {
+   "dims": [
+    0.224,
+    0.32,
+    0.2016
+   ],
+   "fit": "max",
+   "pick": "meshy"
+  },
+  "repair_receiver_nb": {
+   "dims": [
+    0.301,
+    0.43,
+    0.2709
+   ],
+   "fit": "max",
+   "pick": "tripo-h31"
+  },
+  "repair_solder_junk_nb": {
+   "dims": [
+    0.14,
+    0.2,
+    0.126
+   ],
+   "fit": "max",
+   "pick": "meshy"
+  },
+  "repair_laptop_broken_nb": {
+   "dims": [
+    0.252,
+    0.36,
+    0.2268
+   ],
+   "fit": "max",
+   "pick": "tripo-h31"
+  },
+  "repair_crt_stack_nb": {
+   "dims": [
+    0.77,
+    1.1,
+    0.693
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "repair_crt_tv_nb": {
+   "dims": [
+    0.252,
+    0.36,
+    0.2268
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "repair_turntable_nb": {
+   "dims": [
+    0.315,
+    0.45,
+    0.2835
+   ],
+   "fit": "max",
+   "pick": "meshy"
+  },
+  "repair_desk_fan_nb": {
+   "dims": [
+    0.294,
+    0.42,
+    0.2646
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "repair_kerosene_heater_nb": {
+   "dims": [
+    0.315,
+    0.45,
+    0.2835
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "repair_cassette_deck": {
+   "dims": [
+    0.301,
+    0.43,
+    0.2709
+   ],
+   "fit": "max",
+   "pick": "meshy"
+  },
+  "repair_amp_black": {
+   "dims": [
+    0.301,
+    0.43,
+    0.2709
+   ],
+   "fit": "max",
+   "pick": "meshy"
+  },
+  "repair_crt_monitor_beige": {
+   "dims": [
+    0.266,
+    0.38,
+    0.2394
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "repair_portable_tv": {
+   "dims": [
+    0.168,
+    0.24,
+    0.1512
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "repair_tv_wood": {
+   "dims": [
+    0.315,
+    0.45,
+    0.2835
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "repair_speaker_pair": {
+   "dims": [
+    0.28,
+    0.4,
+    0.252
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "repair_camcorder": {
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "max",
+   "pick": "meshy"
+  },
+  "repair_microwave": {
+   "dims": [
+    0.35,
+    0.5,
+    0.315
+   ],
+   "fit": "max",
+   "pick": "meshy"
+  },
+  "repair_pc_tower": {
+   "dims": [
+    0.294,
+    0.42,
+    0.2646
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "repair_dotmatrix_printer": {
+   "dims": [
+    0.315,
+    0.45,
+    0.2835
+   ],
+   "fit": "max",
+   "pick": "meshy"
+  },
+  "repair_fax_phone": {
+   "dims": [
+    0.224,
+    0.32,
+    0.2016
+   ],
+   "fit": "max",
+   "pick": "meshy"
+  },
+  "repair_radio_cassette": {
+   "dims": [
+    0.245,
+    0.35,
+    0.2205
+   ],
+   "fit": "max",
+   "pick": "meshy"
+  },
+  "repair_karaoke_machine": {
+   "dims": [
+    0.28,
+    0.4,
+    0.252
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "repair_electric_kettle": {
+   "dims": [
+    0.175,
+    0.25,
+    0.1575
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "repair_job_bin": {
+   "dims": [
+    0.315,
+    0.45,
+    0.2835
+   ],
+   "fit": "max",
+   "pick": "meshy"
+  },
+  "repair_cable_crate": {
+   "dims": [
+    0.315,
+    0.45,
+    0.2835
+   ],
+   "fit": "max",
+   "pick": "tripo-h31"
+  },
+  "repair_parts_bins": {
+   "dims": [
+    0.315,
+    0.45,
+    0.2835
+   ],
+   "fit": "height",
+   "pick": "tripo-h31"
+  },
+  "repair_parts_cart": {
+   "dims": [
+    0.595,
+    0.85,
+    0.5355
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "repair_hot_air_station": {
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "max",
+   "pick": "meshy"
+  },
+  "repair_magnifier_lamp": {
+   "dims": [
+    0.385,
+    0.55,
+    0.3465
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "repair_pcb_vise": {
+   "dims": [
+    0.154,
+    0.22,
+    0.1386
+   ],
+   "fit": "max",
+   "pick": "meshy"
+  },
+  "repair_fume_extractor": {
+   "dims": [
+    0.175,
+    0.25,
+    0.1575
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "repair_cash_register": {
+   "dims": [
+    0.28,
+    0.4,
+    0.252
+   ],
+   "fit": "max",
+   "pick": "tripo-h31"
+  },
+  "repair_desk_phone": {
+   "dims": [
+    0.154,
+    0.22,
+    0.1386
+   ],
+   "fit": "max",
+   "pick": "meshy"
+  },
+  "repair_counter_lamp": {
+   "dims": [
+    0.294,
+    0.42,
+    0.2646
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "repair_display_case": {
+   "dims": [
+    0.49,
+    0.7,
+    0.441
+   ],
+   "fit": "max",
+   "pick": "meshy"
+  },
+  "repair_calculator": {
+   "dims": [
+    0.119,
+    0.17,
+    0.1071
+   ],
+   "fit": "max",
+   "pick": "tripo-h31"
+  },
+  "repair_umbrella_stand": {
+   "dims": [
+    0.49,
+    0.7,
+    0.441
+   ],
+   "fit": "height",
+   "pick": "tripo-h31"
+  },
+  "repair_shop_vac": {
+   "dims": [
+    0.385,
+    0.55,
+    0.3465
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "repair_step_stool": {
+   "dims": [
+    0.35,
+    0.5,
+    0.315
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "repair_floor_fan": {
+   "dims": [
+    0.63,
+    0.9,
+    0.567
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "repair_storage_boxes_flat": {
+   "dims": [
+    0.42,
+    0.6,
+    0.378
+   ],
+   "fit": "max",
+   "pick": "meshy"
+  },
+  "repair_pcbs_loose": {
+   "dims": [
+    0.175,
+    0.25,
+    0.1575
+   ],
+   "fit": "max",
+   "pick": "meshy"
+  },
+  "repair_screw_jar": {
+   "dims": [
+    0.077,
+    0.11,
+    0.0693
+   ],
+   "fit": "height",
+   "pick": "tripo-h31"
+  },
+  "repair_screwdriver_case": {
+   "dims": [
+    0.168,
+    0.24,
+    0.1512
+   ],
+   "fit": "max",
+   "pick": "meshy"
+  },
+  "repair_tweezers": {
+   "dims": [
+    0.098,
+    0.14,
+    0.0882
+   ],
+   "fit": "max",
+   "pick": "meshy"
+  },
+  "repair_ashtray": {
+   "dims": [
+    0.098,
+    0.14,
+    0.0882
+   ],
+   "fit": "max",
+   "pick": "tripo-h31"
+  },
+  "repair_tape_rolls": {
+   "dims": [
+    0.098,
+    0.14,
+    0.0882
+   ],
+   "fit": "max",
+   "pick": "meshy"
+  },
+  "repair_receipts": {
+   "dims": [
+    0.154,
+    0.22,
+    0.1386
+   ],
+   "fit": "max",
+   "pick": "tripo-h31"
+  },
+  "repair_cable_bundle": {
+   "dims": [
+    0.245,
+    0.35,
+    0.2205
+   ],
+   "fit": "max",
+   "pick": "meshy"
+  },
+  "repair_canned_coffee": {
+   "dims": [
+    0.084,
+    0.12,
+    0.0756
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "repair_desolder_pump": {
+   "dims": [
+    0.14,
+    0.2,
+    0.126
+   ],
+   "fit": "max",
+   "pick": "meshy"
+  },
+  "repair_flux_bottles": {
+   "dims": [
+    0.077,
+    0.11,
+    0.0693
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "repair_component_bag": {
+   "dims": [
+    0.105,
+    0.15,
+    0.0945
+   ],
+   "fit": "max",
+   "pick": "meshy"
+  },
+  "repair_ribbon_cables": {
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "max",
+   "pick": "meshy"
+  },
+  "repair_extension_block": {
+   "dims": [
+    0.224,
+    0.32,
+    0.2016
+   ],
+   "fit": "max",
+   "pick": "meshy"
+  },
+  "repair_sticky_notes": {
+   "dims": [
+    0.063,
+    0.09,
+    0.0567
+   ],
+   "fit": "max",
+   "pick": "meshy"
+  },
+  "repair_remote_controls": {
+   "dims": [
+    0.154,
+    0.22,
+    0.1386
+   ],
+   "fit": "max",
+   "pick": "meshy"
+  },
+  "repair_vending_machine": {
+   "dims": [
+    1.281,
+    1.83,
+    1.1529
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "repair_bicycle": {
+   "dims": [
+    1.225,
+    1.75,
+    1.1025
+   ],
+   "fit": "max",
+   "pick": "meshy"
+  },
+  "repair_aframe_sign": {
+   "dims": [
+    0.63,
+    0.9,
+    0.567
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  }
+ },
+ "dimensions_m": [
+  4.2,
+  2.7,
+  6.5
+ ]
+}
