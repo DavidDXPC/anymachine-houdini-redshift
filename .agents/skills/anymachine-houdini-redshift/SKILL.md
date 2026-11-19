@@ -1,9 +1,21 @@
 ---
 name: anymachine-houdini-redshift
-description: Modela máquinas por referência, constrói rigs mecânicos e tecidos articulados em Houdini 22 e prepara materiais, luz, validação e render Redshift no Solaris. Usa para dobradiças, robôs com pernas, mecanismos de mochilas e props industriais.
+description: Constrói cenários e kits por referência, anima máquinas e dirige planos em Houdini 22 com Redshift no Solaris. Usa AnyScene, AnyKit, AnyMachine e AnyShot juntos ou por etapa.
 ---
 
 # AnyMachine para Houdini 22 e Redshift
+
+## Produção integrada
+
+Parte do brief, das imagens e da área visível em cada plano. Define escala, posição do piso, materiais e direção da luz. Escolhe um preset AnyScene ou descreve a sala no manifesto. Se um modelo publicado estiver em falta, identifica a sua representação provisória na entrega.
+
+Cria uma lista AnyKit com nomes únicos, medidas reais e materiais coerentes. Coloca os objetos pela base. Importa as fontes que o artista fornecer. Para propor novos assets a partir de referências, apresenta a seleção visual antes de encomendar geração externa. Para cada máquina, escolhe uma receita conhecida e confirma eixos, intervalo de movimento e escala.
+
+Converte as indicações de realização em planos AnyShot. Define duração, lente, posição, alvo, movimento e foco. Confere a altura do alvo no cenário composto e a folga ao longo do percurso. Usa o manifesto em `examples/workshop.json` como ponto de partida e lê a documentação `solaris` na pasta da família correspondente quando precisares de campos adicionais.
+
+Gera tudo com `hython anymachine.py production <manifesto.json> <pasta_nova> --hip`. O ROP Redshift usa a câmara de montagem e a timeline única. No relatório identifica assets substituídos, planos validados e o EXR ou vídeo efetivamente revisto.
+
+## Máquinas e rigs
 
 Começa pelo movimento pedido. Identifica a peça fixa, as peças móveis, as superfícies que se tocam e o controlo que o artista vai animar. Usa metros e Y como eixo vertical. Responde na língua do utilizador. Conserva os nomes de nós e parâmetros em inglês.
 

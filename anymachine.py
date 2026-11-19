@@ -71,6 +71,14 @@ def write_usd(args, entry, controls, output, stage_dir):
 def main():
     parser = argparse.ArgumentParser(description="AnyMachine | Houdini 22, Solaris and Redshift")
     commands = parser.add_subparsers(dest="cmd", required=True)
+    production = commands.add_parser("production", help="assemble AnyScene, AnyKit, AnyMachine and AnyShot in Solaris")
+    production.add_argument("manifest", type=Path)
+    production.add_argument("output", type=Path, help="new delivery folder")
+    production.add_argument("--hip", action="store_true", help="also save the Houdini 22 scene")
+    production.add_argument("--render", choices=("still", "sequence", "video"), help="render through the Redshift ROP")
+    production.add_argument("--frame", type=int, default=1)
+    production.add_argument("--display", default="sRGB - Display", help="OCIO review display")
+    production.add_argument("--view", default="ACES 2.0 - SDR 100 nits (Rec.709)", help="OCIO review view")
     listing = commands.add_parser("list", help="print assets or the controls and clips of one asset")
     listing.add_argument("asset", nargs="?")
     checker = commands.add_parser("check", help="reopen USD and validate mesh topology and dimensions")
@@ -87,6 +95,9 @@ def main():
             sub.add_argument("--view", choices=scene.VIEWS, default="hero")
             sub.add_argument("--size", type=int, nargs=2, default=(960, 540), metavar=("WIDTH", "HEIGHT"))
     args = parser.parse_args()
+    if args.cmd == "production":
+        from houdini.production import run
+        return run(args)
     if args.cmd == "check":
         stage = Usd.Stage.Open(str(args.path.resolve(strict=True)))
         print(json.dumps(scene.compact_report(stage, args.frame), indent=2))

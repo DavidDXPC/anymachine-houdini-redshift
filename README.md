@@ -1,5 +1,21 @@
 # AnyMachine para Houdini 22 e Redshift
 
+## Os quatro módulos num só projeto
+
+O [manifesto da oficina](examples/workshop.json) monta um cenário **AnyScene**, uma bancada **AnyKit**, um portátil e um reservatório **AnyMachine** e duas câmaras **AnyShot**. Um único clone inclui os quatro módulos. O palco usa metros, Y-up e ACEScg.
+
+```shell
+hython anymachine.py production examples/workshop.json out/oficina_v001 --hip
+```
+
+Abre o HIP dentro de `out/oficina_v001`. Em Solaris, segue os nós `ANYSCENE → ANYKIT → ANYMACHINE → ANYSHOT → BEAUTY → OUT`. Cada nó carrega uma camada USD própria. O nó `REDSHIFT` renderiza a câmara de montagem. Para transportar a produção, copia a pasta completa, incluindo `layers/`.
+
+O manifesto controla a sala, os objetos, as posições em metros, os controlos de cada máquina e os planos. O exemplo tem 96 frames a 24 fps e muda de plano na frame 49. Para obter um EXR, acrescenta `--render still --frame 49` e usa uma pasta de saída nova. Para uma sequência EXR, usa `--render sequence`. Para uma cópia de revisão MP4 com a transformação OCIO do projeto, usa `--render video` com FFmpeg disponível e ajusta `--display` e `--view` à tua configuração.
+
+As versões incluídas dos três forks vivem em [AnyScene](family/anyscene), [AnyKit](family/anykit) e [AnyShot](family/anyshot). Cada pasta conserva a licença e o código upstream. Para esta produção, a entrada é `anymachine.py production`; os serviços fal e as render farms do upstream têm configuração própria.
+
+## AnyMachine por si só
+
 Constrói máquinas com peças editáveis, anima os mecanismos e prepara a cena em Solaris. O fork inclui 41 modelos, uma [skill para agentes](.agents/skills/anymachine-houdini-redshift/SKILL.md) e uma cena Houdini Indie pronta a abrir.
 
 [Descarrega a cena do reservatório](examples/air_receiver_hip.zip), extrai a pasta e abre `air_receiver_v004.hiplc`. Mantém a pasta `air_receiver_v004_data` ao lado da cena. Em `/stage/REDSHIFT`, **Render to Disk** escreve o EXR.

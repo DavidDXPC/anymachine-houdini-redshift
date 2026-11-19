@@ -129,6 +129,11 @@ def studio(stage, box, view, size, output, set_metadata=True):
         light.CreateAngleAttr(angle)
         light.AddRotateXYZOp().Set(Gf.Vec3f(*rotation))
     UsdLux.DomeLight.Define(stage, "/Studio/Fill").CreateIntensityAttr(.4)
+    render_settings(stage, camera.GetPath(), size, output, set_metadata)
+
+
+def render_settings(stage, camera_path, size, output, set_metadata=True):
+    """Redshift beauty product shared by the asset studio and the complete set."""
     UsdGeom.Scope.Define(stage, "/Render")
     settings = UsdRender.Settings.Define(stage, "/Render/Settings")
     product = UsdRender.Product.Define(stage, "/Render/Beauty")
@@ -147,7 +152,7 @@ def studio(stage, box, view, size, output, set_metadata=True):
                                           Sdf.ValueTypeNames.String).Set("ACEScg")
     product.CreateOrderedVarsRel().SetTargets([var.GetPath()])
     settings.CreateProductsRel().SetTargets([product.GetPath()])
-    settings.CreateCameraRel().SetTargets([camera.GetPath()])
+    settings.CreateCameraRel().SetTargets([camera_path])
     settings.CreateResolutionAttr(Gf.Vec2i(*size))
     settings.CreateRenderingColorSpaceAttr("ACEScg")
     settings.GetPrim().CreateAttribute("redshift:global:RS_OCIOColorSpace", Sdf.ValueTypeNames.String).Set("ACEScg")

@@ -1,0 +1,22 @@
+{
+  "resolution": [640, 360],
+  "scene": {"preset": "workshop"},
+  "kit": {
+    "items": [
+      {"id": "bench", "kind": "workbench", "position": [0, 0, 0]}
+    ]
+  },
+  "machines": [
+    {"id": "terminal", "asset": "laptop", "controls": {"open": 0.76}, "position": [0, 0.9, 0.12]},
+    {"id": "receiver", "asset": "air_receiver", "position": [-2.0, 0, -0.9], "yaw": 20}
+  ],
+  "direction": {
+    "fps": 24,
+    "shots": [
+      {"name": "oficina", "move": "dolly", "frames": 48, "eye": [2.2, 1.65, 3.1],
+       "end_eye": [1.7, 1.55, 2.65], "target": [-0.62, 1.05, -0.18], "lens": 34},
+      {"name": "terminal", "move": "dolly", "frames": 48, "eye": [0.53, 1.36, 1.06],
+       "end_eye": [0.37, 1.29, 0.89], "target": [0, 1.02, 0.13], "lens": 55}
+    ]
+  }
+}
