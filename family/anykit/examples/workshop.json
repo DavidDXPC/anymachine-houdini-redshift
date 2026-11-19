@@ -1,0 +1,15 @@
+{
+  "name": "Workshop",
+  "style": {
+    "description": "Painted steel furniture, warm oak and ochre handles.",
+    "palette": {"enamel": "#526D70", "wood": "#AE8455", "accent": "#DC9945"},
+    "wear": 0.25
+  },
+  "items": [
+    {"id": "bench", "kind": "workbench", "position": [0, 0, 0]},
+    {"id": "task_light", "kind": "desk_lamp", "position": [-0.49, 0.9, -0.09]},
+    {"id": "case", "kind": "toolbox", "position": [0.24, 0.9, -0.02]},
+    {"id": "seat", "kind": "stool", "position": [0, 0, 0.64]}
+  ]
+}
+
