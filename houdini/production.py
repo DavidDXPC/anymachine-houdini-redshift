@@ -6,7 +6,7 @@ from pathlib import Path
 import shutil
 import tempfile
 
-from pxr import Gf, Sdf, Tf, Usd, UsdGeom, UsdUtils
+from pxr import Gf, Sdf, Usd, UsdGeom, UsdUtils
 
 from . import materials, scene, stilt_asset
 
@@ -32,7 +32,7 @@ def _save_module(folder, name, author, spec, base, fps):
     path = folder / (name + ".usdc")
     stage = _new(path, fps)
     stage.SetDefaultPrim(UsdGeom.Xform.Define(stage, "/World").GetPrim())
-    author(stage, spec, base)
+    report = author(stage, spec, base)
     stage.GetRootLayer().Save()
     layers, assets, unresolved = UsdUtils.ComputeAllDependencies(str(path))
     if unresolved:
@@ -41,8 +41,8 @@ def _save_module(folder, name, author, spec, base, fps):
         package = path.with_suffix(".usdz")
         if not UsdUtils.CreateNewUsdzPackage(str(path), str(package)):
             raise RuntimeError(f"Could not package {name}")
-        return package.name
-    return path.name
+        return package.name, report
+    return path.name, report
 
 
 def _machine_assets(folder, machines, fps, base):
@@ -114,9 +114,9 @@ def compile_stage(spec, base, output):
         raise ValueError("resolution requires two positive integers")
     folder = output / "layers"
     folder.mkdir()
-    layers = [_save_module(folder, "set", sets.author, spec["scene"], base, fps),
-              _save_module(folder, "kit", kit.author, spec.get("kit", {"items": []}), base, fps),
-              _machine_assets(folder, spec.get("machines", []), fps, base)]
+    set_layer, set_report = _save_module(folder, "set", sets.author, spec["scene"], base, fps)
+    kit_layer, kit_report = _save_module(folder, "kit", kit.author, spec["kit"], base, fps)
+    layers = [set_layer, kit_layer, _machine_assets(folder, spec.get("machines", []), fps, base)]
     # Direct against the composed geometry. Save only the authored camera opinions here.
     cameras = _new(folder / "shots.usda", fps)
     cameras.GetRootLayer().subLayerPaths = list(reversed(layers))
@@ -139,6 +139,8 @@ def compile_stage(spec, base, output):
     production.SetEndTimeCode(count)
     production.SetMetadata("renderSettingsPrimPath", "/Render/Settings")
     production.GetRootLayer().Save()
+    report = dict(scene=set_report, kit=kit_report, machines=spec.get("machines", []), direction=timing)
+    (output / "report.json").write_text(json.dumps(report, indent=2, ensure_ascii=False), encoding="utf-8")
     return layers, fps, count
 
 
