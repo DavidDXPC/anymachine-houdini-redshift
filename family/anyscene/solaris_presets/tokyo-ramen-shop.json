@@ -1,0 +1,2574 @@
+{
+ "label": "tokyo-ramen-shop",
+ "source": "scenes/tokyo-ramen-shop/assets.json and scripts/",
+ "architecture": [
+  {
+   "id": "floor",
+   "at": [
+    1.8,
+    -0.1,
+    -3.5
+   ],
+   "dims": [
+    3.6,
+    0.1,
+    7.0
+   ],
+   "material": "concrete"
+  },
+  {
+   "id": "ceiling",
+   "at": [
+    1.8,
+    2.6,
+    -3.5
+   ],
+   "dims": [
+    3.6,
+    0.1,
+    7.0
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "wall_L",
+   "at": [
+    3.66,
+    0.0,
+    -3.5
+   ],
+   "dims": [
+    0.12,
+    2.6,
+    7.0
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "wall_back",
+   "at": [
+    1.8,
+    0.0,
+    -7.06
+   ],
+   "dims": [
+    3.6,
+    2.6,
+    0.12
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "wall_R_tile",
+   "at": [
+    -0.06,
+    0.0,
+    -3.5
+   ],
+   "dims": [
+    0.12,
+    1.6,
+    7.0
+   ],
+   "material": "ceramic"
+  },
+  {
+   "id": "wall_R_up",
+   "at": [
+    -0.06,
+    1.6,
+    -3.5
+   ],
+   "dims": [
+    0.12,
+    1.0,
+    7.0
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "front_a",
+   "at": [
+    3.24,
+    0.0,
+    0.06
+   ],
+   "dims": [
+    0.72,
+    2.6,
+    0.12
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "front_b",
+   "at": [
+    1.715,
+    0.0,
+    0.06
+   ],
+   "dims": [
+    0.33,
+    2.6,
+    0.12
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "front_c",
+   "at": [
+    0.1,
+    0.0,
+    0.06
+   ],
+   "dims": [
+    0.2,
+    2.6,
+    0.12
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "front_door_head",
+   "at": [
+    2.38,
+    2.05,
+    0.06
+   ],
+   "dims": [
+    1.0,
+    0.55,
+    0.12
+   ],
+   "material": "paint"
+  },
+  {
+   "id": "front_win_sill",
+   "at": [
+    0.875,
+    0.0,
+    0.06
+   ],
+   "dims": [
+    1.35,
+    0.95,
+    0.12
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "front_win_head",
+   "at": [
+    0.875,
+    2.05,
+    0.06
+   ],
+   "dims": [
+    1.35,
+    0.55,
+    0.12
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "wainscot_L",
+   "at": [
+    3.59,
+    0.0,
+    -3.5
+   ],
+   "dims": [
+    0.02,
+    1.0,
+    7.0
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "wainscot_back",
+   "at": [
+    1.8,
+    0.0,
+    -6.99
+   ],
+   "dims": [
+    3.6,
+    1.0,
+    0.02
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "wainscot_rail_L",
+   "at": [
+    3.5825,
+    1.0,
+    -3.5
+   ],
+   "dims": [
+    0.035,
+    0.04,
+    7.0
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "skirting_front",
+   "at": [
+    1.8,
+    0.0,
+    -0.01
+   ],
+   "dims": [
+    3.6,
+    0.12,
+    0.02
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "door0_stile_l",
+   "at": [
+    3.35,
+    0.0,
+    0.07
+   ],
+   "dims": [
+    0.06,
+    2.05,
+    0.04
+   ],
+   "material": "wood"
+  },
+  {
+   "id": "door0_stile_r",
+   "at": [
+    2.88,
+    0.0,
+    0.07
+   ],
+   "dims": [
+    0.06,
+    2.05,
+    0.04
+   ],
+   "material": "wood"
+  },
+  {
+   "id": "door0_rail_b",
+   "at": [
+    3.115,
+    0.0,
+    0.07
+   ],
+   "dims": [
+    0.53,
+    0.32,
+    0.04
+   ],
+   "material": "wood"
+  },
+  {
+   "id": "door0_rail_m",
+   "at": [
+    3.115,
+    1.0,
+    0.07
+   ],
+   "dims": [
+    0.53,
+    0.05,
+    0.04
+   ],
+   "material": "wood"
+  },
+  {
+   "id": "door0_rail_t",
+   "at": [
+    3.115,
+    1.98,
+    0.07
+   ],
+   "dims": [
+    0.53,
+    0.07,
+    0.04
+   ],
+   "material": "wood"
+  },
+  {
+   "id": "door0_glass_0.32",
+   "at": [
+    3.115,
+    0.32,
+    0.07
+   ],
+   "dims": [
+    0.41,
+    0.68,
+    0.008
+   ],
+   "material": "glass"
+  },
+  {
+   "id": "door0_glass_1.05",
+   "at": [
+    3.115,
+    1.05,
+    0.07
+   ],
+   "dims": [
+    0.41,
+    0.93,
+    0.008
+   ],
+   "material": "glass"
+  },
+  {
+   "id": "door1_stile_l",
+   "at": [
+    2.06,
+    0.0,
+    0.035
+   ],
+   "dims": [
+    0.06,
+    2.05,
+    0.04
+   ],
+   "material": "wood"
+  },
+  {
+   "id": "door1_stile_r",
+   "at": [
+    1.59,
+    0.0,
+    0.035
+   ],
+   "dims": [
+    0.06,
+    2.05,
+    0.04
+   ],
+   "material": "wood"
+  },
+  {
+   "id": "door1_rail_b",
+   "at": [
+    1.825,
+    0.0,
+    0.035
+   ],
+   "dims": [
+    0.53,
+    0.32,
+    0.04
+   ],
+   "material": "wood"
+  },
+  {
+   "id": "door1_rail_m",
+   "at": [
+    1.825,
+    1.0,
+    0.035
+   ],
+   "dims": [
+    0.53,
+    0.05,
+    0.04
+   ],
+   "material": "wood"
+  },
+  {
+   "id": "door1_rail_t",
+   "at": [
+    1.825,
+    1.98,
+    0.035
+   ],
+   "dims": [
+    0.53,
+    0.07,
+    0.04
+   ],
+   "material": "wood"
+  },
+  {
+   "id": "door1_glass_0.32",
+   "at": [
+    1.825,
+    0.32,
+    0.035
+   ],
+   "dims": [
+    0.41,
+    0.68,
+    0.008
+   ],
+   "material": "glass"
+  },
+  {
+   "id": "door1_glass_1.05",
+   "at": [
+    1.825,
+    1.05,
+    0.035
+   ],
+   "dims": [
+    0.41,
+    0.93,
+    0.008
+   ],
+   "material": "glass"
+  },
+  {
+   "id": "door_track",
+   "at": [
+    2.205,
+    0.0,
+    0.06
+   ],
+   "dims": [
+    1.45,
+    0.015,
+    0.12
+   ],
+   "material": "paint"
+  },
+  {
+   "id": "win_glass",
+   "at": [
+    0.875,
+    0.95,
+    0.061
+   ],
+   "dims": [
+    1.35,
+    1.1,
+    0.008
+   ],
+   "material": "glass"
+  },
+  {
+   "id": "win_f_l",
+   "at": [
+    1.53,
+    0.95,
+    0.06
+   ],
+   "dims": [
+    0.04,
+    1.1,
+    0.06
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "win_f_r",
+   "at": [
+    0.22,
+    0.95,
+    0.06
+   ],
+   "dims": [
+    0.04,
+    1.1,
+    0.06
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "win_f_m",
+   "at": [
+    0.875,
+    0.95,
+    0.06
+   ],
+   "dims": [
+    0.04,
+    1.1,
+    0.06
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "win_f_b",
+   "at": [
+    0.875,
+    0.93,
+    0.06
+   ],
+   "dims": [
+    1.35,
+    0.04,
+    0.06
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "win_f_t",
+   "at": [
+    0.875,
+    2.03,
+    0.06
+   ],
+   "dims": [
+    1.35,
+    0.04,
+    0.06
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "counter_base_long",
+   "at": [
+    2.105,
+    0.0,
+    -3.875
+   ],
+   "dims": [
+    0.41,
+    0.85,
+    4.55
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "counter_top_long",
+   "at": [
+    2.145,
+    0.85,
+    -3.875
+   ],
+   "dims": [
+    0.49,
+    0.05,
+    4.63
+   ],
+   "material": "wood"
+  },
+  {
+   "id": "counter_base_leg",
+   "at": [
+    2.325,
+    0.0,
+    -6.395
+   ],
+   "dims": [
+    0.85,
+    0.85,
+    0.41
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "counter_top_leg",
+   "at": [
+    2.345,
+    0.85,
+    -6.395
+   ],
+   "dims": [
+    0.89,
+    0.05,
+    0.49
+   ],
+   "material": "wood"
+  },
+  {
+   "id": "pass_long",
+   "at": [
+    1.79,
+    0.85,
+    -4.1
+   ],
+   "dims": [
+    0.22,
+    0.15,
+    5.08
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "pass_top",
+   "at": [
+    1.79,
+    1.0,
+    -4.1
+   ],
+   "dims": [
+    0.26,
+    0.035,
+    5.12
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "counter_end_front",
+   "at": [
+    2.035,
+    0.0,
+    -1.57
+   ],
+   "dims": [
+    0.71,
+    0.85,
+    0.06
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "prep_counter",
+   "at": [
+    1.415,
+    0.0,
+    -4.1
+   ],
+   "dims": [
+    0.53,
+    0.86,
+    5.08
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "prep_top",
+   "at": [
+    1.415,
+    0.86,
+    -4.1
+   ],
+   "dims": [
+    0.57,
+    0.02,
+    5.12
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "back_counter_a",
+   "at": [
+    0.31,
+    0.0,
+    -2.15
+   ],
+   "dims": [
+    0.62,
+    0.86,
+    2.5
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "back_counter_a_top",
+   "at": [
+    0.32,
+    0.86,
+    -2.15
+   ],
+   "dims": [
+    0.64,
+    0.02,
+    2.5
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "back_counter_b",
+   "at": [
+    0.31,
+    0.0,
+    -6.175
+   ],
+   "dims": [
+    0.62,
+    0.86,
+    1.65
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "back_counter_b_top",
+   "at": [
+    0.32,
+    0.86,
+    -6.175
+   ],
+   "dims": [
+    0.64,
+    0.02,
+    1.65
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "backsplash",
+   "at": [
+    0.006,
+    0.88,
+    -3.95
+   ],
+   "dims": [
+    0.012,
+    0.72,
+    6.1
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "shelf_0",
+   "at": [
+    0.16,
+    1.6,
+    -2.15
+   ],
+   "dims": [
+    0.32,
+    0.02,
+    2.5
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "shelf_b_0",
+   "at": [
+    0.16,
+    1.6,
+    -6.175
+   ],
+   "dims": [
+    0.32,
+    0.02,
+    1.65
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "shelf_1",
+   "at": [
+    0.16,
+    1.98,
+    -2.15
+   ],
+   "dims": [
+    0.32,
+    0.02,
+    2.5
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "shelf_b_1",
+   "at": [
+    0.16,
+    1.98,
+    -6.175
+   ],
+   "dims": [
+    0.32,
+    0.02,
+    1.65
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "hood",
+   "at": [
+    0.375,
+    1.85,
+    -4.4
+   ],
+   "dims": [
+    0.75,
+    0.45,
+    2.1
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "hood_duct",
+   "at": [
+    0.275,
+    2.3,
+    -4.4
+   ],
+   "dims": [
+    0.35,
+    0.3,
+    0.4
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "kitchen_mat",
+   "at": [
+    0.87,
+    0.0,
+    -3.9
+   ],
+   "dims": [
+    0.46,
+    0.012,
+    5.8
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "pavement",
+   "at": [
+    1.8,
+    -0.12,
+    2.31
+   ],
+   "dims": [
+    7.6,
+    0.1,
+    4.38
+   ],
+   "material": "asphalt"
+  },
+  {
+   "id": "eave",
+   "at": [
+    1.8,
+    2.25,
+    0.51
+   ],
+   "dims": [
+    4.6,
+    0.07,
+    0.78
+   ],
+   "material": "plaster"
+  }
+ ],
+ "props": [
+  {
+   "id": "ticket_machine",
+   "asset": "ticket_machine",
+   "at": [
+    3.285,
+    0.12,
+    -0.0
+   ],
+   "yaw": -180.0,
+   "dims": [
+    0.62,
+    1.5,
+    0.46
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "ramen_drink_fridge",
+   "asset": "ramen_drink_fridge",
+   "at": [
+    3.295,
+    1.0,
+    -7.0
+   ],
+   "yaw": -90.0,
+   "dims": [
+    0.6,
+    1.8,
+    0.62
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "ramen_noodle_boiler",
+   "asset": "ramen_noodle_boiler",
+   "at": [
+    0.305,
+    0.0,
+    -3.78
+   ],
+   "yaw": 90.0,
+   "dims": [
+    0.6,
+    0.9,
+    0.62
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "ramen_gas_range",
+   "asset": "ramen_gas_range",
+   "at": [
+    0.53,
+    0.0,
+    -4.82
+   ],
+   "yaw": 90.0,
+   "dims": [
+    1.05,
+    0.45,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "ramen_stool",
+   "asset": "ramen_stool",
+   "at": [
+    2.67,
+    0.0,
+    -1.95
+   ],
+   "yaw": -187.914,
+   "dims": [
+    0.434,
+    0.62,
+    0.3906
+   ],
+   "fit": "height",
+   "shape": "cylinder"
+  },
+  {
+   "id": "ramen_stool_2",
+   "asset": "ramen_stool",
+   "at": [
+    2.67,
+    0.0,
+    -2.55
+   ],
+   "yaw": -290.409,
+   "dims": [
+    0.434,
+    0.62,
+    0.3906
+   ],
+   "fit": "height",
+   "shape": "cylinder"
+  },
+  {
+   "id": "ramen_stool_3",
+   "asset": "ramen_stool",
+   "at": [
+    2.67,
+    0.0,
+    -3.15
+   ],
+   "yaw": -345.778,
+   "dims": [
+    0.434,
+    0.62,
+    0.3906
+   ],
+   "fit": "height",
+   "shape": "cylinder"
+  },
+  {
+   "id": "ramen_stool_4",
+   "asset": "ramen_stool",
+   "at": [
+    2.67,
+    0.0,
+    -3.75
+   ],
+   "yaw": -104.265,
+   "dims": [
+    0.434,
+    0.62,
+    0.3906
+   ],
+   "fit": "height",
+   "shape": "cylinder"
+  },
+  {
+   "id": "ramen_stool_5",
+   "asset": "ramen_stool",
+   "at": [
+    2.67,
+    0.0,
+    -4.35
+   ],
+   "yaw": -275.799,
+   "dims": [
+    0.434,
+    0.62,
+    0.3906
+   ],
+   "fit": "height",
+   "shape": "cylinder"
+  },
+  {
+   "id": "ramen_stool_6",
+   "asset": "ramen_stool",
+   "at": [
+    2.67,
+    0.0,
+    -4.95
+   ],
+   "yaw": -253.519,
+   "dims": [
+    0.434,
+    0.62,
+    0.3906
+   ],
+   "fit": "height",
+   "shape": "cylinder"
+  },
+  {
+   "id": "ramen_stool_7",
+   "asset": "ramen_stool",
+   "at": [
+    2.67,
+    0.0,
+    -5.55
+   ],
+   "yaw": -238.098,
+   "dims": [
+    0.434,
+    0.62,
+    0.3906
+   ],
+   "fit": "height",
+   "shape": "cylinder"
+  },
+  {
+   "id": "stockpot",
+   "asset": "stockpot",
+   "at": [
+    0.36,
+    0.45,
+    -4.6
+   ],
+   "yaw": -39.658,
+   "dims": [
+    0.294,
+    0.42,
+    0.2646
+   ],
+   "fit": "height",
+   "shape": "cylinder"
+  },
+  {
+   "id": "stockpot_2",
+   "asset": "stockpot",
+   "at": [
+    0.36,
+    0.45,
+    -5.05
+   ],
+   "yaw": -9.697,
+   "dims": [
+    0.2587,
+    0.3696,
+    0.2328
+   ],
+   "fit": "height",
+   "shape": "cylinder"
+  },
+  {
+   "id": "stockpot_3",
+   "asset": "stockpot",
+   "at": [
+    0.32,
+    0.88,
+    -5.75
+   ],
+   "yaw": -138.302,
+   "dims": [
+    0.2352,
+    0.336,
+    0.2117
+   ],
+   "fit": "height",
+   "shape": "cylinder"
+  },
+  {
+   "id": "ramen_ladle_rail",
+   "asset": "ramen_ladle_rail",
+   "at": [
+    0.11,
+    1.42,
+    -4.75
+   ],
+   "yaw": 90.0,
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "ramen_dish_rack",
+   "asset": "ramen_dish_rack",
+   "at": [
+    0.11,
+    0.88,
+    -2.55
+   ],
+   "yaw": 90.0,
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "ramen_rice_cooker",
+   "asset": "ramen_rice_cooker",
+   "at": [
+    0.138,
+    0.88,
+    -6.45
+   ],
+   "yaw": 90.0,
+   "dims": [
+    0.266,
+    0.38,
+    0.2394
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "ramen_kettle_pot",
+   "asset": "ramen_kettle_pot",
+   "at": [
+    0.11,
+    0.88,
+    -1.35
+   ],
+   "yaw": 80.0,
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height",
+   "shape": "cylinder"
+  },
+  {
+   "id": "ramen_cash_register",
+   "asset": "ramen_cash_register",
+   "at": [
+    0.11,
+    0.88,
+    -1.95
+   ],
+   "yaw": 90.0,
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "ramen_bowl_stack",
+   "asset": "ramen_bowl_stack",
+   "at": [
+    0.117,
+    1.62,
+    -1.15
+   ],
+   "yaw": -268.702,
+   "dims": [
+    0.224,
+    0.32,
+    0.2016
+   ],
+   "fit": "height",
+   "shape": "cylinder"
+  },
+  {
+   "id": "ramen_bowl_stack_2",
+   "asset": "ramen_bowl_stack",
+   "at": [
+    0.117,
+    1.62,
+    -1.5
+   ],
+   "yaw": -90.858,
+   "dims": [
+    0.224,
+    0.32,
+    0.2016
+   ],
+   "fit": "height",
+   "shape": "cylinder"
+  },
+  {
+   "id": "ramen_bowl_stack_3",
+   "asset": "ramen_bowl_stack",
+   "at": [
+    0.117,
+    1.62,
+    -5.75
+   ],
+   "yaw": -180.577,
+   "dims": [
+    0.224,
+    0.32,
+    0.2016
+   ],
+   "fit": "height",
+   "shape": "cylinder"
+  },
+  {
+   "id": "ramen_soy_bottles",
+   "asset": "ramen_soy_bottles",
+   "at": [
+    0.11,
+    1.62,
+    -2.95
+   ],
+   "yaw": 90.0,
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height",
+   "shape": "cylinder"
+  },
+  {
+   "id": "ramen_square_cans",
+   "asset": "ramen_square_cans",
+   "at": [
+    0.88,
+    0.012,
+    -5.72
+   ],
+   "yaw": 90.0,
+   "dims": [
+    0.252,
+    0.36,
+    0.2268
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "ramen_noodle_crates",
+   "asset": "ramen_noodle_crates",
+   "at": [
+    0.88,
+    0.0,
+    -6.85325
+   ],
+   "yaw": 90.0,
+   "dims": [
+    0.315,
+    0.45,
+    0.2835
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "ramen_trash_bin",
+   "asset": "ramen_trash_bin",
+   "at": [
+    0.85,
+    0.012,
+    -1.05
+   ],
+   "yaw": 60.0,
+   "dims": [
+    0.315,
+    0.45,
+    0.2835
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "ramen_apron_hook",
+   "asset": "ramen_apron_hook",
+   "at": [
+    0.98,
+    0.95,
+    -6.72725
+   ],
+   "yaw": -0.0,
+   "dims": [
+    0.595,
+    0.85,
+    0.5355
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "ramen_cutting_board",
+   "asset": "ramen_cutting_board",
+   "at": [
+    1.4,
+    0.88,
+    -3.0
+   ],
+   "yaw": 90.0,
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "ramen_tare_containers",
+   "asset": "ramen_tare_containers",
+   "at": [
+    1.4,
+    0.88,
+    -3.85
+   ],
+   "yaw": 90.0,
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "ramen_bowl_stack_4",
+   "asset": "ramen_bowl_stack",
+   "at": [
+    1.38,
+    0.88,
+    -2.35
+   ],
+   "yaw": -114.277,
+   "dims": [
+    0.224,
+    0.32,
+    0.2016
+   ],
+   "fit": "height",
+   "shape": "cylinder"
+  },
+  {
+   "id": "ramen_hand_towel",
+   "asset": "ramen_hand_towel",
+   "at": [
+    1.4,
+    0.88,
+    -4.6
+   ],
+   "yaw": 90.0,
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "condiment_caddy",
+   "asset": "condiment_caddy",
+   "at": [
+    2.05,
+    0.9,
+    -2.85
+   ],
+   "yaw": 90.0,
+   "dims": [
+    0.119,
+    0.17,
+    0.1071
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "condiment_caddy_2",
+   "asset": "condiment_caddy",
+   "at": [
+    2.05,
+    0.9,
+    -4.65
+   ],
+   "yaw": 90.0,
+   "dims": [
+    0.119,
+    0.17,
+    0.1071
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "ramen_chopstick_cup",
+   "asset": "ramen_chopstick_cup",
+   "at": [
+    2.01,
+    0.9,
+    -2.25
+   ],
+   "yaw": -304.678,
+   "dims": [
+    0.14,
+    0.2,
+    0.126
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "ramen_chopstick_cup_2",
+   "asset": "ramen_chopstick_cup",
+   "at": [
+    2.01,
+    0.9,
+    -4.05
+   ],
+   "yaw": -340.27,
+   "dims": [
+    0.14,
+    0.2,
+    0.126
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "ramen_chopstick_cup_3",
+   "asset": "ramen_chopstick_cup",
+   "at": [
+    2.01,
+    0.9,
+    -5.25
+   ],
+   "yaw": -144.573,
+   "dims": [
+    0.14,
+    0.2,
+    0.126
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "ramen_tissue_box",
+   "asset": "ramen_tissue_box",
+   "at": [
+    2.05,
+    0.9,
+    -3.84
+   ],
+   "yaw": 90.0,
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "ramen_bowl_unfinished",
+   "asset": "ramen_bowl_unfinished",
+   "at": [
+    2.15,
+    0.9,
+    -3.3
+   ],
+   "yaw": 60.0,
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height",
+   "shape": "cylinder"
+  },
+  {
+   "id": "ramen_water_glass",
+   "asset": "ramen_water_glass",
+   "at": [
+    2.21,
+    0.9,
+    -3.6
+   ],
+   "yaw": -0.0,
+   "dims": [
+    0.07,
+    0.1,
+    0.063
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "ramen_water_pitcher",
+   "asset": "ramen_water_pitcher",
+   "at": [
+    2.05,
+    0.9,
+    -5.75
+   ],
+   "yaw": 120.0,
+   "dims": [
+    0.168,
+    0.24,
+    0.1512
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "ramen_water_glass_2",
+   "asset": "ramen_water_glass",
+   "at": [
+    2.21,
+    0.9,
+    -5.0
+   ],
+   "yaw": -0.0,
+   "dims": [
+    0.07,
+    0.1,
+    0.063
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "ramen_maneki_neko",
+   "asset": "ramen_maneki_neko",
+   "at": [
+    1.79,
+    1.035,
+    -1.72
+   ],
+   "yaw": 150.0,
+   "dims": [
+    0.182,
+    0.26,
+    0.1638
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "ramen_wall_fan",
+   "asset": "ramen_wall_fan",
+   "at": [
+    3.4375,
+    1.8,
+    -3.85
+   ],
+   "yaw": -90.0,
+   "dims": [
+    0.315,
+    0.45,
+    0.2835
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "ramen_crt_tv_bracket",
+   "asset": "ramen_crt_tv_bracket",
+   "at": [
+    0.11,
+    2.08,
+    -0.45
+   ],
+   "yaw": -215.0,
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "ramen_umbrella_stand",
+   "asset": "ramen_umbrella_stand",
+   "at": [
+    1.65,
+    0.0,
+    -0.24125
+   ],
+   "yaw": -20.0,
+   "dims": [
+    0.525,
+    0.75,
+    0.4725
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "ramen_beer_crate",
+   "asset": "ramen_beer_crate",
+   "at": [
+    3.476,
+    0.0,
+    -0.9
+   ],
+   "yaw": -90.0,
+   "dims": [
+    0.238,
+    0.34,
+    0.2142
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "lantern",
+   "asset": "lantern",
+   "at": [
+    1.22,
+    1.38,
+    0.36
+   ],
+   "yaw": -0.0,
+   "dims": [
+    0.434,
+    0.62,
+    0.3906
+   ],
+   "fit": "height",
+   "shape": "box"
+  }
+ ],
+ "lights": [
+  {
+   "id": "pendant_0",
+   "kind": "area",
+   "at": [
+    2.1,
+    2.3,
+    -2.25
+   ],
+   "look_at": [
+    2.1,
+    0.9,
+    -2.25
+   ],
+   "size": [
+    0.22,
+    0.22
+   ],
+   "intensity": 95,
+   "color": [
+    1,
+    0.73,
+    0.47
+   ]
+  },
+  {
+   "id": "pendant_1",
+   "kind": "area",
+   "at": [
+    2.1,
+    2.3,
+    -3.45
+   ],
+   "look_at": [
+    2.1,
+    0.9,
+    -3.45
+   ],
+   "size": [
+    0.22,
+    0.22
+   ],
+   "intensity": 95,
+   "color": [
+    1,
+    0.73,
+    0.47
+   ]
+  },
+  {
+   "id": "pendant_2",
+   "kind": "area",
+   "at": [
+    2.1,
+    2.3,
+    -4.65
+   ],
+   "look_at": [
+    2.1,
+    0.9,
+    -4.65
+   ],
+   "size": [
+    0.22,
+    0.22
+   ],
+   "intensity": 95,
+   "color": [
+    1,
+    0.73,
+    0.47
+   ]
+  },
+  {
+   "id": "pendant_3",
+   "kind": "area",
+   "at": [
+    2.1,
+    2.3,
+    -5.75
+   ],
+   "look_at": [
+    2.1,
+    0.9,
+    -5.75
+   ],
+   "size": [
+    0.22,
+    0.22
+   ],
+   "intensity": 95,
+   "color": [
+    1,
+    0.73,
+    0.47
+   ]
+  },
+  {
+   "id": "street_bounce",
+   "kind": "area",
+   "at": [
+    1.5,
+    1.5,
+    0.15
+   ],
+   "look_at": [
+    1.5,
+    1.0,
+    -2
+   ],
+   "size": [
+    2,
+    1.4
+   ],
+   "intensity": 28,
+   "color": [
+    0.68,
+    0.8,
+    1
+   ]
+  }
+ ],
+ "catalog": {
+  "stockpot": {
+   "dims": [
+    0.294,
+    0.42,
+    0.2646
+   ],
+   "fit": "height",
+   "pick": "tripo-h31"
+  },
+  "ticket_machine": {
+   "dims": [
+    0.62,
+    1.5,
+    0.46
+   ],
+   "fit": "height",
+   "pick": "tripo-h31"
+  },
+  "condiment_caddy": {
+   "dims": [
+    0.119,
+    0.17,
+    0.1071
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "lantern": {
+   "dims": [
+    0.434,
+    0.62,
+    0.3906
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "ramen_gas_range": {
+   "dims": [
+    1.05,
+    0.45,
+    0.6
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "ramen_noodle_boiler": {
+   "dims": [
+    0.6,
+    0.9,
+    0.62
+   ],
+   "fit": "height",
+   "pick": "tripo-h31"
+  },
+  "ramen_ladle_rail": {
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height",
+   "pick": "tripo-h31"
+  },
+  "ramen_bowl_stack": {
+   "dims": [
+    0.224,
+    0.32,
+    0.2016
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "ramen_bowl_unfinished": {
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "ramen_chopstick_cup": {
+   "dims": [
+    0.14,
+    0.2,
+    0.126
+   ],
+   "fit": "height",
+   "pick": "tripo-h31"
+  },
+  "ramen_water_glass": {
+   "dims": [
+    0.07,
+    0.1,
+    0.063
+   ],
+   "fit": "height",
+   "pick": "tripo-h31"
+  },
+  "ramen_water_pitcher": {
+   "dims": [
+    0.168,
+    0.24,
+    0.1512
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "ramen_stool": {
+   "dims": [
+    0.434,
+    0.62,
+    0.3906
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "ramen_cutting_board": {
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "ramen_tare_containers": {
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "ramen_rice_cooker": {
+   "dims": [
+    0.266,
+    0.38,
+    0.2394
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "ramen_beer_crate": {
+   "dims": [
+    0.238,
+    0.34,
+    0.2142
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "ramen_drink_fridge": {
+   "dims": [
+    0.6,
+    1.8,
+    0.62
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "ramen_maneki_neko": {
+   "dims": [
+    0.182,
+    0.26,
+    0.1638
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "ramen_cash_register": {
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "ramen_crt_tv_bracket": {
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "ramen_wall_fan": {
+   "dims": [
+    0.315,
+    0.45,
+    0.2835
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "ramen_umbrella_stand": {
+   "dims": [
+    0.525,
+    0.75,
+    0.4725
+   ],
+   "fit": "height",
+   "pick": "tripo-h31"
+  },
+  "ramen_noodle_crates": {
+   "dims": [
+    0.315,
+    0.45,
+    0.2835
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "ramen_square_cans": {
+   "dims": [
+    0.252,
+    0.36,
+    0.2268
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "ramen_dish_rack": {
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "ramen_apron_hook": {
+   "dims": [
+    0.595,
+    0.85,
+    0.5355
+   ],
+   "fit": "height",
+   "pick": "tripo-h31"
+  },
+  "ramen_hand_towel": {
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "ramen_tissue_box": {
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "ramen_trash_bin": {
+   "dims": [
+    0.315,
+    0.45,
+    0.2835
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "ramen_soy_bottles": {
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "ramen_kettle_pot": {
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height",
+   "pick": "tripo-h31"
+  },
+  "ramen_stockpot_tall": {
+   "dims": [
+    0.385,
+    0.55,
+    0.3465
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "ramen_stockpot_small": {
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "ramen_colander": {
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "ramen_chashu_tray": {
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height",
+   "pick": "tripo-h31"
+  },
+  "ramen_egg_container": {
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "ramen_cleaver_board": {
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "ramen_plate_stack": {
+   "dims": [
+    0.098,
+    0.14,
+    0.0882
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "ramen_flour_sacks": {
+   "dims": [
+    0.385,
+    0.55,
+    0.3465
+   ],
+   "fit": "height",
+   "pick": "tripo-h31"
+  },
+  "ramen_cardboard_boxes": {
+   "dims": [
+    0.42,
+    0.6,
+    0.378
+   ],
+   "fit": "height"
+  },
+  "ramen_veg_crate": {
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height"
+  },
+  "ramen_shelf_jars": {
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height",
+   "pick": "tripo-h31"
+  },
+  "ramen_spice_tins": {
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height"
+  },
+  "ramen_menu_stand": {
+   "dims": [
+    0.154,
+    0.22,
+    0.1386
+   ],
+   "fit": "height",
+   "pick": "tripo-h31"
+  },
+  "ramen_newspaper": {
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height",
+   "pick": "tripo-h31"
+  },
+  "ramen_smartphone": {
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height",
+   "pick": "tripo-h31"
+  },
+  "ramen_coat_hooks": {
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height"
+  },
+  "ramen_gyoza_griddle": {
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height",
+   "pick": "none"
+  },
+  "ramen_bucket_strainer": {
+   "dims": [
+    0.35,
+    0.5,
+    0.315
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "ramen_rice_sack": {
+   "dims": [
+    0.294,
+    0.42,
+    0.2646
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "ramen_wall_clock": {
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "ramen_condiment_tray2": {
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height",
+   "pick": "tripo-h31"
+  },
+  "ramen_beni_shoga_pot": {
+   "dims": [
+    0.098,
+    0.14,
+    0.0882
+   ],
+   "fit": "height",
+   "pick": "tripo-h31"
+  },
+  "ramen_ashtray": {
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "ramen_beer_bottle_glass": {
+   "dims": [
+    0.175,
+    0.25,
+    0.1575
+   ],
+   "fit": "height"
+  },
+  "ramen_radio": {
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height"
+  },
+  "ramen_fire_extinguisher": {
+   "dims": [
+    0.35,
+    0.5,
+    0.315
+   ],
+   "fit": "height",
+   "pick": "tripo-h31"
+  },
+  "ramen_mop_bucket": {
+   "dims": [
+    0.63,
+    0.9,
+    0.567
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "ramen_rubber_boots": {
+   "dims": [
+    0.252,
+    0.36,
+    0.2268
+   ],
+   "fit": "height",
+   "pick": "tripo-h31"
+  },
+  "ramen_tebo_basket_rack": {
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height"
+  },
+  "ramen_ticket_tray": {
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height",
+   "pick": "tripo-h31"
+  },
+  "ramen_vending_machine": {
+   "dims": [
+    1.281,
+    1.83,
+    1.1529
+   ],
+   "fit": "height"
+  },
+  "ramen_tongs": {
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height",
+   "pick": "tripo-h31"
+  },
+  "ramen_towel_crumpled": {
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height",
+   "pick": "tripo-h31"
+  },
+  "ramen_napkins_used": {
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height",
+   "pick": "tripo-h31"
+  },
+  "ramen_coins": {
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height",
+   "pick": "tripo-h31"
+  },
+  "ramen_tape_roll": {
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height"
+  },
+  "ramen_order_rail": {
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height"
+  },
+  "ramen_lighter_cigs": {
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height"
+  },
+  "ramen_tea_cup": {
+   "dims": [
+    0.063,
+    0.09,
+    0.0567
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "ramen_ladle_pair": {
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height",
+   "pick": "tripo-h31"
+  },
+  "ramen_garlic_press": {
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height",
+   "pick": "tripo-h31"
+  },
+  "ramen_cat_dish": {
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "ramen_power_strip": {
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height",
+   "pick": "tripo-h31"
+  },
+  "ramen_junction_box": {
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height",
+   "pick": "none"
+  },
+  "ramen_hook_items": {
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height"
+  },
+  "ramen_kamidana": {
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "ramen_daruma": {
+   "dims": [
+    0.112,
+    0.16,
+    0.1008
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "ramen_shelf_jars_nb": {
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height",
+   "pick": "tripo-h31"
+  },
+  "ramen_spice_tins_nb": {
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height",
+   "pick": "tripo-h31"
+  },
+  "ramen_cardboard_boxes_nb": {
+   "dims": [
+    0.42,
+    0.6,
+    0.378
+   ],
+   "fit": "height",
+   "pick": "tripo-h31"
+  },
+  "ramen_flour_sacks_nb": {
+   "dims": [
+    0.385,
+    0.55,
+    0.3465
+   ],
+   "fit": "height",
+   "pick": "tripo-h31"
+  },
+  "ramen_beer_bottle_glass_nb": {
+   "dims": [
+    0.175,
+    0.25,
+    0.1575
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "ramen_lighter_cigs_nb": {
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "ramen_vending_machine_nb": {
+   "dims": [
+    1.281,
+    1.83,
+    1.1529
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "ramen_radio_nb": {
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "ramen_tape_roll_nb": {
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "ramen_hook_items_nb": {
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height",
+   "pick": "tripo-h31"
+  },
+  "ramen_coat_hooks_nb": {
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height",
+   "pick": "tripo-h31"
+  }
+ },
+ "dimensions_m": [
+  3.6,
+  2.6,
+  7
+ ]
+}

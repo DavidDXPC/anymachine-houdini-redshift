@@ -1,0 +1,1454 @@
+{
+ "label": "Mission control web fixture",
+ "source": "web/fixtures/scene.glb; original shared cube, node transforms, PBR factors and punctual lights.",
+ "architecture": [
+  {
+   "id": "floor",
+   "dims": [
+    16,
+    0.05,
+    14
+   ],
+   "at": [
+    8,
+    -0.05,
+    -7
+   ],
+   "yaw": 0.0,
+   "material": "shell"
+  },
+  {
+   "id": "ceiling",
+   "dims": [
+    16,
+    0.05,
+    14
+   ],
+   "at": [
+    8,
+    3.6,
+    -7
+   ],
+   "yaw": 0.0,
+   "material": "shell"
+  },
+  {
+   "id": "wall_back",
+   "dims": [
+    16,
+    3.6,
+    0.1
+   ],
+   "at": [
+    8,
+    0.0,
+    -14.05
+   ],
+   "yaw": 0.0,
+   "material": "shell"
+  },
+  {
+   "id": "wall_left",
+   "dims": [
+    0.1,
+    3.6,
+    14
+   ],
+   "at": [
+    -0.05,
+    0.0,
+    -7
+   ],
+   "yaw": 0.0,
+   "material": "shell"
+  },
+  {
+   "id": "wall_right",
+   "dims": [
+    0.1,
+    3.6,
+    14
+   ],
+   "at": [
+    16.05,
+    0.0,
+    -7
+   ],
+   "yaw": 0.0,
+   "material": "shell"
+  },
+  {
+   "id": "big_wall_display",
+   "dims": [
+    8.5,
+    2.3,
+    0.15
+   ],
+   "at": [
+    8.2,
+    1.6,
+    -13.9
+   ],
+   "yaw": 0.0,
+   "material": "fixture"
+  },
+  {
+   "id": "poster_further",
+   "dims": [
+    1.2,
+    1.8,
+    0.04
+   ],
+   "at": [
+    13.3,
+    1.7,
+    -13.95
+   ],
+   "yaw": 0.0,
+   "material": "decal"
+  },
+  {
+   "id": "wall_clock",
+   "dims": [
+    0.4,
+    0.4,
+    0.06
+   ],
+   "at": [
+    15,
+    2.4,
+    -13.93
+   ],
+   "yaw": 0.0,
+   "material": "fixture"
+  },
+  {
+   "id": "ceiling_panel_1",
+   "dims": [
+    1.2,
+    0.08,
+    0.6
+   ],
+   "at": [
+    5,
+    3.52,
+    -4
+   ],
+   "yaw": 0.0,
+   "material": "fixture"
+  },
+  {
+   "id": "ceiling_panel_2",
+   "dims": [
+    1.2,
+    0.08,
+    0.6
+   ],
+   "at": [
+    11,
+    3.52,
+    -4
+   ],
+   "yaw": 0.0,
+   "material": "fixture"
+  },
+  {
+   "id": "ceiling_panel_3",
+   "dims": [
+    1.2,
+    0.08,
+    0.6
+   ],
+   "at": [
+    5,
+    3.52,
+    -9
+   ],
+   "yaw": 0.0,
+   "material": "fixture"
+  },
+  {
+   "id": "ceiling_panel_4",
+   "dims": [
+    1.2,
+    0.08,
+    0.6
+   ],
+   "at": [
+    11,
+    3.52,
+    -9
+   ],
+   "yaw": 0.0,
+   "material": "fixture"
+  },
+  {
+   "id": "console_orbital_analysis",
+   "dims": [
+    4.6,
+    1.3,
+    0.9
+   ],
+   "at": [
+    8.6,
+    0.0,
+    -3.6
+   ],
+   "yaw": 0.0,
+   "material": "furniture"
+  },
+  {
+   "id": "desk_orbital",
+   "dims": [
+    4.6,
+    0.76,
+    0.6
+   ],
+   "at": [
+    8.6,
+    0.0,
+    -2.85
+   ],
+   "yaw": 0.0,
+   "material": "furniture"
+  },
+  {
+   "id": "console_flight_data_stack",
+   "dims": [
+    1.1,
+    1.6,
+    0.9
+   ],
+   "at": [
+    12.4,
+    0.0,
+    -3.5
+   ],
+   "yaw": 0.0,
+   "material": "furniture"
+  },
+  {
+   "id": "desk_right",
+   "dims": [
+    1.6,
+    0.76,
+    0.7
+   ],
+   "at": [
+    12.4,
+    0.0,
+    -2.55
+   ],
+   "yaw": 0.0,
+   "material": "furniture"
+  },
+  {
+   "id": "teleprinter",
+   "dims": [
+    0.6,
+    0.45,
+    0.45
+   ],
+   "at": [
+    12.4,
+    0.76,
+    -2.55
+   ],
+   "yaw": 0.0,
+   "material": "prop"
+  },
+  {
+   "id": "console_mission_control",
+   "dims": [
+    5,
+    1.3,
+    0.9
+   ],
+   "at": [
+    7.2,
+    0.0,
+    -7.2
+   ],
+   "yaw": 0.0,
+   "material": "furniture"
+  },
+  {
+   "id": "desk_mission_control",
+   "dims": [
+    5,
+    0.76,
+    0.6
+   ],
+   "at": [
+    7.2,
+    0.0,
+    -6.45
+   ],
+   "yaw": 0.0,
+   "material": "furniture"
+  },
+  {
+   "id": "console_telemetry",
+   "dims": [
+    4,
+    1.3,
+    0.9
+   ],
+   "at": [
+    12.9,
+    0.0,
+    -7.8
+   ],
+   "yaw": 0.0,
+   "material": "furniture"
+  },
+  {
+   "id": "desk_telemetry",
+   "dims": [
+    4,
+    0.76,
+    0.6
+   ],
+   "at": [
+    12.9,
+    0.0,
+    -7.05
+   ],
+   "yaw": 0.0,
+   "material": "furniture"
+  },
+  {
+   "id": "console_guidance",
+   "dims": [
+    2.6,
+    1.3,
+    0.9
+   ],
+   "at": [
+    1.6,
+    0.0,
+    -5.5
+   ],
+   "yaw": 0.0,
+   "material": "furniture"
+  },
+  {
+   "id": "desk_guidance",
+   "dims": [
+    2.6,
+    0.76,
+    0.6
+   ],
+   "at": [
+    1.6,
+    0.0,
+    -4.75
+   ],
+   "yaw": 0.0,
+   "material": "furniture"
+  },
+  {
+   "id": "console_back_row",
+   "dims": [
+    9,
+    1.3,
+    0.9
+   ],
+   "at": [
+    8.5,
+    0.0,
+    -10.8
+   ],
+   "yaw": 0.0,
+   "material": "furniture"
+  },
+  {
+   "id": "desk_back_row",
+   "dims": [
+    9,
+    0.76,
+    0.6
+   ],
+   "at": [
+    8.5,
+    0.0,
+    -10.05
+   ],
+   "yaw": 0.0,
+   "material": "furniture"
+  },
+  {
+   "id": "console_left_back",
+   "dims": [
+    3,
+    1.3,
+    0.9
+   ],
+   "at": [
+    1.8,
+    0.0,
+    -9.5
+   ],
+   "yaw": 0.0,
+   "material": "furniture"
+  },
+  {
+   "id": "placard_orbital",
+   "dims": [
+    1,
+    0.15,
+    0.05
+   ],
+   "at": [
+    8,
+    1.3,
+    -3.4
+   ],
+   "yaw": 0.0,
+   "material": "signage"
+  },
+  {
+   "id": "placard_mission_control",
+   "dims": [
+    1,
+    0.15,
+    0.05
+   ],
+   "at": [
+    7.5,
+    1.3,
+    -7
+   ],
+   "yaw": 0.0,
+   "material": "signage"
+  },
+  {
+   "id": "placard_telemetry",
+   "dims": [
+    1,
+    0.15,
+    0.05
+   ],
+   "at": [
+    12.6,
+    1.3,
+    -7.6
+   ],
+   "yaw": 0.0,
+   "material": "signage"
+  },
+  {
+   "id": "placard_guidance",
+   "dims": [
+    0.8,
+    0.15,
+    0.05
+   ],
+   "at": [
+    0.8,
+    1.3,
+    -5.3
+   ],
+   "yaw": 0.0,
+   "material": "signage"
+  },
+  {
+   "id": "chair_fg_left",
+   "dims": [
+    0.6,
+    1.05,
+    0.6
+   ],
+   "at": [
+    6.6,
+    0.0,
+    -1.9
+   ],
+   "yaw": 180.0,
+   "material": "furniture"
+  },
+  {
+   "id": "chair_fg_right",
+   "dims": [
+    0.6,
+    1.05,
+    0.6
+   ],
+   "at": [
+    9.8,
+    0.0,
+    -1.9
+   ],
+   "yaw": 170.0,
+   "material": "furniture"
+  },
+  {
+   "id": "chair_row2_a",
+   "dims": [
+    0.6,
+    1.05,
+    0.6
+   ],
+   "at": [
+    5.8,
+    0.0,
+    -5.8
+   ],
+   "yaw": 200.0,
+   "material": "furniture"
+  },
+  {
+   "id": "chair_row2_b",
+   "dims": [
+    0.6,
+    1.05,
+    0.6
+   ],
+   "at": [
+    8.6,
+    0.0,
+    -5.8
+   ],
+   "yaw": 175.0,
+   "material": "furniture"
+  },
+  {
+   "id": "chair_telemetry_a",
+   "dims": [
+    0.6,
+    1.05,
+    0.6
+   ],
+   "at": [
+    11.6,
+    0.0,
+    -6.4
+   ],
+   "yaw": 185.0,
+   "material": "furniture"
+  },
+  {
+   "id": "chair_telemetry_b",
+   "dims": [
+    0.6,
+    1.05,
+    0.6
+   ],
+   "at": [
+    13.8,
+    0.0,
+    -6.4
+   ],
+   "yaw": 160.0,
+   "material": "furniture"
+  },
+  {
+   "id": "chair_guidance",
+   "dims": [
+    0.6,
+    1.05,
+    0.6
+   ],
+   "at": [
+    1.6,
+    0.0,
+    -4
+   ],
+   "yaw": 190.0,
+   "material": "furniture"
+  },
+  {
+   "id": "chair_back_a",
+   "dims": [
+    0.6,
+    1.05,
+    0.6
+   ],
+   "at": [
+    6.5,
+    0.0,
+    -9.4
+   ],
+   "yaw": 180.0,
+   "material": "furniture"
+  },
+  {
+   "id": "chair_back_b",
+   "dims": [
+    0.6,
+    1.05,
+    0.6
+   ],
+   "at": [
+    10.5,
+    0.0,
+    -9.4
+   ],
+   "yaw": 165.0,
+   "material": "furniture"
+  },
+  {
+   "id": "binder_fg_1",
+   "dims": [
+    0.6,
+    0.06,
+    0.32
+   ],
+   "at": [
+    6.9,
+    0.76,
+    -2.8
+   ],
+   "yaw": -5.0,
+   "material": "prop"
+  },
+  {
+   "id": "binder_fg_2",
+   "dims": [
+    0.6,
+    0.06,
+    0.32
+   ],
+   "at": [
+    7.9,
+    0.76,
+    -2.75
+   ],
+   "yaw": -12.0,
+   "material": "prop"
+  },
+  {
+   "id": "papers_fg",
+   "dims": [
+    0.45,
+    0.02,
+    0.35
+   ],
+   "at": [
+    9,
+    0.755,
+    -2.7
+   ],
+   "yaw": 8.0,
+   "material": "clutter"
+  },
+  {
+   "id": "papers_fg_2",
+   "dims": [
+    0.45,
+    0.02,
+    0.35
+   ],
+   "at": [
+    10.3,
+    0.755,
+    -2.65
+   ],
+   "yaw": -6.0,
+   "material": "clutter"
+  },
+  {
+   "id": "pencil_fg",
+   "dims": [
+    0.18,
+    0.02,
+    0.02
+   ],
+   "at": [
+    8.4,
+    0.765,
+    -2.62
+   ],
+   "yaw": 20.0,
+   "material": "clutter"
+  },
+  {
+   "id": "mug_white_fg",
+   "dims": [
+    0.09,
+    0.1,
+    0.09
+   ],
+   "at": [
+    6.5,
+    0.76,
+    -3
+   ],
+   "yaw": 0.0,
+   "material": "prop"
+  },
+  {
+   "id": "mug_white_fg_2",
+   "dims": [
+    0.09,
+    0.1,
+    0.09
+   ],
+   "at": [
+    10.1,
+    0.76,
+    -3
+   ],
+   "yaw": 40.0,
+   "material": "prop"
+  },
+  {
+   "id": "mug_black_fg",
+   "dims": [
+    0.09,
+    0.1,
+    0.09
+   ],
+   "at": [
+    7.6,
+    0.76,
+    -3.05
+   ],
+   "yaw": 0.0,
+   "material": "prop"
+  },
+  {
+   "id": "ashtray_fg_1",
+   "dims": [
+    0.16,
+    0.05,
+    0.16
+   ],
+   "at": [
+    6.2,
+    0.76,
+    -2.85
+   ],
+   "yaw": 0.0,
+   "material": "prop"
+  },
+  {
+   "id": "ashtray_fg_2",
+   "dims": [
+    0.16,
+    0.05,
+    0.16
+   ],
+   "at": [
+    9.8,
+    0.76,
+    -2.85
+   ],
+   "yaw": 30.0,
+   "material": "prop"
+  },
+  {
+   "id": "cigarette_pack_fg",
+   "dims": [
+    0.09,
+    0.06,
+    0.05
+   ],
+   "at": [
+    10.6,
+    0.76,
+    -2.7
+   ],
+   "yaw": 15.0,
+   "material": "prop"
+  },
+  {
+   "id": "comm_box_fg",
+   "dims": [
+    0.3,
+    0.18,
+    0.2
+   ],
+   "at": [
+    8.8,
+    0.76,
+    -3
+   ],
+   "yaw": 0.0,
+   "material": "prop"
+  },
+  {
+   "id": "small_box_fg",
+   "dims": [
+    0.12,
+    0.06,
+    0.08
+   ],
+   "at": [
+    8.3,
+    0.76,
+    -3.05
+   ],
+   "yaw": 0.0,
+   "material": "clutter"
+  },
+  {
+   "id": "printout_guidance",
+   "dims": [
+    0.35,
+    0.46,
+    0.05
+   ],
+   "at": [
+    1,
+    0.3,
+    -4.6
+   ],
+   "yaw": 0.0,
+   "material": "clutter"
+  },
+  {
+   "id": "mug_guidance",
+   "dims": [
+    0.09,
+    0.1,
+    0.09
+   ],
+   "at": [
+    0.5,
+    0.76,
+    -4.85
+   ],
+   "yaw": 0.0,
+   "material": "prop"
+  },
+  {
+   "id": "ashtray_guidance",
+   "dims": [
+    0.16,
+    0.05,
+    0.16
+   ],
+   "at": [
+    2.1,
+    0.76,
+    -4.8
+   ],
+   "yaw": 0.0,
+   "material": "prop"
+  },
+  {
+   "id": "desk_lamp_guidance",
+   "dims": [
+    0.2,
+    0.4,
+    0.25
+   ],
+   "at": [
+    2.5,
+    1.3,
+    -5.6
+   ],
+   "yaw": 0.0,
+   "material": "prop"
+  },
+  {
+   "id": "desk_lamp_window",
+   "dims": [
+    0.2,
+    0.4,
+    0.25
+   ],
+   "at": [
+    3.2,
+    1.3,
+    -9.6
+   ],
+   "yaw": 0.0,
+   "material": "prop"
+  },
+  {
+   "id": "desk_lamp_right",
+   "dims": [
+    0.2,
+    0.4,
+    0.25
+   ],
+   "at": [
+    14.6,
+    1.3,
+    -8
+   ],
+   "yaw": 0.0,
+   "material": "prop"
+  },
+  {
+   "id": "mug_telemetry",
+   "dims": [
+    0.09,
+    0.1,
+    0.09
+   ],
+   "at": [
+    11.9,
+    0.76,
+    -7.05
+   ],
+   "yaw": 0.0,
+   "material": "prop"
+  },
+  {
+   "id": "papers_telemetry",
+   "dims": [
+    0.45,
+    0.02,
+    0.35
+   ],
+   "at": [
+    13.6,
+    0.755,
+    -7
+   ],
+   "yaw": 10.0,
+   "material": "clutter"
+  },
+  {
+   "id": "binder_mission",
+   "dims": [
+    0.6,
+    0.06,
+    0.32
+   ],
+   "at": [
+    6.6,
+    0.76,
+    -6.45
+   ],
+   "yaw": 5.0,
+   "material": "prop"
+  },
+  {
+   "id": "mug_mission",
+   "dims": [
+    0.09,
+    0.1,
+    0.09
+   ],
+   "at": [
+    8.2,
+    0.76,
+    -6.5
+   ],
+   "yaw": 0.0,
+   "material": "prop"
+  },
+  {
+   "id": "ashtray_mission",
+   "dims": [
+    0.16,
+    0.05,
+    0.16
+   ],
+   "at": [
+    9,
+    0.76,
+    -6.4
+   ],
+   "yaw": 0.0,
+   "material": "prop"
+  },
+  {
+   "id": "papers_back",
+   "dims": [
+    0.45,
+    0.02,
+    0.35
+   ],
+   "at": [
+    7,
+    0.755,
+    -10
+   ],
+   "yaw": -4.0,
+   "material": "clutter"
+  },
+  {
+   "id": "mug_back",
+   "dims": [
+    0.09,
+    0.1,
+    0.09
+   ],
+   "at": [
+    10,
+    0.76,
+    -10.1
+   ],
+   "yaw": 0.0,
+   "material": "prop"
+  },
+  {
+   "id": "cardboard_box_floor",
+   "dims": [
+    0.4,
+    0.3,
+    0.3
+   ],
+   "at": [
+    10.9,
+    0.0,
+    -5.9
+   ],
+   "yaw": 5.0,
+   "material": "clutter"
+  },
+  {
+   "id": "filing_cabinet_1",
+   "dims": [
+    0.5,
+    1.35,
+    0.65
+   ],
+   "at": [
+    15.6,
+    0.0,
+    -12.8
+   ],
+   "yaw": -90.0,
+   "material": "furniture"
+  },
+  {
+   "id": "filing_cabinet_2",
+   "dims": [
+    0.5,
+    1.35,
+    0.65
+   ],
+   "at": [
+    15.6,
+    0.0,
+    -10
+   ],
+   "yaw": -90.0,
+   "material": "furniture"
+  },
+  {
+   "id": "wastebasket_1",
+   "dims": [
+    0.3,
+    0.36,
+    0.3
+   ],
+   "at": [
+    5.5,
+    0.0,
+    -2.4
+   ],
+   "yaw": 0.0,
+   "material": "clutter"
+  },
+  {
+   "id": "wastebasket_2",
+   "dims": [
+    0.3,
+    0.36,
+    0.3
+   ],
+   "at": [
+    10.2,
+    0.0,
+    -6.2
+   ],
+   "yaw": 0.0,
+   "material": "clutter"
+  },
+  {
+   "id": "coat_rack",
+   "dims": [
+    0.5,
+    1.8,
+    0.5
+   ],
+   "at": [
+    15.4,
+    0.0,
+    -0.6
+   ],
+   "yaw": 0.0,
+   "material": "furniture"
+  },
+  {
+   "id": "water_cooler",
+   "dims": [
+    0.35,
+    1.25,
+    0.35
+   ],
+   "at": [
+    15.6,
+    0.0,
+    -4.5
+   ],
+   "yaw": -90.0,
+   "material": "fixture"
+  },
+  {
+   "id": "briefing_table",
+   "dims": [
+    1.6,
+    0.74,
+    0.7
+   ],
+   "at": [
+    3,
+    0.0,
+    -1.2
+   ],
+   "yaw": 0.0,
+   "material": "furniture"
+  },
+  {
+   "id": "folders_side_table",
+   "dims": [
+    0.35,
+    0.08,
+    0.27
+   ],
+   "at": [
+    3,
+    0.74,
+    -1.2
+   ],
+   "yaw": 10.0,
+   "material": "clutter"
+  },
+  {
+   "id": "rotary_phone",
+   "dims": [
+    0.22,
+    0.12,
+    0.24
+   ],
+   "at": [
+    11,
+    0.76,
+    -2.75
+   ],
+   "yaw": -10.0,
+   "material": "prop"
+  }
+ ],
+ "lights": [
+  {
+   "id": "ceiling_1",
+   "kind": "point",
+   "at": [
+    5,
+    3.5,
+    -4
+   ],
+   "color": [
+    0.9098039215686274,
+    0.9411764705882353,
+    1
+   ],
+   "intensity": 15,
+   "radius": 0.025
+  },
+  {
+   "id": "ceiling_2",
+   "kind": "point",
+   "at": [
+    11,
+    3.5,
+    -4
+   ],
+   "color": [
+    0.9098039215686274,
+    0.9411764705882353,
+    1
+   ],
+   "intensity": 15,
+   "radius": 0.025
+  },
+  {
+   "id": "ceiling_3",
+   "kind": "point",
+   "at": [
+    5,
+    3.5,
+    -9
+   ],
+   "color": [
+    0.9098039215686274,
+    0.9411764705882353,
+    1
+   ],
+   "intensity": 15,
+   "radius": 0.025
+  },
+  {
+   "id": "ceiling_4",
+   "kind": "point",
+   "at": [
+    11,
+    3.5,
+    -9
+   ],
+   "color": [
+    0.9098039215686274,
+    0.9411764705882353,
+    1
+   ],
+   "intensity": 15,
+   "radius": 0.025
+  },
+  {
+   "id": "wall_display_glow",
+   "kind": "point",
+   "at": [
+    8.2,
+    2.7,
+    -13.6
+   ],
+   "color": [
+    0.4980392156862745,
+    0.8784313725490196,
+    0.6901960784313725
+   ],
+   "intensity": 40,
+   "radius": 0.025
+  },
+  {
+   "id": "crt_orbital",
+   "kind": "point",
+   "at": [
+    8.6,
+    1,
+    -3.1
+   ],
+   "color": [
+    0.2235294117647059,
+    1,
+    0.5411764705882353
+   ],
+   "intensity": 15,
+   "radius": 0.025
+  },
+  {
+   "id": "crt_mission",
+   "kind": "point",
+   "at": [
+    7.2,
+    1,
+    -6.7
+   ],
+   "color": [
+    0.2235294117647059,
+    1,
+    0.5411764705882353
+   ],
+   "intensity": 15,
+   "radius": 0.025
+  },
+  {
+   "id": "crt_telemetry",
+   "kind": "point",
+   "at": [
+    12.9,
+    1,
+    -7.3
+   ],
+   "color": [
+    0.2235294117647059,
+    1,
+    0.5411764705882353
+   ],
+   "intensity": 15,
+   "radius": 0.025
+  },
+  {
+   "id": "crt_guidance",
+   "kind": "point",
+   "at": [
+    1.6,
+    1,
+    -5
+   ],
+   "color": [
+    0.2235294117647059,
+    1,
+    0.5411764705882353
+   ],
+   "intensity": 15,
+   "radius": 0.025
+  },
+  {
+   "id": "crt_back",
+   "kind": "point",
+   "at": [
+    8.5,
+    1,
+    -10.3
+   ],
+   "color": [
+    0.2235294117647059,
+    1,
+    0.5411764705882353
+   ],
+   "intensity": 15,
+   "radius": 0.025
+  },
+  {
+   "id": "lamp_guidance",
+   "kind": "point",
+   "at": [
+    2.5,
+    1.65,
+    -5.6
+   ],
+   "color": [
+    1,
+    0.7058823529411765,
+    0.4196078431372549
+   ],
+   "intensity": 15,
+   "radius": 0.025
+  },
+  {
+   "id": "lamp_window",
+   "kind": "point",
+   "at": [
+    3.2,
+    1.65,
+    -9.6
+   ],
+   "color": [
+    1,
+    0.7058823529411765,
+    0.4196078431372549
+   ],
+   "intensity": 15,
+   "radius": 0.025
+  },
+  {
+   "id": "lamp_right",
+   "kind": "point",
+   "at": [
+    14.6,
+    1.65,
+    -8
+   ],
+   "color": [
+    1,
+    0.7058823529411765,
+    0.4196078431372549
+   ],
+   "intensity": 15,
+   "radius": 0.025
+  },
+  {
+   "id": "window_night",
+   "kind": "point",
+   "at": [
+    0.05,
+    2,
+    -7.5
+   ],
+   "color": [
+    0.16470588235294117,
+    0.22745098039215686,
+    0.35294117647058826
+   ],
+   "intensity": 15,
+   "radius": 0.025
+  },
+  {
+   "id": "amber_indicators",
+   "kind": "point",
+   "at": [
+    7.4,
+    1.1,
+    -3.15
+   ],
+   "color": [
+    1,
+    0.6274509803921569,
+    0.25098039215686274
+   ],
+   "intensity": 15,
+   "radius": 0.025
+  },
+  {
+   "id": "fill_room",
+   "kind": "point",
+   "at": [
+    8,
+    2.5,
+    -0.5
+   ],
+   "color": [
+    0.6039215686274509,
+    0.6509803921568628,
+    0.6274509803921569
+   ],
+   "intensity": 15,
+   "radius": 0.025
+  }
+ ],
+ "materials": {
+  "shell": [
+   [
+    0.4,
+    0.41,
+    0.39
+   ],
+   0.9,
+   0
+  ],
+  "fixture": [
+   [
+    0.3,
+    0.33,
+    0.3
+   ],
+   0.6,
+   0.1
+  ],
+  "decal": [
+   [
+    0.5,
+    0.5,
+    0.5
+   ],
+   0.6,
+   0.1
+  ],
+  "furniture": [
+   [
+    0.36,
+    0.4,
+    0.35
+   ],
+   0.6,
+   0.1
+  ],
+  "prop": [
+   [
+    0.6,
+    0.56,
+    0.48
+   ],
+   0.6,
+   0.1
+  ],
+  "signage": [
+   [
+    0.5,
+    0.5,
+    0.5
+   ],
+   0.6,
+   0.1
+  ],
+  "clutter": [
+   [
+    0.66,
+    0.6,
+    0.5
+   ],
+   0.6,
+   0.1
+  ]
+ }
+}

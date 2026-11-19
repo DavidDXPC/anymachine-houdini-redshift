@@ -1,0 +1,4041 @@
+{
+ "label": "mission-control-1970s",
+ "source": "scenes/mission-control-1970s/assets.json and scripts/",
+ "architecture": [
+  {
+   "id": "floor_t0",
+   "at": [
+    5.5,
+    -0.1,
+    -6.5
+   ],
+   "dims": [
+    11.4,
+    0.1,
+    13.4
+   ],
+   "material": "fabric"
+  },
+  {
+   "id": "floor_t1",
+   "at": [
+    5.5,
+    0.0,
+    -6.0
+   ],
+   "dims": [
+    11.0,
+    0.35,
+    3.0
+   ],
+   "material": "fabric"
+  },
+  {
+   "id": "floor_t2",
+   "at": [
+    5.5,
+    0.0,
+    -2.25
+   ],
+   "dims": [
+    11.0,
+    0.7,
+    4.5
+   ],
+   "material": "fabric"
+  },
+  {
+   "id": "nosing_t1",
+   "at": [
+    5.5,
+    0.33,
+    -7.495
+   ],
+   "dims": [
+    11.0,
+    0.022,
+    0.05
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "nosing_t2",
+   "at": [
+    5.5,
+    0.68,
+    -4.495
+   ],
+   "dims": [
+    11.0,
+    0.022,
+    0.05
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "step_t1_l",
+   "at": [
+    1.0,
+    0.0,
+    -7.65
+   ],
+   "dims": [
+    1.4,
+    0.175,
+    0.3
+   ],
+   "material": "fabric"
+  },
+  {
+   "id": "step_t2_l",
+   "at": [
+    1.0,
+    0.35,
+    -4.65
+   ],
+   "dims": [
+    1.4,
+    0.175,
+    0.3
+   ],
+   "material": "fabric"
+  },
+  {
+   "id": "stepnose_t1_l",
+   "at": [
+    1.0,
+    0.16,
+    -7.79
+   ],
+   "dims": [
+    1.4,
+    0.017,
+    0.04
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "stepnose_t2_l",
+   "at": [
+    1.0,
+    0.51,
+    -4.79
+   ],
+   "dims": [
+    1.4,
+    0.017,
+    0.04
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "step_t1_r",
+   "at": [
+    9.775,
+    0.0,
+    -7.65
+   ],
+   "dims": [
+    0.85,
+    0.175,
+    0.3
+   ],
+   "material": "fabric"
+  },
+  {
+   "id": "step_t2_r",
+   "at": [
+    9.775,
+    0.35,
+    -4.65
+   ],
+   "dims": [
+    0.85,
+    0.175,
+    0.3
+   ],
+   "material": "fabric"
+  },
+  {
+   "id": "stepnose_t1_r",
+   "at": [
+    9.775,
+    0.16,
+    -7.79
+   ],
+   "dims": [
+    0.85,
+    0.017,
+    0.04
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "stepnose_t2_r",
+   "at": [
+    9.775,
+    0.51,
+    -4.79
+   ],
+   "dims": [
+    0.85,
+    0.017,
+    0.04
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "ceiling",
+   "at": [
+    5.5,
+    3.6,
+    -6.5
+   ],
+   "dims": [
+    11.4,
+    0.05,
+    13.4
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "wall_left_low",
+   "at": [
+    -0.1,
+    -0.1,
+    -6.5
+   ],
+   "dims": [
+    0.2,
+    1.4,
+    13.0
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "wall_left_high",
+   "at": [
+    -0.1,
+    3.1,
+    -6.5
+   ],
+   "dims": [
+    0.2,
+    0.5,
+    13.0
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "wall_left_a",
+   "at": [
+    -0.1,
+    1.3,
+    -0.6
+   ],
+   "dims": [
+    0.2,
+    1.8,
+    1.2
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "wall_left_b",
+   "at": [
+    -0.1,
+    1.3,
+    -11.3
+   ],
+   "dims": [
+    0.2,
+    1.8,
+    3.4
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "sill",
+   "at": [
+    -0.06,
+    1.27,
+    -5.4
+   ],
+   "dims": [
+    0.28,
+    0.03,
+    8.4
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "mullion_0",
+   "at": [
+    -0.08,
+    1.3,
+    -1.2
+   ],
+   "dims": [
+    0.08,
+    1.8,
+    0.08
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "mullion_1",
+   "at": [
+    -0.08,
+    1.3,
+    -2.88
+   ],
+   "dims": [
+    0.08,
+    1.8,
+    0.08
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "mullion_2",
+   "at": [
+    -0.08,
+    1.3,
+    -4.56
+   ],
+   "dims": [
+    0.08,
+    1.8,
+    0.08
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "mullion_3",
+   "at": [
+    -0.08,
+    1.3,
+    -6.24
+   ],
+   "dims": [
+    0.08,
+    1.8,
+    0.08
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "mullion_4",
+   "at": [
+    -0.08,
+    1.3,
+    -7.92
+   ],
+   "dims": [
+    0.08,
+    1.8,
+    0.08
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "mullion_5",
+   "at": [
+    -0.08,
+    1.3,
+    -9.6
+   ],
+   "dims": [
+    0.08,
+    1.8,
+    0.08
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "transom",
+   "at": [
+    -0.08,
+    3.04,
+    -5.4
+   ],
+   "dims": [
+    0.08,
+    0.06,
+    8.4
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "window_glass",
+   "at": [
+    -0.08,
+    1.3,
+    -5.4
+   ],
+   "dims": [
+    0.01,
+    1.8,
+    8.4
+   ],
+   "material": "glass"
+  },
+  {
+   "id": "blind_head_0",
+   "at": [
+    0.025,
+    3.0,
+    -2.04
+   ],
+   "dims": [
+    0.05,
+    0.06,
+    1.56
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "blind_0_0",
+   "at": [
+    0.0,
+    2.9795,
+    -2.04
+   ],
+   "dims": [
+    0.024,
+    0.001,
+    1.56
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "blind_0_1",
+   "at": [
+    0.0,
+    2.9345,
+    -2.04
+   ],
+   "dims": [
+    0.024,
+    0.001,
+    1.56
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "blind_0_2",
+   "at": [
+    0.0,
+    2.8895,
+    -2.04
+   ],
+   "dims": [
+    0.024,
+    0.001,
+    1.56
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "blind_0_3",
+   "at": [
+    0.0,
+    2.8445,
+    -2.04
+   ],
+   "dims": [
+    0.024,
+    0.001,
+    1.56
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "blind_0_4",
+   "at": [
+    0.0,
+    2.7995,
+    -2.04
+   ],
+   "dims": [
+    0.024,
+    0.001,
+    1.56
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "blind_0_5",
+   "at": [
+    0.0,
+    2.7545,
+    -2.04
+   ],
+   "dims": [
+    0.024,
+    0.001,
+    1.56
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "blind_0_6",
+   "at": [
+    0.0,
+    2.7095,
+    -2.04
+   ],
+   "dims": [
+    0.024,
+    0.001,
+    1.56
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "blind_0_7",
+   "at": [
+    0.0,
+    2.6645,
+    -2.04
+   ],
+   "dims": [
+    0.024,
+    0.001,
+    1.56
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "blind_0_8",
+   "at": [
+    0.0,
+    2.6195,
+    -2.04
+   ],
+   "dims": [
+    0.024,
+    0.001,
+    1.56
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "blind_0_9",
+   "at": [
+    0.0,
+    2.5745,
+    -2.04
+   ],
+   "dims": [
+    0.024,
+    0.001,
+    1.56
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "blind_0_10",
+   "at": [
+    0.0,
+    2.5295,
+    -2.04
+   ],
+   "dims": [
+    0.024,
+    0.001,
+    1.56
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "blind_0_11",
+   "at": [
+    0.0,
+    2.4845,
+    -2.04
+   ],
+   "dims": [
+    0.024,
+    0.001,
+    1.56
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "blind_stack_0",
+   "at": [
+    0.01,
+    2.38,
+    -2.04
+   ],
+   "dims": [
+    0.04,
+    0.08,
+    1.56
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "blind_head_1",
+   "at": [
+    0.025,
+    3.0,
+    -3.72
+   ],
+   "dims": [
+    0.05,
+    0.06,
+    1.56
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "blind_stack_1",
+   "at": [
+    0.01,
+    2.86,
+    -3.72
+   ],
+   "dims": [
+    0.04,
+    0.14,
+    1.56
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "blind_head_2",
+   "at": [
+    0.025,
+    3.0,
+    -5.4
+   ],
+   "dims": [
+    0.05,
+    0.06,
+    1.56
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "blind_2_0",
+   "at": [
+    0.0,
+    2.9795,
+    -5.4
+   ],
+   "dims": [
+    0.024,
+    0.001,
+    1.56
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "blind_2_1",
+   "at": [
+    0.0,
+    2.9345,
+    -5.4
+   ],
+   "dims": [
+    0.024,
+    0.001,
+    1.56
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "blind_2_2",
+   "at": [
+    0.0,
+    2.8895,
+    -5.4
+   ],
+   "dims": [
+    0.024,
+    0.001,
+    1.56
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "blind_2_3",
+   "at": [
+    0.0,
+    2.8445,
+    -5.4
+   ],
+   "dims": [
+    0.024,
+    0.001,
+    1.56
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "blind_2_4",
+   "at": [
+    0.0,
+    2.7995,
+    -5.4
+   ],
+   "dims": [
+    0.024,
+    0.001,
+    1.56
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "blind_2_5",
+   "at": [
+    0.0,
+    2.7545,
+    -5.4
+   ],
+   "dims": [
+    0.024,
+    0.001,
+    1.56
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "blind_2_6",
+   "at": [
+    0.0,
+    2.7095,
+    -5.4
+   ],
+   "dims": [
+    0.024,
+    0.001,
+    1.56
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "blind_2_7",
+   "at": [
+    0.0,
+    2.6645,
+    -5.4
+   ],
+   "dims": [
+    0.024,
+    0.001,
+    1.56
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "blind_2_8",
+   "at": [
+    0.0,
+    2.6195,
+    -5.4
+   ],
+   "dims": [
+    0.024,
+    0.001,
+    1.56
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "blind_2_9",
+   "at": [
+    0.0,
+    2.5745,
+    -5.4
+   ],
+   "dims": [
+    0.024,
+    0.001,
+    1.56
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "blind_2_10",
+   "at": [
+    0.0,
+    2.5295,
+    -5.4
+   ],
+   "dims": [
+    0.024,
+    0.001,
+    1.56
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "blind_2_11",
+   "at": [
+    0.0,
+    2.4845,
+    -5.4
+   ],
+   "dims": [
+    0.024,
+    0.001,
+    1.56
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "blind_2_12",
+   "at": [
+    0.0,
+    2.4395,
+    -5.4
+   ],
+   "dims": [
+    0.024,
+    0.001,
+    1.56
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "blind_2_13",
+   "at": [
+    0.0,
+    2.3945,
+    -5.4
+   ],
+   "dims": [
+    0.024,
+    0.001,
+    1.56
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "blind_2_14",
+   "at": [
+    0.0,
+    2.3495,
+    -5.4
+   ],
+   "dims": [
+    0.024,
+    0.001,
+    1.56
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "blind_2_15",
+   "at": [
+    0.0,
+    2.3045,
+    -5.4
+   ],
+   "dims": [
+    0.024,
+    0.001,
+    1.56
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "blind_2_16",
+   "at": [
+    0.0,
+    2.2595,
+    -5.4
+   ],
+   "dims": [
+    0.024,
+    0.001,
+    1.56
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "blind_2_17",
+   "at": [
+    0.0,
+    2.2145,
+    -5.4
+   ],
+   "dims": [
+    0.024,
+    0.001,
+    1.56
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "blind_2_18",
+   "at": [
+    0.0,
+    2.1695,
+    -5.4
+   ],
+   "dims": [
+    0.024,
+    0.001,
+    1.56
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "blind_2_19",
+   "at": [
+    0.0,
+    2.1245,
+    -5.4
+   ],
+   "dims": [
+    0.024,
+    0.001,
+    1.56
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "blind_2_20",
+   "at": [
+    0.0,
+    2.0795,
+    -5.4
+   ],
+   "dims": [
+    0.024,
+    0.001,
+    1.56
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "blind_2_21",
+   "at": [
+    0.0,
+    2.0345,
+    -5.4
+   ],
+   "dims": [
+    0.024,
+    0.001,
+    1.56
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "blind_stack_2",
+   "at": [
+    0.01,
+    1.93,
+    -5.4
+   ],
+   "dims": [
+    0.04,
+    0.08,
+    1.56
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "blind_head_3",
+   "at": [
+    0.025,
+    3.0,
+    -7.08
+   ],
+   "dims": [
+    0.05,
+    0.06,
+    1.56
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "blind_stack_3",
+   "at": [
+    0.01,
+    2.86,
+    -7.08
+   ],
+   "dims": [
+    0.04,
+    0.14,
+    1.56
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "blind_head_4",
+   "at": [
+    0.025,
+    3.0,
+    -8.76
+   ],
+   "dims": [
+    0.05,
+    0.06,
+    1.56
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "blind_4_0",
+   "at": [
+    0.0,
+    2.9795,
+    -8.76
+   ],
+   "dims": [
+    0.024,
+    0.001,
+    1.56
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "blind_4_1",
+   "at": [
+    0.0,
+    2.9345,
+    -8.76
+   ],
+   "dims": [
+    0.024,
+    0.001,
+    1.56
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "blind_4_2",
+   "at": [
+    0.0,
+    2.8895,
+    -8.76
+   ],
+   "dims": [
+    0.024,
+    0.001,
+    1.56
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "blind_4_3",
+   "at": [
+    0.0,
+    2.8445,
+    -8.76
+   ],
+   "dims": [
+    0.024,
+    0.001,
+    1.56
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "blind_4_4",
+   "at": [
+    0.0,
+    2.7995,
+    -8.76
+   ],
+   "dims": [
+    0.024,
+    0.001,
+    1.56
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "blind_4_5",
+   "at": [
+    0.0,
+    2.7545,
+    -8.76
+   ],
+   "dims": [
+    0.024,
+    0.001,
+    1.56
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "blind_4_6",
+   "at": [
+    0.0,
+    2.7095,
+    -8.76
+   ],
+   "dims": [
+    0.024,
+    0.001,
+    1.56
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "blind_stack_4",
+   "at": [
+    0.01,
+    2.605,
+    -8.76
+   ],
+   "dims": [
+    0.04,
+    0.08,
+    1.56
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "wall_right",
+   "at": [
+    11.1,
+    -0.1,
+    -6.5
+   ],
+   "dims": [
+    0.2,
+    3.7,
+    13.0
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "wall_back_a",
+   "at": [
+    2.35,
+    -0.1,
+    0.1
+   ],
+   "dims": [
+    5.1,
+    3.7,
+    0.2
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "wall_back_b",
+   "at": [
+    8.65,
+    -0.1,
+    0.1
+   ],
+   "dims": [
+    5.1,
+    3.7,
+    0.2
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "wall_back_c",
+   "at": [
+    5.5,
+    2.85,
+    0.1
+   ],
+   "dims": [
+    1.2,
+    0.75,
+    0.2
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "wall_front",
+   "at": [
+    5.5,
+    -0.1,
+    -13.1
+   ],
+   "dims": [
+    11.4,
+    3.7,
+    0.2
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "acoustic_right",
+   "at": [
+    10.985,
+    1.0,
+    -6.5
+   ],
+   "dims": [
+    0.03,
+    1.9,
+    12.2
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "acoustic_back_a",
+   "at": [
+    2.4,
+    1.4,
+    -0.015
+   ],
+   "dims": [
+    4.2,
+    1.5,
+    0.03
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "acoustic_back_b",
+   "at": [
+    8.6,
+    1.4,
+    -0.015
+   ],
+   "dims": [
+    4.2,
+    1.5,
+    0.03
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "base_right",
+   "at": [
+    10.994,
+    0.0,
+    -6.5
+   ],
+   "dims": [
+    0.012,
+    0.1,
+    13.0
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "base_front",
+   "at": [
+    5.5,
+    0.0,
+    -12.994
+   ],
+   "dims": [
+    11.0,
+    0.1,
+    0.012
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "door_leaf_0",
+   "at": [
+    5.2,
+    0.7,
+    0.0375
+   ],
+   "dims": [
+    0.59,
+    2.14,
+    0.045
+   ],
+   "material": "paint"
+  },
+  {
+   "id": "door_bar_0",
+   "at": [
+    5.2,
+    1.7,
+    -0.004
+   ],
+   "dims": [
+    0.44,
+    0.04,
+    0.032
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "door_window_0",
+   "at": [
+    5.2,
+    2.05,
+    0.0125
+   ],
+   "dims": [
+    0.26,
+    0.5,
+    0.005
+   ],
+   "material": "glass"
+  },
+  {
+   "id": "door_leaf_1",
+   "at": [
+    5.8,
+    0.7,
+    0.0375
+   ],
+   "dims": [
+    0.59,
+    2.14,
+    0.045
+   ],
+   "material": "paint"
+  },
+  {
+   "id": "door_bar_1",
+   "at": [
+    5.8,
+    1.7,
+    -0.004
+   ],
+   "dims": [
+    0.44,
+    0.04,
+    0.032
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "door_window_1",
+   "at": [
+    5.8,
+    2.05,
+    0.0125
+   ],
+   "dims": [
+    0.26,
+    0.5,
+    0.005
+   ],
+   "material": "glass"
+  },
+  {
+   "id": "door_frame_top",
+   "at": [
+    5.5,
+    2.84,
+    -0.0
+   ],
+   "dims": [
+    1.3,
+    0.06,
+    0.04
+   ],
+   "material": "steel"
+  },
+  {
+   "id": "exit_sign_box",
+   "at": [
+    5.5,
+    2.97,
+    -0.045
+   ],
+   "dims": [
+    0.4,
+    0.2,
+    0.09
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "troffer_0_0",
+   "at": [
+    1.8,
+    3.565,
+    -1.6
+   ],
+   "dims": [
+    0.62,
+    0.035,
+    1.22
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "troffer_lens_0_0",
+   "at": [
+    1.8,
+    3.56,
+    -1.6
+   ],
+   "dims": [
+    0.56,
+    0.006,
+    1.16
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "troffer_0_1",
+   "at": [
+    1.8,
+    3.565,
+    -4.1
+   ],
+   "dims": [
+    0.62,
+    0.035,
+    1.22
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "troffer_lens_0_1",
+   "at": [
+    1.8,
+    3.56,
+    -4.1
+   ],
+   "dims": [
+    0.56,
+    0.006,
+    1.16
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "troffer_0_2",
+   "at": [
+    1.8,
+    3.565,
+    -6.6
+   ],
+   "dims": [
+    0.62,
+    0.035,
+    1.22
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "troffer_lens_0_2",
+   "at": [
+    1.8,
+    3.56,
+    -6.6
+   ],
+   "dims": [
+    0.56,
+    0.006,
+    1.16
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "troffer_0_3",
+   "at": [
+    1.8,
+    3.565,
+    -9.1
+   ],
+   "dims": [
+    0.62,
+    0.035,
+    1.22
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "troffer_lens_0_3",
+   "at": [
+    1.8,
+    3.56,
+    -9.1
+   ],
+   "dims": [
+    0.56,
+    0.006,
+    1.16
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "troffer_0_4",
+   "at": [
+    1.8,
+    3.565,
+    -11.6
+   ],
+   "dims": [
+    0.62,
+    0.035,
+    1.22
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "troffer_lens_0_4",
+   "at": [
+    1.8,
+    3.56,
+    -11.6
+   ],
+   "dims": [
+    0.56,
+    0.006,
+    1.16
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "troffer_1_0",
+   "at": [
+    4.2,
+    3.565,
+    -1.6
+   ],
+   "dims": [
+    0.62,
+    0.035,
+    1.22
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "troffer_lens_1_0",
+   "at": [
+    4.2,
+    3.56,
+    -1.6
+   ],
+   "dims": [
+    0.56,
+    0.006,
+    1.16
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "troffer_1_1",
+   "at": [
+    4.2,
+    3.565,
+    -4.1
+   ],
+   "dims": [
+    0.62,
+    0.035,
+    1.22
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "troffer_lens_1_1",
+   "at": [
+    4.2,
+    3.56,
+    -4.1
+   ],
+   "dims": [
+    0.56,
+    0.006,
+    1.16
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "troffer_1_2",
+   "at": [
+    4.2,
+    3.565,
+    -6.6
+   ],
+   "dims": [
+    0.62,
+    0.035,
+    1.22
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "troffer_lens_1_2",
+   "at": [
+    4.2,
+    3.56,
+    -6.6
+   ],
+   "dims": [
+    0.56,
+    0.006,
+    1.16
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "troffer_1_3",
+   "at": [
+    4.2,
+    3.565,
+    -9.1
+   ],
+   "dims": [
+    0.62,
+    0.035,
+    1.22
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "troffer_lens_1_3",
+   "at": [
+    4.2,
+    3.56,
+    -9.1
+   ],
+   "dims": [
+    0.56,
+    0.006,
+    1.16
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "troffer_1_4",
+   "at": [
+    4.2,
+    3.565,
+    -11.6
+   ],
+   "dims": [
+    0.62,
+    0.035,
+    1.22
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "troffer_lens_1_4",
+   "at": [
+    4.2,
+    3.56,
+    -11.6
+   ],
+   "dims": [
+    0.56,
+    0.006,
+    1.16
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "troffer_2_0",
+   "at": [
+    6.6,
+    3.565,
+    -1.6
+   ],
+   "dims": [
+    0.62,
+    0.035,
+    1.22
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "troffer_lens_2_0",
+   "at": [
+    6.6,
+    3.56,
+    -1.6
+   ],
+   "dims": [
+    0.56,
+    0.006,
+    1.16
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "troffer_2_1",
+   "at": [
+    6.6,
+    3.565,
+    -4.1
+   ],
+   "dims": [
+    0.62,
+    0.035,
+    1.22
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "troffer_lens_2_1",
+   "at": [
+    6.6,
+    3.56,
+    -4.1
+   ],
+   "dims": [
+    0.56,
+    0.006,
+    1.16
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "troffer_2_2",
+   "at": [
+    6.6,
+    3.565,
+    -6.6
+   ],
+   "dims": [
+    0.62,
+    0.035,
+    1.22
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "troffer_lens_2_2",
+   "at": [
+    6.6,
+    3.56,
+    -6.6
+   ],
+   "dims": [
+    0.56,
+    0.006,
+    1.16
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "troffer_2_3",
+   "at": [
+    6.6,
+    3.565,
+    -9.1
+   ],
+   "dims": [
+    0.62,
+    0.035,
+    1.22
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "troffer_lens_2_3",
+   "at": [
+    6.6,
+    3.56,
+    -9.1
+   ],
+   "dims": [
+    0.56,
+    0.006,
+    1.16
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "troffer_2_4",
+   "at": [
+    6.6,
+    3.565,
+    -11.6
+   ],
+   "dims": [
+    0.62,
+    0.035,
+    1.22
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "troffer_lens_2_4",
+   "at": [
+    6.6,
+    3.56,
+    -11.6
+   ],
+   "dims": [
+    0.56,
+    0.006,
+    1.16
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "troffer_3_0",
+   "at": [
+    9.0,
+    3.565,
+    -1.6
+   ],
+   "dims": [
+    0.62,
+    0.035,
+    1.22
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "troffer_lens_3_0",
+   "at": [
+    9.0,
+    3.56,
+    -1.6
+   ],
+   "dims": [
+    0.56,
+    0.006,
+    1.16
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "troffer_3_1",
+   "at": [
+    9.0,
+    3.565,
+    -4.1
+   ],
+   "dims": [
+    0.62,
+    0.035,
+    1.22
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "troffer_lens_3_1",
+   "at": [
+    9.0,
+    3.56,
+    -4.1
+   ],
+   "dims": [
+    0.56,
+    0.006,
+    1.16
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "troffer_3_2",
+   "at": [
+    9.0,
+    3.565,
+    -6.6
+   ],
+   "dims": [
+    0.62,
+    0.035,
+    1.22
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "troffer_lens_3_2",
+   "at": [
+    9.0,
+    3.56,
+    -6.6
+   ],
+   "dims": [
+    0.56,
+    0.006,
+    1.16
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "troffer_3_3",
+   "at": [
+    9.0,
+    3.565,
+    -9.1
+   ],
+   "dims": [
+    0.62,
+    0.035,
+    1.22
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "troffer_lens_3_3",
+   "at": [
+    9.0,
+    3.56,
+    -9.1
+   ],
+   "dims": [
+    0.56,
+    0.006,
+    1.16
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "troffer_3_4",
+   "at": [
+    9.0,
+    3.565,
+    -11.6
+   ],
+   "dims": [
+    0.62,
+    0.035,
+    1.22
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "troffer_lens_3_4",
+   "at": [
+    9.0,
+    3.56,
+    -11.6
+   ],
+   "dims": [
+    0.56,
+    0.006,
+    1.16
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "diffuser_3.0_2.85",
+   "at": [
+    3.0,
+    3.58,
+    -2.85
+   ],
+   "dims": [
+    0.6,
+    0.02,
+    0.6
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "diffuser_7.8_2.85",
+   "at": [
+    7.8,
+    3.58,
+    -2.85
+   ],
+   "dims": [
+    0.6,
+    0.02,
+    0.6
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "diffuser_3.0_7.85",
+   "at": [
+    3.0,
+    3.58,
+    -7.85
+   ],
+   "dims": [
+    0.6,
+    0.02,
+    0.6
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "diffuser_7.8_7.85",
+   "at": [
+    7.8,
+    3.58,
+    -7.85
+   ],
+   "dims": [
+    0.6,
+    0.02,
+    0.6
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "diffuser_5.4_10.4",
+   "at": [
+    5.4,
+    3.58,
+    -10.4
+   ],
+   "dims": [
+    0.6,
+    0.02,
+    0.6
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "display_bezel",
+   "at": [
+    5.75,
+    0.9,
+    -12.92
+   ],
+   "dims": [
+    9.2,
+    2.37,
+    0.16
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "display_ledge",
+   "at": [
+    5.75,
+    0.0,
+    -12.67
+   ],
+   "dims": [
+    9.3,
+    0.85,
+    0.34
+   ],
+   "material": "plaster"
+  },
+  {
+   "id": "outside_ground",
+   "at": [
+    -40.125,
+    -6.0,
+    -5.0
+   ],
+   "dims": [
+    79.75,
+    0.1,
+    90.0
+   ],
+   "material": "plaster"
+  }
+ ],
+ "props": [
+  {
+   "id": "row_A_0",
+   "asset": "mc_console_end",
+   "at": [
+    2.175,
+    0.0,
+    -10.1
+   ],
+   "yaw": 0.0,
+   "dims": [
+    0.45,
+    1.35,
+    1.0
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "row_A_1",
+   "asset": "mc_console_crt",
+   "at": [
+    3.025,
+    0.0,
+    -10.1
+   ],
+   "yaw": 0.0,
+   "dims": [
+    1.25,
+    1.35,
+    1.0
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "chair_A_1",
+   "asset": "mc_chair_b",
+   "at": [
+    3.025,
+    0.0,
+    -9.11
+   ],
+   "yaw": 180.0,
+   "dims": [
+    0.665,
+    0.95,
+    0.5985
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "row_A_2",
+   "asset": "mc_console_twin",
+   "at": [
+    4.275,
+    0.0,
+    -10.1
+   ],
+   "yaw": 0.0,
+   "dims": [
+    1.25,
+    1.35,
+    1.0
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "chair_A_2",
+   "asset": "mc_chair_c",
+   "at": [
+    4.275,
+    0.0,
+    -9.11
+   ],
+   "yaw": 180.0,
+   "dims": [
+    0.651,
+    0.93,
+    0.5859
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "row_A_3",
+   "asset": "mc_console_scope",
+   "at": [
+    5.525,
+    0.0,
+    -10.1
+   ],
+   "yaw": 0.0,
+   "dims": [
+    1.25,
+    1.35,
+    1.0
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "chair_A_3",
+   "asset": "mc_chair_a",
+   "at": [
+    5.525,
+    0.0,
+    -9.11
+   ],
+   "yaw": 180.0,
+   "dims": [
+    0.735,
+    1.05,
+    0.6615
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "row_A_4",
+   "asset": "mc_console_crt",
+   "at": [
+    6.775,
+    0.0,
+    -10.1
+   ],
+   "yaw": 0.0,
+   "dims": [
+    1.25,
+    1.35,
+    1.0
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "chair_A_4",
+   "asset": "mc_chair_b",
+   "at": [
+    6.775,
+    0.0,
+    -9.11
+   ],
+   "yaw": 180.0,
+   "dims": [
+    0.665,
+    0.95,
+    0.5985
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "row_A_5",
+   "asset": "mc_console_comms",
+   "at": [
+    8.025,
+    0.0,
+    -10.1
+   ],
+   "yaw": 0.0,
+   "dims": [
+    1.25,
+    1.35,
+    1.0
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "chair_A_5",
+   "asset": "mc_chair_c",
+   "at": [
+    8.025,
+    0.0,
+    -9.11
+   ],
+   "yaw": 180.0,
+   "dims": [
+    0.651,
+    0.93,
+    0.5859
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "row_A_6",
+   "asset": "mc_console_end",
+   "at": [
+    8.875,
+    0.0,
+    -10.1
+   ],
+   "yaw": 0.0,
+   "dims": [
+    0.45,
+    1.35,
+    1.0
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "row_B_0",
+   "asset": "mc_console_end",
+   "at": [
+    2.825,
+    0.35,
+    -7.0
+   ],
+   "yaw": 0.0,
+   "dims": [
+    0.45,
+    1.35,
+    1.0
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "row_B_1",
+   "asset": "mc_console_lamps",
+   "at": [
+    3.675,
+    0.35,
+    -7.0
+   ],
+   "yaw": 0.0,
+   "dims": [
+    1.25,
+    1.35,
+    1.0
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "chair_B_1",
+   "asset": "mc_chair_b",
+   "at": [
+    3.675,
+    0.35,
+    -6.01
+   ],
+   "yaw": 180.0,
+   "dims": [
+    0.665,
+    0.95,
+    0.5985
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "row_B_2",
+   "asset": "mc_console_twin",
+   "at": [
+    4.925,
+    0.35,
+    -7.0
+   ],
+   "yaw": 0.0,
+   "dims": [
+    1.25,
+    1.35,
+    1.0
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "chair_B_2",
+   "asset": "mc_chair_c",
+   "at": [
+    4.925,
+    0.35,
+    -6.01
+   ],
+   "yaw": 180.0,
+   "dims": [
+    0.651,
+    0.93,
+    0.5859
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "row_B_3",
+   "asset": "mc_console_crt",
+   "at": [
+    6.175,
+    0.35,
+    -7.0
+   ],
+   "yaw": 0.0,
+   "dims": [
+    1.25,
+    1.35,
+    1.0
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "chair_B_3",
+   "asset": "mc_chair_a",
+   "at": [
+    6.175,
+    0.35,
+    -6.01
+   ],
+   "yaw": 180.0,
+   "dims": [
+    0.735,
+    1.05,
+    0.6615
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "row_B_4",
+   "asset": "mc_console_comms",
+   "at": [
+    7.425,
+    0.35,
+    -7.0
+   ],
+   "yaw": 0.0,
+   "dims": [
+    1.25,
+    1.35,
+    1.0
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "chair_B_4",
+   "asset": "mc_chair_b",
+   "at": [
+    7.425,
+    0.35,
+    -6.01
+   ],
+   "yaw": 180.0,
+   "dims": [
+    0.665,
+    0.95,
+    0.5985
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "row_B_5",
+   "asset": "mc_console_end",
+   "at": [
+    8.275,
+    0.35,
+    -7.0
+   ],
+   "yaw": 0.0,
+   "dims": [
+    0.45,
+    1.35,
+    1.0
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "row_C_0",
+   "asset": "mc_console_end",
+   "at": [
+    3.475,
+    0.7,
+    -4.0
+   ],
+   "yaw": 0.0,
+   "dims": [
+    0.45,
+    1.35,
+    1.0
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "row_C_1",
+   "asset": "mc_console_crt",
+   "at": [
+    4.325,
+    0.7,
+    -4.0
+   ],
+   "yaw": 0.0,
+   "dims": [
+    1.25,
+    1.35,
+    1.0
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "chair_C_1",
+   "asset": "mc_chair_b",
+   "at": [
+    4.325,
+    0.7,
+    -3.01
+   ],
+   "yaw": 180.0,
+   "dims": [
+    0.665,
+    0.95,
+    0.5985
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "row_C_2",
+   "asset": "mc_console_lamps",
+   "at": [
+    5.575,
+    0.7,
+    -4.0
+   ],
+   "yaw": 0.0,
+   "dims": [
+    1.25,
+    1.35,
+    1.0
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "chair_C_2",
+   "asset": "mc_chair_c",
+   "at": [
+    5.575,
+    0.7,
+    -3.01
+   ],
+   "yaw": 180.0,
+   "dims": [
+    0.651,
+    0.93,
+    0.5859
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "row_C_3",
+   "asset": "mc_console_twin",
+   "at": [
+    6.825,
+    0.7,
+    -4.0
+   ],
+   "yaw": 0.0,
+   "dims": [
+    1.25,
+    1.35,
+    1.0
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "chair_C_3",
+   "asset": "mc_chair_a",
+   "at": [
+    6.825,
+    0.7,
+    -3.01
+   ],
+   "yaw": 180.0,
+   "dims": [
+    0.735,
+    1.05,
+    0.6615
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "row_C_4",
+   "asset": "mc_console_end",
+   "at": [
+    7.675,
+    0.7,
+    -4.0
+   ],
+   "yaw": 0.0,
+   "dims": [
+    0.45,
+    1.35,
+    1.0
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "mc_line_printer",
+   "asset": "mc_line_printer",
+   "at": [
+    10.395,
+    0.7,
+    -1.75
+   ],
+   "yaw": -90.0,
+   "dims": [
+    1.2,
+    1.15,
+    0.75
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "mc_teleprinter",
+   "asset": "mc_teleprinter",
+   "at": [
+    10.52,
+    0.7,
+    -2.95
+   ],
+   "yaw": -90.0,
+   "dims": [
+    0.95,
+    1.0,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "mc_tape_drive",
+   "asset": "mc_tape_drive",
+   "at": [
+    10.62,
+    0.7,
+    -3.95
+   ],
+   "yaw": -90.0,
+   "dims": [
+    0.75,
+    1.8,
+    0.7
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "mc_mainframe_rack",
+   "asset": "mc_mainframe_rack",
+   "at": [
+    10.595,
+    0.35,
+    -5.1
+   ],
+   "yaw": -90.0,
+   "dims": [
+    0.8,
+    1.9,
+    0.7
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "mc_tape_drive_2",
+   "asset": "mc_tape_drive",
+   "at": [
+    10.62,
+    0.35,
+    -6.0
+   ],
+   "yaw": -90.0,
+   "dims": [
+    0.75,
+    1.8,
+    0.7
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "mc_equipment_rack",
+   "asset": "mc_equipment_rack",
+   "at": [
+    10.695,
+    0.35,
+    -6.85
+   ],
+   "yaw": -90.0,
+   "dims": [
+    0.6,
+    1.9,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "mc_mainframe_rack_2",
+   "asset": "mc_mainframe_rack",
+   "at": [
+    10.595,
+    0.0,
+    -8.2
+   ],
+   "yaw": -90.0,
+   "dims": [
+    0.8,
+    1.9,
+    0.7
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "mc_equipment_rack_2",
+   "asset": "mc_equipment_rack",
+   "at": [
+    10.695,
+    0.0,
+    -9.0
+   ],
+   "yaw": -90.0,
+   "dims": [
+    0.6,
+    1.9,
+    0.6
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "mc_tape_drive_3",
+   "asset": "mc_tape_drive",
+   "at": [
+    10.62,
+    0.0,
+    -9.75
+   ],
+   "yaw": -90.0,
+   "dims": [
+    0.75,
+    1.8,
+    0.7
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "mc_filing_cabinet",
+   "asset": "mc_filing_cabinet",
+   "at": [
+    10.76,
+    0.0,
+    -11.6
+   ],
+   "yaw": -90.0,
+   "dims": [
+    0.47,
+    1.35,
+    0.65
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "mc_filing_cabinet_2",
+   "asset": "mc_filing_cabinet",
+   "at": [
+    10.76,
+    0.0,
+    -12.1
+   ],
+   "yaw": -90.0,
+   "dims": [
+    0.47,
+    1.35,
+    0.65
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "mc_filing_cabinet_3",
+   "asset": "mc_filing_cabinet",
+   "at": [
+    2.55,
+    0.7,
+    -0.33
+   ],
+   "yaw": 180.0,
+   "dims": [
+    0.47,
+    1.35,
+    0.65
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "mc_filing_cabinet_4",
+   "asset": "mc_filing_cabinet",
+   "at": [
+    3.05,
+    0.7,
+    -0.33
+   ],
+   "yaw": 180.0,
+   "dims": [
+    0.47,
+    1.35,
+    0.65
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "mc_filing_cabinet_5",
+   "asset": "mc_filing_cabinet",
+   "at": [
+    3.55,
+    0.7,
+    -0.33
+   ],
+   "yaw": 180.0,
+   "dims": [
+    0.47,
+    1.35,
+    0.65
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "mc_water_cooler",
+   "asset": "mc_water_cooler",
+   "at": [
+    6.75,
+    0.7,
+    -0.36725
+   ],
+   "yaw": 180.0,
+   "dims": [
+    0.805,
+    1.15,
+    0.7245
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "mc_coat_rack",
+   "asset": "mc_coat_rack",
+   "at": [
+    7.5,
+    0.7,
+    -0.45
+   ],
+   "yaw": 160.0,
+   "dims": [
+    1.26,
+    1.8,
+    1.134
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "mc_paper_box",
+   "asset": "mc_paper_box",
+   "at": [
+    9.2,
+    0.7,
+    -0.185
+   ],
+   "yaw": 175.0,
+   "dims": [
+    0.45,
+    0.3,
+    0.36
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "mc_paper_box_2",
+   "asset": "mc_paper_box",
+   "at": [
+    9.25,
+    0.7,
+    -0.42
+   ],
+   "yaw": 190.0,
+   "dims": [
+    0.45,
+    0.3,
+    0.36
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "mc_rolling_cart",
+   "asset": "mc_rolling_cart",
+   "at": [
+    0.55,
+    0.0,
+    -11.2
+   ],
+   "yaw": 95.0,
+   "dims": [
+    0.63,
+    0.9,
+    0.567
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "mc_overhead_projector",
+   "asset": "mc_overhead_projector",
+   "at": [
+    0.55,
+    0.0,
+    -12.3
+   ],
+   "yaw": 80.0,
+   "dims": [
+    0.434,
+    0.62,
+    0.3906
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "mc_paper_box_3",
+   "asset": "mc_paper_box",
+   "at": [
+    0.42,
+    0.0,
+    -10.1
+   ],
+   "yaw": 80.0,
+   "dims": [
+    0.45,
+    0.3,
+    0.36
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "mc_floor_ashtray",
+   "asset": "mc_floor_ashtray",
+   "at": [
+    1.65,
+    0.0,
+    -9.2
+   ],
+   "yaw": 0.0,
+   "dims": [
+    0.434,
+    0.62,
+    0.3906
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "mc_floor_ashtray_2",
+   "asset": "mc_floor_ashtray",
+   "at": [
+    9.3,
+    0.35,
+    -6.2
+   ],
+   "yaw": 0.0,
+   "dims": [
+    0.434,
+    0.62,
+    0.3906
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "mc_floor_ashtray_3",
+   "asset": "mc_floor_ashtray",
+   "at": [
+    2.45,
+    0.7,
+    -3.3
+   ],
+   "yaw": 0.0,
+   "dims": [
+    0.434,
+    0.62,
+    0.3906
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "mc_wastebasket",
+   "asset": "mc_wastebasket",
+   "at": [
+    1.7,
+    0.0,
+    -8.85
+   ],
+   "yaw": 187.914,
+   "dims": [
+    0.266,
+    0.38,
+    0.2394
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "mc_wastebasket_2",
+   "asset": "mc_wastebasket",
+   "at": [
+    8.75,
+    0.35,
+    -7.1
+   ],
+   "yaw": 290.409,
+   "dims": [
+    0.266,
+    0.38,
+    0.2394
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "mc_wastebasket_3",
+   "asset": "mc_wastebasket",
+   "at": [
+    3.0,
+    0.7,
+    -4.3
+   ],
+   "yaw": 345.778,
+   "dims": [
+    0.266,
+    0.38,
+    0.2394
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "mc_wastebasket_4",
+   "asset": "mc_wastebasket",
+   "at": [
+    9.45,
+    0.0,
+    -10.4
+   ],
+   "yaw": 104.265,
+   "dims": [
+    0.266,
+    0.38,
+    0.2394
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "mc_wastebasket_5",
+   "asset": "mc_wastebasket",
+   "at": [
+    8.2,
+    0.7,
+    -3.95
+   ],
+   "yaw": 275.799,
+   "dims": [
+    0.266,
+    0.38,
+    0.2394
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "mc_met_clock",
+   "asset": "mc_met_clock",
+   "at": [
+    5.75,
+    3.3,
+    -12.755
+   ],
+   "yaw": 0.0,
+   "dims": [
+    0.9,
+    0.26,
+    0.16
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "mc_wall_clock",
+   "asset": "mc_wall_clock",
+   "at": [
+    10.785,
+    2.55,
+    -11.4
+   ],
+   "yaw": -90.0,
+   "dims": [
+    0.36,
+    0.36,
+    0.07
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "mc_fire_extinguisher",
+   "asset": "mc_fire_extinguisher",
+   "at": [
+    0.215,
+    0.55,
+    -10.15
+   ],
+   "yaw": 90.0,
+   "dims": [
+    0.42,
+    0.6,
+    0.378
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "mc_fire_extinguisher_2",
+   "asset": "mc_fire_extinguisher",
+   "at": [
+    8.0,
+    1.2,
+    -0.224
+   ],
+   "yaw": 180.0,
+   "dims": [
+    0.42,
+    0.6,
+    0.378
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "mc_speaker_wall",
+   "asset": "mc_speaker_wall",
+   "at": [
+    10.785,
+    2.85,
+    -2.0
+   ],
+   "yaw": -90.0,
+   "dims": [
+    0.36,
+    0.46,
+    0.2
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "mc_speaker_wall_2",
+   "asset": "mc_speaker_wall",
+   "at": [
+    10.785,
+    2.85,
+    -10.4
+   ],
+   "yaw": -90.0,
+   "dims": [
+    0.36,
+    0.46,
+    0.2
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "mc_speaker_wall_3",
+   "asset": "mc_speaker_wall",
+   "at": [
+    0.185,
+    2.85,
+    -12.4
+   ],
+   "yaw": 90.0,
+   "dims": [
+    0.36,
+    0.46,
+    0.2
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "mc_tv_ceiling",
+   "asset": "mc_tv_ceiling",
+   "at": [
+    2.2,
+    2.894,
+    -5.2
+   ],
+   "yaw": 0.0,
+   "dims": [
+    0.49,
+    0.7,
+    0.441
+   ],
+   "fit": "height",
+   "shape": "box"
+  },
+  {
+   "id": "mc_tv_ceiling_2",
+   "asset": "mc_tv_ceiling",
+   "at": [
+    9.0,
+    2.894,
+    -5.2
+   ],
+   "yaw": 0.0,
+   "dims": [
+    0.49,
+    0.7,
+    0.441
+   ],
+   "fit": "height",
+   "shape": "box"
+  }
+ ],
+ "lights": [
+  {
+   "id": "overhead_0",
+   "kind": "area",
+   "at": [
+    3,
+    3.53,
+    -3
+   ],
+   "look_at": [
+    3,
+    0,
+    -3
+   ],
+   "size": [
+    1.15,
+    0.55
+   ],
+   "intensity": 58,
+   "color": [
+    0.68,
+    0.8,
+    1
+   ]
+  },
+  {
+   "id": "overhead_1",
+   "kind": "area",
+   "at": [
+    7,
+    3.53,
+    -3
+   ],
+   "look_at": [
+    7,
+    0,
+    -3
+   ],
+   "size": [
+    1.15,
+    0.55
+   ],
+   "intensity": 58,
+   "color": [
+    0.68,
+    0.8,
+    1
+   ]
+  },
+  {
+   "id": "overhead_2",
+   "kind": "area",
+   "at": [
+    4,
+    3.53,
+    -6.5
+   ],
+   "look_at": [
+    4,
+    0,
+    -6.5
+   ],
+   "size": [
+    1.15,
+    0.55
+   ],
+   "intensity": 58,
+   "color": [
+    0.68,
+    0.8,
+    1
+   ]
+  },
+  {
+   "id": "overhead_3",
+   "kind": "area",
+   "at": [
+    8,
+    3.53,
+    -6.5
+   ],
+   "look_at": [
+    8,
+    0,
+    -6.5
+   ],
+   "size": [
+    1.15,
+    0.55
+   ],
+   "intensity": 58,
+   "color": [
+    0.68,
+    0.8,
+    1
+   ]
+  },
+  {
+   "id": "overhead_4",
+   "kind": "area",
+   "at": [
+    3.5,
+    3.53,
+    -10
+   ],
+   "look_at": [
+    3.5,
+    0,
+    -10
+   ],
+   "size": [
+    1.15,
+    0.55
+   ],
+   "intensity": 58,
+   "color": [
+    0.68,
+    0.8,
+    1
+   ]
+  },
+  {
+   "id": "overhead_5",
+   "kind": "area",
+   "at": [
+    7.5,
+    3.53,
+    -10
+   ],
+   "look_at": [
+    7.5,
+    0,
+    -10
+   ],
+   "size": [
+    1.15,
+    0.55
+   ],
+   "intensity": 58,
+   "color": [
+    0.68,
+    0.8,
+    1
+   ]
+  },
+  {
+   "id": "wall_map_glow",
+   "kind": "area",
+   "at": [
+    5.5,
+    2.1,
+    -12.73
+   ],
+   "look_at": [
+    5.5,
+    1.1,
+    -9
+   ],
+   "size": [
+    3.8,
+    1.3
+   ],
+   "intensity": 38,
+   "color": [
+    0.65,
+    1,
+    0.72
+   ]
+  }
+ ],
+ "catalog": {
+  "mc_console_crt": {
+   "dims": [
+    1.25,
+    1.35,
+    1.0
+   ],
+   "fit": "height",
+   "pick": "tripo-h31"
+  },
+  "mc_console_twin": {
+   "dims": [
+    1.25,
+    1.35,
+    1.0
+   ],
+   "fit": "height",
+   "pick": "tripo-h31"
+  },
+  "mc_console_scope": {
+   "dims": [
+    1.25,
+    1.35,
+    1.0
+   ],
+   "fit": "height",
+   "pick": "tripo-h31"
+  },
+  "mc_console_lamps": {
+   "dims": [
+    1.25,
+    1.35,
+    1.0
+   ],
+   "fit": "height",
+   "pick": "tripo-h31"
+  },
+  "mc_console_comms": {
+   "dims": [
+    1.25,
+    1.35,
+    1.0
+   ],
+   "fit": "height",
+   "pick": "tripo-h31"
+  },
+  "mc_console_end": {
+   "dims": [
+    0.45,
+    1.35,
+    1.0
+   ],
+   "fit": "height",
+   "pick": "tripo-h31"
+  },
+  "mc_tape_drive": {
+   "dims": [
+    0.75,
+    1.8,
+    0.7
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "mc_mainframe_rack": {
+   "dims": [
+    0.8,
+    1.9,
+    0.7
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "mc_equipment_rack": {
+   "dims": [
+    0.6,
+    1.9,
+    0.6
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "mc_line_printer": {
+   "dims": [
+    1.2,
+    1.15,
+    0.75
+   ],
+   "fit": "height",
+   "pick": "tripo-h31"
+  },
+  "mc_teleprinter": {
+   "dims": [
+    0.95,
+    1.0,
+    0.6
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "mc_strip_recorder": {
+   "dims": [
+    0.5,
+    0.35,
+    0.4
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "mc_tv_ceiling": {
+   "dims": [
+    0.49,
+    0.7,
+    0.441
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "mc_wall_clock": {
+   "dims": [
+    0.36,
+    0.36,
+    0.07
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "mc_met_clock": {
+   "dims": [
+    0.9,
+    0.26,
+    0.16
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "mc_chair_a": {
+   "dims": [
+    0.735,
+    1.05,
+    0.6615
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "mc_chair_b": {
+   "dims": [
+    0.665,
+    0.95,
+    0.5985
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "mc_chair_c": {
+   "dims": [
+    0.651,
+    0.93,
+    0.5859
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "mc_filing_cabinet": {
+   "dims": [
+    0.47,
+    1.35,
+    0.65
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "mc_water_cooler": {
+   "dims": [
+    0.805,
+    1.15,
+    0.7245
+   ],
+   "fit": "height",
+   "pick": "tripo-h31"
+  },
+  "mc_coffee_urn": {
+   "dims": [
+    0.336,
+    0.48,
+    0.3024
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "mc_coffee_maker": {
+   "dims": [
+    0.252,
+    0.36,
+    0.2268
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "mc_coat_rack": {
+   "dims": [
+    1.26,
+    1.8,
+    1.134
+   ],
+   "fit": "height",
+   "pick": "tripo-h31"
+  },
+  "mc_fire_extinguisher": {
+   "dims": [
+    0.42,
+    0.6,
+    0.378
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "mc_wastebasket": {
+   "dims": [
+    0.266,
+    0.38,
+    0.2394
+   ],
+   "fit": "height",
+   "pick": "tripo-h31"
+  },
+  "mc_floor_ashtray": {
+   "dims": [
+    0.434,
+    0.62,
+    0.3906
+   ],
+   "fit": "height",
+   "pick": "tripo-h31"
+  },
+  "mc_rolling_cart": {
+   "dims": [
+    0.63,
+    0.9,
+    0.567
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "mc_typewriter": {
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "mc_overhead_projector": {
+   "dims": [
+    0.434,
+    0.62,
+    0.3906
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "mc_desk_fan": {
+   "dims": [
+    0.28,
+    0.4,
+    0.252
+   ],
+   "fit": "height",
+   "pick": "tripo-h31"
+  },
+  "mc_speaker_wall": {
+   "dims": [
+    0.36,
+    0.46,
+    0.2
+   ],
+   "fit": "height",
+   "pick": "tripo-h31"
+  },
+  "mc_briefcase": {
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "mc_paper_box": {
+   "dims": [
+    0.45,
+    0.3,
+    0.36
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "mc_lamp_goose": {
+   "dims": [
+    0.385,
+    0.55,
+    0.3465
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "mc_lamp_arm": {
+   "dims": [
+    0.434,
+    0.62,
+    0.3906
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "mc_headset": {
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height",
+   "pick": "tripo-h31"
+  },
+  "mc_desk_phone": {
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "mc_rotary_phone": {
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "mc_desk_mic": {
+   "dims": [
+    0.294,
+    0.42,
+    0.2646
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "mc_intercom": {
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height",
+   "pick": "tripo-h31"
+  },
+  "mc_calculator": {
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height",
+   "pick": "tripo-h31"
+  },
+  "mc_reel_recorder": {
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "mc_crt_terminal": {
+   "dims": [
+    0.45,
+    0.42,
+    0.6
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "mc_card_tray": {
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "mc_tape_reel": {
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "mc_ashtray_glass": {
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "mc_ashtray_tin": {
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "mc_ashtray_square": {
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "mc_mug_white": {
+   "dims": [
+    0.0665,
+    0.095,
+    0.05985
+   ],
+   "fit": "height",
+   "pick": "tripo-h31"
+  },
+  "mc_mug_brown": {
+   "dims": [
+    0.07,
+    0.1,
+    0.063
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "mc_mug_green": {
+   "dims": [
+    0.063,
+    0.09,
+    0.0567
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "mc_paper_cup": {
+   "dims": [
+    0.0665,
+    0.095,
+    0.05985
+   ],
+   "fit": "height",
+   "pick": "tripo-h31"
+  },
+  "mc_thermos": {
+   "dims": [
+    0.224,
+    0.32,
+    0.2016
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "mc_binder_open": {
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "mc_binder_closed": {
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "mc_binder_stack": {
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height",
+   "pick": "tripo-h31"
+  },
+  "mc_binders_row": {
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height",
+   "pick": "tripo-h31"
+  },
+  "mc_printout_stack": {
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height",
+   "pick": "tripo-h31"
+  },
+  "mc_printout_spill": {
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "mc_clipboard": {
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "mc_logbook": {
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "mc_manuals_stack": {
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "mc_pencil_cup": {
+   "dims": [
+    0.119,
+    0.17,
+    0.1071
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "mc_slide_rule": {
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "mc_cigarette_pack": {
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "mc_lighter": {
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height",
+   "pick": "tripo-h31"
+  },
+  "mc_donut_box": {
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "mc_sandwich": {
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height",
+   "pick": "tripo-h31"
+  },
+  "mc_soda_can": {
+   "dims": [
+    0.0854,
+    0.122,
+    0.07686
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "mc_reading_glasses": {
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "mc_paper_crumpled": {
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height",
+   "pick": "tripo-h31"
+  },
+  "mc_stapler": {
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "mc_desk_tray": {
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height",
+   "pick": "tripo-h31"
+  },
+  "mc_rolodex": {
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height",
+   "pick": "tripo-h31"
+  },
+  "mc_flashlight": {
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  },
+  "mc_hard_hat": {
+   "dims": [
+    0.21,
+    0.3,
+    0.189
+   ],
+   "fit": "height",
+   "pick": "meshy"
+  }
+ },
+ "dimensions_m": [
+  11,
+  3.6,
+  13
+ ]
+}
