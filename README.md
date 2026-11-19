@@ -4,6 +4,10 @@
 
 O [manifesto da oficina](examples/workshop.json) monta um cenário **AnyScene**, uma bancada **AnyKit**, um portátil e um reservatório **AnyMachine** e duas câmaras **AnyShot**. Um único clone inclui os quatro módulos. O palco usa metros, Y-up e ACEScg.
 
+[Descarrega a oficina completa](examples/workshop_solaris.zip), extrai a pasta e abre `production.hiplc` em Houdini Indie 22. O ZIP inclui o manifesto, as camadas USD, a textura do ecrã e o relatório da montagem. As imagens mostram as frames 1 e 49, renderizadas em Redshift 2027.0.4.
+
+![Plano geral da oficina e plano do portátil](examples/workshop_shots.jpg)
+
 ```shell
 hython anymachine.py production examples/workshop.json out/oficina_v001 --hip
 ```
