@@ -1,0 +1,27 @@
+{
+  "fps": 24,
+  "input_axes": "Y",
+  "defaults": {"sensor": "s35", "res": [1920, 1080], "ease": "inout"},
+  "shots": [
+    {
+      "name": "wide",
+      "move": "dolly",
+      "frames": 48,
+      "eye": [3, 2, 4],
+      "end_eye": [2, 1.8, 3],
+      "target": [0, 1, 0],
+      "lens": 42
+    },
+    {
+      "name": "detail",
+      "move": "orbit",
+      "frames": 36,
+      "orbit": {"center": [0, 1, 0], "radius": 1.6, "height": 1.2, "start_deg": 15, "end_deg": 45},
+      "lens": 65,
+      "fstop": 2.8,
+      "focus": {"mode": "rack", "keys": [
+        {"t": 0, "pos": [0.3, 1, 0]}, {"t": 0.35, "pos": [0.3, 1, 0]}, {"t": 1, "pos": [0, 1, 0]}
+      ]}
+    }
+  ]
+}
